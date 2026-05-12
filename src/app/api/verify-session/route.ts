@@ -2,34 +2,34 @@ import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 
 export async function GET(req: NextRequest) {
+  const stripeKey = process.env.STRIPE_SECRET_KEY
+  if (!stripeKey || stripeKey.includes('placeholder')) {
+    console.error('STRIPE_SECRET_KEY not configured')
+    return NextResponse.json({ error: 'Payment system not configured' }, { status: 503 })
+  }
+
+  const stripe = new Stripe(stripeKey, {
+    apiVersion: '2023-10-16',
+  })
+
   const sessionId = req.nextUrl.searchParams.get('session_id')
 
   if (!sessionId) {
-    return NextResponse.json({ error: 'Missing session_id parameter' }, { status: 400 })
+    return NextResponse.json({ error: 'session_id required' }, { status: 400 })
   }
-
-  const stripeKey = process.env.STRIPE_SECRET_KEY
-  if (!stripeKey) {
-    return NextResponse.json({ error: 'Stripe not configured' }, { status: 500 })
-  }
-
-  const stripe = new Stripe(stripeKey, { apiVersion: '2023-10-16' })
 
   try {
     const session = await stripe.checkout.sessions.retrieve(sessionId)
-
-    // Return only safe, non-sensitive info
+    const paid = session.payment_status === 'paid'
     return NextResponse.json({
-      status: session.payment_status,
-      amountTotal: session.amount_total,
-      businessName: session.metadata?.businessName || null,
-      userId: session.metadata?.userId || session.client_reference_id || null,
-      customerEmail: session.customer_details?.email || null,
+      paid,
+      brand_kit_id: session.metadata?.brand_kit_id,
+      name: session.metadata?.name,
     })
   } catch (error: any) {
-    console.error('Session verify error:', error)
+    console.error('Session verification error:', error)
     return NextResponse.json(
-      { error: 'Failed to verify session' },
+      { error: error.message || 'Failed to verify session' },
       { status: 500 }
     )
   }

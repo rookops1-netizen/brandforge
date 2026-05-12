@@ -81,7 +81,7 @@
 ## Stripe Setup
 - **Mode:** Test (sk_test_...)
 - **Product:** BrandForge Brand Kit ($9 one-time)
-- **Webhook secret:** Configured (whsec_...)
+- **Webhook secret:** Configured (whsec_...) — matches Stripe CLI `--print-secret` output
 - **Flow:** Server-side redirect (no client-side Stripe.js needed)
 - **Success URL:** `/brand-kit?session_id={CHECKOUT_SESSION_ID}&paid=true`
 - **Cancel URL:** `/?cancelled=true`
