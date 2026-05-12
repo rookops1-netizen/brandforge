@@ -39,8 +39,15 @@
 - [x] Brand Kit API route (`/api/brand-kit`) with AI generation + mock fallback
 - [x] Domain availability checks via DNS-over-HTTPS (Cloudflare) + RDAP fallback
 - [x] Social handle availability checks for Twitter/X + Instagram
-- [x] Stripe checkout session creation
-- [x] Stripe webhook handler for purchase tracking
+- [x] **Stripe checkout integration — FULLY WORKING** ✅
+  - `/api/checkout` — Creates Stripe Checkout Session ($9 one-time payment), returns redirect URL
+  - `/api/webhook` — Handles `checkout.session.completed` (marks purchase as completed), `checkout.session.expired` (marks failed), `charge.refunded` (marks refunded)
+  - `/api/verify-session` — Verifies a Stripe session by ID, returns payment status
+  - `/api/check-access` — Checks purchase access by session_id or user_id via Supabase
+  - `/brand-kit` page — Gates content based on payment status (blurred previews for free users, full content for paid)
+  - `/` homepage — Shows cancel banner when `?cancelled=true` in URL
+  - Real Stripe test mode keys configured in `.env.local`
+  - Tested: checkout session creation (200 → Stripe URL), verify-session (200 → session data), check-access (200 → hasAccess), webhook forwarding via Stripe CLI
 
 ## What's Blocked
 - [ ] Google OAuth needs Google Cloud Console project — requires manual setup:
@@ -51,16 +58,15 @@
   5. Set client ID + secret in Supabase Dashboard → Authentication → Providers → Google
 
 ## What's Needed Next
-- [ ] Stripe product + price setup ($9 one-time)
-- [ ] Fill in OpenAI API key in `.env.local`
+- [ ] Fill in OpenAI API key in `.env.local` (currently uses algorithmic fallback)
 - [ ] Deploy to Vercel
-- [ ] End-to-end test of full flow
 - [ ] Google OAuth credentials setup (blocked on Daniel)
+- [ ] Add NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY if client-side Stripe.js is ever needed (not needed for current server-side redirect flow)
 
 ## Architecture
-- `/` — Landing page
+- `/` — Landing page (with cancel banner for checkout cancellations)
 - `/generate?desc=...` — Name generation results
-- `/brand-kit?name=...&meaning=...&style=...` — Full brand kit page
+- `/brand-kit?name=...&meaning=...&style=...&session_id=...&paid=true` — Full brand kit page (gated by payment)
 - `/auth/callback` — OAuth redirect handler
 - `/auth/confirm` — Code exchange for session
 - `/api/generate` — OpenAI name generation
@@ -71,6 +77,15 @@
 - `/api/webhook` — Stripe webhook for purchase tracking
 - `/api/verify-session` — Stripe session verification
 - `/api/check-access` — Purchase access checking via Supabase
+
+## Stripe Setup
+- **Mode:** Test (sk_test_...)
+- **Product:** BrandForge Brand Kit ($9 one-time)
+- **Webhook secret:** Configured (whsec_...)
+- **Flow:** Server-side redirect (no client-side Stripe.js needed)
+- **Success URL:** `/brand-kit?session_id={CHECKOUT_SESSION_ID}&paid=true`
+- **Cancel URL:** `/?cancelled=true`
+- **CLI forwarding:** `stripe listen --forward-to localhost:3000/api/webhook`
 
 ## Supabase Project Details
 - **Project ref:** dpkuxmetcmiydflsghkc

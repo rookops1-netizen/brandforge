@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import Stripe from 'stripe'
 import { createClient } from '@supabase/supabase-js'
 
 export async function GET(req: NextRequest) {
@@ -14,7 +15,6 @@ export async function GET(req: NextRequest) {
     if (sessionId) {
       const stripeKey = process.env.STRIPE_SECRET_KEY
       if (stripeKey) {
-        const Stripe = require('stripe')
         const stripe = new Stripe(stripeKey, { apiVersion: '2023-10-16' })
         try {
           const session = await stripe.checkout.sessions.retrieve(sessionId)
