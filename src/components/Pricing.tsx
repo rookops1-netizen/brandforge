@@ -85,8 +85,8 @@ export function Pricing() {
           </div>
 
           {/* Pro tier */}
-          <div className="relative card flex flex-col border-brand-500 ring-1 ring-brand-500 shadow-lg">
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
+          <div className="relative flex flex-col rounded-2xl border-2 border-brand-500 bg-gradient-to-b from-brand-50/50 to-white p-6 shadow-lg ring-1 ring-brand-500/20">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
               Most Popular
             </div>
             <h3 className="text-lg font-semibold text-slate-900 mb-1">Brand Kit Pro</h3>

@@ -10,7 +10,24 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'BrandForge — AI Business Name Generator & Brand Kit',
   description: 'Generate unique business names with complete brand kits including logos, colors, taglines, and domain availability. Powered by AI.',
-  keywords: ['business name generator', 'brand kit', 'logo generator', 'ai naming', 'startup names'],
+  keywords: ['business name generator', 'brand kit', 'logo generator', 'ai naming', 'startup names', 'brand identity', 'company name ideas'],
+  openGraph: {
+    title: 'BrandForge — AI Business Name Generator & Brand Kit',
+    description: 'Generate unique business names with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.',
+    url: 'https://brandforge.ai',
+    siteName: 'BrandForge',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BrandForge — AI Business Name Generator & Brand Kit',
+    description: 'Generate unique business names with complete brand kits — logos, colors, taglines, domain checks. Free to start.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({
@@ -19,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <SupabaseProvider>
           <Header />

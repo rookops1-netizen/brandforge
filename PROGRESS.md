@@ -17,8 +17,19 @@
 - [x] Auth confirm page (`/auth/confirm`) with Suspense boundary
 - [x] TypeScript types updated (`src/types/supabase.ts`) to match all DB tables
 - [x] Server-side admin client (`getSupabaseAdmin()`) for API routes/webhooks
-- [x] Landing page with Hero, Features, CTA sections
-- [x] Responsive Header + Footer with gradient branding
+- [x] Landing page with Hero, SocialProof, HowItWorks, Features, Pricing, FAQ, CTA sections
+- [x] Responsive Header + Footer with gradient branding, mobile hamburger menu
+- [x] Full footer with Product/Company/Legal columns + social icons (Twitter, GitHub, LinkedIn) + newsletter signup
+- [x] Hero with entrance animations, gradient text, trust signals, glow CTA button, rotating placeholder hints, example micro-copy
+- [x] HowItWorks 3-step section (Describe -> Get Names -> Launch)
+- [x] Features cards with hover effects (icon color flip, shadow, border)
+- [x] FAQ accordion with smooth grid-template-rows animation, first item open by default
+- [x] CTA section with icon, gradient headline, two-button layout (primary + secondary), urgency element (live activity indicator), social proof stats
+- [x] Pricing with Free + Brand Kit Pro ($9) tiers, "Most Popular" badge, gradient Pro card background
+- [x] Light-only theme (removed broken dark mode that conflicted with light component colors)
+- [x] Smooth scroll behavior for anchor links (Features, Pricing, FAQ)
+- [x] SEO meta tags + Open Graph + Twitter Card metadata
+- [x] Build passes cleanly (`next build` succeeds)
 - [x] Business name generation form + API route (`/api/generate`)
 - [x] AI-powered name generation via OpenAI with mock fallback
 - [x] Name results grid with NameCard components
@@ -30,8 +41,6 @@
 - [x] Social handle availability checks for Twitter/X + Instagram
 - [x] Stripe checkout session creation
 - [x] Stripe webhook handler for purchase tracking
-- [x] Dark mode + custom Tailwind config with brand colors
-- [x] Build passes cleanly (`next build` succeeds)
 
 ## What's Blocked
 - [ ] Google OAuth needs Google Cloud Console project — requires manual setup:

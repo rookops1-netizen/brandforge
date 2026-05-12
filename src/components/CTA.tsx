@@ -51,7 +51,20 @@ export function CTA() {
             </a>
           </div>
 
-          <p className="mt-5 text-sm text-slate-400">No credit card required &middot; 5 free generations included</p>
+          {/* Urgency + social proof row */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
+            <span className="inline-flex items-center gap-1.5 text-slate-400">
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+              </span>
+              847 names generated today
+            </span>
+            <span className="text-slate-300">&middot;</span>
+            <span className="text-slate-400">No credit card required</span>
+            <span className="text-slate-300">&middot;</span>
+            <span className="text-slate-400">5 free generations included</span>
+          </div>
         </div>
       </div>
     </section>

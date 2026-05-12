@@ -3,11 +3,28 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
+const placeholderHints = [
+  'A sustainable coffee shop in Brooklyn...',
+  'A fintech app for freelance creatives...',
+  'An AI-powered pet care platform...',
+  'A modern coworking space for makers...',
+  'A meal prep delivery for busy parents...',
+]
+
 export function Hero() {
   const [description, setDescription] = useState('')
   const [mounted, setMounted] = useState(false)
+  const [placeholderIndex, setPlaceholderIndex] = useState(0)
 
   useEffect(() => { setMounted(true) }, [])
+
+  // Cycle placeholder hints
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPlaceholderIndex((i) => (i + 1) % placeholderHints.length)
+    }, 4000)
+    return () => clearInterval(interval)
+  }, [])
 
   return (
     <section className="relative overflow-hidden">
@@ -73,8 +90,8 @@ export function Hero() {
                 type="text"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                placeholder="e.g. A sustainable coffee shop in Brooklyn..."
-                className="input-field flex-1 text-base"
+                placeholder={placeholderHints[placeholderIndex]}
+                className="input-field flex-1 text-base transition-all duration-300"
               />
               <button
                 type="submit"
@@ -83,6 +100,9 @@ export function Hero() {
                 Generate Names
               </button>
             </form>
+            <p className="mt-3 text-xs text-slate-400">
+              Try: &ldquo;A boutique wine bar in Portland&rdquo; or &ldquo;An online tutoring marketplace&rdquo;
+            </p>
           </div>
 
           {/* Trust signals */}
