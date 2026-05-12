@@ -57,11 +57,19 @@
   4. Add redirect URI: `https://dpkuxmetcmiydflsghkc.supabase.co/auth/v1/callback`
   5. Set client ID + secret in Supabase Dashboard → Authentication → Providers → Google
 
+## Deployment Status: LIVE
+- **URL:** https://brandforge-phi-pearl.vercel.app
+- **Vercel project:** rookops1-2439s-projects/brandforge
+- **All env vars** configured in Vercel (Supabase, Stripe, OpenAI)
+- **Stripe webhook** configured at production URL
+- **Custom domain** `brandforge.app` added to Vercel, needs DNS config in Cloudflare
+
 ## What's Needed Next
-- [ ] Fill in OpenAI API key in `.env.local` (currently uses algorithmic fallback)
-- [ ] Deploy to Vercel
-- [ ] Google OAuth credentials setup (blocked on Daniel)
-- [ ] Add NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY if client-side Stripe.js is ever needed (not needed for current server-side redirect flow)
+- [ ] Configure DNS for brandforge.app (add A record `76.76.21.21` in Cloudflare or switch nameservers)
+- [ ] Google OAuth credentials setup (Google Cloud Console + Supabase Dashboard)
+- [ ] Switch Stripe to live mode for real payments (`sk_live_` keys)
+- [ ] Verify OpenAI/Ollama API accessibility from Vercel servers (may need standard OpenAI key)
+- [ ] Add NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY if client-side Stripe.js is ever needed
 
 ## Architecture
 - `/` — Landing page (with cancel banner for checkout cancellations)
