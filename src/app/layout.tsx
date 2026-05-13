@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: 'https://brandforge-phi-pearl.vercel.app',
+  },
 }
 
 export default function RootLayout({

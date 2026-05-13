@@ -1,11 +1,28 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import type { BrandKit as BrandKitType } from '@/types'
 import { useAuth } from '@/components/supabase-provider'
 
 export default function BrandKitPage() {
+  return (
+    <Suspense fallback={
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl">
+          <div className="animate-pulse space-y-4">
+            <div className="h-8 w-64 rounded bg-slate-200" />
+            <div className="h-4 w-48 rounded bg-slate-200" />
+          </div>
+        </div>
+      </div>
+    }>
+      <BrandKitPageContent />
+    </Suspense>
+  )
+}
+
+function BrandKitPageContent() {
   const searchParams = useSearchParams()
   const name = searchParams.get('name') || ''
   const meaning = searchParams.get('meaning') || ''

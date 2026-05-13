@@ -6,11 +6,13 @@ import { Pricing } from '@/components/Pricing'
 import { FAQ } from '@/components/FAQ'
 import { CTA } from '@/components/CTA'
 import { CancelBanner } from '@/components/CancelBanner'
+import { JsonLd } from '@/components/JsonLd'
 import { Suspense } from 'react'
 
 export default function Home() {
   return (
     <>
+      <JsonLd />
       <Suspense fallback={null}>
         <CancelBanner />
       </Suspense>

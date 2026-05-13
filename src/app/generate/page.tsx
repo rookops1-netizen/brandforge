@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import type { GeneratedName, BusinessName, AvailabilityStatus } from '@/types'
 import { isFavorite, toggleFavorite } from '@/lib/favorites'
@@ -25,7 +25,7 @@ function toBusinessNames(raw: GeneratedName[], industry: string): BusinessName[]
   }))
 }
 
-export default function GeneratePage() {
+function GeneratePageContent() {
   const searchParams = useSearchParams()
   const initialDesc = searchParams.get('desc') || ''
 
@@ -253,5 +253,22 @@ export default function GeneratePage() {
         </div>
       )}
     </div>
+  )
+}
+
+export default function GeneratePage() {
+  return (
+    <Suspense fallback={
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl">
+          <div className="animate-pulse space-y-4">
+            <div className="h-8 w-64 rounded bg-slate-200" />
+            <div className="h-4 w-96 rounded bg-slate-200" />
+          </div>
+        </div>
+      </div>
+    }>
+      <GeneratePageContent />
+    </Suspense>
   )
 }
