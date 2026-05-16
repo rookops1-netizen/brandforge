@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { NewsletterForm } from '@/components/NewsletterForm'
 
 const footerLinks = {
   Product: [
@@ -40,26 +41,7 @@ export function Footer() {
               AI-powered business name generator with complete brand kits. From idea to identity in seconds.
             </p>
             {/* Newsletter signup */}
-            <div className="mt-5">
-              <p className="text-sm font-medium text-slate-700 mb-2">Stay in the loop</p>
-              <form
-                onSubmit={(e) => e.preventDefault()}
-                className="flex gap-2"
-              >
-                <input
-                  type="email"
-                  placeholder="you@example.com"
-                  className="input-field flex-1 text-sm py-2 px-3"
-                />
-                <button
-                  type="submit"
-                  className="btn-primary text-xs py-2 px-4 whitespace-nowrap"
-                >
-                  Subscribe
-                </button>
-              </form>
-              <p className="mt-1.5 text-xs text-slate-400">No spam. Unsubscribe anytime.</p>
-            </div>
+            <NewsletterForm variant="footer" />
           </div>
 
           {/* Link columns */}

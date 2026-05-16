@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 
 export const metadata: Metadata = {
   title: 'BrandForge Blog — Business Naming Tips, Brand Strategy & AI Insights',
@@ -158,15 +159,7 @@ export default function BlogPage() {
         <p className="mt-2 text-slate-600">
           Weekly insights on branding, naming, and building a business identity — straight to your inbox.
         </p>
-        <div className="mt-6 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-          <input
-            type="email"
-            placeholder="you@example.com"
-            className="input-field flex-1 text-sm"
-          />
-          <button className="btn-primary whitespace-nowrap text-sm">Subscribe</button>
-        </div>
-        <p className="mt-2 text-xs text-slate-400">No spam. Unsubscribe anytime.</p>
+        <BlogNewsletterSection />
       </div>
     </div>
   )

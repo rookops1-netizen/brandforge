@@ -2,8 +2,10 @@ import { Hero } from '@/components/Hero'
 import { SocialProof } from '@/components/SocialProof'
 import { HowItWorks } from '@/components/HowItWorks'
 import { Features } from '@/components/Features'
+import { UseCases } from '@/components/UseCases'
 import { Pricing } from '@/components/Pricing'
 import { FAQ } from '@/components/FAQ'
+import { NewsletterCta } from '@/components/NewsletterCta'
 import { CTA } from '@/components/CTA'
 import { CancelBanner } from '@/components/CancelBanner'
 import { JsonLd } from '@/components/JsonLd'
@@ -20,8 +22,10 @@ export default function Home() {
       <SocialProof />
       <HowItWorks />
       <Features />
+      <UseCases />
       <Pricing />
       <FAQ />
+      <NewsletterCta />
       <CTA />
     </>
   )
