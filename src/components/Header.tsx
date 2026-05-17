@@ -22,12 +22,18 @@ export function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden sm:flex items-center gap-6">
+          <Link href="/examples" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
+            Examples
+          </Link>
           <a href="#features" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             Features
           </a>
           <a href="#pricing" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             Pricing
           </a>
+          <Link href="/blog" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
+            Blog
+          </Link>
           <a href="#faq" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             FAQ
           </a>
@@ -74,12 +80,18 @@ export function Header() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="sm:hidden border-t border-slate-200 bg-white px-4 pb-4 pt-2 space-y-3">
+          <Link href="/examples" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
+            Examples
+          </Link>
           <a href="#features" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             Features
           </a>
           <a href="#pricing" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             Pricing
           </a>
+          <Link href="/blog" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
+            Blog
+          </Link>
           <a href="#faq" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             FAQ
           </a>

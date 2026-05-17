@@ -49,6 +49,12 @@ export function CTA() {
             >
               View Pricing
             </a>
+            <a
+              href="/examples"
+              className="text-sm text-brand-600 hover:text-brand-700 font-medium self-center"
+            >
+              See Brand Kit Examples →
+            </a>
           </div>
 
           {/* Urgency + social proof row */}

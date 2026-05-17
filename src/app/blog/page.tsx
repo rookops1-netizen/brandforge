@@ -25,6 +25,33 @@ const blogPosts = [
     featured: true,
   },
   {
+    slug: 'business-name-ideas-by-industry',
+    title: 'Business Name Ideas by Industry: The 2025 Edition',
+    excerpt: 'Browse hundreds of name ideas across 10 industries — tech, food, fashion, consulting, and more. Each with the naming pattern so you can create your own variations.',
+    category: 'Naming',
+    readTime: '12 min',
+    date: '2025-05-17',
+    featured: false,
+  },
+  {
+    slug: 'catchy-business-names',
+    title: '150+ Catchy Business Names for Every Industry',
+    excerpt: 'Discover 150+ catchy business name ideas organized by industry — tech, food, fashion, fitness, and more. Plus learn the 5 principles that make names stick.',
+    category: 'Naming',
+    readTime: '10 min',
+    date: '2025-05-17',
+    featured: false,
+  },
+  {
+    slug: 'creative-brand-names',
+    title: 'Creative Brand Names: 60+ Examples & What Makes Them Work',
+    excerpt: 'Deconstruct 60+ real brand names — Pinterest, Stripe, Nike, Lego — and learn the repeatable naming patterns behind them. Portmanteaus, metaphors, foreign words, and more.',
+    category: 'Brand Strategy',
+    readTime: '11 min',
+    date: '2025-05-17',
+    featured: false,
+  },
+  {
     slug: 'ai-name-generator-vs-traditional',
     title: 'AI Name Generators vs Traditional Naming Agencies: What Actually Works?',
     excerpt: 'We compared AI naming tools, naming agencies, and DIY brainstorming. The results might surprise you — especially on price and speed.',
@@ -40,6 +67,15 @@ const blogPosts = [
     category: 'Brand Strategy',
     readTime: '5 min',
     date: '2025-05-05',
+    featured: false,
+  },
+  {
+    slug: 'llc-naming-guide',
+    title: 'How to Pick a Name for Your LLC: The Legal & Branding Guide',
+    excerpt: 'LLC naming rules, state-by-state requirements, DBA strategies, and trademark considerations — everything you need to name your LLC legally AND memorably.',
+    category: 'Legal',
+    readTime: '9 min',
+    date: '2025-05-17',
     featured: false,
   },
   {
@@ -76,6 +112,7 @@ const categoryColors: Record<string, string> = {
   'AI & Naming': 'bg-purple-100 text-purple-700',
   'Brand Strategy': 'bg-brand-100 text-brand-700',
   'Domains': 'bg-amber-100 text-amber-700',
+  'Legal': 'bg-emerald-100 text-emerald-700',
 }
 
 export default function BlogPage() {

@@ -28,6 +28,11 @@ export const metadata: Metadata = {
     'free business name generator',
     'online name generator',
     'business naming tool',
+    'catchy business names',
+    'brand kit examples',
+    'LLC name ideas',
+    'creative brand names',
+    'business name ideas by industry',
   ],
   openGraph: {
     title: 'BrandForge — Free AI Business Name Generator & Brand Kit',

@@ -23,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/examples`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -34,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    // Blog articles — original 6
     {
       url: `${BASE_URL}/blog/how-to-choose-business-name`,
       lastModified: new Date('2025-05-15'),
@@ -70,6 +77,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    // Blog articles — new 4 (May 17)
+    {
+      url: `${BASE_URL}/blog/catchy-business-names`,
+      lastModified: new Date('2025-05-17'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/blog/business-name-ideas-by-industry`,
+      lastModified: new Date('2025-05-17'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/blog/creative-brand-names`,
+      lastModified: new Date('2025-05-17'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/blog/llc-naming-guide`,
+      lastModified: new Date('2025-05-17'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    // Legal pages
     {
       url: `${BASE_URL}/privacy`,
       lastModified: new Date(),

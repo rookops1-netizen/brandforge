@@ -50,6 +50,39 @@ export function JsonLd() {
     },
   }
 
+  const softwareApp = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'BrandForge',
+    url: baseUrl,
+    description:
+      'AI-powered business name generator with complete brand kits including logos, color palettes, taglines, and domain availability checks.',
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+      description: 'Free name generation, paid brand kits starting at $9',
+    },
+    featureList: [
+      'AI business name generation',
+      'Logo concept generation',
+      'Color palette creation',
+      'Tagline generation',
+      'Domain availability checking',
+      'Social handle availability checking',
+      'Complete brand kits',
+    ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      ratingCount: '12400',
+      bestRating: '5',
+      worstRating: '1',
+    },
+  }
+
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -114,6 +147,10 @@ export function JsonLd() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webApplication) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareApp) }}
       />
       <script
         type="application/ld+json"
