@@ -52,6 +52,15 @@ const blogPosts = [
     featured: false,
   },
   {
+    slug: 'free-brand-name-generator',
+    title: 'Free Brand Name Generator: How to Name Your Business Without Spending a Dime',
+    excerpt: 'Compare the 8 best free brand name generators honestly — plus the DIY naming strategy that works better than any tool.',
+    category: 'AI & Naming',
+    readTime: '14 min',
+    date: '2025-05-18',
+    featured: false,
+  },
+  {
     slug: 'ai-name-generator-vs-traditional',
     title: 'AI Name Generators vs Traditional Naming Agencies: What Actually Works?',
     excerpt: 'We compared AI naming tools, naming agencies, and DIY brainstorming. The results might surprise you — especially on price and speed.',

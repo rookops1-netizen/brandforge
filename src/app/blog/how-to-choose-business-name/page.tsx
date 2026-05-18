@@ -224,6 +224,7 @@ export default function HowToChooseBusinessName() {
         <h2>Further Reading</h2>
 
         <ul>
+          <li><Link href="/blog/free-brand-name-generator">Free Brand Name Generator: How to Name Your Business Without Spending a Dime</Link></li>
           <li><Link href="/blog/startup-naming-mistakes">7 Naming Mistakes That Kill Startups (Before They Even Launch)</Link></li>
           <li><Link href="/blog/domain-name-availability">Domain Name Availability in 2025: Creative Strategies When .com Is Taken</Link></li>
           <li><Link href="/blog/brand-color-psychology">Brand Color Psychology: What Your Colors Say About Your Business</Link></li>

@@ -102,6 +102,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    // Blog articles — May 18
+    {
+      url: `${BASE_URL}/blog/free-brand-name-generator`,
+      lastModified: new Date('2025-05-18'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,

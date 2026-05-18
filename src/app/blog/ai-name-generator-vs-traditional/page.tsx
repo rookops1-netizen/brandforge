@@ -98,6 +98,14 @@ export default function AIVsTraditionalNaming() {
         <p>
           <Link href="/generate" className="text-brand-600 underline decoration-brand-300 hover:decoration-brand-600">Try BrandForge&apos;s AI name generator →</Link>
         </p>
+
+        <h2>Further Reading</h2>
+
+        <ul>
+          <li><Link href="/blog/free-brand-name-generator">Free Brand Name Generator: How to Name Your Business Without Spending a Dime</Link></li>
+          <li><Link href="/blog/how-to-choose-business-name">How to Choose a Business Name: The Complete Guide for 2025</Link></li>
+          <li><Link href="/blog/startup-naming-mistakes">7 Naming Mistakes That Kill Startups (Before They Even Launch)</Link></li>
+        </ul>
       </div>
 
       <div className="mt-16 rounded-3xl bg-gradient-to-br from-brand-50 via-white to-purple-50 p-8 sm:p-12 text-center">
