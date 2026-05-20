@@ -105,6 +105,8 @@ export default function AIVsTraditionalNaming() {
           <li><Link href="/blog/free-brand-name-generator">Free Brand Name Generator: How to Name Your Business Without Spending a Dime</Link></li>
           <li><Link href="/blog/how-to-choose-business-name">How to Choose a Business Name: The Complete Guide for 2025</Link></li>
           <li><Link href="/blog/startup-naming-mistakes">7 Naming Mistakes That Kill Startups (Before They Even Launch)</Link></li>
+          <li><Link href="/blog/product-naming-guide">Product Naming Guide: How to Name a Product That Sells</Link></li>
+          <li><Link href="/blog/company-name-checker">Company Name Checker: How to Verify Your Business Name Is Available</Link></li>
         </ul>
       </div>
 

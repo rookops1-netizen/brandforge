@@ -109,6 +109,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    // Blog articles — May 20
+    {
+      url: `${BASE_URL}/blog/company-name-checker`,
+      lastModified: new Date('2025-05-20'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/blog/unique-business-names`,
+      lastModified: new Date('2025-05-20'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/blog/product-naming-guide`,
+      lastModified: new Date('2025-05-20'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,

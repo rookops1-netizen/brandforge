@@ -228,6 +228,8 @@ export default function HowToChooseBusinessName() {
           <li><Link href="/blog/startup-naming-mistakes">7 Naming Mistakes That Kill Startups (Before They Even Launch)</Link></li>
           <li><Link href="/blog/domain-name-availability">Domain Name Availability in 2025: Creative Strategies When .com Is Taken</Link></li>
           <li><Link href="/blog/brand-color-psychology">Brand Color Psychology: What Your Colors Say About Your Business</Link></li>
+          <li><Link href="/blog/company-name-checker">Company Name Checker: How to Verify Your Business Name Is Available</Link></li>
+          <li><Link href="/blog/product-naming-guide">Product Naming Guide: How to Name a Product That Sells</Link></li>
         </ul>
       </div>
 

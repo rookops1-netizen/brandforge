@@ -114,6 +114,33 @@ const blogPosts = [
     date: '2025-04-15',
     featured: false,
   },
+  {
+    slug: 'company-name-checker',
+    title: 'Company Name Checker: How to Verify Your Business Name Is Available',
+    excerpt: 'Before you commit to a name, check these 4 things: domain availability, trademark conflicts, social handles, and state registration. Here\'s the complete checklist.',
+    category: 'Legal',
+    readTime: '10 min',
+    date: '2025-05-20',
+    featured: false,
+  },
+  {
+    slug: 'unique-business-names',
+    title: 'Unique Business Names: 120+ Standout Ideas & How to Create Your Own',
+    excerpt: 'Browse 120+ unique business name ideas across 8 industries, plus learn the 6 proven techniques — portmanteaus, foreign words, compounds, and more.',
+    category: 'Naming',
+    readTime: '13 min',
+    date: '2025-05-20',
+    featured: false,
+  },
+  {
+    slug: 'product-naming-guide',
+    title: 'Product Naming Guide: How to Name a Product That Sells',
+    excerpt: 'The 5 naming frameworks behind Slack, Notion, Tesla, and Airbnb — plus product-type-specific rules and a step-by-step process you can follow.',
+    category: 'Brand Strategy',
+    readTime: '15 min',
+    date: '2025-05-20',
+    featured: false,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
