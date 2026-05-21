@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 
+export const dynamic = 'force-static'
 export const metadata: Metadata = {
   title: 'Unique Business Names: 120+ Standout Ideas & How to Create Your Own | BrandForge',
   description: 'Browse 120+ unique business name ideas across 8 industries, plus learn the 6 proven techniques for creating names nobody else has — from portmanteaus to foreign words to deliberate misspellings.',

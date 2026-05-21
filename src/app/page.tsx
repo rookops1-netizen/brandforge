@@ -2,6 +2,7 @@ import { Hero } from '@/components/Hero'
 import { SocialProof } from '@/components/SocialProof'
 import { HowItWorks } from '@/components/HowItWorks'
 import { Features } from '@/components/Features'
+import { BrandKitPreview } from '@/components/BrandKitPreview'
 import { UseCases } from '@/components/UseCases'
 import { Pricing } from '@/components/Pricing'
 import { FAQ } from '@/components/FAQ'
@@ -22,6 +23,7 @@ export default function Home() {
       <SocialProof />
       <HowItWorks />
       <Features />
+      <BrandKitPreview />
       <UseCases />
       <Pricing />
       <FAQ />

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 
+export const dynamic = 'force-static'
 export const metadata: Metadata = {
   title: 'Product Naming Guide: How to Name a Product That Sells | BrandForge',
   description: 'Complete product naming guide with frameworks, real examples, and common mistakes. Learn how Slack, Notion, Tesla, and other iconic products got their names — and how to name yours.',

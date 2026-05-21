@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 
+export const dynamic = 'force-static'
 export const metadata: Metadata = {
   title: 'Company Name Checker: How to Verify Your Business Name Is Available | BrandForge',
   description: 'Check if your company name is available as a domain, trademark, social handle, and business registration. Complete guide to name availability across all channels.',
