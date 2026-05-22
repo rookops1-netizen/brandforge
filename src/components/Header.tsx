@@ -25,6 +25,9 @@ export function Header() {
           <Link href="/examples" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             Examples
           </Link>
+          <Link href="/compare" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
+            Compare
+          </Link>
           <a href="#features" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             Features
           </a>
@@ -82,6 +85,9 @@ export function Header() {
         <div className="sm:hidden border-t border-slate-200 bg-white px-4 pb-4 pt-2 space-y-3">
           <Link href="/examples" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             Examples
+          </Link>
+          <Link href="/compare" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
+            Compare
           </Link>
           <a href="#features" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             Features

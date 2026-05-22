@@ -4,6 +4,7 @@ import { HowItWorks } from '@/components/HowItWorks'
 import { Features } from '@/components/Features'
 import { BrandKitPreview } from '@/components/BrandKitPreview'
 import { UseCases } from '@/components/UseCases'
+import { Comparison } from '@/components/Comparison'
 import { Pricing } from '@/components/Pricing'
 import { FAQ } from '@/components/FAQ'
 import { NewsletterCta } from '@/components/NewsletterCta'
@@ -25,6 +26,7 @@ export default function Home() {
       <Features />
       <BrandKitPreview />
       <UseCases />
+      <Comparison />
       <Pricing />
       <FAQ />
       <NewsletterCta />

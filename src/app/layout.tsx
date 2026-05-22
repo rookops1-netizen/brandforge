@@ -37,6 +37,10 @@ export const metadata: Metadata = {
     'company name checker',
     'unique business names',
     'product naming guide',
+    'brandforge vs namelix',
+    'best business name generator',
+    'naming tool comparison',
+    'AI brand name generator comparison',
   ],
   openGraph: {
     title: 'BrandForge — Free AI Business Name Generator & Brand Kit',

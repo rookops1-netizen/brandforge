@@ -8,6 +8,7 @@ const footerLinks = {
     { name: 'Name Generator', href: '/generate' },
     { name: 'Brand Kit', href: '/brand-kit' },
     { name: 'Examples', href: '/examples' },
+    { name: 'Compare', href: '/compare' },
     { name: 'Pricing', href: '#pricing' },
     { name: 'FAQ', href: '#faq' },
   ],
