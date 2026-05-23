@@ -41,6 +41,12 @@ export const metadata: Metadata = {
     'best business name generator',
     'naming tool comparison',
     'AI brand name generator comparison',
+    'is brand name generator free',
+    'how to come up with a business name',
+    'business name availability check',
+    'what makes a good brand name',
+    'brand name ideas by industry',
+    'free AI brand kit',
   ],
   openGraph: {
     title: 'BrandForge — Free AI Business Name Generator & Brand Kit',
