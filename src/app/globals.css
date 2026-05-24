@@ -87,3 +87,24 @@ body {
 .accordion-content > div {
   overflow: hidden;
 }
+
+/* Print styles for brand kit export */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  .brand-page {
+    page-break-inside: avoid;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+  @page {
+    margin: 1.5cm;
+    size: A4;
+  }
+}
