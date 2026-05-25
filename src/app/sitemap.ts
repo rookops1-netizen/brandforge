@@ -134,6 +134,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    // Blog articles — May 25
+    {
+      url: `${BASE_URL}/blog/how-to-build-brand-identity`,
+      lastModified: new Date('2026-05-25'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,

@@ -3,10 +3,10 @@ import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 
 export const metadata: Metadata = {
-  title: 'Business Name Ideas by Industry: The 2025 Edition | BrandForge',
+  title: 'Business Name Ideas by Industry: The 2026 Edition | BrandForge',
   description: 'Browse hundreds of business name ideas organized by industry — tech startups, restaurants, consulting, e-commerce, creative agencies, and 10+ more. Each with vibe descriptions and naming patterns.',
   openGraph: {
-    title: 'Business Name Ideas by Industry: The 2025 Edition',
+    title: 'Business Name Ideas by Industry: The 2026 Edition',
     description: 'Hundreds of business name ideas organized by industry with vibe descriptions and naming patterns.',
     url: 'https://brandforge-phi-pearl.vercel.app/blog/business-name-ideas-by-industry',
     siteName: 'BrandForge',
@@ -78,7 +78,7 @@ export default function BusinessNameIdeasByIndustryPage() {
           ← Back to Blog
         </Link>
         <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
-          Business Name Ideas by Industry: The 2025 Edition
+          Business Name Ideas by Industry: The 2026 Edition
         </h1>
         <p className="mt-4 text-lg text-slate-600 max-w-2xl">
           Stop starting at a blank page. Browse hundreds of name ideas organized by industry — 

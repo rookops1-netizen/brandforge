@@ -47,6 +47,12 @@ export const metadata: Metadata = {
     'what makes a good brand name',
     'brand name ideas by industry',
     'free AI brand kit',
+    'how to build a brand identity',
+    'brand identity guide',
+    'brand identity from scratch',
+    'create a brand identity',
+    'brand identity for startups',
+    'brand kit template',
   ],
   openGraph: {
     title: 'BrandForge — Free AI Business Name Generator & Brand Kit',

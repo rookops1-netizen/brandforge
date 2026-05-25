@@ -17,16 +17,16 @@ export const metadata: Metadata = {
 const blogPosts = [
   {
     slug: 'how-to-choose-business-name',
-    title: 'How to Choose a Business Name: The Complete Guide for 2025',
+    title: 'How to Choose a Business Name: The Complete Guide for 2026',
     excerpt: 'From brainstorming to trademark research — everything you need to know about picking a name that sticks, ranks, and scales with your business.',
     category: 'Naming',
     readTime: '8 min',
     date: '2025-05-15',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'business-name-ideas-by-industry',
-    title: 'Business Name Ideas by Industry: The 2025 Edition',
+    title: 'Business Name Ideas by Industry: The 2026 Edition',
     excerpt: 'Browse hundreds of name ideas across 10 industries — tech, food, fashion, consulting, and more. Each with the naming pattern so you can create your own variations.',
     category: 'Naming',
     readTime: '12 min',
@@ -89,7 +89,7 @@ const blogPosts = [
   },
   {
     slug: 'domain-name-availability',
-    title: 'Domain Name Availability in 2025: Creative Strategies When .com Is Taken',
+    title: 'Domain Name Availability: Creative Strategies When .com Is Taken',
     excerpt: 'Your perfect name is available — just maybe not as a .com. Learn smart domain strategies using alternative TLDs, modifiers, and creative workarounds.',
     category: 'Domains',
     readTime: '7 min',
@@ -140,6 +140,15 @@ const blogPosts = [
     readTime: '15 min',
     date: '2025-05-20',
     featured: false,
+  },
+  {
+    slug: 'how-to-build-brand-identity',
+    title: 'How to Build a Brand Identity from Scratch: The 2026 Guide',
+    excerpt: 'A step-by-step guide to creating a complete brand identity — name, logo, color palette, typography, and tagline — without hiring an agency. Includes real examples and free tools.',
+    category: 'Brand Strategy',
+    readTime: '12 min',
+    date: '2026-05-25',
+    featured: true,
   },
 ]
 

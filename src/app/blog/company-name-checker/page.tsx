@@ -340,7 +340,7 @@ export default function CompanyNameCheckerPage() {
         <ul className="space-y-2">
           <li>
             <Link href="/blog/domain-name-availability" className="text-brand-600 hover:text-brand-700 text-sm">
-              Domain Name Availability in 2025: Creative Strategies When .com Is Taken →
+              Domain Name Availability: Creative Strategies When .com Is Taken →
             </Link>
           </li>
           <li>

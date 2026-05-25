@@ -4,7 +4,7 @@ import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 
 export const metadata: Metadata = {
   title: 'Free Brand Name Generator: How to Name Your Business Without Spending a Dime | BrandForge',
-  description: 'Compare the 8 best free brand name generators in 2025 — including BrandForge. See which tools actually produce creative, usable names and which ones waste your time with random word salads.',
+  description: 'Compare the 8 best free brand name generators — including BrandForge. See which tools actually produce creative, usable names and which ones waste your time with random word salads.',
   openGraph: {
     title: 'Free Brand Name Generator: The Complete Guide to Naming Your Business for Free',
     description: 'Compare the best free brand name generators — plus learn how to get professional-quality names without paying naming agencies $5K+.',

@@ -2,10 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Domain Name Availability in 2025: When .com Is Taken — BrandForge Blog',
+  title: 'Domain Name Availability: When .com Is Taken — BrandForge Blog',
   description: 'Your perfect name is available — just maybe not as a .com. Learn smart domain strategies using alternative TLDs, modifiers, and creative workarounds.',
   openGraph: {
-    title: 'Domain Name Availability in 2025: Creative Strategies When .com Is Taken',
+    title: 'Domain Name Availability: Creative Strategies When .com Is Taken',
     description: 'Smart strategies for finding available domains when .com is already taken.',
     url: 'https://brandforge-phi-pearl.vercel.app/blog/domain-name-availability',
     siteName: 'BrandForge',
@@ -30,7 +30,7 @@ export default function DomainNameAvailability() {
           <span className="text-sm text-slate-400">7 min read</span>
         </div>
         <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-          Domain Name Availability in 2025: Creative Strategies When .com Is Taken
+          Domain Name Availability: Creative Strategies When .com Is Taken
         </h1>
         <p className="mt-4 text-lg text-slate-600">
           Your perfect name is available — just maybe not as a .com. Here&apos;s how to find it.
@@ -53,7 +53,7 @@ export default function DomainNameAvailability() {
       ">
 
         <p>
-          Here&apos;s the uncomfortable truth about domain names in 2025: <strong>over 350 million .com domains have been registered</strong>, and virtually every dictionary word and common phrase is taken. If your first-choice .com isn&apos;t available, you&apos;re in good company. The question isn&apos;t &ldquo;what if .com is taken?&rdquo; — it&apos;s &ldquo;what do I do now?&rdquo;
+          Here&apos;s the uncomfortable truth about domain names: <strong>over 350 million .com domains have been registered</strong>, and virtually every dictionary word and common phrase is taken. If your first-choice .com isn&apos;t available, you&apos;re in good company. The question isn&apos;t &ldquo;what if .com is taken?&rdquo; — it&apos;s &ldquo;what do I do now?&rdquo;
         </p>
 
         <h2>Strategy 1: Alternative TLDs Are Not the Compromise They Used to Be</h2>

@@ -483,7 +483,7 @@ export default function UniqueBusinessNamesPage() {
           </li>
           <li>
             <Link href="/blog/business-name-ideas-by-industry" className="text-brand-600 hover:text-brand-700 text-sm">
-              Business Name Ideas by Industry: The 2025 Edition →
+              Business Name Ideas by Industry: The 2026 Edition →
             </Link>
           </li>
           <li>

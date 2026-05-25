@@ -2,10 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How to Choose a Business Name: The Complete Guide for 2025 — BrandForge Blog',
+  title: 'How to Choose a Business Name: The Complete Guide for 2026 — BrandForge Blog',
   description: 'Everything you need to know about picking the perfect business name — from brainstorming techniques and trademark research to domain strategy and AI-assisted naming.',
   openGraph: {
-    title: 'How to Choose a Business Name: The Complete Guide for 2025',
+    title: 'How to Choose a Business Name: The Complete Guide for 2026',
     description: 'Everything you need to know about picking the perfect business name — from brainstorming to trademarks.',
     url: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-business-name',
     siteName: 'BrandForge',
@@ -32,7 +32,7 @@ export default function HowToChooseBusinessName() {
           <span className="text-sm text-slate-400">8 min read</span>
         </div>
         <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-          How to Choose a Business Name: The Complete Guide for 2025
+          How to Choose a Business Name: The Complete Guide for 2026
         </h1>
         <p className="mt-4 text-lg text-slate-600">
           From brainstorming to trademark research — everything you need to know about picking a name that sticks, ranks, and scales.
@@ -113,7 +113,7 @@ export default function HowToChooseBusinessName() {
         <h3>4. Consider the Domain Early</h3>
 
         <p>
-          In 2025, your domain name is inseparable from your brand name. Before you fall in love with a name, check if the .com is available (or at least a workable alternative like .io, .co, or get[yourname].com). Smart founders check domain availability <em>before</em> committing to a name, not after.
+          In 2026, your domain name is inseparable from your brand name. Before you fall in love with a name, check if the .com is available (or at least a workable alternative like .io, .co, or get[yourname].com). Smart founders check domain availability <em>before</em> committing to a name, not after.
         </p>
 
         <h3>5. Think About Trademarks</h3>
@@ -200,7 +200,7 @@ export default function HowToChooseBusinessName() {
         <ul>
           <li><strong>Geographic names</strong> — &ldquo;Austin Web Design&rdquo; limits you. What if you expand to Dallas? Or go remote?</li>
           <li><strong>Overly literal names</strong> — &ldquo;Online Shoe Store&rdquo; doesn&apos;t differentiate. &ldquo;Zappos&rdquo; does.</li>
-          <li><strong>Trendy spellings</strong> — Dropping vowels (Tumblr, Flickr) was cool in 2009. In 2025, it just confuses people searching for your brand.</li>
+          <li><strong>Trendy spellings</strong> — Dropping vowels (Tumblr, Flickr) was cool in 2009. In 2026, it just confuses people searching for your brand.</li>
           <li><strong>Inside jokes</strong> — If only three people get it, it&apos;s not a brand name — it&apos;s a punchline.</li>
           <li><strong>Naming after yourself</strong> — &ldquo;Johnson Consulting&rdquo; is fine for a local business, but limits scalability and makes the brand about you instead of the value you deliver.</li>
         </ul>
@@ -226,7 +226,8 @@ export default function HowToChooseBusinessName() {
         <ul>
           <li><Link href="/blog/free-brand-name-generator">Free Brand Name Generator: How to Name Your Business Without Spending a Dime</Link></li>
           <li><Link href="/blog/startup-naming-mistakes">7 Naming Mistakes That Kill Startups (Before They Even Launch)</Link></li>
-          <li><Link href="/blog/domain-name-availability">Domain Name Availability in 2025: Creative Strategies When .com Is Taken</Link></li>
+          <li><Link href="/blog/how-to-build-brand-identity">How to Build a Brand Identity from Scratch: The 2026 Guide</Link></li>
+          <li><Link href="/blog/domain-name-availability">Domain Name Availability: Creative Strategies When .com Is Taken</Link></li>
           <li><Link href="/blog/brand-color-psychology">Brand Color Psychology: What Your Colors Say About Your Business</Link></li>
           <li><Link href="/blog/company-name-checker">Company Name Checker: How to Verify Your Business Name Is Available</Link></li>
           <li><Link href="/blog/product-naming-guide">Product Naming Guide: How to Name a Product That Sells</Link></li>
