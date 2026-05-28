@@ -53,6 +53,12 @@ export const metadata: Metadata = {
     'create a brand identity',
     'brand identity for startups',
     'brand kit template',
+    'cool business names',
+    'cool brand names',
+    'brand kit pricing',
+    'business name generator pricing',
+    'AI brand kit price',
+    'brand identity cost',
   ],
   openGraph: {
     title: 'BrandForge — Free AI Business Name Generator & Brand Kit',

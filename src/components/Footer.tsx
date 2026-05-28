@@ -9,7 +9,7 @@ const footerLinks = {
     { name: 'Brand Kit', href: '/brand-kit' },
     { name: 'Examples', href: '/examples' },
     { name: 'Compare', href: '/compare' },
-    { name: 'Pricing', href: '#pricing' },
+    { name: 'Pricing', href: '/pricing' },
     { name: 'FAQ', href: '#faq' },
   ],
   Company: [

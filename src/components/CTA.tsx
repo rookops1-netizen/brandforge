@@ -44,7 +44,7 @@ export function CTA() {
               </svg>
             </a>
             <a
-              href="#pricing"
+              href="/pricing"
               className="btn-secondary inline-flex items-center justify-center gap-2 text-base px-8 py-4"
             >
               View Pricing

@@ -35,6 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE_URL}/pricing`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -140,6 +146,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date('2026-05-25'),
       changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    // Blog articles — May 28
+    {
+      url: `${BASE_URL}/blog/cool-business-names`,
+      lastModified: new Date('2026-05-28'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
     // Legal pages
     {

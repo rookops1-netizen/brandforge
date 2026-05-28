@@ -148,6 +148,15 @@ const blogPosts = [
     category: 'Brand Strategy',
     readTime: '12 min',
     date: '2026-05-25',
+    featured: false,
+  },
+  {
+    slug: 'cool-business-names',
+    title: 'Cool Business Names: 150+ Ideas and How to Create Your Own',
+    excerpt: 'Discover 150+ cool business name ideas organized by industry, plus a proven 5-step framework for creating a name that turns heads and sticks in memory.',
+    category: 'Naming',
+    readTime: '12 min',
+    date: '2026-05-28',
     featured: true,
   },
 ]

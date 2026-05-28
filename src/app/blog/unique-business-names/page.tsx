@@ -494,6 +494,21 @@ export default function UniqueBusinessNamesPage() {
         </ul>
       </div>
 
+      {/* Related articles */}
+      <div className="mb-12 border-t border-slate-200 pt-10">
+        <h3 className="text-lg font-semibold text-slate-900 mb-4">More naming guides</h3>
+        <div className="grid gap-3 sm:grid-cols-2">
+          <a href="/blog/cool-business-names" className="group rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors text-sm">Cool Business Names: 150+ Ideas →</h4>
+            <p className="mt-1 text-xs text-slate-500">Industry-specific name ideas with a 5-step naming framework.</p>
+          </a>
+          <a href="/blog/catchy-business-names" className="group rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors text-sm">Catchy Business Names: 150+ Ideas →</h4>
+            <p className="mt-1 text-xs text-slate-500">The psychology and patterns behind names that stick.</p>
+          </a>
+        </div>
+      </div>
+
       {/* Newsletter */}
       <BlogNewsletterSection />
     </div>

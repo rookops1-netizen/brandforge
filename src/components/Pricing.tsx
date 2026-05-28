@@ -150,6 +150,10 @@ export function Pricing() {
           <a href="mailto:hello@brandforge.ai" className="text-brand-600 hover:underline font-medium">
             Contact us
           </a>
+          {' '}·{' '}
+          <a href="/pricing" className="text-brand-600 hover:underline font-medium">
+            See full pricing details
+          </a>
         </p>
       </div>
     </section>

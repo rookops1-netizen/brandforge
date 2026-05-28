@@ -28,11 +28,11 @@ export function Header() {
           <Link href="/compare" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             Compare
           </Link>
+          <Link href="/pricing" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
+            Pricing
+          </Link>
           <a href="#features" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             Features
-          </a>
-          <a href="#pricing" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
-            Pricing
           </a>
           <Link href="/blog" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
             Blog
@@ -89,11 +89,11 @@ export function Header() {
           <Link href="/compare" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             Compare
           </Link>
+          <Link href="/pricing" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
+            Pricing
+          </Link>
           <a href="#features" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             Features
-          </a>
-          <a href="#pricing" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
-            Pricing
           </a>
           <Link href="/blog" onClick={() => setMobileOpen(false)} className="block py-2 text-sm font-medium text-slate-600 hover:text-brand-600">
             Blog
