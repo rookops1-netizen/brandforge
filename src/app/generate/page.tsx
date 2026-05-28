@@ -29,7 +29,7 @@ const EXAMPLE_PROMPTS = [
   },
   {
     label: 'Fashion Brand',
-    emoji: '_Style',
+    emoji: '👗',
     text: 'A minimalist sustainable fashion brand making timeless wardrobe essentials from recycled fabrics',
   },
   {
