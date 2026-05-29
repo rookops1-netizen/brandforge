@@ -12,6 +12,11 @@ const footerLinks = {
     { name: 'Pricing', href: '/pricing' },
     { name: 'FAQ', href: '#faq' },
   ],
+  Industries: [
+    { name: 'Startups', href: '/startup-name-generator' },
+    { name: 'Restaurants', href: '/restaurant-name-generator' },
+    { name: 'Fitness', href: '/fitness-brand-name-generator' },
+  ],
   Company: [
     { name: 'About', href: '/about' },
     { name: 'Blog', href: '/blog' },

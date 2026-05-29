@@ -154,6 +154,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    // Industry landing pages
+    {
+      url: `${BASE_URL}/startup-name-generator`,
+      lastModified: new Date('2026-05-29'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/restaurant-name-generator`,
+      lastModified: new Date('2026-05-29'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/fitness-brand-name-generator`,
+      lastModified: new Date('2026-05-29'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,
