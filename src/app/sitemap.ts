@@ -173,6 +173,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/real-estate-name-generator`,
+      lastModified: new Date('2026-05-30'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/photography-name-generator`,
+      lastModified: new Date('2026-05-30'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,

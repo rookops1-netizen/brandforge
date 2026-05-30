@@ -16,6 +16,8 @@ const footerLinks = {
     { name: 'Startups', href: '/startup-name-generator' },
     { name: 'Restaurants', href: '/restaurant-name-generator' },
     { name: 'Fitness', href: '/fitness-brand-name-generator' },
+    { name: 'Real Estate', href: '/real-estate-name-generator' },
+    { name: 'Photography', href: '/photography-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

@@ -382,14 +382,17 @@ export default function RestaurantNameGeneratorPage() {
             <Link href="/fitness-brand-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               💪 Fitness Brand Name Generator
             </Link>
+            <Link href="/real-estate-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              🏠 Real Estate Name Generator
+            </Link>
+            <Link href="/photography-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              📸 Photography Name Generator
+            </Link>
             <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               📊 Compare Name Generators
             </Link>
             <Link href="/examples" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               ✨ Brand Kit Examples
-            </Link>
-            <Link href="/blog/catchy-business-names" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
-              🎯 Catchy Business Names
             </Link>
           </div>
         </div>

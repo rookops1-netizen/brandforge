@@ -382,14 +382,17 @@ export default function FitnessBrandNameGeneratorPage() {
             <Link href="/restaurant-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-green-300 hover:text-green-600 transition-colors">
               🍽️ Restaurant Name Generator
             </Link>
+            <Link href="/real-estate-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-green-300 hover:text-green-600 transition-colors">
+              🏠 Real Estate Name Generator
+            </Link>
+            <Link href="/photography-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-green-300 hover:text-green-600 transition-colors">
+              📸 Photography Name Generator
+            </Link>
             <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-green-300 hover:text-green-600 transition-colors">
               📊 Compare Name Generators
             </Link>
             <Link href="/examples" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-green-300 hover:text-green-600 transition-colors">
               ✨ Brand Kit Examples
-            </Link>
-            <Link href="/blog/cool-business-names" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-green-300 hover:text-green-600 transition-colors">
-              😎 Cool Business Names
             </Link>
           </div>
         </div>
