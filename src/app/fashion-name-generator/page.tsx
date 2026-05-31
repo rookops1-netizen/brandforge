@@ -2,134 +2,134 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Restaurant Name Generator — AI Restaurant Name Ideas & Brand Kits',
-  description: 'Generate unique restaurant names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability. From fine dining to food trucks — free to start.',
+  title: 'Free Fashion Name Generator — AI-Powered Fashion & Clothing Brand Names',
+  description: 'Generate creative fashion business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
   keywords: [
-    'restaurant name generator',
-    'restaurant name ideas',
-    'AI restaurant name generator',
-    'cafe name generator',
-    'food business name ideas',
-    'restaurant naming tool',
-    'bar name generator',
-    'food truck name generator',
-    'bakery name ideas',
-    'coffee shop name generator',
-    'how to name a restaurant',
-    'creative restaurant names',
-    'unique restaurant names',
-    'catchy restaurant names',
-    'best restaurant names',
+    'fashion name generator',
+    'fashion business names',
+    'clothing brand names',
+    'fashion brand names',
+    'fashion label names',
+    'clothing line name ideas',
+    'how to name a fashion brand',
+    'fashion brand name ideas',
+    'apparel brand names',
+    'boutique name generator',
+    'fashion startup names',
+    'streetwear brand names',
+    'fashion company names',
+    'designer brand names',
+    'best fashion brand names',
   ],
   openGraph: {
-    title: 'Free Restaurant Name Generator — AI-Powered Ideas & Brand Kits',
-    description: 'Generate unique restaurant, cafe, bar, and food truck names with AI. Get a complete brand kit — logo, colors, tagline, domain check. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/restaurant-name-generator',
+    title: 'Free Fashion Name Generator — AI-Powered Fashion & Clothing Brand Names',
+    description: 'Generate creative fashion business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
+    url: 'https://brandforge-phi-pearl.vercel.app/fashion-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Restaurant Name Generator — AI-Powered Ideas & Brand Kits',
-    description: 'Generate unique restaurant and food business names with AI. Logo, colors, tagline, domain check — all in one.',
+    title: 'Free Fashion Name Generator — AI-Powered Fashion & Clothing Brand Names',
+    description: 'Generate creative fashion business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/restaurant-name-generator',
+    canonical: 'https://brandforge-phi-pearl.vercel.app/fashion-name-generator',
   },
 }
 
 const EXAMPLE_NAMES = [
-  { name: 'Ember & Vine', tagline: 'Where flame meets flavor', style: 'Upscale dining', domain: 'emberandvine.com', color: '#DC2626' },
-  { name: 'Rustic Bloom', tagline: 'Farm to table, garden to glass', style: 'Farm-to-table', domain: 'rusticbloom.com', color: '#16A34A' },
-  { name: 'Saltcraft', tagline: 'Seasoned to perfection', style: 'Modern artisan', domain: 'saltcraft.co', color: '#CA8A04' },
-  { name: 'Moxie Kitchen', tagline: 'Bold food, bold spirit', style: 'Neighborhood gem', domain: 'moxiekitchen.com', color: '#7C3AED' },
-  { name: 'Dawnflour', tagline: 'Baked with the sunrise', style: 'Bakery & café', domain: 'dawnflour.com', color: '#EA580C' },
-  { name: 'The Copper Kettle', tagline: 'Warms the soul', style: 'Cozy tavern', domain: 'thecopperkettle.com', color: '#B45309' },
+  { name: 'Noir & Thread', tagline: 'Dark elegance, everyday', style: 'Sleek & Minimal', domain: 'noirandthread.com', color: '#1E293B' },
+  { name: 'Atelier Bloom', tagline: 'Where style blossoms', style: 'Romantic & Feminine', domain: 'atelierbloom.com', color: '#BE185D' },
+  { name: 'Civic Apparel', tagline: 'City-made, universally worn', style: 'Urban & Contemporary', domain: 'civicapparel.com', color: '#0F766E' },
+  { name: 'Maison Éclat', tagline: 'Radiance, redefined', style: 'Luxury & French-Inspired', domain: 'maisoneclat.com', color: '#7C3AED' },
+  { name: 'Woven Way', tagline: 'Crafted for the journey', style: 'Heritage & Artisan', domain: 'wovenway.com', color: '#92400E' },
+  { name: 'KINX Studio', tagline: 'Edge meets elegance', style: 'Streetwear & Bold', domain: 'kinxstudio.com', color: '#DC2626' },
 ]
 
-const CUISINE_CATEGORIES = [
-  { emoji: '🍽️', name: 'Fine Dining', examples: 'Ember & Vine, Celestia, Maison Lumière' },
-  { emoji: '🥪', name: 'Casual Dining', examples: 'Rustic Bloom, Moxie Kitchen, The Copper Spoon' },
-  { emoji: '🚚', name: 'Food Trucks', examples: 'Roll & Coal, Smoke Signal, Streetfire' },
-  { emoji: '☕', name: 'Cafes & Coffee Shops', examples: 'Dawnflour, Press & Pour, The Steaming Bean' },
-  { emoji: '🍺', name: 'Bars & Breweries', examples: 'Hoptale, The Copper Kettle, Fermentary' },
-  { emoji: '🥖', name: 'Bakeries', examples: 'Flourish, Golden Crumb, Rise & Shine' },
-  { emoji: '🍣', name: 'Ethnic & Specialty', examples: 'Umami House, Spice Route, Basil & Ginger' },
-  { emoji: '🥗', name: 'Health & Smoothie', examples: 'Verde, Glow Kitchen, Freshforce' },
+const CATEGORIES = [
+  { name: 'Luxury Fashion', desc: 'Elegant, sophisticated names that command premium positioning' },
+  { name: 'Streetwear', desc: 'Bold, edgy names that own the culture' },
+  { name: 'Sustainable Fashion', desc: 'Clean, earth-conscious names that signal purpose' },
+  { name: 'Boutique & Retail', desc: 'Chic, curated names that feel personal and inviting' },
+  { name: 'Activewear & Athleisure', desc: 'Dynamic, performance-driven names that move with you' },
+  { name: 'Children\'s Fashion', desc: 'Playful, charming names that delight parents and kids' },
+  { name: 'Accessories & Jewelry', desc: 'Refined, artful names that complement personal style' },
+  { name: 'Custom & Bespoke', desc: 'Artisan, heritage names that convey craftsmanship' },
 ]
 
 const NAMING_TIPS = [
   {
-    title: 'Evoke the experience',
-    description: 'Great restaurant names don\'t just name the food — they hint at the vibe. "Rustic Bloom" says farm-to-table garden café. "Ember & Vine" suggests wood-fired elegance.',
+    title: 'Know your fashion archetype',
+    description: 'A luxury brand needs an elegant, aspirational name. Streetwear demands something bold and cultural. Sustainable fashion should feel authentic and earth-conscious. Your name positions you in the market before anyone sees your designs.',
   },
   {
-    title: 'Keep it easy to spell and say',
-    description: 'If someone can\'t pronounce your restaurant name, they won\'t recommend it to friends. Word-of-mouth is the #1 driver for restaurants — make it easy.',
+    title: 'French and Italian influence works — carefully',
+    description: '"Maison," "Atelier," "Éclat" add sophistication to fashion names. But only use them if they align with your brand\'s actual identity. A streetwear brand called "Maison" feels disconnected. Match language to vibe.',
   },
   {
-    title: 'Consider your format',
-    description: 'A food truck name should be punchy and memorable in neon. A fine dining name should feel elegant. A bakery should evoke warmth. Let your format guide the naming style.',
+    title: 'Short names dominate fashion',
+    description: 'The most iconic fashion brands are 1–2 words: Zara, Celine, Acne, Supreme, Aritzia. Short names look better on tags, storefronts, and Instagram bios. Aim for brevity without sacrificing meaning.',
   },
   {
-    title: 'Check local business registrations',
-    description: 'Beyond domain availability, check your state\'s business registry and local restaurant databases to make sure no one nearby has the same name.',
+    title: 'Design your name visually',
+    description: 'Fashion is visual. Imagine your name on a clothing label, storefront sign, or Instagram grid. Does it look as good as it sounds? BrandForge includes logo concepts so you can see your name before you commit.',
   },
   {
-    title: 'Think about signage and menus',
-    description: 'Imagine your name on a sign, a menu cover, an Instagram handle. Names with 2-3 words and a balanced visual shape work best for physical branding.',
+    title: 'Check trademark early',
+    description: 'Fashion is trademark-heavy. Before you fall in love with a name, run a basic USPTO search. BrandForge checks domain and social availability — add a trademark check to your shortlist process.',
   },
   {
-    title: 'Test it with food lovers',
-    description: 'Say the name to people who dine out frequently. Do they get the vibe? Can they spell it? Would they remember it? Their instinct is your best feedback.',
+    title: 'Think about global appeal',
+    description: 'If you plan to sell internationally, avoid names that only make sense in one language or culture. Names like "Civic Apparel" or "Woven Way" travel well. BrandForge can generate globally-friendly names when you specify international ambitions.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'How does the restaurant name generator work?',
-    a: 'Describe your restaurant concept — cuisine type, atmosphere, target audience, and naming style. BrandForge\'s AI generates custom name suggestions complete with brand kits: logo concepts, color palettes, taglines, and domain availability checks.',
+    q: 'How does the fashion name generator work?',
+    a: 'Describe your fashion brand — your style, target customer, price point, and the vibe you want your name to project. BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
   },
   {
-    q: 'What types of restaurants does this work for?',
-    a: 'All of them — fine dining, casual restaurants, food trucks, cafes, bars, bakeries, ghost kitchens, and more. Just tell our AI what you\'re building and it will tailor suggestions accordingly.',
+    q: 'Is the fashion name generator free?',
+    a: 'Yes! You can generate fashion name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
   },
   {
-    q: 'Is this restaurant name generator free?',
-    a: 'Yes! Generate restaurant names for free — 5 suggestions per search, unlimited searches. Upgrade to unlock the full brand kit (logo, colors, tagline, typography, domain checks) for $9 per brand kit.',
+    q: 'What makes a good fashion brand name?',
+    a: 'A great fashion name is short, memorable, visually striking, and positions your brand correctly — luxury names should feel exclusive, streetwear should feel bold, sustainable brands should feel authentic. It should also have an available .com domain and matching social handles.',
   },
   {
-    q: 'How do I check if a restaurant name is already used?',
-    a: 'BrandForge checks domain availability (.com, .io, .co, .ai, .app) for every name suggestion. We recommend also checking your state\'s business registry and a quick Google search for local restaurants with the same name.',
+    q: 'Should I use my own name for my fashion brand?',
+    a: 'Many iconic fashion brands use the designer\'s name (Dior, Chanel, Versace). It builds personal brand equity. But if you want to scale, sell, or expand beyond yourself, a standalone brand name gives you more flexibility. BrandForge generates both personal and brand-style names.',
   },
   {
-    q: 'Can I use these names for my restaurant business?',
-    a: 'Yes. All names you generate are yours to use commercially — for business registration, signage, menus, branding, and trademarks. No licensing restrictions from BrandForge.',
+    q: 'Can I use these names for my fashion business?',
+    a: 'Absolutely. All names you generate are yours to use commercially — for business registration, branding, domain purchases, social media, and marketing. There are no licensing restrictions. Just make sure to do your own trademark search before launching.',
   },
   {
-    q: 'What if I\'m opening a food truck?',
-    a: 'Just mention it in your description! BrandForge will suggest short, punchy, memorable names that work great for food trucks — easy to paint on a truck, easy for customers to remember and recommend.',
+    q: 'What if I want names for a specific fashion niche?',
+    a: 'Just describe your niche in the prompt. Whether it\'s luxury, streetwear, sustainable, activewear, children\'s, bridal, or accessories — BrandForge tailors suggestions to your exact style and target customer.',
   },
   {
-    q: 'Do I get a logo with the name?',
-    a: 'Yes! Each brand kit Pro includes an AI-generated logo concept that matches the name and vibe. You also get a 5-color palette, tagline, typography recommendations, domain availability, and a downloadable PDF brand guide.',
+    q: 'How important is domain availability for fashion brands?',
+    a: 'Very. Fashion customers expect a polished online presence. A .com domain is ideal for credibility. If it\'s taken, .co, .studio, or .shop can work. BrandForge checks multiple extensions so you can pick the right one for your brand.',
   },
   {
-    q: 'How is BrandForge different from random name lists?',
-    a: 'Random name lists give you 100 generic names. BrandForge gives you 5 tailored names that match your specific concept, each with a complete brand identity. It\'s the difference between a phonebook and a personal branding agency.',
+    q: 'What comes in the brand kit for each name?',
+    a: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains and social handles. You can download it all as a PDF brand guidelines document.',
   },
 ]
 
-export default function RestaurantNameGeneratorPage() {
+export default function FashionNameGeneratorPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'BrandForge Restaurant Name Generator',
+        name: 'BrandForge Fashion Name Generator',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
-        description: 'AI-powered restaurant name generator with complete brand kits including logos, colors, taglines, and domain availability.',
+        description: 'AI-powered fashion brand name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
         offers: [
           { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
           { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
@@ -145,14 +145,17 @@ export default function RestaurantNameGeneratorPage() {
         mainEntity: FAQ_ITEMS.map(item => ({
           '@type': 'Question',
           name: item.q,
-          acceptedAnswer: { '@type': 'Answer', text: item.a },
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.a,
+          },
         })),
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Restaurant Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/restaurant-name-generator' },
+          { '@type': 'ListItem', position: 2, name: 'Fashion Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/fashion-name-generator' },
         ],
       },
     ],
@@ -167,26 +170,26 @@ export default function RestaurantNameGeneratorPage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-orange-50" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-white to-amber-50" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-1.5 text-sm font-medium text-amber-700">
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.525 6.012 9.32 5.9 10.34l-.026.243a48.5 48.5 0 00-.736 7.054c0 1.06.421 2.083 1.171 2.833l.832.832a2.83 2.83 0 004.032 0l.832-.832a2.834 2.834 0 001.171-2.833l-.008-.06a48.497 48.497 0 01-.72-6.994l-.026-.242c-.112-1.02-.945-1.814-2.076-2.174A48.587 48.587 0 0012 8.25z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
             </svg>
-            AI-Powered Restaurant Naming
+            AI-Powered Fashion Naming
           </div>
           <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-            Restaurant Name Generator
+            Fashion Name Generator
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-600">
-            From fine dining to food trucks, generate restaurant names that make mouths water. Get a complete brand kit — logo, colors, tagline, and domain check. Free to start.
+            Generate creative fashion brand names with AI. Describe your style, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
             >
-              Generate Restaurant Names
+              Generate Fashion Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -202,23 +205,22 @@ export default function RestaurantNameGeneratorPage() {
         </div>
       </section>
 
-      {/* Cuisine Categories */}
+      {/* Categories */}
       <section className="py-16 bg-white">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Names for Every Type of Food Business
+              Names for Every Fashion Aesthetic
             </h2>
-            <p className="mt-3 text-slate-500">
-              Whether you&apos;re opening a bistro, a food truck, or a coffee shop — we&apos;ve got names that fit.
+            <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
+              Whether you&apos;re launching a luxury label, streetwear brand, sustainable line, or boutique — we generate names that fit your aesthetic and attract your audience.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {CUISINE_CATEGORIES.map((cat) => (
-              <div key={cat.name} className="rounded-xl border border-slate-200 p-5 text-center hover:border-amber-300 hover:shadow-md transition-all">
-                <div className="text-3xl mb-2">{cat.emoji}</div>
-                <h3 className="text-base font-semibold text-slate-900">{cat.name}</h3>
-                <p className="mt-1 text-sm text-slate-500">{cat.examples}</p>
+            {CATEGORIES.map((cat) => (
+              <div key={cat.name} className="rounded-xl border border-slate-200 p-5 hover:border-amber-300 hover:shadow-sm transition-all">
+                <h3 className="font-semibold text-slate-900 mb-1">{cat.name}</h3>
+                <p className="text-sm text-slate-500">{cat.desc}</p>
               </div>
             ))}
           </div>
@@ -230,7 +232,7 @@ export default function RestaurantNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Restaurant Names, Generated in Seconds
+              Fashion Names, Generated in Seconds
             </h2>
             <p className="mt-3 text-slate-500">
               Each name comes with a complete brand kit — not just a name on its own.
@@ -262,7 +264,7 @@ export default function RestaurantNameGeneratorPage() {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-slate-400">
-            These are examples — your results will match your specific restaurant concept.
+            These are real examples — your results will be tailored to your specific fashion style.
           </p>
         </div>
       </section>
@@ -272,15 +274,15 @@ export default function RestaurantNameGeneratorPage() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              From Concept to Menu in 4 Steps
+              How to Name Your Fashion Brand with AI
             </h2>
           </div>
           <div className="space-y-8">
             {[
-              { step: '1', title: 'Describe your restaurant concept', desc: 'Tell us the cuisine, atmosphere, location, and target audience. "Farm-to-table dinner in Austin" or "vintage bakery in Brooklyn" — the more specific, the better.' },
-              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 custom restaurant names per search, each with a matching tagline, color palette, and logo concept. No generic word salads — real, brandable names.' },
-              { step: '3', title: 'Check domain & social availability', desc: 'Every name includes real-time domain checks (.com, .io, .co) and social media handle availability. Perfect names with taken domains are filtered out.' },
-              { step: '4', title: 'Download your brand kit', desc: 'Unlock the complete brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document.' },
+              { step: '1', title: 'Describe your fashion vision', desc: 'Tell us your style — luxury, streetwear, sustainable, minimalist. Describe your target customer, price point, and the mood your brand should project.' },
+              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique fashion names per search, each with a matching tagline, color palette, and logo concept. Every name is designed to position your brand and attract your audience.' },
+              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .co, .shop, .studio, and more — plus Instagram and social media handle availability. Essential for fashion brands building a visual identity online.' },
+              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
                 <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-amber-600 text-white font-bold text-lg">
@@ -301,10 +303,10 @@ export default function RestaurantNameGeneratorPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Tips for Naming Your Restaurant
+              Tips for Naming Your Fashion Brand
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              A great restaurant name stays in people&apos;s minds — and on their lips. Here&apos;s how to make yours memorable.
+              In fashion, your name is your label. Here&apos;s how to make it iconic.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -343,20 +345,20 @@ export default function RestaurantNameGeneratorPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-br from-amber-600 to-orange-600">
+      <section className="py-16 bg-gradient-to-br from-slate-800 to-amber-700">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white">
-            Ready to Name Your Restaurant?
+            Ready to Name Your Fashion Brand?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Describe your concept. Get names with brand kits. Free to start, $9 per brand kit you love.
+            Describe your style. Get names with brand kits. Free to start, $9 per brand kit you love.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-amber-700 shadow-lg hover:bg-gray-50 transition-colors"
             >
-              Generate Restaurant Names
+              Generate Fashion Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -379,6 +381,9 @@ export default function RestaurantNameGeneratorPage() {
             <Link href="/startup-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🚀 Startup Name Generator
             </Link>
+            <Link href="/restaurant-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              🍽️ Restaurant Name Generator
+            </Link>
             <Link href="/fitness-brand-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               💪 Fitness Brand Name Generator
             </Link>
@@ -391,14 +396,14 @@ export default function RestaurantNameGeneratorPage() {
             <Link href="/beauty-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               💄 Beauty Name Generator
             </Link>
-            <Link href="/fashion-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
-              👗 Fashion Name Generator
-            </Link>
             <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               📊 Compare Name Generators
             </Link>
             <Link href="/examples" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               ✨ Brand Kit Examples
+            </Link>
+            <Link href="/blog/how-to-choose-business-name" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              📖 How to Choose a Business Name
             </Link>
           </div>
         </div>

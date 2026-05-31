@@ -185,6 +185,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/beauty-name-generator`,
+      lastModified: new Date('2026-05-31'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/fashion-name-generator`,
+      lastModified: new Date('2026-05-31'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,
