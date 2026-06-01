@@ -20,6 +20,8 @@ const footerLinks = {
     { name: 'Photography', href: '/photography-name-generator' },
     { name: 'Beauty', href: '/beauty-name-generator' },
     { name: 'Fashion', href: '/fashion-name-generator' },
+    { name: 'Food Truck', href: '/food-truck-name-generator' },
+    { name: 'Tech', href: '/tech-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },
