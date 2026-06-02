@@ -22,6 +22,8 @@ const footerLinks = {
     { name: 'Fashion', href: '/fashion-name-generator' },
     { name: 'Food Truck', href: '/food-truck-name-generator' },
     { name: 'Tech', href: '/tech-name-generator' },
+    { name: 'Consulting', href: '/consulting-name-generator' },
+    { name: 'Podcast', href: '/podcast-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

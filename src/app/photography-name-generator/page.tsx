@@ -403,6 +403,12 @@ export default function PhotographyNameGeneratorPage() {
             <Link href="/tech-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-violet-300 hover:text-violet-600 transition-colors">
               💻 Tech Name Generator
             </Link>
+            <Link href="/consulting-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-violet-300 hover:text-violet-600 transition-colors">
+              💼 Consulting Name Generator
+            </Link>
+            <Link href="/podcast-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-violet-300 hover:text-violet-600 transition-colors">
+              🎙️ Podcast Name Generator
+            </Link>
             <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-violet-300 hover:text-violet-600 transition-colors">
               📊 Compare Name Generators
             </Link>

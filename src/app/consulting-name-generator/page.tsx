@@ -2,134 +2,133 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Real Estate Name Generator — AI-Powered Realty & Property Business Names',
-  description: 'Generate professional real estate business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
+  title: 'Free Consulting Name Generator — AI-Powered Consulting & Agency Business Names',
+  description: 'Generate creative consulting business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
   keywords: [
-    'real estate name generator',
-    'real estate business names',
-    'property name ideas',
-    'realty name generator',
-    'real estate brand names',
-    'real estate company names',
-    'property business name ideas',
-    'real estate agency names',
-    'how to name a real estate business',
-    'real estate branding',
-    'real estate company name ideas',
-    'property management names',
-    'real estate group names',
-    'luxury real estate names',
-    'commercial real estate names',
+    'consulting name generator',
+    'consulting business names',
+    'consulting firm names',
+    'agency name generator',
+    'consulting company names',
+    'consulting brand names',
+    'management consulting names',
+    'strategy consulting names',
+    'consulting name ideas',
+    'how to name a consulting business',
+    'consulting naming guide',
+    'coaching business names',
+    'advisor name ideas',
+    'professional services names',
   ],
   openGraph: {
-    title: 'Free Real Estate Name Generator — AI-Powered Realty & Property Names',
-    description: 'Generate professional real estate business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/real-estate-name-generator',
+    title: 'Free Consulting Name Generator — AI-Powered Consulting & Agency Names',
+    description: 'Generate creative consulting business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
+    url: 'https://brandforge-phi-pearl.vercel.app/consulting-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Real Estate Name Generator — AI-Powered Realty & Property Names',
-    description: 'Generate professional real estate business names with AI. Logo, colors, tagline, domain check — all in one.',
+    title: 'Free Consulting Name Generator — AI-Powered Consulting & Agency Names',
+    description: 'Generate creative consulting business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/real-estate-name-generator',
+    canonical: 'https://brandforge-phi-pearl.vercel.app/consulting-name-generator',
   },
 }
 
 const EXAMPLE_NAMES = [
-  { name: 'Keystone Realty', tagline: 'The foundation of your future', style: 'Classic & Trustworthy', domain: 'keystonerealty.com', color: '#1E3A5F' },
-  { name: 'VistaHaven', tagline: 'See your next chapter', style: 'Modern & Inviting', domain: 'vistahaven.com', color: '#2D8B4E' },
-  { name: 'Meridian Properties', tagline: 'Where location meets lifestyle', style: 'Premium & Established', domain: 'meridianproperties.com', color: '#8B6914' },
-  { name: 'Crestview Group', tagline: 'Elevated living, elevated standards', style: 'Upscale & Bold', domain: 'crestviewgroup.com', color: '#4A5899' },
-  { name: 'Homeward & Co.', tagline: 'Bringing you home', style: 'Warm & Approachable', domain: 'homewardco.com', color: '#C45B28' },
-  { name: 'Atlas Estates', tagline: 'Mapping your next move', style: 'Strong & Authoritative', domain: 'atlasestates.com', color: '#3D3D3D' },
+  { name: 'Meridian Advisory', tagline: 'Navigating complexity with clarity', style: 'Authoritative & Trustworthy', domain: 'meridianadvisory.com', color: '#1E3A5F' },
+  { name: 'Catalyst Point', tagline: 'Where insight ignites action', style: 'Dynamic & Results-Driven', domain: 'catalystpoint.com', color: '#D97706' },
+  { name: 'Vantage Partners', tagline: 'Your edge in every decision', style: 'Strategic & Premium', domain: 'vantagepartners.com', color: '#0F766E' },
+  { name: 'Clearwater Strategy', tagline: 'Crystal thinking for complex challenges', style: 'Clean & Methodical', domain: 'clearwaterstrategy.com', color: '#0369A1' },
+  { name: 'Forge & Scale', tagline: 'Build what lasts, grow what works', style: 'Practical & Bold', domain: 'forgeandscale.com', color: '#7C2D12' },
+  { name: 'Apex Consulting Group', tagline: 'Peak performance through peak strategy', style: 'Corporate & Established', domain: 'apexconsultinggroup.com', color: '#4338CA' },
 ]
 
 const CATEGORIES = [
-  { name: 'Residential Brokerage', desc: 'Names that feel like home — warm, trustworthy, and local' },
-  { name: 'Commercial Real Estate', desc: 'Professional, authoritative names for B2B property deals' },
-  { name: 'Property Management', desc: 'Reliable, service-oriented names that signal dependability' },
-  { name: 'Luxury Real Estate', desc: 'Sophisticated, aspirational names for high-end markets' },
-  { name: 'Real Estate Investment', desc: 'Strategic, growth-oriented names for portfolio builders' },
-  { name: 'Relocation Services', desc: 'Helpful, welcoming names for people starting fresh' },
-  { name: 'Vacation & Short-Term Rental', desc: 'Memorable, inviting names for property platforms' },
-  { name: 'Real Estate Technology', desc: 'Modern, innovative names for PropTech ventures' },
+  { name: 'Management Consulting', desc: 'Strategic, authoritative names that signal leadership and trust' },
+  { name: 'Strategy & Innovation', desc: 'Forward-thinking names that imply transformation and growth' },
+  { name: 'Financial Advisory', desc: 'Credible, precise names that convey fiduciary responsibility' },
+  { name: 'HR & Talent Consulting', desc: 'People-first names that feel welcoming and professional' },
+  { name: 'Marketing & Brand Agency', desc: 'Creative, bold names that showcase storytelling ability' },
+  { name: 'IT & Digital Consulting', desc: 'Tech-savvy names that bridge business and technology' },
+  { name: 'Coaching & Personal Development', desc: 'Inspiring, approachable names that motivate action' },
+  { name: 'Sustainability & ESG', desc: 'Purpose-driven names that reflect environmental responsibility' },
 ]
 
 const NAMING_TIPS = [
   {
-    title: 'Emphasize trust and stability',
-    description: 'Real estate is the biggest financial decision most people make. Your name should instantly convey reliability — words like "trust," "stone," "key," and "foundation" work well.',
+    title: 'Lead with credibility signals',
+    description: 'Consulting is a trust business. Names with words like "Advisory," "Partners," "Group," or "Associates" instantly signal that you\'re established and trustworthy. Avoid names that sound like a single person\'s side hustle if you want enterprise clients.',
   },
   {
-    title: 'Include location hints',
-    description: 'Names with geographic references (Hillside, Coastal, Urban) instantly signal where you operate. This helps with local SEO and builds regional credibility.',
+    title: 'Use metaphor for memorability',
+    description: '"Meridian Advisory" is more memorable than "Strategic Business Consultants." Metaphors from geography (Summit, Vantage, Compass), nature (Clearwater, Oakwood), or action (Catalyst, Forge) create mental images that stick with decision-makers.',
   },
   {
-    title: 'Think about your specialty',
-    description: 'A luxury brokerage needs a different name than a property management firm. Choose a name that matches your market position — upscale names don\'t work for budget rentals and vice versa.',
+    title: 'Match name tier to client tier',
+    description: 'If you\'re targeting Fortune 500 companies, your name should sound like it belongs in the boardroom. If you\'re coaching solopreneurs, something approachable works better. BrandForge lets you describe your ideal client, and the AI names accordingly.',
   },
   {
-    title: 'Keep it easy to spell and say',
-    description: 'Real estate clients often hear about you through word of mouth. If they can\'t spell your name from hearing it, you\'ll lose referrals and search traffic.',
+    title: 'Keep it spellable and pronounceable',
+    description: 'Your name will be said aloud in meetings, written in proposals, and typed into LinkedIn. If people have to ask "how do you spell that?" — you\'re losing referral potential. Test your top 3 names with 5 people who\'ve never heard them.',
   },
   {
-    title: 'Check domain availability early',
-    description: 'The .com domain is non-negotiable for real estate businesses. BrandForge checks .com, .co, .io, and more in real time so you don\'t fall in love with an unavailable name.',
+    title: 'Check LinkedIn and domain early',
+    description: 'A consulting name that\'s already taken on LinkedIn or has a parked homepage is a headache. BrandForge checks domain and social availability in real-time, so you can pick a name with a clean digital presence from day one.',
   },
   {
-    title: 'Consider future expansion',
-    description: 'Starting with residential? You might add commercial later. Pick a name that doesn\'t box you into one niche — "Summit Properties" beats "Downtown Condos LLC."',
+    title: 'Think about the slide deck test',
+    description: 'Imagine your name on a PowerPoint title slide in front of a client. Does it look confident? Does it fit next to logos like McKinsey, Deloitte, or Bain? Your name should feel like it belongs in the room — or at least on the way there.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'How does the real estate name generator work?',
-    a: 'Describe your real estate business — your specialty, target market, and the vibe you want. BrandForge\'s AI analyzes your description and generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain availability checks.',
+    q: 'How does the consulting name generator work?',
+    a: 'Describe your consulting business — your niche (management, strategy, HR, IT, coaching), ideal client type (enterprise, SMB, startups), and brand personality (authoritative, innovative, approachable). BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
   },
   {
-    q: 'Is the real estate name generator free?',
-    a: 'Yes! Generate real estate name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain checks) for $9 per brand kit.',
+    q: 'Is the consulting name generator free?',
+    a: 'Yes! You can generate consulting name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
   },
   {
-    q: 'What makes a good real estate business name?',
-    a: 'A strong real estate name conveys trust, expertise, and local connection. It should be easy to spell (critical for referrals), have an available .com domain, and reflect your market position — luxury, family-friendly, commercial, or tech-forward.',
+    q: 'What makes a good consulting business name?',
+    a: 'A great consulting name signals credibility and expertise. It should be easy to say in a boardroom, spell on a business card, and remember after a first meeting. Words like "Advisory," "Partners," or "Group" add gravitas. Metaphors (Vantage, Catalyst, Meridian) make it memorable without sacrificing professionalism.',
   },
   {
-    q: 'Can I use these names for my real estate brokerage?',
-    a: 'Absolutely. All names generated are yours to use commercially — for business registration, brokerage licensing, trademarks, domain purchases, and marketing. There are no licensing or usage restrictions.',
+    q: 'Should I include my own name in the consulting firm name?',
+    a: 'It depends on your goals. Surnames (e.g., "Anderson Consulting") convey tradition and personal accountability, but they can limit growth if you want to sell the firm or expand beyond your personal brand. A branded name (e.g., "Catalyst Point") gives you more flexibility and is often more memorable.',
   },
   {
-    q: 'Should I use "Realty," "Properties," or "Group" in my name?',
-    a: 'It depends on your positioning. "Realty" signals traditional brokerage services, "Properties" feels premium and established, "Group" suggests a larger organization or portfolio approach, and "Homes" feels warm and residential. Mix and match during generation to see what fits.',
+    q: 'Can I use these names for my consulting business?',
+    a: 'Absolutely. All names you generate are yours to use commercially — for LLC registration, branding, domain purchases, business cards, and proposals. There are no licensing restrictions.',
   },
   {
-    q: 'How do I check if a real estate name is already trademarked?',
-    a: 'BrandForge checks domain and social media availability. For trademark protection, search the USPTO database at uspto.gov. We recommend checking trademarks before registering your business — this is separate from domain availability.',
+    q: 'What if I want names for a specific consulting niche?',
+    a: 'Just describe your niche in the prompt. Whether it\'s healthcare consulting, supply chain advisory, DEI consulting, executive coaching, or digital transformation — BrandForge tailors suggestions to your exact focus and target clients.',
   },
   {
-    q: 'What domain extensions work best for real estate?',
-    a: 'For real estate, .com is the gold standard. Secondary options include .co, .realestate, and .property. For local brokerages, a .com with your city name (e.g., austinhomes.com) is ideal for both credibility and local SEO.',
+    q: 'How important is social handle availability for consultants?',
+    a: 'Very important. LinkedIn is your primary storefront as a consultant. A consistent @YourName across LinkedIn, Twitter, and your website builds credibility and makes it easy for prospects and referral partners to find you. BrandForge checks all major platforms.',
   },
   {
-    q: 'Can I generate names for a specific type of real estate business?',
-    a: 'Yes. Just describe your focus — whether it\'s residential sales, commercial leasing, property management, luxury markets, vacation rentals, or PropTech. BrandForge tailors every suggestion to your specific niche and audience.',
+    q: 'What comes in the brand kit for each name?',
+    a: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains and social handles. You can download it all as a PDF brand guidelines document.',
   },
 ]
 
-export default function RealEstateNameGeneratorPage() {
+export default function ConsultingNameGeneratorPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'BrandForge Real Estate Name Generator',
+        name: 'BrandForge Consulting Name Generator',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
-        description: 'AI-powered real estate name generator with complete brand kits including logos, colors, taglines, and domain availability.',
+        description: 'AI-powered consulting business name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
         offers: [
           { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
           { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
@@ -155,7 +154,7 @@ export default function RealEstateNameGeneratorPage() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Real Estate Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/real-estate-name-generator' },
+          { '@type': 'ListItem', position: 2, name: 'Consulting Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/consulting-name-generator' },
         ],
       },
     ],
@@ -170,26 +169,26 @@ export default function RealEstateNameGeneratorPage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-white to-teal-50" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-700 to-emerald-900" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-100 px-4 py-1.5 text-sm font-medium text-emerald-700">
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
             </svg>
-            AI-Powered Real Estate Naming
+            AI-Powered Consulting Naming
           </div>
-          <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-            Real Estate Name Generator
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Consulting Name Generator
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-600">
-            Generate professional real estate business names with AI. Describe your brokerage, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-300">
+            Generate consulting business names with AI. Describe your practice, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
             >
-              Generate Real Estate Names
+              Generate Consulting Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -210,10 +209,10 @@ export default function RealEstateNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Names for Every Real Estate Niche
+              Names for Every Consulting Niche
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              Whether you&apos;re launching a residential brokerage, commercial firm, or PropTech startup — we generate names that fit.
+              From management strategy to HR and sustainability — we generate names that command respect and win proposals.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -232,7 +231,7 @@ export default function RealEstateNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Real Estate Names, Generated in Seconds
+              Consulting Names, Generated in Seconds
             </h2>
             <p className="mt-3 text-slate-500">
               Each name comes with a complete brand kit — not just a name on its own.
@@ -264,7 +263,7 @@ export default function RealEstateNameGeneratorPage() {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-slate-400">
-            These are real examples — your results will be tailored to your specific real estate business.
+            These are real examples — your results will be tailored to your specific consulting practice.
           </p>
         </div>
       </section>
@@ -274,18 +273,18 @@ export default function RealEstateNameGeneratorPage() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              How to Name Your Real Estate Business with AI
+              How to Name Your Consulting Business with AI
             </h2>
           </div>
           <div className="space-y-8">
             {[
-              { step: '1', title: 'Describe your real estate business', desc: 'Tell us your specialty — residential, commercial, luxury, property management, or PropTech. Describe your target market and the feeling you want your name to evoke.' },
-              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique real estate names per search, each with a matching tagline, color palette, and logo concept. Every name is designed to build trust and attract your ideal clients.' },
-              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .co, .io, and more — plus social media handle availability. Essential for real estate, where your online presence drives leads.' },
-              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography, and a downloadable PDF brand guidelines document you can hand to designers.' },
+              { step: '1', title: 'Describe your consulting practice', desc: 'Tell us your niche — management, strategy, HR, financial, marketing, IT, or coaching. Describe your ideal client (enterprise, SMB, startups) and brand personality (authoritative, innovative, approachable, premium).' },
+              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique consulting names per search, each with a matching tagline, color palette, and logo concept. Every name is designed to resonate with decision-makers and look great on proposals.' },
+              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .co, .consulting, and more — plus LinkedIn, Twitter, and social media handle availability. Critical for consultants who live on LinkedIn.' },
+              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document ready for your proposals and website.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-lg">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-emerald-700 text-white font-bold text-lg">
                   {item.step}
                 </div>
                 <div>
@@ -303,10 +302,10 @@ export default function RealEstateNameGeneratorPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Tips for Naming Your Real Estate Business
+              Tips for Naming Your Consulting Business
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              In real estate, your name is your first impression. Here&apos;s how to make it count.
+              In consulting, your name sets the tone before you even walk into the room. Here&apos;s how to get it right.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -345,20 +344,20 @@ export default function RealEstateNameGeneratorPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-br from-emerald-600 to-teal-600">
+      <section className="py-16 bg-gradient-to-br from-slate-800 to-emerald-900">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white">
-            Ready to Name Your Real Estate Business?
+            Ready to Name Your Consulting Business?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Describe your brokerage or firm. Get names with brand kits. Free to start, $9 per brand kit you love.
+            Describe your practice. Get names with brand kits. Free to start, $9 per brand kit you love.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
-              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-emerald-700 shadow-lg hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-slate-800 shadow-lg hover:bg-gray-50 transition-colors"
             >
-              Generate Real Estate Names
+              Generate Consulting Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -387,6 +386,9 @@ export default function RealEstateNameGeneratorPage() {
             <Link href="/fitness-brand-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
               💪 Fitness Brand Name Generator
             </Link>
+            <Link href="/real-estate-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
+              🏠 Real Estate Name Generator
+            </Link>
             <Link href="/photography-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
               📸 Photography Name Generator
             </Link>
@@ -401,9 +403,6 @@ export default function RealEstateNameGeneratorPage() {
             </Link>
             <Link href="/tech-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
               💻 Tech Name Generator
-            </Link>
-            <Link href="/consulting-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
-              💼 Consulting Name Generator
             </Link>
             <Link href="/podcast-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
               🎙️ Podcast Name Generator
