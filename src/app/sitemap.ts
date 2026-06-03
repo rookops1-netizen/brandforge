@@ -221,6 +221,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/coaching-name-generator`,
+      lastModified: new Date('2026-06-03'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/nonprofit-name-generator`,
+      lastModified: new Date('2026-06-03'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,
