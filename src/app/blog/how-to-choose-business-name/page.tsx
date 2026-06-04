@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'How to Choose a Business Name: The Complete Guide for 2026 — BrandForge Blog',
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
 export default function HowToChooseBusinessName() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="How to Choose a Business Name: The Complete Guide for 2026"
+        description="Everything you need to know about picking the perfect business name — from brainstorming techniques and trademark research to domain strategy and AI-assisted naming."
+        url="https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-business-name"
+        datePublished="2025-05-15"
+      />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>

@@ -26,6 +26,8 @@ const footerLinks = {
     { name: 'Podcast', href: '/podcast-name-generator' },
     { name: 'Coaching', href: '/coaching-name-generator' },
     { name: 'Nonprofit', href: '/nonprofit-name-generator' },
+    { name: 'Craft', href: '/craft-name-generator' },
+    { name: 'Education', href: '/education-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

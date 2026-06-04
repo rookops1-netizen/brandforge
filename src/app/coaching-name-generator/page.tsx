@@ -413,6 +413,12 @@ export default function CoachingNameGeneratorPage() {
             <Link href="/nonprofit-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-purple-300 hover:text-purple-600 transition-colors">
               🌍 Nonprofit Name Generator
             </Link>
+            <Link href="/craft-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-purple-300 hover:text-purple-600 transition-colors">
+              🧶 Craft Name Generator
+            </Link>
+            <Link href="/education-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-purple-300 hover:text-purple-600 transition-colors">
+              📚 Education Name Generator
+            </Link>
             <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-purple-300 hover:text-purple-600 transition-colors">
               📊 Compare Name Generators
             </Link>

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'Writing a Tagline That Sells — BrandForge Blog',
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
 export default function TaglineWritingGuide() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Writing a Tagline That Sells: The Art and Science of Brand Slogans"
+        description="Great taglines are not born — they are crafted. Here is the formula behind the icons."
+        url="https://brandforge-phi-pearl.vercel.app/blog/tagline-writing-guide"
+        datePublished="2025-04-20"
+      />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
         <span className="mx-2">/</span>

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: '7 Naming Mistakes That Kill Startups — BrandForge Blog',
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
 export default function StartupNamingMistakes() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="7 Naming Mistakes That Kill Startups (Before They Even Launch)"
+        description="Hard-to-spell names, inside jokes, trademark conflicts — these are the naming traps founders fall into over and over."
+        url="https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes"
+        datePublished="2025-04-15"
+      />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
         <span className="mx-2">/</span>

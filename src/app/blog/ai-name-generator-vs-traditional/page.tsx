@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'AI Name Generators vs Traditional Naming Agencies — BrandForge Blog',
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
 export default function AIVsTraditionalNaming() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="AI Name Generators vs Traditional Naming Agencies: What Actually Works?"
+        description="We compared AI naming tools, naming agencies, and DIY brainstorming. The results on price, speed, and quality might surprise you."
+        url="https://brandforge-phi-pearl.vercel.app/blog/ai-name-generator-vs-traditional"
+        datePublished="2025-05-10"
+      />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
         <span className="mx-2">/</span>

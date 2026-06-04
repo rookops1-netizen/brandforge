@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'How to Build a Brand Identity from Scratch: The 2026 Guide — BrandForge Blog',
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
 export default function HowToBuildBrandIdentity() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="How to Build a Brand Identity from Scratch: The 2026 Guide"
+        description="Learn how to create a complete brand identity step by step — name, logo, colors, typography, and tagline."
+        url="https://brandforge-phi-pearl.vercel.app/blog/how-to-build-brand-identity"
+        datePublished="2026-05-25"
+      />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>

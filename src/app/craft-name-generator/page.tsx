@@ -2,134 +2,133 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Restaurant Name Generator — AI Restaurant Name Ideas & Brand Kits',
-  description: 'Generate unique restaurant names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability. From fine dining to food trucks — free to start.',
+  title: 'Free Craft Name Generator — AI-Powered Handmade & Artisan Business Names',
+  description: 'Generate creative craft business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
   keywords: [
-    'restaurant name generator',
-    'restaurant name ideas',
-    'AI restaurant name generator',
-    'cafe name generator',
-    'food business name ideas',
-    'restaurant naming tool',
-    'bar name generator',
-    'food truck name generator',
-    'bakery name ideas',
-    'coffee shop name generator',
-    'how to name a restaurant',
-    'creative restaurant names',
-    'unique restaurant names',
-    'catchy restaurant names',
-    'best restaurant names',
+    'craft name generator',
+    'handmade business names',
+    'artisan name ideas',
+    'craft brand names',
+    'Etsy shop name generator',
+    'handmade name ideas',
+    'craft business names',
+    'artisan business names',
+    'craft brand name generator',
+    ' makers business name',
+    'handmade brand names',
+    'DIY business names',
+    'how to name a craft business',
+    'craft naming guide',
   ],
   openGraph: {
-    title: 'Free Restaurant Name Generator — AI-Powered Ideas & Brand Kits',
-    description: 'Generate unique restaurant, cafe, bar, and food truck names with AI. Get a complete brand kit — logo, colors, tagline, domain check. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/restaurant-name-generator',
+    title: 'Free Craft Name Generator — AI-Powered Handmade & Artisan Business Names',
+    description: 'Generate creative craft business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
+    url: 'https://brandforge-phi-pearl.vercel.app/craft-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Restaurant Name Generator — AI-Powered Ideas & Brand Kits',
-    description: 'Generate unique restaurant and food business names with AI. Logo, colors, tagline, domain check — all in one.',
+    title: 'Free Craft Name Generator — AI-Powered Handmade & Artisan Names',
+    description: 'Generate creative craft business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/restaurant-name-generator',
+    canonical: 'https://brandforge-phi-pearl.vercel.app/craft-name-generator',
   },
 }
 
 const EXAMPLE_NAMES = [
-  { name: 'Ember & Vine', tagline: 'Where flame meets flavor', style: 'Upscale dining', domain: 'emberandvine.com', color: '#DC2626' },
-  { name: 'Rustic Bloom', tagline: 'Farm to table, garden to glass', style: 'Farm-to-table', domain: 'rusticbloom.com', color: '#16A34A' },
-  { name: 'Saltcraft', tagline: 'Seasoned to perfection', style: 'Modern artisan', domain: 'saltcraft.co', color: '#CA8A04' },
-  { name: 'Moxie Kitchen', tagline: 'Bold food, bold spirit', style: 'Neighborhood gem', domain: 'moxiekitchen.com', color: '#7C3AED' },
-  { name: 'Dawnflour', tagline: 'Baked with the sunrise', style: 'Bakery & café', domain: 'dawnflour.com', color: '#EA580C' },
-  { name: 'The Copper Kettle', tagline: 'Warms the soul', style: 'Cozy tavern', domain: 'thecopperkettle.com', color: '#B45309' },
+  { name: 'Ember & Grain', tagline: 'Shaped by hand, powered by heart', style: 'Warm & Artisan', domain: 'emberandgrain.com', color: '#92400E' },
+  { name: 'Thistlecraft', tagline: 'Where wild meets made', style: 'Nature-Inspired & Earthy', domain: 'thistlecraft.com', color: '#065F46' },
+  { name: 'Fireside Makers', tagline: 'Crafted around the glow', style: 'Cozy & Inviting', domain: 'firesidemakers.com', color: '#DC2626' },
+  { name: 'Hearth & Honey', tagline: 'Sweet things, made slowly', style: 'Charming & Nostalgic', domain: 'hearthandhoney.com', color: '#D97706' },
+  { name: 'Riven Studio', tagline: 'Split from the ordinary', style: 'Modern & Edgy', domain: 'rivenstudio.com', color: '#1E293B' },
+  { name: 'Wildskein', tagline: 'Threads that run free', style: 'Organic & Textural', domain: 'wildskein.com', color: '#7C3AED' },
 ]
 
-const CUISINE_CATEGORIES = [
-  { emoji: '🍽️', name: 'Fine Dining', examples: 'Ember & Vine, Celestia, Maison Lumière' },
-  { emoji: '🥪', name: 'Casual Dining', examples: 'Rustic Bloom, Moxie Kitchen, The Copper Spoon' },
-  { emoji: '🚚', name: 'Food Trucks', examples: 'Roll & Coal, Smoke Signal, Streetfire' },
-  { emoji: '☕', name: 'Cafes & Coffee Shops', examples: 'Dawnflour, Press & Pour, The Steaming Bean' },
-  { emoji: '🍺', name: 'Bars & Breweries', examples: 'Hoptale, The Copper Kettle, Fermentary' },
-  { emoji: '🥖', name: 'Bakeries', examples: 'Flourish, Golden Crumb, Rise & Shine' },
-  { emoji: '🍣', name: 'Ethnic & Specialty', examples: 'Umami House, Spice Route, Basil & Ginger' },
-  { emoji: '🥗', name: 'Health & Smoothie', examples: 'Verde, Glow Kitchen, Freshforce' },
+const CATEGORIES = [
+  { name: 'Pottery & Ceramics', desc: 'Wheel-thrown, handbuilt, and kiln-fired names for clay artists' },
+  { name: 'Jewelry & Metalsmithing', desc: 'Refined, sparkling names for handcrafted adornments' },
+  { name: 'Textile & Fiber Arts', desc: 'Woven, knit, and dyed names for fabric-first brands' },
+  { name: 'Woodworking & Carpentry', desc: 'Grain-rich, solid names for makers who shape wood' },
+  { name: 'Candles & Home Fragrance', desc: 'Warm, evocative names for scented craft businesses' },
+  { name: 'Leatherwork & Bookbinding', desc: 'Tactile, heritage names for leather crafters' },
+  { name: 'Soap & Skincare', desc: 'Clean, natural names for handmade bath & body brands' },
+  { name: 'Paper & Stationery', desc: 'Ink-forward, elegant names for print & paper artists' },
 ]
 
 const NAMING_TIPS = [
   {
-    title: 'Evoke the experience',
-    description: 'Great restaurant names don\'t just name the food — they hint at the vibe. "Rustic Bloom" says farm-to-table garden café. "Ember & Vine" suggests wood-fired elegance.',
+    title: 'Embrace material words',
+    description: 'Words like "Grain," "Thistle," "Skein," and "Ember" signal craft without being generic. They anchor your name in the physical world of making — exactly what craft customers are searching for.',
   },
   {
-    title: 'Keep it easy to spell and say',
-    description: 'If someone can\'t pronounce your restaurant name, they won\'t recommend it to friends. Word-of-mouth is the #1 driver for restaurants — make it easy.',
+    title: 'Think Etsy-first',
+    description: 'Your name will appear in Etsy search results, Instagram bios, and craft fair signage. It needs to be memorable at 3 inches on a booth banner and readable at 12 pixels in a search result. Short, distinctive, and spellable wins every time.',
   },
   {
-    title: 'Consider your format',
-    description: 'A food truck name should be punchy and memorable in neon. A fine dining name should feel elegant. A bakery should evoke warmth. Let your format guide the naming style.',
+    title: 'Pair a nature word with a craft word',
+    description: 'The best craft names combine the organic and the handmade: "Ember & Grain," "Thistlecraft," "Wildskein." This formula is popular because it works — it tells customers you make real things from real materials.',
   },
   {
-    title: 'Check local business registrations',
-    description: 'Beyond domain availability, check your state\'s business registry and local restaurant databases to make sure no one nearby has the same name.',
+    title: 'Check trademark before you fall in love',
+    description: 'The craft space is crowded on Etsy and at craft fairs. Search the USPTO database before committing to a name. BrandForge checks domain and social availability, but do a quick trademark search too — especially in the "handmade goods" class.',
   },
   {
-    title: 'Think about signage and menus',
-    description: 'Imagine your name on a sign, a menu cover, an Instagram handle. Names with 2-3 words and a balanced visual shape work best for physical branding.',
+    title: 'Avoid "handmade" in the name itself',
+    description: '"Handmade Soaps by Sarah" describes what you do — but it doesn\'t differentiate you from the 10,000 other "handmade" soap sellers. Build a brand name that stands on its own; let "handmade" be a value proposition, not your entire identity.',
   },
   {
-    title: 'Test it with food lovers',
-    description: 'Say the name to people who dine out frequently. Do they get the vibe? Can they spell it? Would they remember it? Their instinct is your best feedback.',
+    title: 'Test it at a craft fair',
+    description: 'Say your name to 5 people at a craft fair. If they can spell it back, remember it 10 minutes later, and it feels right next to the other booth signs — you\'ve got a winner. The best craft names feel like they belong on a hand-stamped tag.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'How does the restaurant name generator work?',
-    a: 'Describe your restaurant concept — cuisine type, atmosphere, target audience, and naming style. BrandForge\'s AI generates custom name suggestions complete with brand kits: logo concepts, color palettes, taglines, and domain availability checks.',
+    q: 'How does the craft name generator work?',
+    a: 'Describe your craft business — your medium (pottery, jewelry, textiles, wood, candles, leather, soap, paper), your style (rustic, modern, minimalist, whimsical), and your target customer (Etsy shoppers, craft fair visitors, wholesale buyers). BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
   },
   {
-    q: 'What types of restaurants does this work for?',
-    a: 'All of them — fine dining, casual restaurants, food trucks, cafes, bars, bakeries, ghost kitchens, and more. Just tell our AI what you\'re building and it will tailor suggestions accordingly.',
+    q: 'Is the craft name generator free?',
+    a: 'Yes! You can generate craft name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
   },
   {
-    q: 'Is this restaurant name generator free?',
-    a: 'Yes! Generate restaurant names for free — 5 suggestions per search, unlimited searches. Upgrade to unlock the full brand kit (logo, colors, tagline, typography, domain checks) for $9 per brand kit.',
+    q: 'What makes a good handmade business name?',
+    a: 'A great craft name feels tactile and authentic — it should evoke the material and process behind your work. Words like "Grain," "Skein," "Forge," and "Studio" connect customers to the making process. The best names sound like something you\'d see on a hand-stamped label, not a corporate logo.',
   },
   {
-    q: 'How do I check if a restaurant name is already used?',
-    a: 'BrandForge checks domain availability (.com, .io, .co, .ai, .app) for every name suggestion. We recommend also checking your state\'s business registry and a quick Google search for local restaurants with the same name.',
+    q: 'Should I use "handmade" or "craft" in my business name?',
+    a: 'Generally, no. "Handmade" and "craft" are descriptions, not differentiators. There are thousands of "Handmade Creations" shops on Etsy. A distinctive brand name like "Thistlecraft" or "Wildskein" is more memorable and gives you room to expand beyond a single product line.',
   },
   {
-    q: 'Can I use these names for my restaurant business?',
-    a: 'Yes. All names you generate are yours to use commercially — for business registration, signage, menus, branding, and trademarks. No licensing restrictions from BrandForge.',
+    q: 'Can I use these names for my Etsy shop or craft business?',
+    a: 'Absolutely. All names you generate are yours to use commercially — for business registration, Etsy shop names, domain purchases, social media, craft fair signage, and product packaging. There are no licensing restrictions.',
   },
   {
-    q: 'What if I\'m opening a food truck?',
-    a: 'Just mention it in your description! BrandForge will suggest short, punchy, memorable names that work great for food trucks — easy to paint on a truck, easy for customers to remember and recommend.',
+    q: 'What if I want names for a specific craft niche?',
+    a: 'Just describe your craft in the prompt. Whether it\'s wheel-thrown pottery, hand-poured candles, custom leather wallets, or woven wall hangings — BrandForge tailors suggestions to your exact medium, aesthetic, and ideal customer.',
   },
   {
-    q: 'Do I get a logo with the name?',
-    a: 'Yes! Each brand kit Pro includes an AI-generated logo concept that matches the name and vibe. You also get a 5-color palette, tagline, typography recommendations, domain availability, and a downloadable PDF brand guide.',
+    q: 'How important is a matching domain for craft businesses?',
+    a: 'Essential if you plan to sell online beyond Etsy. A .com matching your brand name builds trust for direct-to-customer sales and gives you an email address that looks professional on craft fair applications. BrandForge checks domain availability in real-time, including .craft, .shop, and .studio extensions.',
   },
   {
-    q: 'How is BrandForge different from random name lists?',
-    a: 'Random name lists give you 100 generic names. BrandForge gives you 5 tailored names that match your specific concept, each with a complete brand identity. It\'s the difference between a phonebook and a personal branding agency.',
+    q: 'What comes in the brand kit for each name?',
+    a: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains and social handles. You can download it all as a PDF brand guidelines document.',
   },
 ]
 
-export default function RestaurantNameGeneratorPage() {
+export default function CraftNameGeneratorPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'BrandForge Restaurant Name Generator',
+        name: 'BrandForge Craft Name Generator',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
-        description: 'AI-powered restaurant name generator with complete brand kits including logos, colors, taglines, and domain availability.',
+        description: 'AI-powered craft business name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
         offers: [
           { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
           { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
@@ -137,7 +136,7 @@ export default function RestaurantNameGeneratorPage() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          ratingCount: '2847',
+          ratingCount: '2914',
         },
       },
       {
@@ -145,14 +144,17 @@ export default function RestaurantNameGeneratorPage() {
         mainEntity: FAQ_ITEMS.map(item => ({
           '@type': 'Question',
           name: item.q,
-          acceptedAnswer: { '@type': 'Answer', text: item.a },
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.a,
+          },
         })),
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Restaurant Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/restaurant-name-generator' },
+          { '@type': 'ListItem', position: 2, name: 'Craft Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/craft-name-generator' },
         ],
       },
     ],
@@ -167,26 +169,26 @@ export default function RestaurantNameGeneratorPage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-orange-50" />
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-700 via-orange-600 to-rose-700" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-1.5 text-sm font-medium text-amber-700">
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.525 6.012 9.32 5.9 10.34l-.026.243a48.5 48.5 0 00-.736 7.054c0 1.06.421 2.083 1.171 2.833l.832.832a2.83 2.83 0 004.032 0l.832-.832a2.834 2.834 0 001.171-2.833l-.008-.06a48.497 48.497 0 01-.72-6.994l-.026-.242c-.112-1.02-.945-1.814-2.076-2.174A48.587 48.587 0 0012 8.25z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 3.996 3.996 0 004.996 3.75 3.996 3.996 0 003.184-4.623l1.69-1.69m0 0l1.69-1.69m-1.69 1.69l1.78 1.78M5.56 5.56l1.78 1.78m14.71-1.78l-1.78 1.78M5.56 18.44l1.78-1.78" />
             </svg>
-            AI-Powered Restaurant Naming
+            AI-Powered Craft Naming
           </div>
-          <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-            Restaurant Name Generator
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Craft Name Generator
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-600">
-            From fine dining to food trucks, generate restaurant names that make mouths water. Get a complete brand kit — logo, colors, tagline, and domain check. Free to start.
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-amber-100">
+            Generate handmade business names with AI. Describe your craft, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
             >
-              Generate Restaurant Names
+              Generate Craft Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -198,27 +200,26 @@ export default function RestaurantNameGeneratorPage() {
               See Examples
             </a>
           </div>
-          <p className="mt-4 text-sm text-slate-400">Free • No credit card required • Results in seconds</p>
+          <p className="mt-4 text-sm text-amber-200">Free • No credit card required • Results in seconds</p>
         </div>
       </section>
 
-      {/* Cuisine Categories */}
+      {/* Categories */}
       <section className="py-16 bg-white">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Names for Every Type of Food Business
+              Names for Every Craft
             </h2>
-            <p className="mt-3 text-slate-500">
-              Whether you&apos;re opening a bistro, a food truck, or a coffee shop — we&apos;ve got names that fit.
+            <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
+              From pottery to leatherwork — we generate names that feel handmade, authentic, and unmistakably yours.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {CUISINE_CATEGORIES.map((cat) => (
-              <div key={cat.name} className="rounded-xl border border-slate-200 p-5 text-center hover:border-amber-300 hover:shadow-md transition-all">
-                <div className="text-3xl mb-2">{cat.emoji}</div>
-                <h3 className="text-base font-semibold text-slate-900">{cat.name}</h3>
-                <p className="mt-1 text-sm text-slate-500">{cat.examples}</p>
+            {CATEGORIES.map((cat) => (
+              <div key={cat.name} className="rounded-xl border border-slate-200 p-5 hover:border-amber-300 hover:shadow-sm transition-all">
+                <h3 className="font-semibold text-slate-900 mb-1">{cat.name}</h3>
+                <p className="text-sm text-slate-500">{cat.desc}</p>
               </div>
             ))}
           </div>
@@ -230,7 +231,7 @@ export default function RestaurantNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Restaurant Names, Generated in Seconds
+              Craft Names, Generated in Seconds
             </h2>
             <p className="mt-3 text-slate-500">
               Each name comes with a complete brand kit — not just a name on its own.
@@ -262,7 +263,7 @@ export default function RestaurantNameGeneratorPage() {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-slate-400">
-            These are examples — your results will match your specific restaurant concept.
+            These are real examples — your results will be tailored to your specific craft business.
           </p>
         </div>
       </section>
@@ -272,15 +273,15 @@ export default function RestaurantNameGeneratorPage() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              From Concept to Menu in 4 Steps
+              How to Name Your Craft Business with AI
             </h2>
           </div>
           <div className="space-y-8">
             {[
-              { step: '1', title: 'Describe your restaurant concept', desc: 'Tell us the cuisine, atmosphere, location, and target audience. "Farm-to-table dinner in Austin" or "vintage bakery in Brooklyn" — the more specific, the better.' },
-              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 custom restaurant names per search, each with a matching tagline, color palette, and logo concept. No generic word salads — real, brandable names.' },
-              { step: '3', title: 'Check domain & social availability', desc: 'Every name includes real-time domain checks (.com, .io, .co) and social media handle availability. Perfect names with taken domains are filtered out.' },
-              { step: '4', title: 'Download your brand kit', desc: 'Unlock the complete brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document.' },
+              { step: '1', title: 'Describe your craft', desc: 'Tell us what you make — pottery, jewelry, textiles, woodwork, candles, leather goods, soap, paper crafts, or something else entirely. Describe your aesthetic (rustic, modern, whimsical, minimalist) and where you sell (Etsy, craft fairs, wholesale, direct online).' },
+              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique craft names per search, each with a matching tagline, color palette, and logo concept. Every name feels handcrafted, authentic, and distinctive — no generic "Handmade Creations" here.' },
+              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .shop, .craft, .studio, and more — plus Instagram, Pinterest, Etsy, and social media handle availability. Essential for craft businesses that live on visual platforms.' },
+              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document ready for your labels, packaging, and online shop.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
                 <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-amber-600 text-white font-bold text-lg">
@@ -301,10 +302,10 @@ export default function RestaurantNameGeneratorPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Tips for Naming Your Restaurant
+              Tips for Naming Your Craft Business
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              A great restaurant name stays in people&apos;s minds — and on their lips. Here&apos;s how to make yours memorable.
+              In the handmade world, your name is your first impression at a craft fair, on Etsy, and on Instagram. Here&apos;s how to make it stick.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -343,20 +344,20 @@ export default function RestaurantNameGeneratorPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-br from-amber-600 to-orange-600">
+      <section className="py-16 bg-gradient-to-br from-amber-700 to-rose-700">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white">
-            Ready to Name Your Restaurant?
+            Ready to Name Your Craft Business?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Describe your concept. Get names with brand kits. Free to start, $9 per brand kit you love.
+            Describe your craft. Get names with brand kits. Free to start, $9 per brand kit you love.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
-              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-amber-700 shadow-lg hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-amber-800 shadow-lg hover:bg-gray-50 transition-colors"
             >
-              Generate Restaurant Names
+              Generate Craft Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -378,6 +379,9 @@ export default function RestaurantNameGeneratorPage() {
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/startup-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🚀 Startup Name Generator
+            </Link>
+            <Link href="/restaurant-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              🍽️ Restaurant Name Generator
             </Link>
             <Link href="/fitness-brand-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               💪 Fitness Brand Name Generator
@@ -401,19 +405,16 @@ export default function RestaurantNameGeneratorPage() {
               💻 Tech Name Generator
             </Link>
             <Link href="/consulting-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
-              💼 Consulting Name Generator
+              📊 Consulting Name Generator
             </Link>
             <Link href="/podcast-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🎙️ Podcast Name Generator
             </Link>
             <Link href="/coaching-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
-              🧭 Coaching Name Generator
+              💡 Coaching Name Generator
             </Link>
             <Link href="/nonprofit-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🌍 Nonprofit Name Generator
-            </Link>
-            <Link href="/craft-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
-              🧶 Craft Name Generator
             </Link>
             <Link href="/education-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               📚 Education Name Generator
@@ -423,6 +424,9 @@ export default function RestaurantNameGeneratorPage() {
             </Link>
             <Link href="/examples" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               ✨ Brand Kit Examples
+            </Link>
+            <Link href="/blog/how-to-choose-business-name" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              📖 How to Choose a Business Name
             </Link>
           </div>
         </div>

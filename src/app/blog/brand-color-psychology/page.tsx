@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'Brand Color Psychology: What Your Colors Say About Your Business — BrandForge Blog',
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
 export default function BrandColorPsychology() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Brand Color Psychology: What Your Colors Say About Your Business"
+        description="Blue builds trust. Red drives action. Green signals growth. Here's how to pick a color palette that communicates exactly what your brand stands for."
+        url="https://brandforge-phi-pearl.vercel.app/blog/brand-color-psychology"
+        datePublished="2025-05-05"
+      />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
         <span className="mx-2">/</span>

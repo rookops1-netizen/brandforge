@@ -233,6 +233,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/craft-name-generator`,
+      lastModified: new Date('2026-06-04'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/education-name-generator`,
+      lastModified: new Date('2026-06-04'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     // Legal pages
     {
       url: `${BASE_URL}/privacy`,

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'Domain Name Availability: When .com Is Taken — BrandForge Blog',
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
 export default function DomainNameAvailability() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Domain Name Availability: Creative Strategies When .com Is Taken"
+        description="Your perfect name is available — just maybe not as a .com. Learn smart domain strategies using alternative TLDs, modifiers, and creative workarounds."
+        url="https://brandforge-phi-pearl.vercel.app/blog/domain-name-availability"
+        datePublished="2025-04-28"
+      />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
         <span className="mx-2">/</span>
