@@ -397,46 +397,44 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Pricing page Breadcrumb Schema */}
+      {/* Pricing page Structured Data: SoftwareApplication + FAQPage + BreadcrumbList */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
+            '@graph': [
               {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Home',
-                item: 'https://brandforge-phi-pearl.vercel.app',
+                '@type': 'SoftwareApplication',
+                name: 'BrandForge Brand Kit Pro',
+                applicationCategory: 'BusinessApplication',
+                operatingSystem: 'Web',
+                description: 'Complete brand identity kit with AI-generated logo concepts, color palettes, taglines, typography, domain and social handle availability checks.',
+                url: 'https://brandforge-phi-pearl.vercel.app/pricing',
+                offers: [
+                  { '@type': 'Offer', price: '0', priceCurrency: 'USD', name: 'Free', description: 'Free tier — 5 name suggestions per search' },
+                  { '@type': 'Offer', price: '9', priceCurrency: 'USD', name: 'Brand Kit Pro', description: 'Complete brand identity per name — one-time purchase' },
+                ],
               },
               {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Pricing',
-                item: 'https://brandforge-phi-pearl.vercel.app/pricing',
+                '@type': 'FAQPage',
+                mainEntity: PRICING_FAQ.map((faq) => ({
+                  '@type': 'Question',
+                  name: faq.q,
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: faq.a,
+                  },
+                })),
+              },
+              {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+                  { '@type': 'ListItem', position: 2, name: 'Pricing', item: 'https://brandforge-phi-pearl.vercel.app/pricing' },
+                ],
               },
             ],
-          }),
-        }}
-      />
-
-      {/* Pricing page FAQ Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: PRICING_FAQ.map((faq) => ({
-              '@type': 'Question',
-              name: faq.q,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.a,
-              },
-            })),
           }),
         }}
       />

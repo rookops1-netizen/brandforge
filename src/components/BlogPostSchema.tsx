@@ -146,8 +146,9 @@ export function OrganizationSchema({ detailed = false }: OrganizationSchemaProps
   if (detailed) {
     organization.foundingDate = '2025'
     organization.founder = {
-      '@type': 'Organization',
-      name: 'BrandForge',
+      '@type': 'Person',
+      name: 'Daniel',
+      jobTitle: 'Founder',
     }
     organization.knowsAbout = [
       'Business Naming',
@@ -158,7 +159,11 @@ export function OrganizationSchema({ detailed = false }: OrganizationSchemaProps
       'Logo Design',
     ]
     organization.areaServed = 'Worldwide'
-    organization.contactType = 'customer service'
+    organization.contactPoint = {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      url: `${baseUrl}/about`,
+    }
   }
 
   return (

@@ -31,6 +31,24 @@ export default function ComparePage() {
   return (
     <>
       <BreadcrumbSchema items={[{ name: 'Compare', href: '/compare' }]} />
+      {/* Compare page WebPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: 'BrandForge vs Namelix vs Looka — Business Name Generator Comparison',
+            description: 'Compare the top AI business name generators side-by-side. See which tool gives you the most complete brand identity.',
+            url: 'https://brandforge-phi-pearl.vercel.app/compare',
+            publisher: {
+              '@type': 'Organization',
+              name: 'BrandForge',
+              url: 'https://brandforge-phi-pearl.vercel.app',
+            },
+          }),
+        }}
+      />
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-white to-purple-50" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">
