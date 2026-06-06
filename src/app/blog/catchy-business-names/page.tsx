@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: '150+ Catchy Business Names for Every Industry | BrandForge',
@@ -98,6 +99,12 @@ const nameIdeas = [
 export default function CatchyBusinessNamesPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="150+ Catchy Business Names for Every Industry"
+        description="Discover 150+ catchy business name ideas organized by industry — tech, food, fashion, fitness, and more."
+        url="https://brandforge-phi-pearl.vercel.app/blog/catchy-business-names"
+        datePublished="2025-05-17"
+      />
       {/* Header */}
       <div className="mb-12">
         <Link href="/blog" className="text-sm text-brand-600 hover:text-brand-700 font-medium">

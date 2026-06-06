@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogIndexSchema, BreadcrumbSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'BrandForge Blog — Business Naming Tips, Brand Strategy & AI Insights',
@@ -175,6 +176,8 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogIndexSchema postCount={16} />
+      <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
         <p className="text-sm font-semibold text-brand-600 tracking-wide uppercase mb-3">The BrandForge Blog</p>

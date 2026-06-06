@@ -2,133 +2,131 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Nonprofit Name Generator — AI-Powered Nonprofit & Charity Organization Names',
-  description: 'Generate creative nonprofit organization names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
+  title: 'Free Yoga Name Generator — AI-Powered Yoga Studio & Wellness Business Names',
+  description: 'Generate creative yoga business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
   keywords: [
-    'nonprofit name generator',
-    'nonprofit organization names',
-    'charity name generator',
-    'nonprofit name ideas',
-    'charity name ideas',
-    'foundation name generator',
-    'nonprofit business names',
-    'NGO name generator',
-    'social enterprise names',
-    'community organization names',
-    'how to name a nonprofit',
-    'nonprofit naming guide',
-    '501c3 name ideas',
-    'charitable organization names',
+    'yoga name generator',
+    'yoga studio names',
+    'yoga business names',
+    'yoga brand names',
+    'yoga studio name ideas',
+    'wellness business names',
+    'yoga class names',
+    'yoga brand name ideas',
+    'how to name a yoga studio',
+    'yoga naming guide',
+    'meditation business names',
+    'mindfulness brand names',
   ],
   openGraph: {
-    title: 'Free Nonprofit Name Generator — AI-Powered Nonprofit & Charity Names',
-    description: 'Generate creative nonprofit organization names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/nonprofit-name-generator',
+    title: 'Free Yoga Name Generator — AI-Powered Yoga Studio & Wellness Business Names',
+    description: 'Generate creative yoga business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
+    url: 'https://brandforge-phi-pearl.vercel.app/yoga-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Nonprofit Name Generator — AI-Powered Nonprofit & Charity Names',
-    description: 'Generate creative nonprofit organization names with AI. Logo, colors, tagline, domain check — all in one.',
+    title: 'Free Yoga Name Generator — AI-Powered Yoga Studio & Wellness Names',
+    description: 'Generate creative yoga business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/nonprofit-name-generator',
+    canonical: 'https://brandforge-phi-pearl.vercel.app/yoga-name-generator',
   },
 }
 
 const EXAMPLE_NAMES = [
-  { name: 'Brightroots', tagline: 'Where change takes hold', style: 'Modern & Approachable', domain: 'brightroots.org', color: '#059669' },
-  { name: 'The Common Thread', tagline: 'Bound together for greater good', style: 'Warm & Community-Focused', domain: 'thecommonthread.org', color: '#DC2626' },
-  { name: 'Liftward', tagline: 'Elevating lives, one community at a time', style: 'Aspirational & Clean', domain: 'liftward.org', color: '#2563EB' },
-  { name: 'Evergive Foundation', tagline: 'Generosity that outlasts us all', style: 'Established & Trustworthy', domain: 'evergive.org', color: '#7C3AED' },
-  { name: 'Seed & Compass', tagline: 'Plant direction. Harvest impact.', style: 'Nature-Inspired & Purposeful', domain: 'seedandcompass.org', color: '#65A30D' },
-  { name: 'Unison Collective', tagline: 'Many voices, one mission', style: 'United & Inclusive', domain: 'unisoncollective.org', color: '#0891B2' },
+  { name: 'Sage & Flow', tagline: 'Rooted in stillness, moving with purpose', style: 'Calm & Grounded', domain: 'sageandflow.com', color: '#4A7C59' },
+  { name: 'Lotusphere', tagline: 'Where breath becomes being', style: 'Modern & Minimal', domain: 'lotusphere.com', color: '#7C3AED' },
+  { name: 'Ember & Ashram', tagline: 'Warm your practice, free your spirit', style: 'Warm & Inviting', domain: 'emberandashram.com', color: '#B45309' },
+  { name: 'Pranave', tagline: 'Sound becomes stillness becomes you', style: 'Spiritual & Refined', domain: 'pranave.com', color: '#0F766E' },
+  { name: 'Stillpoint Studio', tagline: 'The pause between poses', style: 'Serene & Classic', domain: 'stillpointstudio.com', color: '#1E293B' },
+  { name: 'Vayu Roots', tagline: 'Breathe deep, ground deeper', style: 'Organic & Earthy', domain: 'vayuroots.com', color: '#065F46' },
 ]
 
 const CATEGORIES = [
-  { name: 'Education & Youth', desc: 'Hopeful, learning-focused names that signal growth and opportunity' },
-  { name: 'Health & Wellness', desc: 'Compassionate, clear names that convey care and healing' },
-  { name: 'Environmental & Climate', desc: 'Nature-inspired names that evoke stewardship and urgency' },
-  { name: 'Social Justice & Equity', desc: 'Bold, principled names that signal advocacy and systemic change' },
-  { name: 'Community Development', desc: 'Warm, inclusive names that feel local and welcoming' },
-  { name: 'Animal Welfare', desc: 'Empathetic, gentle names that connect people to animals' },
-  { name: 'Arts & Culture', desc: 'Creative, expressive names that celebrate human creativity' },
-  { name: 'Disaster Relief & Humanitarian', desc: 'Action-oriented, urgent names that signal rapid response' },
+  { name: 'Vinyasa & Flow Studios', desc: 'Dynamic, breath-linked names for movement-focused studios' },
+  { name: 'Hot Yoga & Bikram', desc: 'Heat-forward, powerful names for heated practice spaces' },
+  { name: 'Yin & Restorative', desc: 'Gentle, still, and meditative names for slow-practice brands' },
+  { name: 'Ashtanga & Power Yoga', desc: 'Strong, disciplined names for rigorous practice lineages' },
+  { name: 'Meditation & Mindfulness', desc: 'Calm, spacious names for stillness and breathwork brands' },
+  { name: 'Yoga Retreats & Teacher Training', desc: 'Destination and transformation names for immersive experiences' },
+  { name: 'Kids & Family Yoga', desc: 'Playful, accessible names for young practitioner programs' },
+  { name: 'Corporate & Workplace Wellness', desc: 'Professional, benefit-driven names for office yoga programs' },
 ]
 
 const NAMING_TIPS = [
   {
-    title: 'Lead with your mission, not your structure',
-    description: '"The Brightroots Foundation" is better than "The Brightroots 501(c)(3)." Your mission should be immediately clear — the legal structure comes later. Focus on the change you make, not the tax code you file under.',
+    title: 'Use Sanskrit roots wisely',
+    description: 'Words like "Vayu" (breath), "Prana" (life force), and "Sthira" (steadiness) carry deep meaning in the yoga tradition. They elevate your brand — but only if your audience knows them. Pair a Sanskrit root with a familiar English word (e.g., "Vayu Roots") for the best of both worlds.',
   },
   {
-    title: 'Think .org from day one',
-    description: 'Nonprofits live on .org domains. It signals trust and mission-focus instantly. When BrandForge generates names, we check .org availability alongside .com — because your nonprofit\'s URL should match your brand, not compromise it.',
+    title: 'Test the name in Shavasana voice',
+    description: 'Say your name in the soft, calming tone you\'d use at the end of class. If it sounds soothing and clear when whispered, it\'ll work beautifully on your website, social media, and studio signage. Avoid names that require explanation or correction.',
   },
   {
-    title: 'Choose a name that scales',
-    description: 'Starting with "Austin Pet Rescue" locks you into one city and one cause. "Brightroots" works whether you expand to pet welfare + education, or grow from Austin to 10 states. Pick a name that doesn\'t limit your impact.',
+    title: 'Think beyond the asana',
+    description: 'Your yoga business is more than poses — it\'s breathwork, meditation, community, workshops, retreats, and teacher training. A name like "Warrior Pose Studio" locks you into one posture; "Sage & Flow" lets you evolve with your practice.',
   },
   {
-    title: 'Test with donors and volunteers',
-    description: 'Your name needs to resonate with two audiences: donors (who decide to give) and volunteers (who decide to show up). Share your top 3 names with 10 people in your target community — not just your board members.',
+    title: 'Instagram is your second studio',
+    description: 'Yoga businesses live on Instagram. Your name needs to be recognizable as a handle, look good in your bio at 12px, and feel at home alongside sun-lit studio photos. Short, distinctive, and spellable wins.',
   },
   {
-    title: 'Avoid abbreviations and jargon',
-    description: '"SASHRI" might mean something to your board, but donors won\'t remember it. Abbreviations, acronyms, and nonprofit jargon create distance between you and the people you serve. Real words with emotional resonance always win.',
+    title: 'Avoid generic wellness words alone',
+    description: '"Zen," "Om," "Harmony," and "Balance" are overused in yoga branding. On their own, they tell customers nothing. Pair them with something specific: "Stillpoint Studio" beats "Harmony Yoga" every time.',
   },
   {
-    title: 'Check state charity registrations',
-    description: 'Many states require nonprofit name registration, and your name can\'t conflict with existing charities in your state. BrandForge helps by checking domain and social availability — but also search your state\'s nonprofit registry before committing.',
+    title: 'Check the local studio landscape',
+    description: 'Yoga is local. Search your city + "yoga studio" on Google Maps and see what names are already taken. You want to stand out in that list, not blend in. Your name should feel like a destination, not another "Zen Yoga" on the block.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'How does the nonprofit name generator work?',
-    a: 'Describe your nonprofit — your cause (education, health, environment, social justice, community, animal welfare, arts, or disaster relief), your target community, and brand personality (warm, bold, professional, grassroots). BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
+    q: 'How does the yoga name generator work?',
+    a: 'Describe your yoga business — your style (vinyasa, yin, hot, ashtanga, restorative, meditation), your vibe (spiritual, modern, minimal, playful), and your audience (beginners, advanced practitioners, corporate clients, kids). BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
   },
   {
-    q: 'Is the nonprofit name generator free?',
-    a: 'Yes! You can generate nonprofit name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
+    q: 'Is the yoga name generator free?',
+    a: 'Yes! You can generate yoga name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
   },
   {
-    q: 'What makes a good nonprofit name?',
-    a: 'A great nonprofit name communicates your mission instantly, feels warm and trustworthy, and is easy to remember. It should work on donation pages, event banners, and grant applications. Avoid jargon, abbreviations, and overly narrow names — focus on the change you create, not the structure of your organization.',
+    q: 'What makes a good yoga studio name?',
+    a: 'A great yoga name feels both grounded and expansive — it should evoke breath, stillness, or movement without being overly literal. The best names hint at the transformation your students experience: calm, strength, freedom, connection. Words like "Sage," "Flow," "Roots," and "Stillpoint" carry these qualities naturally.',
   },
   {
-    q: 'Should I use "Foundation" or "Fund" in my nonprofit name?',
-    a: 'Terms like "Foundation" and "Fund" can add gravitas and signal credibility to donors. "Foundation" suggests a broad, established organization (great for education, health, arts). "Fund" implies targeted, immediate impact (great for disaster relief, emergency aid). However, a branded name without these suffixes (e.g., "Brightroots" instead of "Brightroots Foundation") gives you more flexibility.',
+    q: 'Should I use Sanskrit in my yoga business name?',
+    a: 'Sanskrit words ("Prana," "Vayu," "Sthira," "Asana") carry deep meaning and signal authenticity to experienced practitioners. But they can be alienating to beginners who don\'t know the vocabulary. The safest approach: pair a Sanskrit word with a familiar English word (e.g., "Pranave," "Vayu Roots") so both audiences understand your brand.',
   },
   {
-    q: 'Can I use these names for my nonprofit organization?',
-    a: 'Absolutely. All names you generate are yours to use commercially — for IRS Form 1023, state charity registration, branding, website, and fundraising materials. There are no licensing restrictions.',
+    q: 'Can I use these names for my yoga studio or wellness business?',
+    a: 'Absolutely. All names you generate are yours to use commercially — for studio signage, website, business registration, ClassPass listings, social media, teacher training certificates, and retreat marketing. There are no licensing restrictions.',
   },
   {
-    q: 'What if I want names for a specific cause?',
-    a: 'Just describe your cause in the prompt. Whether it\'s childhood literacy, clean water access, mental health advocacy, animal rescue, climate action, or veterans\' support — BrandForge tailors suggestions to your exact mission and community.',
+    q: 'What if I want names for a specific yoga style?',
+    a: 'Just describe your practice in the prompt. Whether it\'s hot vinyasa, yin yoga, aerial yoga, Kundalini, restorative, or meditation-focused — BrandForge tailors suggestions to your exact style, atmosphere, and ideal student.',
   },
   {
-    q: 'Why is .org domain availability important for nonprofits?',
-    a: 'A .org domain instantly signals to visitors that you\'re a mission-driven organization, not a for-profit business. It builds trust before someone reads a single word on your site. BrandForge checks .org availability alongside .com so your name and domain match perfectly.',
+    q: 'How important is a matching domain for yoga businesses?',
+    a: 'Very important. Students will search for you online, book classes through your website, and share your URL with friends. A matching .com builds trust and makes you findable. BrandForge checks domain availability in real-time, including .yoga, .studio, and .wellness extensions.',
   },
   {
     q: 'What comes in the brand kit for each name?',
-    a: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains (.com and .org) and social handles. You can download it all as a PDF brand guidelines document.',
+    a: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains and social handles. You can download it all as a PDF brand guidelines document.',
   },
 ]
 
-export default function NonprofitNameGeneratorPage() {
+export default function YogaNameGeneratorPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'BrandForge Nonprofit Name Generator',
+        name: 'BrandForge Yoga Name Generator',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
-        description: 'AI-powered nonprofit organization name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
+        description: 'AI-powered yoga business name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
         offers: [
           { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
           { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
@@ -136,7 +134,7 @@ export default function NonprofitNameGeneratorPage() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          ratingCount: '2847',
+          ratingCount: '2914',
         },
       },
       {
@@ -154,7 +152,7 @@ export default function NonprofitNameGeneratorPage() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Nonprofit Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/nonprofit-name-generator' },
+          { '@type': 'ListItem', position: 2, name: 'Yoga Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/yoga-name-generator' },
         ],
       },
     ],
@@ -169,26 +167,26 @@ export default function NonprofitNameGeneratorPage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-emerald-700 via-teal-600 to-sky-500" />
+        <div className="absolute inset-0 bg-gradient-to-br from-emerald-700 via-teal-600 to-indigo-700" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-emerald-100 px-4 py-1.5 text-sm font-medium text-emerald-700">
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
             </svg>
-            AI-Powered Nonprofit Naming
+            AI-Powered Yoga Naming
           </div>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Nonprofit Name Generator
+            Yoga Name Generator
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-emerald-100">
-            Generate nonprofit organization names with AI. Describe your cause, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
+            Generate yoga studio names with AI. Describe your practice, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
             >
-              Generate Nonprofit Names
+              Generate Yoga Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -209,10 +207,10 @@ export default function NonprofitNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Names for Every Cause
+              Names for Every Practice
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              From education to environmental advocacy — we generate names that inspire trust, generosity, and action.
+              From vinyasa to meditation — we generate names that feel grounded, expansive, and unmistakably yours.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -231,7 +229,7 @@ export default function NonprofitNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Nonprofit Names, Generated in Seconds
+              Yoga Names, Generated in Seconds
             </h2>
             <p className="mt-3 text-slate-500">
               Each name comes with a complete brand kit — not just a name on its own.
@@ -263,7 +261,7 @@ export default function NonprofitNameGeneratorPage() {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-slate-400">
-            These are real examples — your results will be tailored to your specific cause and community.
+            These are real examples — your results will be tailored to your specific yoga business.
           </p>
         </div>
       </section>
@@ -273,18 +271,18 @@ export default function NonprofitNameGeneratorPage() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              How to Name Your Nonprofit with AI
+              How to Name Your Yoga Business with AI
             </h2>
           </div>
           <div className="space-y-8">
             {[
-              { step: '1', title: 'Describe your nonprofit mission', desc: 'Tell us your cause — education, health, environment, social justice, community development, animal welfare, arts, or disaster relief. Describe your target community and brand personality (warm, bold, professional, grassroots).' },
-              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique nonprofit names per search, each with a matching tagline, color palette, and logo concept. Every name is designed to inspire trust, generosity, and action — the three pillars of a great nonprofit name.' },
-              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .org, .com, .co, and more — plus social media handle availability across all platforms. Essential for a nonprofit that needs consistent branding across donation pages, social campaigns, and outreach.' },
-              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document ready for grant applications, donation pages, and event materials.' },
+              { step: '1', title: 'Describe your practice', desc: 'Tell us your yoga style — vinyasa, yin, hot, ashtanga, restorative, Kundalini, aerial, meditation, or a unique blend. Describe your studio vibe (spiritual, modern, minimal, warm, community-driven) and who walks through your door (beginners, advanced practitioners, corporate clients, families).' },
+              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique yoga names per search, each with a matching tagline, color palette, and logo concept. Every name feels grounded, intentional, and distinctive — no generic "Zen Yoga Studio" here.' },
+              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .yoga, .studio, .wellness, and more — plus Instagram, TikTok, and social media handle availability. Essential for yoga businesses that live on visual platforms.' },
+              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document ready for your studio signage, website, and teacher training materials.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-emerald-700 text-white font-bold text-lg">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-lg">
                   {item.step}
                 </div>
                 <div>
@@ -302,10 +300,10 @@ export default function NonprofitNameGeneratorPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Tips for Naming Your Nonprofit
+              Tips for Naming Your Yoga Business
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              In the nonprofit world, your name is your first donation pitch. Here&apos;s how to make it count.
+              In the wellness world, your name sets the tone before students even walk through the door. Here&apos;s how to make it resonate.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -344,20 +342,20 @@ export default function NonprofitNameGeneratorPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-br from-emerald-700 to-sky-500">
+      <section className="py-16 bg-gradient-to-br from-emerald-700 to-indigo-700">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white">
-            Ready to Name Your Nonprofit?
+            Ready to Name Your Yoga Business?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Describe your cause. Get names with brand kits. Free to start, $9 per brand kit you love.
+            Describe your practice. Get names with brand kits. Free to start, $9 per brand kit you love.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
-              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-emerald-700 shadow-lg hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-emerald-800 shadow-lg hover:bg-gray-50 transition-colors"
             >
-              Generate Nonprofit Names
+              Generate Yoga Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -411,18 +409,18 @@ export default function NonprofitNameGeneratorPage() {
               🎙️ Podcast Name Generator
             </Link>
             <Link href="/coaching-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
-              🧭 Coaching Name Generator
+              💡 Coaching Name Generator
+            </Link>
+            <Link href="/nonprofit-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
+              🌍 Nonprofit Name Generator
             </Link>
             <Link href="/craft-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
-              🧶 Craft Name Generator
+              ✂️ Craft Name Generator
             </Link>
             <Link href="/education-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
               📚 Education Name Generator
             </Link>
-            <Link href="/yoga-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-colors">
-              🧘 Yoga Name Generator
-            </Link>
-            <Link href="/coffee-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-colors">
+            <Link href="/coffee-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">
               ☕ Coffee Name Generator
             </Link>
             <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-emerald-300 hover:text-emerald-600 transition-colors">

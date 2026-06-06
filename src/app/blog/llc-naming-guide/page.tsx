@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'How to Pick a Name for Your LLC: Legal & Branding Guide | BrandForge',
@@ -17,6 +18,12 @@ export const metadata: Metadata = {
 export default function LLCNamingGuidePage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="How to Pick a Name for Your LLC: The Legal and Branding Guide"
+        description="Everything you need to know about naming your LLC — legal requirements, state rules, DBA names, trademark considerations, and branding tips."
+        url="https://brandforge-phi-pearl.vercel.app/blog/llc-naming-guide"
+        datePublished="2025-05-17"
+      />
       {/* Header */}
       <div className="mb-12">
         <Link href="/blog" className="text-sm text-brand-600 hover:text-brand-700 font-medium">

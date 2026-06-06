@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -202,6 +203,12 @@ const namingProcessSteps = [
 export default function ProductNamingGuidePage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Product Naming Guide: How to Name a Product That Sells"
+        description="Complete product naming guide with frameworks, real examples, and common mistakes."
+        url="https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide"
+        datePublished="2025-05-20"
+      />
       {/* Header */}
       <div className="mb-12">
         <Link href="/blog" className="text-sm text-brand-600 hover:text-brand-700 font-medium">

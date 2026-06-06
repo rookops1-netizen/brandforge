@@ -397,6 +397,31 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* Pricing page Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://brandforge-phi-pearl.vercel.app',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Pricing',
+                item: 'https://brandforge-phi-pearl.vercel.app/pricing',
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* Pricing page FAQ Schema */}
       <script
         type="application/ld+json"

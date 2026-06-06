@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'Free Brand Name Generator: How to Name Your Business Without Spending a Dime | BrandForge',
@@ -92,6 +93,12 @@ const freeTools = [
 export default function FreeBrandNameGeneratorPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Free Brand Name Generator: How to Name Your Business Without Spending a Dime"
+        description="Compare the 8 best free brand name generators — including BrandForge. See which tools actually produce creative, usable names."
+        url="https://brandforge-phi-pearl.vercel.app/blog/free-brand-name-generator"
+        datePublished="2025-05-18"
+      />
       {/* Header */}
       <div className="mb-12">
         <Link href="/blog" className="text-sm text-brand-600 hover:text-brand-700 font-medium">

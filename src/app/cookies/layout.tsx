@@ -17,5 +17,37 @@ export default function CookiesLayout({
 }: {
   children: React.ReactNode
 }) {
-  return children
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@graph': [
+              {
+                '@type': 'WebPage',
+                name: 'Cookie Policy',
+                description: 'How BrandForge uses cookies and similar tracking technologies.',
+                url: 'https://brandforge-phi-pearl.vercel.app/cookies',
+                publisher: {
+                  '@type': 'Organization',
+                  name: 'BrandForge',
+                  url: 'https://brandforge-phi-pearl.vercel.app',
+                },
+              },
+              {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+                  { '@type': 'ListItem', position: 2, name: 'Cookie Policy', item: 'https://brandforge-phi-pearl.vercel.app/cookies' },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      {children}
+    </>
+  )
 }

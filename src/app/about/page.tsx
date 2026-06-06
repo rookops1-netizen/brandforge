@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { BreadcrumbSchema, OrganizationSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'About BrandForge — AI-Powered Business Naming & Brand Kits',
@@ -61,6 +62,8 @@ const stats = [
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+      <OrganizationSchema detailed />
+      <BreadcrumbSchema items={[{ name: 'About', href: '/about' }]} />
       {/* Hero */}
       <div className="text-center mb-16">
         <p className="text-sm font-semibold text-brand-600 tracking-wide uppercase mb-3">Our Story</p>

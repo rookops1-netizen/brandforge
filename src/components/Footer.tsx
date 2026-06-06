@@ -28,6 +28,8 @@ const footerLinks = {
     { name: 'Nonprofit', href: '/nonprofit-name-generator' },
     { name: 'Craft', href: '/craft-name-generator' },
     { name: 'Education', href: '/education-name-generator' },
+    { name: 'Yoga', href: '/yoga-name-generator' },
+    { name: 'Coffee', href: '/coffee-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

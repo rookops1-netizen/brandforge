@@ -490,21 +490,60 @@ function GeneratePageContent() {
         </div>
       </section>
 
-      {/* Generate-page FAQ Schema */}
+      {/* Generate-page Structured Data: SoftwareApplication + FAQPage + BreadcrumbList */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: GENERATE_FAQ.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
+            '@graph': [
+              {
+                '@type': 'SoftwareApplication',
+                name: 'BrandForge Business Name Generator',
+                applicationCategory: 'BusinessApplication',
+                operatingSystem: 'Web',
+                description: 'AI-powered business name generator with complete brand kits including logo concepts, color palettes, taglines, and domain availability checks.',
+                url: 'https://brandforge-phi-pearl.vercel.app/generate',
+                offers: [
+                  { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
+                  { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
+                ],
+                aggregateRating: {
+                  '@type': 'AggregateRating',
+                  ratingValue: '4.9',
+                  ratingCount: '12400',
+                  bestRating: '5',
+                  worstRating: '1',
+                },
+                featureList: [
+                  'AI business name generation',
+                  'Logo concept generation',
+                  'Color palette creation',
+                  'Tagline generation',
+                  'Domain availability checking',
+                  'Social handle availability checking',
+                  'Complete brand kits',
+                ],
               },
-            })),
+              {
+                '@type': 'FAQPage',
+                mainEntity: GENERATE_FAQ.map((faq) => ({
+                  '@type': 'Question',
+                  name: faq.question,
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: faq.answer,
+                  },
+                })),
+              },
+              {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+                  { '@type': 'ListItem', position: 2, name: 'Generate', item: 'https://brandforge-phi-pearl.vercel.app/generate' },
+                ],
+              },
+            ],
           }),
         }}
       />

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'Creative Brand Names: 60+ Examples & What Makes Them Work | BrandForge',
@@ -90,6 +91,12 @@ const categories = [
 export default function CreativeBrandNamesPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Creative Brand Names: 60+ Examples and What Makes Them Work"
+        description="Deconstruct 60+ real brand names from real companies and learn the patterns behind them — portmanteaus, metaphors, foreign words, and more."
+        url="https://brandforge-phi-pearl.vercel.app/blog/creative-brand-names"
+        datePublished="2025-05-17"
+      />
       {/* Header */}
       <div className="mb-12">
         <Link href="/blog" className="text-sm text-brand-600 hover:text-brand-700 font-medium">

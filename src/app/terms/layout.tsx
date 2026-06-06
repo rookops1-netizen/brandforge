@@ -17,5 +17,37 @@ export default function TermsLayout({
 }: {
   children: React.ReactNode
 }) {
-  return children
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@graph': [
+              {
+                '@type': 'WebPage',
+                name: 'Terms of Service',
+                description: 'Terms and conditions for using BrandForge, the AI-powered business name generator and brand kit tool.',
+                url: 'https://brandforge-phi-pearl.vercel.app/terms',
+                publisher: {
+                  '@type': 'Organization',
+                  name: 'BrandForge',
+                  url: 'https://brandforge-phi-pearl.vercel.app',
+                },
+              },
+              {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+                  { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: 'https://brandforge-phi-pearl.vercel.app/terms' },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      {children}
+    </>
+  )
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { JsonLd } from '@/components/JsonLd'
+import { BreadcrumbSchema } from '@/components/BlogPostSchema'
 
 export const metadata: Metadata = {
   title: 'Brand Kit Examples — See What BrandForge Creates | BrandForge',
@@ -115,7 +115,7 @@ const brandExamples = [
 export default function ExamplesPage() {
   return (
     <>
-      <JsonLd />
+      <BreadcrumbSchema items={[{ name: 'Examples', href: '/examples' }]} />
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">

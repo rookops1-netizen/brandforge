@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -96,6 +97,12 @@ const redFlags = [
 export default function CompanyNameCheckerPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Company Name Checker: How to Verify Your Business Name Is Available"
+        description="Before you commit to a name, check these 4 things: domain availability, trademark conflicts, social handles, and state registration."
+        url="https://brandforge-phi-pearl.vercel.app/blog/company-name-checker"
+        datePublished="2025-05-20"
+      />
       {/* Header */}
       <div className="mb-12">
         <Link href="/blog" className="text-sm text-brand-600 hover:text-brand-700 font-medium">

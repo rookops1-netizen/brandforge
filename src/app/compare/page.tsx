@@ -1,5 +1,5 @@
 import { Comparison } from '@/components/Comparison'
-import { JsonLd } from '@/components/JsonLd'
+import { BreadcrumbSchema } from '@/components/BlogPostSchema'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 export default function ComparePage() {
   return (
     <>
-      <JsonLd />
+      <BreadcrumbSchema items={[{ name: 'Compare', href: '/compare' }]} />
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-white to-purple-50" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">

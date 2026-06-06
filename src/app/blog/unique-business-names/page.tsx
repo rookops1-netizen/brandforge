@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
+import { BlogPostSchema } from '@/components/BlogPostSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -234,6 +235,12 @@ const techniques = [
 export default function UniqueBusinessNamesPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <BlogPostSchema
+        title="Unique Business Names: 120+ Standout Ideas and How to Create Your Own"
+        description="Browse 120+ unique business name ideas across 8 industries, plus learn the 6 proven techniques for creating names nobody else has."
+        url="https://brandforge-phi-pearl.vercel.app/blog/unique-business-names"
+        datePublished="2025-05-20"
+      />
       {/* Header */}
       <div className="mb-12">
         <Link href="/blog" className="text-sm text-brand-600 hover:text-brand-700 font-medium">
