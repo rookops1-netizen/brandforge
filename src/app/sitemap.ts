@@ -154,6 +154,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    // Blog articles — June 7
+    {
+      url: `${BASE_URL}/blog/brand-name-generator`,
+      lastModified: new Date('2026-06-07'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/startup-name-generator`,
@@ -254,6 +261,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${BASE_URL}/coffee-name-generator`,
       lastModified: new Date('2026-06-06'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/music-name-generator`,
+      lastModified: new Date('2026-06-07'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/wedding-name-generator`,
+      lastModified: new Date('2026-06-07'),
       changeFrequency: 'weekly',
       priority: 0.9,
     },

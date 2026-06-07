@@ -30,6 +30,8 @@ const footerLinks = {
     { name: 'Education', href: '/education-name-generator' },
     { name: 'Yoga', href: '/yoga-name-generator' },
     { name: 'Coffee', href: '/coffee-name-generator' },
+    { name: 'Music', href: '/music-name-generator' },
+    { name: 'Wedding', href: '/wedding-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

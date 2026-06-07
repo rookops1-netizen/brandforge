@@ -158,6 +158,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '12 min',
     date: '2026-05-28',
+    featured: false,
+  },
+  {
+    slug: 'brand-name-generator',
+    title: 'Brand Name Generator: How to Find the Perfect Brand Name in 2026',
+    excerpt: 'The complete guide to brand name generators — 7 naming styles behind iconic brands, 60+ real examples, and a free AI tool that checks domain and social availability.',
+    category: 'Naming',
+    readTime: '8 min',
+    date: '2026-06-07',
     featured: true,
   },
 ]
@@ -176,7 +185,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={16} />
+      <BlogIndexSchema postCount={17} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
