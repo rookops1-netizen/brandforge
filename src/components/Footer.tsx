@@ -1,7 +1,10 @@
-'use client'
-
 import Link from 'next/link'
-import { NewsletterForm } from '@/components/NewsletterForm'
+import dynamic from 'next/dynamic'
+
+const NewsletterForm = dynamic(
+  () => import('@/components/NewsletterForm').then((mod) => mod.NewsletterForm),
+  { ssr: false }
+)
 
 const footerLinks = {
   Product: [
@@ -63,7 +66,7 @@ export function Footer() {
             <p className="mt-3 text-sm text-slate-500 max-w-xs">
               AI-powered business name generator with complete brand kits. From idea to identity in seconds.
             </p>
-            {/* Newsletter signup */}
+            {/* Newsletter signup — loaded client-side only */}
             <NewsletterForm variant="footer" />
           </div>
 

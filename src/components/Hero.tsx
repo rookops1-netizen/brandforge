@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 
 const placeholderHints = [
   'A sustainable coffee shop in Brooklyn...',
@@ -15,6 +15,7 @@ export function Hero() {
   const [description, setDescription] = useState('')
   const [mounted, setMounted] = useState(false)
   const [placeholderIndex, setPlaceholderIndex] = useState(0)
+  const router = useRouter()
 
   useEffect(() => { setMounted(true) }, [])
 
@@ -79,9 +80,9 @@ export function Hero() {
               onSubmit={(e) => {
                 e.preventDefault()
                 if (description.trim()) {
-                  window.location.href = `/generate?desc=${encodeURIComponent(description.trim())}`
+                  router.push(`/generate?desc=${encodeURIComponent(description.trim())}`)
                 } else {
-                  window.location.href = '/generate'
+                  router.push('/generate')
                 }
               }}
               className="flex flex-col gap-3 sm:flex-row"
