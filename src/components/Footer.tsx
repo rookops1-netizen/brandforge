@@ -13,6 +13,7 @@ const footerLinks = {
     { name: 'Examples', href: '/examples' },
     { name: 'Compare', href: '/compare' },
     { name: 'Pricing', href: '/pricing' },
+    { name: 'Testimonials', href: '/testimonials' },
     { name: 'FAQ', href: '#faq' },
   ],
   Industries: [
@@ -35,6 +36,8 @@ const footerLinks = {
     { name: 'Coffee', href: '/coffee-name-generator' },
     { name: 'Music', href: '/music-name-generator' },
     { name: 'Wedding', href: '/wedding-name-generator' },
+    { name: 'Cleaning', href: '/cleaning-business-name-generator' },
+    { name: 'Pet', href: '/pet-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

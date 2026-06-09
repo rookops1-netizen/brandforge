@@ -169,6 +169,15 @@ const blogPosts = [
     date: '2026-06-07',
     featured: true,
   },
+  {
+    slug: 'small-business-name-generator',
+    title: 'Small Business Name Generator: 200+ Name Ideas for 2026',
+    excerpt: '200+ small business name ideas organized by type, 7 naming frameworks that work, and a free AI generator with domain availability checks. Find your name today.',
+    category: 'Naming',
+    readTime: '10 min',
+    date: '2026-06-09',
+    featured: false,
+  },
 ]
 
 const categoryColors: Record<string, string> = {

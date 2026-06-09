@@ -164,6 +164,11 @@ export const metadata: Metadata = {
     'veterinary clinic names',
     'pet sitting business names',
     'animal business names',
+    'brand name generator reviews',
+    'business name generator reviews',
+    'AI name generator reviews',
+    'brand kit reviews',
+    'brand naming success stories',
   ],
   openGraph: {
     title: 'BrandForge — Free AI Business Name Generator & Brand Kit',
