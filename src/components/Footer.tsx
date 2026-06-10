@@ -38,6 +38,7 @@ const footerLinks = {
     { name: 'Wedding', href: '/wedding-name-generator' },
     { name: 'Cleaning', href: '/cleaning-business-name-generator' },
     { name: 'Pet', href: '/pet-name-generator' },
+    { name: 'Landscaping', href: '/landscaping-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

@@ -178,6 +178,15 @@ const blogPosts = [
     date: '2026-06-09',
     featured: false,
   },
+  {
+    slug: 'how-to-choose-brand-name',
+    title: 'How to Choose a Brand Name in 2026: The Complete Decision Framework',
+    excerpt: 'A step-by-step framework for choosing a brand name — 6 naming styles, a 5-step process, a 10-point validation checklist, and a free AI tool that checks availability instantly.',
+    category: 'Brand Strategy',
+    readTime: '7 min',
+    date: '2026-06-10',
+    featured: false,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -194,7 +203,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={18} />
+      <BlogIndexSchema postCount={19} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

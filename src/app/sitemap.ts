@@ -168,6 +168,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — June 10
+    {
+      url: `${BASE_URL}/blog/how-to-choose-brand-name`,
+      lastModified: new Date('2026-06-10'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/startup-name-generator`,
@@ -292,6 +299,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${BASE_URL}/pet-name-generator`,
       lastModified: new Date('2026-06-08'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/landscaping-name-generator`,
+      lastModified: new Date('2026-06-10'),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
