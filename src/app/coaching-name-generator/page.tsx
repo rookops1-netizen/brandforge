@@ -437,6 +437,9 @@ export default function CoachingNameGeneratorPage() {
             <Link href="/pet-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-orange-300 hover:text-orange-600 transition-colors">
               🐾 Pet Name Generator
             </Link>
+            <Link href="/landscaping-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-orange-300 hover:text-orange-600 transition-colors">
+              🌿 Landscaping Name Generator
+            </Link>
 <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-purple-300 hover:text-purple-600 transition-colors">
               📊 Compare Name Generators
             </Link>

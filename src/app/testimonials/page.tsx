@@ -174,6 +174,7 @@ const USE_CASES = [
   { emoji: '💍', name: 'Wedding', href: '/wedding-name-generator' },
   { emoji: '🧹', name: 'Cleaning', href: '/cleaning-business-name-generator' },
   { emoji: '🐾', name: 'Pet', href: '/pet-name-generator' },
+  { emoji: '🌿', name: 'Landscaping', href: '/landscaping-name-generator' },
 ]
 
 export default function TestimonialsPage() {

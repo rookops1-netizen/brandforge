@@ -180,6 +180,7 @@ export default function WeddingNameGeneratorPage() {
     { href: '/music-name-generator', emoji: '🎵', label: 'Music Name Generator' },
     { href: '/cleaning-business-name-generator', emoji: '🧹', label: 'Cleaning Business Name Generator' },
     { href: '/pet-name-generator', emoji: '🐾', label: 'Pet Name Generator' },
+    { href: '/landscaping-name-generator', emoji: '🌿', label: 'Landscaping Name Generator' },
     { href: '/compare', emoji: '📊', label: 'Compare Name Generators' },
     { href: '/examples', emoji: '✨', label: 'Brand Kit Examples' },
   ]
