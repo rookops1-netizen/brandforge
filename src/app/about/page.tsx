@@ -11,6 +11,8 @@ export const metadata: Metadata = {
     siteName: 'BrandForge',
     type: 'website',
   },
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/about' },
 }
 
 const teamValues = [

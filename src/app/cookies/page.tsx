@@ -1,8 +1,49 @@
+import type { Metadata } from 'next'
 import { LegalPage } from '@/components/LegalPage'
 
+export const metadata: Metadata = {
+  title: 'Cookie Policy — BrandForge',
+  description: 'BrandForge Cookie Policy. Learn how we use cookies and tracking technologies to improve your experience on our AI business name generator.',
+  openGraph: {
+    title: 'Cookie Policy — BrandForge',
+    description: 'How BrandForge uses cookies and tracking technologies.',
+    url: 'https://brandforge-phi-pearl.vercel.app/cookies',
+    siteName: 'BrandForge',
+    type: 'website',
+  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/cookies' },
+}
+
 export default function CookiesPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        name: 'Cookie Policy',
+        description: 'BrandForge Cookie Policy — how we use cookies and tracking technologies.',
+        url: 'https://brandforge-phi-pearl.vercel.app/cookies',
+        isPartOf: {
+          '@type': 'WebSite',
+          name: 'BrandForge',
+          url: 'https://brandforge-phi-pearl.vercel.app',
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+          { '@type': 'ListItem', position: 2, name: 'Cookie Policy', item: 'https://brandforge-phi-pearl.vercel.app/cookies' },
+        ],
+      },
+    ],
+  }
+
   return (
-    <LegalPage title="Cookie Policy" lastUpdated="May 14, 2026">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <LegalPage title="Cookie Policy" lastUpdated="May 14, 2026">
       <p>
         This Cookie Policy explains how BrandForge (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;)
         uses cookies and similar tracking technologies when you visit our website. This policy should
@@ -136,5 +177,6 @@ export default function CookiesPage() {
         </a>
       </p>
     </LegalPage>
+    </>
   )
 }

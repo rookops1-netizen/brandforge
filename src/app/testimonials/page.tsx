@@ -32,6 +32,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/testimonials',
   },
+  robots: { index: true, follow: true },
 }
 
 const TESTIMONIALS = [
@@ -175,6 +176,7 @@ const USE_CASES = [
   { emoji: '🧹', name: 'Cleaning', href: '/cleaning-business-name-generator' },
   { emoji: '🐾', name: 'Pet', href: '/pet-name-generator' },
   { emoji: '🌿', name: 'Landscaping', href: '/landscaping-name-generator' },
+  { emoji: '💇', name: 'Salon', href: '/salon-name-generator' },
 ]
 
 export default function TestimonialsPage() {

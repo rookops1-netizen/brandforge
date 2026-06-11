@@ -25,6 +25,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/compare',
   },
+  robots: { index: true, follow: true },
 }
 
 export default function ComparePage() {
@@ -41,8 +42,8 @@ export default function ComparePage() {
             name: 'BrandForge vs Namelix vs Looka — Business Name Generator Comparison',
             description: 'Compare the top AI business name generators side-by-side. See which tool gives you the most complete brand identity.',
             url: 'https://brandforge-phi-pearl.vercel.app/compare',
-            publisher: {
-              '@type': 'Organization',
+            isPartOf: {
+              '@type': 'WebSite',
               name: 'BrandForge',
               url: 'https://brandforge-phi-pearl.vercel.app',
             },

@@ -9,7 +9,11 @@ export const metadata: Metadata = {
     description:
       'View your complete brand kit with logo concepts, color palettes, taglines, and domain/social availability.',
     url: 'https://brandforge-phi-pearl.vercel.app/brand-kit',
+    siteName: 'BrandForge',
+    type: 'website',
   },
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/brand-kit' },
 }
 
 export default function BrandKitLayout({
@@ -30,8 +34,8 @@ export default function BrandKitLayout({
                 name: 'Brand Kit',
                 description: 'Your complete brand kit with logo concepts, color palettes, taglines, typography, and domain/social availability checks.',
                 url: 'https://brandforge-phi-pearl.vercel.app/brand-kit',
-                publisher: {
-                  '@type': 'Organization',
+                isPartOf: {
+                  '@type': 'WebSite',
                   name: 'BrandForge',
                   url: 'https://brandforge-phi-pearl.vercel.app',
                 },

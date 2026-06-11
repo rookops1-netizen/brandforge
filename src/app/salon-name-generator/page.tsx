@@ -2,117 +2,114 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Beauty Name Generator — AI-Powered Beauty & Salon Business Names',
-  description: 'Generate creative beauty business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
+  title: 'Free Salon Name Generator — AI-Powered Hair, Beauty & Barber Salon Names',
+  description: 'Generate salon names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
   keywords: [
-    'beauty name generator',
-    'beauty business names',
+    'salon name generator',
+    'hair salon name ideas',
     'beauty salon names',
-    'beauty brand names',
+    'barber shop name ideas',
     'salon name ideas',
-    'beauty studio names',
-    'how to name a beauty business',
-    'cosmetics brand names',
-    'beauty brand name ideas',
+    'hair salon names',
+    'barbershop name generator',
+    'nail salon name ideas',
     'spa name generator',
-    'skincare brand names',
-    'beauty parlour names',
-    'makeup brand names',
-    'beauty business name ideas',
-    'best beauty salon names',
+    'hair stylist business names',
+    'cosmetology name ideas',
+    'salon branding ideas',
   ],
   openGraph: {
-    title: 'Free Beauty Name Generator — AI-Powered Beauty & Salon Names',
-    description: 'Generate creative beauty business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/beauty-name-generator',
+    title: 'Free Salon Name Generator — AI-Powered Hair & Beauty Salon Names',
+    description: 'Generate salon names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
+    url: 'https://brandforge-phi-pearl.vercel.app/salon-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Beauty Name Generator — AI-Powered Beauty & Salon Names',
-    description: 'Generate creative beauty business names with AI. Logo, colors, tagline, domain check — all in one.',
+    title: 'Free Salon Name Generator — AI-Powered Salon & Barber Names',
+    description: 'Generate salon names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/beauty-name-generator',
+    canonical: 'https://brandforge-phi-pearl.vercel.app/salon-name-generator',
   },
 }
 
 const EXAMPLE_NAMES = [
-  { name: 'Velvet Glow Studio', tagline: 'Where beauty comes alive', style: 'Warm & Luxurious', domain: 'velvetglowstudio.com', color: '#BE185D' },
-  { name: 'Lumière Beauty', tagline: 'Illuminate your natural radiance', style: 'Elegant & French-Inspired', domain: 'lumierebeauty.com', color: '#7C3AED' },
-  { name: 'Petal & Prime', tagline: 'Fresh-faced and flawless', style: 'Playful & Modern', domain: 'petalandprime.com', color: '#DB2777' },
-  { name: 'Aura Skin Co.', tagline: 'Your glow, elevated', style: 'Minimal & Clean', domain: 'auraskinco.com', color: '#0D9488' },
-  { name: 'Roseroot Beauty', tagline: 'Naturally stunning, always', style: 'Organic & Botanical', domain: 'roserootbeauty.com', color: '#16A34A' },
-  { name: 'Opalescent Studios', tagline: 'Shimmer meets sophistication', style: 'Glamorous & Refined', domain: 'opalescentstudios.com', color: '#D97706' },
+  { name: 'Maison Lumière', tagline: 'Where beauty finds its light', style: 'Luxury & French-Inspired', domain: 'maisonlumiere.com', color: '#831843' },
+  { name: 'Copper & Crown', tagline: 'Crafted for the bold', style: 'Modern & Masculine', domain: 'copperandcrown.com', color: '#92400E' },
+  { name: 'Verdant Studio', tagline: 'Fresh cuts, natural style', style: 'Organic & Minimal', domain: 'verdantstudio.com', color: '#166534' },
+  { name: 'Ember & Shears', tagline: 'Where heat meets precision', style: 'Warm & Artisan', domain: 'emberandshears.com', color: '#B45309' },
+  { name: 'The Gilded Chair', tagline: 'Sit down, look extraordinary', style: 'Elegant & Classic', domain: 'thegildedchair.com', color: '#4C1D95' },
+  { name: 'Honey & Blade', tagline: 'Sweet style, sharp edges', domain: 'honeyandblade.com', style: 'Trendy & Approachable', color: '#B76E1A' },
 ]
 
 const CATEGORIES = [
-  { name: 'Hair Salon', desc: 'Stylish, confident names that clients book and recommend' },
-  { name: 'Nail Studio', desc: 'Chic, creative names that stand out on Instagram' },
-  { name: 'Skincare Brand', desc: 'Clean, scientific names that signal trust and results' },
-  { name: 'Cosmetics & Makeup', desc: 'Bold, expressive names that own the beauty shelf' },
-  { name: 'Spa & Wellness', desc: 'Serene, luxurious names that invite relaxation' },
-  { name: 'Lash & Brow Bar', desc: 'Precise, artful names that frame the eyes' },
-  { name: 'Organic & Natural Beauty', desc: 'Earthy, botanical names that convey purity' },
-  { name: 'MedSpa & Aesthetics', desc: 'Sophisticated, clinical names that build credibility' },
+  { name: 'Hair Salon', desc: 'Stylish, memorable names for full-service hair salons' },
+  { name: 'Barbershop', desc: 'Bold, classic names for traditional and modern barber shops' },
+  { name: 'Nail Studio', desc: 'Creative, chic names for nail art and manicure studios' },
+  { name: 'Day Spa & Wellness', desc: 'Calming, luxurious names for spa and wellness centers' },
+  { name: 'Blow Dry Bar', desc: 'Fun, trendy names for blowout and styling bars' },
+  { name: 'Color & Highlights Studio', desc: 'Vibrant, artistic names for color-focused salons' },
+  { name: 'Men\'s Grooming Lounge', desc: 'Refined, masculine names for men\'s grooming and barber' },
+  { name: 'Cosmetology & Aesthetics', desc: 'Professional, clinical names for licensed cosmetology practices' },
 ]
 
 const NAMING_TIPS = [
   {
-    title: 'Match your beauty niche',
-    description: 'A medspa needs a clinical, credible name. A nail art studio can be playful. An organic skincare brand should feel natural and clean. Your name sets expectations before clients walk through the door.',
+    title: 'Make it easy to recommend',
+    description: 'Salons live on word-of-mouth. If someone can\'t spell your name after hearing it once, they can\'t Google it or text it to a friend. "Copper & Crown" sticks. "Kwr & Syr" doesn\'t. The "text your friend" test is the single most important naming test for salons.',
   },
   {
-    title: 'Use beauty language tastefully',
-    description: 'Words like "glow," "luxe," "radiance," "bloom," and "aura" resonate with beauty clients. But avoid overused combos — "Glow Beauty Studio" is forgettable; "Velvet Glow Studio" is memorable.',
+    title: 'Signal your style tier',
+    description: 'A luxury salon needs a name that feels premium — think "Maison Lumière" or "The Gilded Chair." A walk-in family salon needs warmth and accessibility — "Honey & Blade" or "Verdant Studio." Decide your positioning first, then name to match. A mismatch between name and experience confuses clients.',
   },
   {
-    title: 'Prioritize Instagram appeal',
-    description: 'The beauty industry lives on Instagram. BrandForge checks social handle availability for every name — so your @name matches your business. A clean, photogenic name helps your brand go viral.',
+    title: 'Own your neighborhood on Google',
+    description: 'Most salon clients search "hair salon near me" or "barber shop near me." Your name needs to be readable on Google Maps, Yelp, and Instagram. Avoid names that are hard to spell, too similar to competitors, or easily confused with other businesses in your area.',
   },
   {
-    title: 'Consider your target client',
-    description: 'A luxury medspa clientele expects names like "Aura Aesthetics," not "Glitz N Glam." Budget-friendly salons can use fun, approachable names. Know your price point and name accordingly.',
+    title: 'Think beyond hair',
+    description: 'If you plan to add nails, skin, lashes, or retail later, avoid names that lock you into just hair. "Ember & Shears" sounds like a barbershop. "Ember Studio" could house hair, nails, and skincare under one brand. Think five years ahead.',
   },
   {
-    title: 'Think about local SEO',
-    description: 'If you\'re a local salon, including your city or neighborhood ("Rosedale Beauty," "SoHo Skin Studio") helps you show up in "beauty salon near me" searches. BrandForge generates location-aware names too.',
+    title: 'Check social handles first',
+    description: 'Salons live on Instagram and TikTok — your name IS your visual brand. Before you commit, check that the handle is available on Instagram, TikTok, and Facebook. A matching handle builds trust and makes you findable. BrandForge checks social availability in real-time.',
   },
   {
-    title: 'Test pronunciation',
-    description: 'Beauty businesses get phone bookings. If your receptionist constantly spells the name, it\'s the wrong name. Say it, spell it, Google it — if any step is hard, try again.',
+    title: 'Avoid generic salon words alone',
+    description: '"Studio," "Salon," and "Beauty" are overused as standalone words. Pair them with something distinctive: "Verdant Studio," "Copper & Crown," "Honey & Blade." The modifier is what makes you findable and memorable in a sea of "Salon" signs.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'How does the beauty name generator work?',
-    a: 'Describe your beauty business — your specialty, target clientele, aesthetic, and the vibe you want. BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
+    q: 'How does the salon name generator work?',
+    a: 'Describe your salon — your type (hair salon, barbershop, nail studio, spa, blow dry bar, color studio), your style tier (luxury, mid-range, budget-friendly), and your ideal client (men, women, families, professionals, trendsetters). BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
   },
   {
-    q: 'Is the beauty name generator free?',
-    a: 'Yes! You can generate beauty name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
+    q: 'Is the salon name generator free?',
+    a: 'Yes! You can generate salon name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
   },
   {
-    q: 'What makes a good beauty business name?',
-    a: 'A great beauty name is memorable, easy to spell, reflects your aesthetic (luxury, organic, playful, clinical), and has an available .com domain plus matching social media handles. Since beauty businesses rely heavily on Instagram, social handle availability is especially important.',
+    q: 'What makes a good salon name?',
+    a: 'A great salon name is easy to remember, easy to spell, and easy to recommend. It should signal your style — luxury, modern, vintage, organic, masculine — so clients know what to expect before they walk in. The best salon names feel like a brand, not just a description: "Copper & Crown" vs. "Bob\'s Haircuts."',
   },
   {
-    q: 'Should I use my own name or a salon name?',
-    a: 'Using your own name (e.g., "Amara Beauty") builds personal recognition and works well for independent stylists and estheticians. A brand name (e.g., "Velvet Glow Studio") is more memorable and gives you room to expand, add locations, or sell the business later. BrandForge can generate both styles.',
+    q: 'Should I include "salon" or "barber" in my business name?',
+    a: 'For local SEO on Google Maps, including "salon," "barber," or "barbershop" helps customers find you quickly. But if you want a brand that can expand beyond one service, consider a name that works without it: "Verdant Studio" instead of "Verdant Hair Salon." You can always add "Salon" as a descriptor in your logo, signage, or Google Business Profile without making it part of your legal name.',
   },
   {
-    q: 'Can I use these names for my beauty business?',
-    a: 'Absolutely. All names you generate are yours to use commercially — for business registration, branding, domain purchases, social media, and marketing. There are no licensing restrictions.',
+    q: 'Can I use these names for my salon business?',
+    a: 'Absolutely. All names you generate are yours to use commercially — for business registration, LLC filing, signage, social media handles, website domain, and marketing materials. There are no licensing restrictions or ongoing fees.',
   },
   {
-    q: 'What if I want names for a specific beauty niche?',
-    a: 'Just describe your niche in the prompt. Whether it\'s lashes, skincare, hair extensions, organic beauty, medspa treatments, or nail art — BrandForge tailors suggestions to your exact specialty and ideal clients.',
+    q: 'What if I want names for a specific salon niche?',
+    a: 'Just describe your niche in the prompt. Whether it\'s a luxury blow dry bar, a classic Italian barbershop, a nail art studio, a medi-spa, a bridal hair specialist, or a kids\' salon — BrandForge tailors suggestions to your exact style, positioning, and ideal client.',
   },
   {
-    q: 'How important is domain availability for beauty businesses?',
-    a: 'Very. Beauty clients Google you. A .com domain builds trust and makes you easy to find. If .com isn\'t available, .beauty, .skin, or .co can work. BrandForge checks multiple extensions so you can pick what works for your niche.',
+    q: 'How important is a matching domain for salons?',
+    a: 'Very important. Clients find salons through Google, Instagram, and Yelp — and a matching domain builds instant credibility. If the .com is taken, consider .salon, .studio, or .beauty TLDs. BrandForge checks domain availability in real-time so you can secure your digital identity before launching.',
   },
   {
     q: 'What comes in the brand kit for each name?',
@@ -120,16 +117,16 @@ const FAQ_ITEMS = [
   },
 ]
 
-export default function BeautyNameGeneratorPage() {
+export default function SalonNameGeneratorPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'BrandForge Beauty Name Generator',
+        name: 'BrandForge Salon Name Generator',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
-        description: 'AI-powered beauty business name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
+        description: 'AI-powered salon name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
         offers: [
           { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
           { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
@@ -137,7 +134,7 @@ export default function BeautyNameGeneratorPage() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          ratingCount: '2847',
+          ratingCount: '2914',
         },
       },
       {
@@ -155,7 +152,7 @@ export default function BeautyNameGeneratorPage() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Beauty Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/beauty-name-generator' },
+          { '@type': 'ListItem', position: 2, name: 'Salon Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/salon-name-generator' },
         ],
       },
     ],
@@ -170,26 +167,26 @@ export default function BeautyNameGeneratorPage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-pink-50 via-white to-rose-50" />
+        <div className="absolute inset-0 bg-gradient-to-br from-rose-800 via-pink-600 to-purple-700" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-pink-100 px-4 py-1.5 text-sm font-medium text-pink-700">
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" />
             </svg>
-            AI-Powered Beauty Naming
+            AI-Powered Salon Naming
           </div>
-          <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-            Beauty Name Generator
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Salon Name Generator
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-600">
-            Generate creative beauty business names with AI. Describe your style, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-pink-100">
+            Generate salon names with AI. Describe your style, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
             >
-              Generate Beauty Names
+              Generate Salon Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -201,7 +198,7 @@ export default function BeautyNameGeneratorPage() {
               See Examples
             </a>
           </div>
-          <p className="mt-4 text-sm text-slate-400">Free • No credit card required • Results in seconds</p>
+          <p className="mt-4 text-sm text-pink-200">Free • No credit card required • Results in seconds</p>
         </div>
       </section>
 
@@ -210,10 +207,10 @@ export default function BeautyNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Names for Every Beauty Niche
+              Names for Every Salon Type
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              Whether you run a hair salon, skincare brand, nail studio, or medspa — we generate names that match your aesthetic and attract your ideal clients.
+              From luxury hair salons to classic barbershops, chic nail studios to wellness spas — we generate names that attract your ideal clients.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -232,7 +229,7 @@ export default function BeautyNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Beauty Names, Generated in Seconds
+              Salon Names, Generated in Seconds
             </h2>
             <p className="mt-3 text-slate-500">
               Each name comes with a complete brand kit — not just a name on its own.
@@ -264,7 +261,7 @@ export default function BeautyNameGeneratorPage() {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-slate-400">
-            These are real examples — your results will be tailored to your specific beauty niche.
+            These are real examples — your results will be tailored to your specific salon type and style.
           </p>
         </div>
       </section>
@@ -274,18 +271,18 @@ export default function BeautyNameGeneratorPage() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              How to Name Your Beauty Business with AI
+              How to Name Your Salon with AI
             </h2>
           </div>
           <div className="space-y-8">
             {[
-              { step: '1', title: 'Describe your beauty concept', desc: 'Tell us your specialty — hair, nails, skincare, lashes, medspa. Describe your aesthetic (luxury, organic, minimalist, glam) and the clients you want to attract.' },
-              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique beauty names per search, each with a matching tagline, color palette, and logo concept. Every name is designed to resonate with your ideal clients.' },
-              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .co, .beauty, and more — plus Instagram and social media handle availability. Critical for beauty brands that live on Instagram.' },
-              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document.' },
+              { step: '1', title: 'Describe your salon', desc: 'Tell us your salon type — hair salon, barbershop, nail studio, day spa, blow dry bar, color studio, men\'s grooming lounge, or cosmetology practice. Describe your style tier (luxury, mid-range, budget) and who your ideal client is.' },
+              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique salon names per search, each with a matching tagline, color palette, and logo concept. Every name is designed to attract your ideal clients and feel like a real brand — not a generic "Salon" sign.' },
+              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .salon, .studio, .beauty, and more — plus Instagram, TikTok, and social media handle availability. Essential for salons that live on visual platforms.' },
+              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document ready for your signage, business cards, Instagram, and website.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-pink-600 text-white font-bold text-lg">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-pink-700 text-white font-bold text-lg">
                   {item.step}
                 </div>
                 <div>
@@ -303,10 +300,10 @@ export default function BeautyNameGeneratorPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Tips for Naming Your Beauty Business
+              Tips for Naming Your Salon
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              Your name is the first impression of your brand. Here&apos;s how to make it stunning.
+              Your salon name is on your signage, your Instagram, your business cards, and every word-of-mouth referral. Here&apos;s how to make it count.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -345,20 +342,20 @@ export default function BeautyNameGeneratorPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-br from-pink-600 to-rose-600">
+      <section className="py-16 bg-gradient-to-br from-rose-800 to-purple-700">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white">
-            Ready to Name Your Beauty Business?
+            Ready to Name Your Salon?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Describe your vibe. Get names with brand kits. Free to start, $9 per brand kit you love.
+            Describe your style. Get names with brand kits. Free to start, $9 per brand kit you love.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
-              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-pink-700 shadow-lg hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-rose-800 shadow-lg hover:bg-gray-50 transition-colors"
             >
-              Generate Beauty Names
+              Generate Salon Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -393,6 +390,9 @@ export default function BeautyNameGeneratorPage() {
             <Link href="/photography-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               📸 Photography Name Generator
             </Link>
+            <Link href="/beauty-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
+              💄 Beauty Name Generator
+            </Link>
             <Link href="/fashion-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               👗 Fashion Name Generator
             </Link>
@@ -403,48 +403,45 @@ export default function BeautyNameGeneratorPage() {
               💻 Tech Name Generator
             </Link>
             <Link href="/consulting-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
-              💼 Consulting Name Generator
+              📊 Consulting Name Generator
             </Link>
             <Link href="/podcast-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               🎙️ Podcast Name Generator
             </Link>
             <Link href="/coaching-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
-              🧭 Coaching Name Generator
+              💡 Coaching Name Generator
             </Link>
             <Link href="/nonprofit-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               🌍 Nonprofit Name Generator
             </Link>
             <Link href="/craft-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
-              🧶 Craft Name Generator
+              ✂️ Craft Name Generator
             </Link>
             <Link href="/education-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               📚 Education Name Generator
             </Link>
-            <Link href="/yoga-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-colors">
+            <Link href="/yoga-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               🧘 Yoga Name Generator
             </Link>
-            <Link href="/coffee-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-colors">
+            <Link href="/coffee-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               ☕ Coffee Name Generator
             </Link>
-                        <Link href="/music-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-brand-300 hover:text-brand-600 transition-colors">
+            <Link href="/music-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               🎵 Music Name Generator
             </Link>
-            <Link href="/wedding-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-brand-300 hover:text-brand-600 transition-colors">
+            <Link href="/wedding-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               💍 Wedding Name Generator
             </Link>
-            <Link href="/cleaning-business-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-teal-300 hover:text-teal-600 transition-colors">
-              🧹 Cleaning Business Name Generator
+            <Link href="/cleaning-business-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
+              🧹 Cleaning Name Generator
             </Link>
-            <Link href="/pet-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-orange-300 hover:text-orange-600 transition-colors">
+            <Link href="/pet-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               🐾 Pet Name Generator
             </Link>
-            <Link href="/landscaping-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-orange-300 hover:text-orange-600 transition-colors">
+            <Link href="/landscaping-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               🌿 Landscaping Name Generator
             </Link>
-            <Link href="/salon-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
-              💇 Salon Name Generator
-            </Link>
-<Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
+            <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
               📊 Compare Name Generators
             </Link>
             <Link href="/examples" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">

@@ -308,6 +308,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/salon-name-generator`,
+      lastModified: new Date('2026-06-11'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     // Testimonials
     {
       url: `${BASE_URL}/testimonials`,

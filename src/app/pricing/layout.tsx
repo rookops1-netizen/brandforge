@@ -40,6 +40,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/pricing',
   },
+  robots: { index: true, follow: true },
 }
 
 export default function PricingLayout({

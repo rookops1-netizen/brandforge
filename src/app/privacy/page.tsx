@@ -1,8 +1,50 @@
+import type { Metadata } from 'next'
 import { LegalPage } from '@/components/LegalPage'
+import { BreadcrumbSchema } from '@/components/BlogPostSchema'
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy — BrandForge',
+  description: 'BrandForge Privacy Policy. Learn how we collect, use, and protect your personal information when you use our AI business name generator and brand kit services.',
+  openGraph: {
+    title: 'Privacy Policy — BrandForge',
+    description: 'Learn how BrandForge collects, uses, and protects your personal information.',
+    url: 'https://brandforge-phi-pearl.vercel.app/privacy',
+    siteName: 'BrandForge',
+    type: 'website',
+  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/privacy' },
+}
 
 export default function PrivacyPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        name: 'Privacy Policy',
+        description: 'BrandForge Privacy Policy — how we collect, use, and protect your information.',
+        url: 'https://brandforge-phi-pearl.vercel.app/privacy',
+        isPartOf: {
+          '@type': 'WebSite',
+          name: 'BrandForge',
+          url: 'https://brandforge-phi-pearl.vercel.app',
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+          { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://brandforge-phi-pearl.vercel.app/privacy' },
+        ],
+      },
+    ],
+  }
+
   return (
-    <LegalPage title="Privacy Policy" lastUpdated="May 14, 2026">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <LegalPage title="Privacy Policy" lastUpdated="May 14, 2026">
       <p>
         At BrandForge, we take your privacy seriously. This Privacy Policy explains how we collect,
         use, disclose, and safeguard your information when you visit our website and use our services.
@@ -132,5 +174,6 @@ export default function PrivacyPage() {
         </a>
       </p>
     </LegalPage>
+    </>
   )
 }

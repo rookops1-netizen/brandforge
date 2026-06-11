@@ -42,6 +42,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/generate',
   },
+  robots: { index: true, follow: true },
 }
 
 export default function GenerateLayout({

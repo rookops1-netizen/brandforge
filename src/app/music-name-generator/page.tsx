@@ -181,6 +181,7 @@ export default function MusicNameGeneratorPage() {
     { href: '/cleaning-business-name-generator', emoji: '🧹', label: 'Cleaning Business Name Generator' },
     { href: '/pet-name-generator', emoji: '🐾', label: 'Pet Name Generator' },
     { href: '/landscaping-name-generator', emoji: '🌿', label: 'Landscaping Name Generator' },
+    { href: '/salon-name-generator', emoji: '💇', label: 'Salon Name Generator' },
     { href: '/compare', emoji: '📊', label: 'Compare Name Generators' },
     { href: '/examples', emoji: '✨', label: 'Brand Kit Examples' },
   ]

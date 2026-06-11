@@ -1,8 +1,49 @@
+import type { Metadata } from 'next'
 import { LegalPage } from '@/components/LegalPage'
 
+export const metadata: Metadata = {
+  title: 'Terms of Service — BrandForge',
+  description: 'BrandForge Terms of Service. Read our terms governing the use of our AI business name generator and brand kit creation services.',
+  openGraph: {
+    title: 'Terms of Service — BrandForge',
+    description: 'Terms governing the use of BrandForge AI business name generator and brand kit services.',
+    url: 'https://brandforge-phi-pearl.vercel.app/terms',
+    siteName: 'BrandForge',
+    type: 'website',
+  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/terms' },
+}
+
 export default function TermsPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        name: 'Terms of Service',
+        description: 'BrandForge Terms of Service — terms governing the use of our AI business name generator and brand kit services.',
+        url: 'https://brandforge-phi-pearl.vercel.app/terms',
+        isPartOf: {
+          '@type': 'WebSite',
+          name: 'BrandForge',
+          url: 'https://brandforge-phi-pearl.vercel.app',
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+          { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: 'https://brandforge-phi-pearl.vercel.app/terms' },
+        ],
+      },
+    ],
+  }
+
   return (
-    <LegalPage title="Terms of Service" lastUpdated="May 14, 2026">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <LegalPage title="Terms of Service" lastUpdated="May 14, 2026">
       <p>
         Welcome to BrandForge. These Terms of Service (&quot;Terms&quot;) govern your use of our website
         and services at brandforge.ai and related subdomains (collectively, the &quot;Service&quot;).
@@ -154,5 +195,6 @@ export default function TermsPage() {
         </a>
       </p>
     </LegalPage>
+    </>
   )
 }
