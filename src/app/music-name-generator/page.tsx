@@ -33,6 +33,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/music-name-generator',
   },
+  robots: { index: true, follow: true },
 }
 
 const CATEGORIES = [

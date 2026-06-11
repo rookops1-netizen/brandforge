@@ -69,6 +69,9 @@ const industryNames: Record<string, { names: string[]; pattern: string; patternD
 }
 
 const industries = Object.keys(industryNames)
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/business-name-ideas-by-industry' },
+}
 
 export default function BusinessNameIdeasByIndustryPage() {
   return (

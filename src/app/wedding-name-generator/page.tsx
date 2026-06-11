@@ -33,6 +33,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/wedding-name-generator',
   },
+  robots: { index: true, follow: true },
 }
 
 const CATEGORIES = [

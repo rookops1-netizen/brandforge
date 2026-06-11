@@ -35,6 +35,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/podcast-name-generator',
   },
+  robots: { index: true, follow: true },
 }
 
 const EXAMPLE_NAMES = [

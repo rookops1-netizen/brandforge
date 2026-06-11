@@ -199,6 +199,9 @@ const namingProcessSteps = [
     example: 'If people guess "It\'s a note app?" when you\'re a project management tool, the name is too soft. If they say "Sounds powerful" when you sell confidence — that\'s a winner.',
   },
 ]
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide' },
+}
 
 export default function ProductNamingGuidePage() {
   return (

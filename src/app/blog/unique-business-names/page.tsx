@@ -231,6 +231,9 @@ const techniques = [
     worksBest: 'Food, fashion, consulting, professional services',
   },
 ]
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/unique-business-names' },
+}
 
 export default function UniqueBusinessNamesPage() {
   return (

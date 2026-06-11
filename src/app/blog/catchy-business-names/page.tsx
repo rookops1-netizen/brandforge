@@ -95,6 +95,9 @@ const nameIdeas = [
     ],
   },
 ]
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-business-names' },
+}
 
 export default function CatchyBusinessNamesPage() {
   return (

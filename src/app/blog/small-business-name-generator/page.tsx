@@ -45,6 +45,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/blog/small-business-name-generator',
   },
+  robots: { index: true, follow: true },
 }
 
 const NAME_IDEAS = [

@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     type: 'article',
   },
 }
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/llc-naming-guide' },
+}
 
 export default function LLCNamingGuidePage() {
   return (

@@ -43,6 +43,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/blog/cool-business-names',
   },
+  robots: { index: true, follow: true },
 }
 
 const INDUSTRY_NAMES = [

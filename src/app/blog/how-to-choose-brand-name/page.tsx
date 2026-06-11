@@ -45,6 +45,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-brand-name',
   },
+  robots: { index: true, follow: true },
 }
 
 const NAMING_STYLES = [

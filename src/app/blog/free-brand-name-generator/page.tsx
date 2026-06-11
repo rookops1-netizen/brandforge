@@ -89,6 +89,9 @@ const freeTools = [
     verdict: '⚠️ Limited: Dated, no AI',
   },
 ]
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/free-brand-name-generator' },
+}
 
 export default function FreeBrandNameGeneratorPage() {
   return (

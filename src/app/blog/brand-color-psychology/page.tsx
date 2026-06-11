@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     type: 'article',
   },
 }
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/brand-color-psychology' },
+}
 
 export default function BrandColorPsychology() {
   return (

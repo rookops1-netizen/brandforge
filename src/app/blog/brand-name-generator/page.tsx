@@ -45,6 +45,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-generator',
   },
+  robots: { index: true, follow: true },
 }
 
 const NAMING_STYLES = [

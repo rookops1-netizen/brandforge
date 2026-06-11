@@ -87,6 +87,9 @@ const categories = [
     ],
   },
 ]
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/creative-brand-names' },
+}
 
 export default function CreativeBrandNamesPage() {
   return (

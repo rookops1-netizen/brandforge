@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     type: 'article',
   },
 }
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes' },
+}
 
 export default function StartupNamingMistakes() {
   return (
