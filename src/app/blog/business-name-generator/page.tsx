@@ -311,6 +311,7 @@ const INDUSTRY_LINKS = [
   { name: 'Pet', href: '/pet-name-generator', desc: 'Grooming, vet, pet stores' },
   { name: 'Landscaping', href: '/landscaping-name-generator', desc: 'Lawn care, design, hardscaping' },
   { name: 'Salon', href: '/salon-name-generator', desc: 'Hair, nails, spa, barber' },
+  { name: 'Construction', href: '/construction-name-generator', desc: 'General contracting, building, roofing' },
 ]
 
 export default function BusinessNameGeneratorBlog() {
