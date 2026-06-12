@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     siteName: 'BrandForge',
     type: 'article',
   },
+
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-checker' },
 }
 
 const checkCategories = [
@@ -93,9 +96,6 @@ const redFlags = [
     description: 'Even without a trademark conflict, brand confusion hurts you. Customers searching for you might find the other brand instead. Distinctiveness wins.',
   },
 ]
-  robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-checker' },
-}
 
 export default function CompanyNameCheckerPage() {
   return (

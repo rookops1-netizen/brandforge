@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     siteName: 'BrandForge',
     type: 'article',
   },
+
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-business-names' },
 }
 
 const nameIdeas = [
@@ -95,9 +98,6 @@ const nameIdeas = [
     ],
   },
 ]
-  robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-business-names' },
-}
 
 export default function CatchyBusinessNamesPage() {
   return (

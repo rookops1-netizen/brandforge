@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     siteName: 'BrandForge',
     type: 'article',
   },
+
+  robots: { index: true, follow: true },
+  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/unique-business-names' },
 }
 
 const industries = [
@@ -231,9 +234,6 @@ const techniques = [
     worksBest: 'Food, fashion, consulting, professional services',
   },
 ]
-  robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/unique-business-names' },
-}
 
 export default function UniqueBusinessNamesPage() {
   return (

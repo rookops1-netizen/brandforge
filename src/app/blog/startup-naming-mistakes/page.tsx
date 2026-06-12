@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     siteName: 'BrandForge',
     type: 'article',
   },
-}
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes' },
 }
