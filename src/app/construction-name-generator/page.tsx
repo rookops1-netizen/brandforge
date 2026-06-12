@@ -2,134 +2,132 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Free Craft Name Generator — AI-Powered Handmade & Artisan Business Names',
-  description: 'Generate creative craft business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
+  title: 'Free Construction Business Name Generator — AI-Powered Contractor & Builder Names',
+  description: 'Generate construction business names with AI. Get a complete brand kit including logo concepts, color palettes, taglines, and domain availability checks. Free to start — no credit card required.',
   keywords: [
-    'craft name generator',
-    'handmade business names',
-    'artisan name ideas',
-    'craft brand names',
-    'Etsy shop name generator',
-    'handmade name ideas',
-    'craft business names',
-    'artisan business names',
-    'craft brand name generator',
-    ' makers business name',
-    'handmade brand names',
-    'DIY business names',
-    'how to name a craft business',
-    'craft naming guide',
+    'construction name generator',
+    'construction business names',
+    'contractor name ideas',
+    'builder name generator',
+    'construction company names',
+    'general contractor names',
+    'home builder name ideas',
+    'remodeling business names',
+    'construction brand names',
+    'building company names',
+    'roofing business names',
+    'excavation company names',
   ],
   openGraph: {
-    title: 'Free Craft Name Generator — AI-Powered Handmade & Artisan Business Names',
-    description: 'Generate creative craft business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/craft-name-generator',
+    title: 'Free Construction Business Name Generator — AI-Powered Contractor & Builder Names',
+    description: 'Generate construction business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
+    url: 'https://brandforge-phi-pearl.vercel.app/construction-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Craft Name Generator — AI-Powered Handmade & Artisan Names',
-    description: 'Generate creative craft business names with AI. Logo, colors, tagline, domain check — all in one.',
+    title: 'Free Construction Business Name Generator — Contractor & Builder Names',
+    description: 'Generate construction business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/craft-name-generator',
+    canonical: 'https://brandforge-phi-pearl.vercel.app/construction-name-generator',
   },
   robots: { index: true, follow: true },
 }
 
 const EXAMPLE_NAMES = [
-  { name: 'Ember & Grain', tagline: 'Shaped by hand, powered by heart', style: 'Warm & Artisan', domain: 'emberandgrain.com', color: '#92400E' },
-  { name: 'Thistlecraft', tagline: 'Where wild meets made', style: 'Nature-Inspired & Earthy', domain: 'thistlecraft.com', color: '#065F46' },
-  { name: 'Fireside Makers', tagline: 'Crafted around the glow', style: 'Cozy & Inviting', domain: 'firesidemakers.com', color: '#DC2626' },
-  { name: 'Hearth & Honey', tagline: 'Sweet things, made slowly', style: 'Charming & Nostalgic', domain: 'hearthandhoney.com', color: '#D97706' },
-  { name: 'Riven Studio', tagline: 'Split from the ordinary', style: 'Modern & Edgy', domain: 'rivenstudio.com', color: '#1E293B' },
-  { name: 'Wildskein', tagline: 'Threads that run free', style: 'Organic & Textural', domain: 'wildskein.com', color: '#7C3AED' },
+  { name: 'Ironclad Build', tagline: 'Built to last, built right', style: 'Strong & Traditional', domain: 'ironcladbuild.com', color: '#92400E' },
+  { name: 'Summit Construction', tagline: 'Elevating standards from the ground up', style: 'Premium & Professional', domain: 'summitconstruction.com', color: '#1E3A5F' },
+  { name: 'Keystone & Ridge', tagline: 'Where strength meets precision', style: 'Modern & Trustworthy', domain: 'keystoneridge.com', color: '#3B7D4F' },
+  { name: 'Titan Builders', tagline: 'Big vision. Solid execution.', style: 'Bold & Authoritative', domain: 'titanbuilders.com', color: '#7C2D12' },
+  { name: 'Cornerstone Craft', tagline: 'Detail makes the difference', style: 'Artisan & Quality-Focused', domain: 'cornerstonecraft.com', color: '#78350F' },
+  { name: 'Apex Grading & Build', tagline: 'From dirt to done', style: 'Operational & Direct', domain: 'apexgrading.com', color: '#4C1D95' },
 ]
 
 const CATEGORIES = [
-  { name: 'Pottery & Ceramics', desc: 'Wheel-thrown, handbuilt, and kiln-fired names for clay artists' },
-  { name: 'Jewelry & Metalsmithing', desc: 'Refined, sparkling names for handcrafted adornments' },
-  { name: 'Textile & Fiber Arts', desc: 'Woven, knit, and dyed names for fabric-first brands' },
-  { name: 'Woodworking & Carpentry', desc: 'Grain-rich, solid names for makers who shape wood' },
-  { name: 'Candles & Home Fragrance', desc: 'Warm, evocative names for scented craft businesses' },
-  { name: 'Leatherwork & Bookbinding', desc: 'Tactile, heritage names for leather crafters' },
-  { name: 'Soap & Skincare', desc: 'Clean, natural names for handmade bath & body brands' },
-  { name: 'Paper & Stationery', desc: 'Ink-forward, elegant names for print & paper artists' },
+  { name: 'General Contracting', desc: 'Strong, reliable names for full-service construction firms' },
+  { name: 'Home Building & Development', desc: 'Premium names for residential builders and developers' },
+  { name: 'Remodeling & Renovation', desc: 'Creative names for renovation and home improvement companies' },
+  { name: 'Roofing', desc: 'Trustworthy names for roofing contractors and companies' },
+  { name: 'Excavation & Grading', desc: 'Tough, precise names for site work and earth-moving businesses' },
+  { name: 'Commercial Construction', desc: 'Professional names for large-scale commercial builders' },
+  { name: 'Electrical & Plumbing', desc: 'Dependable names for trade subcontractors' },
+  { name: 'Concrete & Masonry', desc: 'Solid, enduring names for concrete and masonry specialists' },
 ]
 
 const NAMING_TIPS = [
   {
-    title: 'Embrace material words',
-    description: 'Words like "Grain," "Thistle," "Skein," and "Ember" signal craft without being generic. They anchor your name in the physical world of making — exactly what craft customers are searching for.',
+    title: 'Lead with trust',
+    description: 'Construction is a trust business. Clients are spending thousands or hundreds of thousands — they need to feel confident before the first call. Names that convey solidity, precision, and reliability ("Ironclad Build," "Summit Construction") win over clever or trendy names. Trust isn\'t optional in this industry — it\'s everything.',
   },
   {
-    title: 'Think Etsy-first',
-    description: 'Your name will appear in Etsy search results, Instagram bios, and craft fair signage. It needs to be memorable at 3 inches on a booth banner and readable at 12 pixels in a search result. Short, distinctive, and spellable wins every time.',
+    title: 'Win the Google Maps game',
+    description: 'Most construction clients search "contractor near me" or "roofing company [city]." Your name needs to be readable, spellable, and memorable on Google Maps, Yelp, and Angi. Include your trade ("Roofing," "Builders," "Construction") for local SEO, and make sure the name isn\'t easily confused with competitors in your area.',
   },
   {
-    title: 'Pair a nature word with a craft word',
-    description: 'The best craft names combine the organic and the handmade: "Ember & Grain," "Thistlecraft," "Wildskein." This formula is popular because it works — it tells customers you make real things from real materials.',
+    title: 'Name for your scope',
+    description: 'If you\'re a general contractor, a broad name like "Summit Construction" works great. If you\'re a specialist, lean into it — "Apex Grading & Build" immediately signals what you do. Avoid names so generic that clients can\'t tell if you do roofs, remodels, or high-rises. Clarity beats cleverness.',
   },
   {
-    title: 'Check trademark before you fall in love',
-    description: 'The craft space is crowded on Etsy and at craft fairs. Search the USPTO database before committing to a name. BrandForge checks domain and social availability, but do a quick trademark search too — especially in the "handmade goods" class.',
+    title: 'The truck test',
+    description: 'Your name will be on your truck, your trailer, your hard hat, and your job site sign. It needs to be legible from 50 feet away at 60mph. Short names with strong visual presence win. "Titan Builders" reads on a truck door. "Keystone & Ridge" works on a sign. If you need to squint, it\'s too complex.',
   },
   {
-    title: 'Avoid "handmade" in the name itself',
-    description: '"Handmade Soaps by Sarah" describes what you do — but it doesn\'t differentiate you from the 10,000 other "handmade" soap sellers. Build a brand name that stands on its own; let "handmade" be a value proposition, not your entire identity.',
+    title: 'Check licensing availability',
+    description: 'Construction businesses need to register with their state licensing board. Before you commit to a name, check that it\'s available in your state\'s contractor license database and that no other licensed contractor is using it in your service area. BrandForge checks domain availability — but you need to check license databases too.',
   },
   {
-    title: 'Test it at a craft fair',
-    description: 'Say your name to 5 people at a craft fair. If they can spell it back, remember it 10 minutes later, and it feels right next to the other booth signs — you\'ve got a winner. The best craft names feel like they belong on a hand-stamped tag.',
+    title: 'Think five years ahead',
+    description: 'Starting with roofing? You might add siding, gutters, or general contracting later. Names like "Cornerstone Craft" can grow with you. Names like "Metro Roofing" lock you in. Pick a name that can expand with your services — or deliberately choose a niche name if you\'ll never add trades.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'How does the craft name generator work?',
-    a: 'Describe your craft business — your medium (pottery, jewelry, textiles, wood, candles, leather, soap, paper), your style (rustic, modern, minimalist, whimsical), and your target customer (Etsy shoppers, craft fair visitors, wholesale buyers). BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
+    q: 'How does the construction business name generator work?',
+    a: 'Describe your construction business — your trade (general contracting, home building, remodeling, roofing, excavation, commercial, electrical, concrete), your service area (local, regional, national), and your brand personality (professional, rugged, premium, approachable). BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain/social availability checks.',
   },
   {
-    q: 'Is the craft name generator free?',
-    a: 'Yes! You can generate craft name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
+    q: 'Is the construction name generator free?',
+    a: 'Yes! You can generate construction business name ideas for free — 5 suggestions per search, unlimited searches, no credit card required. Unlock the full brand kit (logo, colors, tagline, typography, domain & social checks) for $9 per brand kit.',
   },
   {
-    q: 'What makes a good handmade business name?',
-    a: 'A great craft name feels tactile and authentic — it should evoke the material and process behind your work. Words like "Grain," "Skein," "Forge," and "Studio" connect customers to the making process. The best names sound like something you\'d see on a hand-stamped label, not a corporate logo.',
+    q: 'What makes a good construction business name?',
+    a: 'A great construction name inspires trust and confidence. It should be easy to spell, easy to remember, and easy to recommend. Names that convey strength, reliability, and precision — like "Ironclad Build" or "Summit Construction" — outperform generic names like "ABC Construction" or "Smith Building Services." Your name is your first impression on a job bid.',
   },
   {
-    q: 'Should I use "handmade" or "craft" in my business name?',
-    a: 'Generally, no. "Handmade" and "craft" are descriptions, not differentiators. There are thousands of "Handmade Creations" shops on Etsy. A distinctive brand name like "Thistlecraft" or "Wildskein" is more memorable and gives you room to expand beyond a single product line.',
+    q: 'Should I include "Construction" or "Contracting" in my name?',
+    a: 'For local SEO and clarity, yes — including "Construction," "Contracting," "Builders," or your trade ("Roofing," "Grading") helps clients find you quickly and understand what you do. If you want a brand that can expand beyond one trade, consider "Summit" as your brand name and use "Summit Construction" as your legal/dba name. This gives you flexibility.',
   },
   {
-    q: 'Can I use these names for my Etsy shop or craft business?',
-    a: 'Absolutely. All names you generate are yours to use commercially — for business registration, Etsy shop names, domain purchases, social media, craft fair signage, and product packaging. There are no licensing restrictions.',
+    q: 'Can I use these names for my construction business?',
+    a: 'Absolutely. All names you generate are yours to use commercially — for business registration, LLC filing, contractor licensing, signage, vehicle branding, social media handles, website domain, and marketing materials. There are no licensing restrictions or ongoing fees.',
   },
   {
-    q: 'What if I want names for a specific craft niche?',
-    a: 'Just describe your craft in the prompt. Whether it\'s wheel-thrown pottery, hand-poured candles, custom leather wallets, or woven wall hangings — BrandForge tailors suggestions to your exact medium, aesthetic, and ideal customer.',
+    q: 'What if I want names for a specific construction niche?',
+    a: 'Just describe your niche in the prompt. Whether it\'s luxury home building, commercial tenant improvements, roofing and gutters, concrete flatwork, excavation and grading, electrical contracting, or green/sustainable building — BrandForge tailors suggestions to your exact trade, positioning, and ideal client.',
   },
   {
-    q: 'How important is a matching domain for craft businesses?',
-    a: 'Essential if you plan to sell online beyond Etsy. A .com matching your brand name builds trust for direct-to-customer sales and gives you an email address that looks professional on craft fair applications. BrandForge checks domain availability in real-time, including .craft, .shop, and .studio extensions.',
+    q: 'How important is a matching domain for construction businesses?',
+    a: 'Critical. Construction clients search online before they call. A matching domain (yourname.com or yournameconstruction.com) builds instant credibility and makes you findable. If the .com is taken, consider .build, .contractors, or .construction TLDs. BrandForge checks domain availability in real-time.',
   },
   {
     q: 'What comes in the brand kit for each name?',
-    a: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains and social handles. You can download it all as a PDF brand guidelines document.',
+    a: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains and social handles. You can download it all as a PDF brand guidelines document ready for your truck wrap, business cards, website, and bid proposals.',
   },
 ]
 
-export default function CraftNameGeneratorPage() {
+export default function ConstructionNameGeneratorPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'SoftwareApplication',
-        name: 'BrandForge Craft Name Generator',
+        name: 'BrandForge Construction Name Generator',
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web',
-        description: 'AI-powered craft business name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
+        description: 'AI-powered construction business name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
         offers: [
           { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
           { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
@@ -155,7 +153,7 @@ export default function CraftNameGeneratorPage() {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Craft Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/craft-name-generator' },
+          { '@type': 'ListItem', position: 2, name: 'Construction Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/construction-name-generator' },
         ],
       },
     ],
@@ -170,26 +168,26 @@ export default function CraftNameGeneratorPage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-700 via-orange-600 to-rose-700" />
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-900 via-orange-700 to-yellow-600" />
         <div className="relative mx-auto max-w-4xl px-4 py-20 sm:px-6 sm:py-28 text-center">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-1.5 text-sm font-medium text-amber-700">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-1.5 text-sm font-medium text-amber-800">
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 3.996 3.996 0 004.996 3.75 3.996 3.996 0 003.184-4.623l1.69-1.69m0 0l1.69-1.69m-1.69 1.69l1.78 1.78M5.56 5.56l1.78 1.78m14.71-1.78l-1.78 1.78M5.56 18.44l1.78-1.78" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-18v18M6 7.5h3m-3 3h3m-3 3h3m6-6h3m-3 3h3m-3 3h3M6 21v-3m6 0v-3m6 0v-3" />
             </svg>
-            AI-Powered Craft Naming
+            AI-Powered Construction Naming
           </div>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Craft Name Generator
+            Construction Business Name Generator
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-amber-100">
-            Generate handmade business names with AI. Describe your craft, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
+            Generate construction business names with AI. Describe your trade, get name suggestions with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
             >
-              Generate Craft Names
+              Generate Construction Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -210,10 +208,10 @@ export default function CraftNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Names for Every Craft
+              Names for Every Construction Trade
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              From pottery to leatherwork — we generate names that feel handmade, authentic, and unmistakably yours.
+              From general contractors and home builders to roofers, excavators, and concrete specialists — we generate names that win bids and build trust.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -232,7 +230,7 @@ export default function CraftNameGeneratorPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Craft Names, Generated in Seconds
+              Construction Names, Generated in Seconds
             </h2>
             <p className="mt-3 text-slate-500">
               Each name comes with a complete brand kit — not just a name on its own.
@@ -264,7 +262,7 @@ export default function CraftNameGeneratorPage() {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-slate-400">
-            These are real examples — your results will be tailored to your specific craft business.
+            These are real examples — your results will be tailored to your specific trade and market.
           </p>
         </div>
       </section>
@@ -274,18 +272,18 @@ export default function CraftNameGeneratorPage() {
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              How to Name Your Craft Business with AI
+              How to Name Your Construction Business with AI
             </h2>
           </div>
           <div className="space-y-8">
             {[
-              { step: '1', title: 'Describe your craft', desc: 'Tell us what you make — pottery, jewelry, textiles, woodwork, candles, leather goods, soap, paper crafts, or something else entirely. Describe your aesthetic (rustic, modern, whimsical, minimalist) and where you sell (Etsy, craft fairs, wholesale, direct online).' },
-              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique craft names per search, each with a matching tagline, color palette, and logo concept. Every name feels handcrafted, authentic, and distinctive — no generic "Handmade Creations" here.' },
-              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .shop, .craft, .studio, and more — plus Instagram, Pinterest, Etsy, and social media handle availability. Essential for craft businesses that live on visual platforms.' },
-              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document ready for your labels, packaging, and online shop.' },
+              { step: '1', title: 'Describe your construction business', desc: 'Tell us your trade — general contracting, home building, remodeling, roofing, excavation, commercial, electrical, or concrete. Describe your service area, your positioning (premium, mid-market, budget), and who your ideal client is (homeowners, developers, commercial property managers).' },
+              { step: '2', title: 'Get tailored name suggestions', desc: 'BrandForge generates 5 unique construction names per search, each with a matching tagline, color palette, and logo concept. Every name is designed to inspire trust and attract your ideal clients — not just another "ABC Construction" in a sea of generic builders.' },
+              { step: '3', title: 'Check domain & social availability', desc: 'Every name comes with real-time checks for .com, .build, .contractors, and .construction TLDs — plus social media handle availability. Essential for construction businesses that need credibility from the first search result.' },
+              { step: '4', title: 'Download your brand kit', desc: 'Unlock the full brand kit: logo concept, 5-color palette with hex codes, tagline, typography recommendations, and a downloadable PDF brand guidelines document ready for your truck wrap, business cards, job site signage, and website.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-amber-600 text-white font-bold text-lg">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-amber-700 text-white font-bold text-lg">
                   {item.step}
                 </div>
                 <div>
@@ -303,10 +301,10 @@ export default function CraftNameGeneratorPage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
-              Tips for Naming Your Craft Business
+              Tips for Naming Your Construction Business
             </h2>
             <p className="mt-3 text-slate-500 max-w-2xl mx-auto">
-              In the handmade world, your name is your first impression at a craft fair, on Etsy, and on Instagram. Here&apos;s how to make it stick.
+              Your construction name is on your truck, your job site sign, your bid proposals, and every referral. Here&apos;s how to make it count.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -345,20 +343,20 @@ export default function CraftNameGeneratorPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-br from-amber-700 to-rose-700">
+      <section className="py-16 bg-gradient-to-br from-amber-900 to-orange-700">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white">
-            Ready to Name Your Craft Business?
+            Ready to Name Your Construction Business?
           </h2>
           <p className="mt-4 text-lg text-white/80">
-            Describe your craft. Get names with brand kits. Free to start, $9 per brand kit you love.
+            Describe your trade. Get names with brand kits. Free to start, $9 per brand kit you love.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
               className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-amber-800 shadow-lg hover:bg-gray-50 transition-colors"
             >
-              Generate Craft Names
+              Generate Construction Names
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -417,37 +415,37 @@ export default function CraftNameGeneratorPage() {
             <Link href="/nonprofit-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🌍 Nonprofit Name Generator
             </Link>
+            <Link href="/craft-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              ✂️ Craft Name Generator
+            </Link>
             <Link href="/education-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               📚 Education Name Generator
             </Link>
-            <Link href="/yoga-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-colors">
+            <Link href="/yoga-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🧘 Yoga Name Generator
             </Link>
-            <Link href="/coffee-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-indigo-300 hover:text-indigo-600 transition-colors">
+            <Link href="/coffee-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               ☕ Coffee Name Generator
             </Link>
-                        <Link href="/music-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-brand-300 hover:text-brand-600 transition-colors">
+            <Link href="/music-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🎵 Music Name Generator
             </Link>
-            <Link href="/wedding-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-brand-300 hover:text-brand-600 transition-colors">
+            <Link href="/wedding-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               💍 Wedding Name Generator
             </Link>
-            <Link href="/cleaning-business-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-teal-300 hover:text-teal-600 transition-colors">
-              🧹 Cleaning Business Name Generator
+            <Link href="/cleaning-business-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              🧹 Cleaning Name Generator
             </Link>
-            <Link href="/pet-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-orange-300 hover:text-orange-600 transition-colors">
+            <Link href="/pet-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🐾 Pet Name Generator
             </Link>
-            <Link href="/landscaping-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-orange-300 hover:text-orange-600 transition-colors">
+            <Link href="/landscaping-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🌿 Landscaping Name Generator
             </Link>
-            <Link href="/salon-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-pink-300 hover:text-pink-600 transition-colors">
-              💇 Salon Name Generator
+            <Link href="/salon-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              ✂️ Salon Name Generator
             </Link>
-            <Link href="/construction-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
-              Construction Name Generator
-            </Link>
-<Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+            <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               📊 Compare Name Generators
             </Link>
             <Link href="/examples" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">

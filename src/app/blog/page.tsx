@@ -169,7 +169,7 @@ const blogPosts = [
     category: 'Naming',
     readTime: '8 min',
     date: '2026-06-07',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'small-business-name-generator',
@@ -189,6 +189,15 @@ const blogPosts = [
     date: '2026-06-10',
     featured: false,
   },
+  {
+    slug: 'business-name-generator',
+    title: 'Business Name Generator: 300+ Name Ideas for 2026 + Free AI Tool',
+    excerpt: 'The complete guide to naming your business — 300+ name ideas by industry, 7 proven naming frameworks, and a free AI tool that checks domain and social handle availability.',
+    category: 'Naming',
+    readTime: '12 min',
+    date: '2026-06-12',
+    featured: true,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -205,7 +214,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={19} />
+      <BlogIndexSchema postCount={20} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

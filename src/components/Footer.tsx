@@ -40,6 +40,7 @@ const footerLinks = {
     { name: 'Pet', href: '/pet-name-generator' },
     { name: 'Landscaping', href: '/landscaping-name-generator' },
     { name: 'Salon', href: '/salon-name-generator' },
+    { name: 'Construction', href: '/construction-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

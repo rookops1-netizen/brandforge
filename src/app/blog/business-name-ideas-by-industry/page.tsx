@@ -72,7 +72,6 @@ const industryNames: Record<string, { names: string[]; pattern: string; patternD
 }
 
 const industries = Object.keys(industryNames)
-}
 
 export default function BusinessNameIdeasByIndustryPage() {
   return (
