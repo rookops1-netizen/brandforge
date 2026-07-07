@@ -196,6 +196,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '12 min',
     date: '2026-06-12',
+    featured: false,
+  },
+  {
+    slug: 'company-name-generator',
+    title: 'Company Name Generator: 250+ Name Ideas for 2026 + Free AI Tool',
+    excerpt: 'The #1 free company name generator — 250+ name ideas by industry, 6 proven naming strategies, and instant domain availability checks. Find the perfect name for your company.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-07-07',
     featured: true,
   },
 ]
@@ -214,7 +223,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={20} />
+      <BlogIndexSchema postCount={21} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
