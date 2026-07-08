@@ -513,6 +513,10 @@ export default function BrandNameGeneratorPage() {
             <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Creative Brand Names: 60+ Examples &amp; What Makes Them Work</h4>
             <p className="mt-1 text-sm text-slate-500">Deconstruct 60+ real brand names and learn the repeatable naming patterns behind them.</p>
           </Link>
+          <Link href="/blog/brand-name-ideas" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Name Ideas: 300+ Creative Examples for 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">Browse 300+ brand name ideas by category, plus 7 proven naming techniques and a free AI generator.</p>
+          </Link>
         </div>
       </section>
 
