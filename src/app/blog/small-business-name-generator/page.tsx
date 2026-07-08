@@ -635,7 +635,7 @@ export default function SmallBusinessNameGeneratorBlog() {
               <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">{link.name}</h4>
               <p className="text-sm text-slate-500">{link.desc}</p>
             </Link>
-          ))
+          ))}
         </div>
       </section>
 
