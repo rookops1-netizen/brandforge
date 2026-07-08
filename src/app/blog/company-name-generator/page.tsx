@@ -592,6 +592,7 @@ export default function CompanyNameGeneratorPage() {
               { emoji: '🌿', name: 'Landscaping', href: '/landscaping-name-generator' },
               { emoji: '💇', name: 'Salon', href: '/salon-name-generator' },
               { emoji: '🏗️', name: 'Construction', href: '/construction-name-generator' },
+              { emoji: '📈', name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
             ].map((industry) => (
               <Link
                 key={industry.href}

@@ -184,6 +184,7 @@ export default function WeddingNameGeneratorPage() {
     { href: '/landscaping-name-generator', emoji: '🌿', label: 'Landscaping Name Generator' },
     { href: '/salon-name-generator', emoji: '💇', label: 'Salon Name Generator' },
     { href: '/construction-name-generator', emoji: '🏗️', label: 'Construction Name Generator' },
+    { href: '/marketing-agency-name-generator', emoji: '📈', label: 'Marketing Agency Name Generator' },
     { href: '/compare', emoji: '📊', label: 'Compare Name Generators' },
     { href: '/examples', emoji: '✨', label: 'Brand Kit Examples' },
   ]

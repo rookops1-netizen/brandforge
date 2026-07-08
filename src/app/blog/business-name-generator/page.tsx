@@ -312,6 +312,7 @@ const INDUSTRY_LINKS = [
   { name: 'Landscaping', href: '/landscaping-name-generator', desc: 'Lawn care, design, hardscaping' },
   { name: 'Salon', href: '/salon-name-generator', desc: 'Hair, nails, spa, barber' },
   { name: 'Construction', href: '/construction-name-generator', desc: 'General contracting, building, roofing' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator', desc: 'Digital, creative, ad agencies' },
 ]
 
 export default function BusinessNameGeneratorBlog() {

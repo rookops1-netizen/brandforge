@@ -625,6 +625,7 @@ export default function SmallBusinessNameGeneratorBlog() {
             { name: 'Wedding Business Names', href: '/wedding-name-generator', desc: 'Venues, planners, and bridal brands' },
             { name: 'Cleaning Business Names', href: '/cleaning-business-name-generator', desc: 'Residential, commercial, and maid services' },
             { name: 'Pet Business Names', href: '/pet-name-generator', desc: 'Grooming, vet clinics, and pet stores' },
+            { name: 'Marketing Agency Names', href: '/marketing-agency-name-generator', desc: 'Digital, creative, and ad agencies' },
           ].map((link) => (
             <Link
               key={link.href}
@@ -634,7 +635,7 @@ export default function SmallBusinessNameGeneratorBlog() {
               <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">{link.name}</h4>
               <p className="text-sm text-slate-500">{link.desc}</p>
             </Link>
-          ))}
+          ))
         </div>
       </section>
 

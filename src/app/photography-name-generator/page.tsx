@@ -449,6 +449,9 @@ export default function PhotographyNameGeneratorPage() {
             <Link href="/construction-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               Construction Name Generator
             </Link>
+            <Link href="/marketing-agency-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              📈 Marketing Agency Name Generator
+            </Link>
 <Link href="/compare" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-violet-300 hover:text-violet-600 transition-colors">
               📊 Compare Name Generators
             </Link>
