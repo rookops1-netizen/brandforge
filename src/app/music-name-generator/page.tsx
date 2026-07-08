@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { IndustryBlogLinks } from '@/components/IndustryBlogLinks'
 
 export const metadata: Metadata = {
   title: 'Free Music Name Generator — AI-Powered Band, Label & Music Business Name Ideas',
@@ -402,6 +403,9 @@ export default function MusicNameGeneratorPage() {
         </div>
       </section>
 
+
+      {/* Blog Links */}
+      <IndustryBlogLinks industry="music-name-generator" />
       {/* Internal Links */}
       <section className="py-12 bg-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">

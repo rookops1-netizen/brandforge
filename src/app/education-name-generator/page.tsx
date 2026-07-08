@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { IndustryBlogLinks } from '@/components/IndustryBlogLinks'
 
 export const metadata: Metadata = {
   title: 'Free Education Name Generator — AI-Powered Course, Tutoring & EdTech Business Names',
@@ -374,6 +375,9 @@ export default function EducationNameGeneratorPage() {
         </div>
       </section>
 
+
+      {/* Blog Links */}
+      <IndustryBlogLinks industry="education-name-generator" />
       {/* Internal Links */}
       <section className="py-12 bg-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
@@ -456,11 +460,7 @@ export default function EducationNameGeneratorPage() {
             </Link>
             <Link href="/examples" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-blue-300 hover:text-blue-600 transition-colors">
               ✨ Brand Kit Examples
-            </Link>
-            <Link href="/blog/how-to-choose-business-name" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-blue-300 hover:text-blue-600 transition-colors">
-              📖 How to Choose a Business Name
-            </Link>
-          </div>
+            </Link>          </div>
         </div>
       </section>
     </>

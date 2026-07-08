@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { IndustryBlogLinks } from '@/components/IndustryBlogLinks'
 
 export const metadata: Metadata = {
   title: 'Free Restaurant Name Generator — AI Restaurant Name Ideas & Brand Kits',
@@ -372,6 +373,9 @@ export default function RestaurantNameGeneratorPage() {
         </div>
       </section>
 
+
+      {/* Blog Links */}
+      <IndustryBlogLinks industry="restaurant-name-generator" />
       {/* Internal Links */}
       <section className="py-12 bg-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
