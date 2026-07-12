@@ -214,6 +214,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '14 min',
     date: '2026-07-08',
+    featured: false,
+  },
+  {
+    slug: 'catchy-brand-names',
+    title: 'Catchy Brand Names: 250+ Memorable Ideas for 2026 + Free AI Generator',
+    excerpt: 'Discover 250+ catchy brand name ideas across 10 industries, 7 proven naming formulas that make names stick, and a free AI generator that checks domain availability instantly.',
+    category: 'Naming',
+    readTime: '12 min',
+    date: '2026-07-12',
     featured: true,
   },
 ]
@@ -232,7 +241,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={22} />
+      <BlogIndexSchema postCount={23} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

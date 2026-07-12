@@ -196,6 +196,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — July 12
+    {
+      url: `${BASE_URL}/blog/catchy-brand-names`,
+      lastModified: new Date('2026-07-12'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/startup-name-generator`,

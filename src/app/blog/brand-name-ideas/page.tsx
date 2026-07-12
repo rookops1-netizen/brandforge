@@ -263,7 +263,7 @@ const FAQ_ITEMS = [
 
 const RELATED_POSTS = [
   { slug: 'brand-name-generator', title: 'Brand Name Generator: How to Find the Perfect Brand Name in 2026', category: 'Naming' },
-  { slug: 'creative-brand-names', title: 'Creative Brand Names: 60+ Examples & What Makes Them Work', category: 'Brand Strategy' },
+  { slug: 'catchy-brand-names', title: 'Catchy Brand Names: 250+ Memorable Ideas for 2026 + Free AI Generator', category: 'Naming' },
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name in 2026: The Complete Decision Framework', category: 'Brand Strategy' },
   { slug: 'cool-business-names', title: 'Cool Business Names: 150+ Ideas and How to Create Your Own', category: 'Naming' },
   { slug: 'catchy-business-names', title: '150+ Catchy Business Names for Every Industry', category: 'Naming' },

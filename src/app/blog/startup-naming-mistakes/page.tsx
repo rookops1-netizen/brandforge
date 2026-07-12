@@ -16,6 +16,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'What is the biggest naming mistake startups make?',
+    answer: 'The most damaging mistake is choosing a name that\'s hard to spell or pronounce. If you say your name at a networking event and someone asks "How do you spell that?" — you\'ve created friction that kills word of mouth. The best startup names pass the "phone test": say it once, and the other person can type it correctly on the first try. Think Stripe, Notion, Figma — all short, distinctive, and immediately spellable.',
+  },
+  {
+    question: 'Should I name my startup after myself?',
+    answer: 'Generally no, for three reasons: (1) It limits scalability — what if you sell the company? (2) It\'s not distinctive — "Johnson Consulting" returns dozens of results on Google. (3) It makes the brand about you instead of the value you provide. There are exceptions (Ford, Dell, Ferrari), but for every success story there are ten thousand anonymous personal-name businesses that struggle to differentiate.',
+  },
+  {
+    question: 'How do I check if my startup name has trademark conflicts?',
+    answer: 'Search the USPTO\'s TESS database for exact and similar names in your industry. Focus on live trademarks, not dead ones. Also check common law trademarks by searching Google, state business registries, and social media platforms. This takes about 10 minutes and can save you months of legal headaches and thousands in rebranding costs. BrandForge automatically flags potential conflicts during name generation.',
+  },
+  {
+    question: 'What should I do if the .com domain for my startup name is taken?',
+    answer: 'Try these alternatives in order: (1) Use a modifier like "get" or "try" (getacme.com). (2) Try alternative TLDs like .io, .co, or .ai — increasingly popular for modern startups. (3) Add a relevant word (acmetech.com, acmeapp.com). (4) Slightly modify the name while keeping the core feel. Never add hyphens, numbers, or deliberate misspellings — they look unprofessional and hurt memorability.',
+  },
+  {
+    question: 'How long should I spend on naming my startup?',
+    answer: 'Set a hard deadline of 1-2 weeks. "Perfect is the enemy of shipped" applies to naming more than almost anything else. Many founders spend months agonizing over a name while their product gathers dust. Generate 50+ options with an AI tool like BrandForge, filter to a shortlist of 5-7, test with real people, and commit. A good-enough name launched today beats a perfect name launched next quarter.',
+  },
+  {
+    question: 'Can an AI name generator help me avoid naming mistakes?',
+    answer: 'Yes — AI name generators like BrandForge are designed to avoid the most common mistakes by default. They generate names that are short, spellable, and distinctive. They automatically check domain availability and social handle availability, eliminating the "taken domain" problem. And they produce names that make sense to outsiders, not inside jokes. The AI handles the mechanical checks so you can focus on creative judgment.',
+  },
+  {
+    question: 'What makes a startup name memorable?',
+    answer: 'Memorable startup names share three traits: (1) Short — 1-2 syllables and 4-8 characters (Slack, Stripe, Zoom). (2) Distinctive — unique enough that a Google search returns your company first. (3) Easy to spell — no hyphens, numbers, or creative misspellings. The best names also have a metaphor or story behind them (Amazon = vast river = vast selection), which makes them stick in memory.',
+  },
+  {
+    question: 'Should I use a descriptive name or an abstract name for my startup?',
+    answer: 'Abstract names almost always win for startups. "Online Shoe Store" describes what you do, but "Zappos" is memorable, ownable, and distinctive. Descriptive names are hard to trademark, impossible to rank for in SEO (you\'re competing with every other business in that category), and they don\'t scale if you pivot. The best approach: use an abstract name and let your tagline describe what you do.',
+  },
+]
+
 export default function StartupNamingMistakes() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -24,7 +59,38 @@ export default function StartupNamingMistakes() {
         description="Hard-to-spell names, inside jokes, trademark conflicts — these are the naming traps founders fall into over and over."
         url="https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes"
         datePublished="2025-04-15"
+        dateModified="2026-07-12T12:00:00.000Z"
+        keywords={[
+          'startup naming mistakes',
+          'naming mistakes to avoid',
+          'bad business names',
+          'startup name errors',
+          'how not to name a startup',
+          'naming your startup',
+          'startup naming tips',
+          'common naming mistakes',
+        ]}
       />
+
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
+
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
         <span className="mx-2">/</span>
@@ -122,6 +188,32 @@ export default function StartupNamingMistakes() {
         </p>
       </div>
 
+      {/* FAQ */}
+      <section className="mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA */}
       <div className="mt-16 rounded-3xl bg-gradient-to-br from-brand-50 via-white to-purple-50 p-8 sm:p-12 text-center">
         <h2 className="text-2xl font-bold text-slate-900">Stop overthinking your name</h2>
         <p className="mt-2 text-slate-600">Generate short, memorable, available names in seconds — and check domains at the same time.</p>

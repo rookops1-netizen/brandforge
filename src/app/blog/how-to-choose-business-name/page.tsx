@@ -16,6 +16,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-business-name' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'How do I choose a good business name?',
+    answer: 'Start by defining your brand brief — what you do, who you serve, and what feeling you want to evoke. Then generate 50-100 name ideas using AI tools like BrandForge, brainstorming, and wordplay techniques. Filter ruthlessly using the five principles: short (4-8 characters), distinctive, spellable, domain-available, and trademark-clear. Test your top 5-10 names with real people in your target audience, then commit to the best available option.',
+  },
+  {
+    question: 'What makes a business name memorable?',
+    answer: 'Memorable business names tend to be short (1-2 syllables), distinctive from competitors, easy to spell and pronounce, and emotionally resonant. The best names also pass the "phone test" — if you say it over the phone, the other person can type it correctly on the first try. Names like Stripe, Notion, Figma, and Zoom are memorable because they\'re short, unique, and instantly recognizable.',
+  },
+  {
+    question: 'Should I check domain availability before choosing a name?',
+    answer: 'Absolutely. In 2026, your domain name is inseparable from your brand name. Check .com availability early — before you get attached to a name. If the exact .com is taken, consider alternatives like .io, .co, .ai, or adding a modifier (getyourname.com, yournameapp.com). BrandForge automatically checks domain availability for every name it generates, saving you hours of manual research.',
+  },
+  {
+    question: 'How do I avoid trademark conflicts with my business name?',
+    answer: 'Search the USPTO\'s TESS database (or your country\'s trademark office) for exact and similar names in your industry. Look for live trademarks, not just dead ones. Check common law trademarks by searching Google, state business registries, and social media. If a name has a live trademark in your industry, move on — it\'s not worth the legal risk. This 10-minute check can save you thousands in rebranding costs.',
+  },
+  {
+    question: 'How long should a business name be?',
+    answer: 'The best business names are 1-2 words and 4-10 characters. Shorter names are easier to remember, type, display in logos, and fit on social media profiles. The biggest brands in the world — Apple, Nike, Tesla, Uber, Slack — are all single words under 6 letters. If you need a longer name, make sure it has a natural abbreviation or nickname.',
+  },
+  {
+    question: 'Can an AI name generator help me choose a business name?',
+    answer: 'Yes — AI name generators like BrandForge are excellent for the ideation phase. They produce context-aware names based on your brand description, check domain and social handle availability automatically, and give you dozens of options in seconds. The best approach is to use AI for volume (generate 50+ options), then apply human judgment for the final selection. AI handles the grunt work; you make the creative call.',
+  },
+  {
+    question: 'What are the most common business naming mistakes?',
+    answer: 'The top 5 naming mistakes are: (1) Choosing a name that\'s too generic — it won\'t rank in search and customers won\'t remember it. (2) Using trendy misspellings — dropping vowels (like Tumblr, Flickr) confuses searchers and looks dated. (3) Picking a geographic name — it limits expansion ("Austin Web Design" doesn\'t work in Dallas). (4) Inside jokes — if only your co-founders get it, it\'s not a brand. (5) Not checking trademarks — a cease-and-desist letter costs thousands.',
+  },
+  {
+    question: 'How much does it cost to name a business?',
+    answer: 'Using BrandForge\'s AI generator, it\'s free to start — you get name ideas with domain availability checks at no cost. A complete brand kit with logo concepts, color palette, and tagline is $9. Traditional naming agencies charge $5,000-$50,000+ for a naming project. Most founders can find a great name for free or under $100 using AI tools, domain registration, and a basic trademark search.',
+  },
+]
+
 export default function HowToChooseBusinessName() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -24,6 +59,25 @@ export default function HowToChooseBusinessName() {
         description="Everything you need to know about picking the perfect business name — from brainstorming techniques and trademark research to domain strategy and AI-assisted naming."
         url="https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-business-name"
         datePublished="2025-05-15"
+      />
+
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">
@@ -242,6 +296,31 @@ export default function HowToChooseBusinessName() {
           <li><Link href="/blog/product-naming-guide">Product Naming Guide: How to Name a Product That Sells</Link></li>
         </ul>
       </div>
+
+      {/* FAQ */}
+      <section className="mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
 
       {/* CTA */}
       <div className="mt-16 rounded-3xl bg-gradient-to-br from-brand-50 via-white to-purple-50 p-8 sm:p-12 text-center">

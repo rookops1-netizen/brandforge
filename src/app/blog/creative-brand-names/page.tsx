@@ -18,6 +18,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/creative-brand-names' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'What makes a brand name creative?',
+    answer: 'Creative brand names use unexpected patterns that make them memorable and ownable. The six most effective patterns are: portmanteaus (blended words like Netflix, Pinterest), metaphors (evocative imagery like Amazon, Patagonia), foreign words (Häagen-Dazs, Kia), founder names (Nike, Ben & Jerry\'s), acronyms (IBM, KFC), and real words repurposed (Apple, Slack). The creativity comes from applying these patterns to your specific industry in a fresh way.',
+  },
+  {
+    question: 'How do I create a creative brand name?',
+    answer: 'Start by identifying the feeling or story you want your name to evoke, not the product category. Then use naming techniques: blend two relevant words (Pinterest = pin + interest), find a metaphor from nature or mythology (Amazon = vast river = vast selection), borrow a word from another language, or invent a new word that sounds natural. BrandForge\'s AI generator applies these patterns automatically based on your business description.',
+  },
+  {
+    question: 'Should my brand name be descriptive or abstract?',
+    answer: 'Abstract names almost always outperform descriptive ones for branding. "Zappos" is more memorable than "Online Shoe Store." "Stripe" beats "Payment Processing Inc." Descriptive names are hard to trademark, difficult to rank for in search (you compete with every business in that category), and don\'t scale if you pivot. The best approach: use an abstract, creative name, and let your tagline or description do the heavy lifting of explaining what you do.',
+  },
+  {
+    question: 'Can I use a real word as a brand name?',
+    answer: 'Yes, and many of the biggest brands do exactly this. Apple, Amazon, Slack, Stripe, and Notion are all real dictionary words repurposed as brand names. The key is choosing a word that\'s (1) not commonly used in your industry, (2) easy to remember and spell, (3) evocative of a feeling or concept related to your brand, and (4) available as a .com domain. Real words work because they\'re instantly recognizable but gain new meaning in your context.',
+  },
+  {
+    question: 'What are examples of creative portmanteau brand names?',
+    answer: 'Great portmanteau brand names include: Netflix (internet + flicks), Pinterest (pin + interest), Instagram (instant + telegram), Microsoft (microcomputer + software), Groupon (group + coupon), YouTube (you + tube), Lego (leg + godt, Danish for "play well"), and FedEx (federal + express). The best portmanteaus combine two words that each reinforce the brand\'s meaning while creating something new and memorable.',
+  },
+  {
+    question: 'How do I test if my creative brand name works?',
+    answer: 'Run your top 5-10 names through these tests: (1) The phone test — say it over the phone. Can the other person spell it correctly? (2) The search test — Google it. Does your brand appear first, or get lost among competitors? (3) The bar test — say it in a noisy room. Is it memorable after one hearing? (4) The domain test — is the .com available? (5) The trademark test — is it legally available? BrandForge automates checks 4 and 5.',
+  },
+  {
+    question: 'Is BrandForge\'s name generator good for creative names?',
+    answer: 'Yes — BrandForge is specifically designed to generate creative, memorable names rather than generic keyword combinations. Its AI understands the naming patterns behind successful brands (portmanteaus, metaphors, invented words, etc.) and applies them to your specific business context. You also get instant domain and social availability checks, so you know your creative name is actually available to use.',
+  },
+  {
+    question: 'How long should a creative brand name be?',
+    answer: 'The sweet spot is 1-2 syllables and 4-8 characters. Look at the most creative brand names: Stripe (6), Slack (5), Notion (6), Zoom (4), Figma (5). Shorter names are easier to remember, type, fit on logos, and rank in search. If your creative name is longer, make sure it has a natural abbreviation (e.g., "International Business Machines" → "IBM").',
+  },
+]
+
 const categories = [
   {
     title: 'Portmanteaus (Blended Words)',
@@ -99,6 +134,36 @@ export default function CreativeBrandNamesPage() {
         description="Deconstruct 60+ real brand names from real companies and learn the patterns behind them — portmanteaus, metaphors, foreign words, and more."
         url="https://brandforge-phi-pearl.vercel.app/blog/creative-brand-names"
         datePublished="2025-05-17"
+        dateModified="2026-07-12T12:00:00.000Z"
+        keywords={[
+          'creative brand names',
+          'creative business names',
+          'unique brand names',
+          'creative naming ideas',
+          'how to create a brand name',
+          'brand naming techniques',
+          'memorable brand names',
+          'portmanteau brand names',
+        ]}
+      />
+
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       {/* Header */}
       <div className="mb-12">
@@ -183,6 +248,31 @@ export default function CreativeBrandNamesPage() {
           not staring at a blank page.</p>
         </div>
       </div>
+
+      {/* FAQ */}
+      <section className="mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
 
       {/* Final CTA */}
       <div className="rounded-2xl border-2 border-brand-200 bg-brand-50/50 p-8 text-center mb-12">
