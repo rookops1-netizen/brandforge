@@ -16,6 +16,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-build-brand-identity' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'What is a brand identity?',
+    answer: 'A brand identity is the complete visual and verbal system that defines how your business presents itself to the world. It includes your brand name, logo, color palette, typography, tagline, and imagery style. Think of it as your brand\'s personality made visible — everything from the colors on your website to the tone of your emails.',
+  },
+  {
+    question: 'How much does it cost to build a brand identity?',
+    answer: 'With BrandForge, you can build a complete brand identity for $9 — including logo concepts, color palette, typography, and tagline. Traditional branding agencies charge $5,000-$50,000+ for the same deliverables. If you\'re on a tight budget, start with the essentials (name, logo, colors) and add complexity as your business grows.',
+  },
+  {
+    question: 'What are the essential elements of a brand identity?',
+    answer: 'Every brand identity needs five core elements: (1) Brand name — memorable, distinctive, available. (2) Logo — a visual mark that represents your brand. (3) Color palette — 3-5 colors that create the right emotional impression. (4) Typography — 1-2 fonts that match your brand\'s personality. (5) Tagline — a short phrase that captures what you do or why you\'re different. BrandForge generates all five in a single brand kit.',
+  },
+  {
+    question: 'How long does it take to build a brand identity?',
+    answer: 'With BrandForge, you can get a complete brand kit in under 30 seconds. Traditional branding projects take 4-12 weeks with an agency. If you\'re doing it yourself from scratch, expect 2-4 weeks of iteration on name, logo, and colors. The key is to start with a complete kit rather than piece things together over months.',
+  },
+  {
+    question: 'What comes first: brand name or logo?',
+    answer: 'Always start with the brand name. Your name is the foundation of your entire identity — it influences your logo design, color choices, tagline, and even typography. A great name suggests visual directions for the logo (think about how "Stripe" influenced their simple, clean design). Once you have a name, the rest of your identity flows naturally from it.',
+  },
+  {
+    question: 'How do I choose brand colors?',
+    answer: 'Start with the emotion you want to evoke: blue builds trust, red drives action, green signals growth, yellow conveys optimism, purple suggests luxury, orange shows energy, and black communicates sophistication. Pick one primary color that matches your brand personality, then add 1-2 secondary colors and an accent color. Use the 60-30-10 rule: 60% primary, 30% secondary, 10% accent.',
+  },
+  {
+    question: 'Can I build a brand identity without hiring a designer?',
+    answer: 'Absolutely. Tools like BrandForge give you a complete brand kit (name, logo concepts, colors, typography, tagline) without any design experience. For more custom logo work, use Canva or Looka. The key is having a consistent system — matching colors, fonts, and visual style — rather than having a designer create everything from scratch.',
+  },
+  {
+    question: 'What makes a strong brand identity?',
+    answer: 'A strong brand identity is (1) Consistent — the same colors, fonts, and tone across every touchpoint. (2) Distinctive — recognizable even without the logo. (3) Flexible — works on a billboard and a favicon. (4) Authentic — reflects who you actually are, not who you think you should be. (5) Memorable — sticks in people\'s minds after one encounter. The strongest identities are simple — think of Nike\'s swoosh, Slack\'s hashtag, or Stripe\'s simple typography.',
+  },
+]
+
 export default function HowToBuildBrandIdentity() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -24,6 +59,36 @@ export default function HowToBuildBrandIdentity() {
         description="Learn how to create a complete brand identity step by step — name, logo, colors, typography, and tagline."
         url="https://brandforge-phi-pearl.vercel.app/blog/how-to-build-brand-identity"
         datePublished="2026-05-25"
+        dateModified="2026-07-12T12:00:00.000Z"
+        keywords={[
+          'how to build a brand identity',
+          'brand identity guide',
+          'brand identity from scratch',
+          'create a brand identity',
+          'brand identity for startups',
+          'brand kit template',
+          'brand identity cost',
+          'brand identity elements',
+        ]}
+      />
+
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">
@@ -338,6 +403,31 @@ export default function HowToBuildBrandIdentity() {
           <li><Link href="/blog/startup-naming-mistakes">7 Naming Mistakes That Kill Startups (Before They Even Launch)</Link></li>
         </ul>
       </div>
+
+      {/* FAQ */}
+      <section className="mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
 
       {/* CTA */}
       <div className="mt-16 rounded-3xl bg-gradient-to-br from-brand-50 via-white to-purple-50 p-8 sm:p-12 text-center">

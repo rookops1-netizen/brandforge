@@ -17,6 +17,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/llc-naming-guide' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'What are the legal requirements for an LLC name?',
+    answer: 'LLC name requirements vary by state, but most require: (1) The name must include "LLC," "L.L.C.," or "Limited Liability Company." (2) It must be distinguishable from other registered business names in your state. (3) It can\'t contain restricted words like "bank," "insurance," or "university" without special approval. (4) It can\'t imply a purpose beyond your LLC\'s registered business purpose. Always check your specific state\'s Secretary of State website for exact requirements.',
+  },
+  {
+    question: 'Can I use a name that\'s similar to another business?',
+    answer: 'It depends. States require LLC names to be "distinguishable" from other registered names, meaning they can\'t be so similar that they confuse consumers. Adding "LLC" or changing punctuation doesn\'t make a name distinguishable. However, a different industry might be okay — "Acme Bakery LLC" and "Acme Software LLC" could coexist if they serve different markets. Always check your state\'s business name database before committing.',
+  },
+  {
+    question: 'Do I need to register my LLC name as a trademark?',
+    answer: 'It\'s not required, but it\'s strongly recommended if you plan to build a significant brand. LLC registration with your state protects the name only within that state and only for the business entity. A federal trademark with the USPTO protects your name nationwide and gives you exclusive rights to use it for your goods and services. If your brand matters to you, trademark it — the $250-$350 filing fee is cheap insurance.',
+  },
+  {
+    question: 'What is a DBA and do I need one for my LLC?',
+    answer: 'A DBA ("Doing Business As") — also called a fictitious name or trade name — lets your LLC operate under a name different from its legal name. For example, "Smith Ventures LLC" could do business as "BrandForge." You need a DBA if you want to use a shorter, more marketable name than your legal LLC name, or if you operate multiple businesses under one LLC. DBA requirements vary by state and county.',
+  },
+  {
+    question: 'How do I check if my LLC name is available?',
+    answer: 'Check availability in four places: (1) Your state\'s Secretary of State business name database — this is the most important check. (2) USPTO\'s TESS database for federal trademark conflicts. (3) Domain availability — use BrandForge to check .com availability instantly. (4) Social media handles — search Twitter/X, Instagram, and LinkedIn. BrandForge automatically checks domain and social availability for every name it generates.',
+  },
+  {
+    question: 'Can my LLC name be different from my brand name?',
+    answer: 'Yes! In fact, this is common and often recommended. Your LLC name is the legal entity (e.g., "Acme Holdings LLC"), while your brand name is what customers see (e.g., "Stripe"). Many successful companies use a different brand name than their legal entity name. You register the LLC name with your state, then file a DBA for the brand name you use publicly.',
+  },
+  {
+    question: 'How much does it cost to name and register an LLC?',
+    answer: 'LLC registration costs $50-$500 depending on your state (the filing fee). A federal trademark application costs $250-$350 per class. A DBA registration is typically $10-$100. Using BrandForge to generate and validate your LLC name ideas is completely free — including domain and social availability checks. So your total naming cost could be just your state\'s filing fee.',
+  },
+  {
+    question: 'What words can\'t I use in my LLC name?',
+    answer: 'Restricted words vary by state but typically include: "bank," "banking," "trust" (requires banking authorization), "insurance" (requires insurance licensing), "university," "college" (requires education authorization), "federal," "national" (implies government affiliation), and professional designations like "architect," "engineer," or "attorney" unless you have the relevant license. Each state has its own list — check your Secretary of State\'s website.',
+  },
+]
+
 export default function LLCNamingGuidePage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
@@ -25,6 +60,36 @@ export default function LLCNamingGuidePage() {
         description="Everything you need to know about naming your LLC — legal requirements, state rules, DBA names, trademark considerations, and branding tips."
         url="https://brandforge-phi-pearl.vercel.app/blog/llc-naming-guide"
         datePublished="2025-05-17"
+        dateModified="2026-07-12T12:00:00.000Z"
+        keywords={[
+          'LLC naming guide',
+          'how to name an LLC',
+          'LLC name requirements',
+          'LLC name rules',
+          'DBA name',
+          'fictitious business name',
+          'LLC name availability',
+          'LLC naming rules by state',
+        ]}
+      />
+
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       {/* Header */}
       <div className="mb-12">
@@ -243,6 +308,31 @@ export default function LLCNamingGuidePage() {
           ))}
         </div>
       </div>
+
+      {/* FAQ */}
+      <section className="mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
 
       {/* CTA */}
       <div className="rounded-2xl border-2 border-brand-200 bg-brand-50/50 p-8 text-center mb-12">
