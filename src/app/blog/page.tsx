@@ -223,6 +223,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '12 min',
     date: '2026-07-12',
+    featured: false,
+  },
+  {
+    slug: 'app-name-generator',
+    title: 'App Name Generator: 200+ App Name Ideas for 2026 + Free AI Tool',
+    excerpt: '200+ app name ideas across 10 categories, 6 naming frameworks behind hit apps like Slack, Notion, and Calendly, and a free AI generator that checks domain availability instantly.',
+    category: 'Naming',
+    readTime: '14 min',
+    date: '2026-07-13',
     featured: true,
   },
 ]
@@ -241,7 +250,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={23} />
+      <BlogIndexSchema postCount={24} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

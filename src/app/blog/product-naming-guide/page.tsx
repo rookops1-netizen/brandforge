@@ -552,6 +552,11 @@ export default function ProductNamingGuidePage() {
               7 Naming Mistakes That Kill Startups →
             </Link>
           </li>
+          <li>
+            <Link href="/blog/app-name-generator" className="text-brand-600 hover:text-brand-700 text-sm">
+              App Name Generator: 200+ App Name Ideas for 2026 →
+            </Link>
+          </li>
         </ul>
       </div>
 
