@@ -46,6 +46,41 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'What makes a business name cool?',
+    answer: 'A cool business name is short (1–3 syllables), easy to spell and pronounce, distinctive without being confusing, and evocative rather than descriptive. The coolest names — like Stripe, Notion, or Vanta — hint at something bigger without literally spelling it out. They sound good, look good, and feel good to say.',
+  },
+  {
+    question: 'How do I come up with a cool business name?',
+    answer: 'Start by listing 20 words that describe your brand\'s personality, values, and industry. Then use naming techniques like compounding (Shopify = shop + modify), vowel swaps (Lyft instead of Lift), metaphors (Amazon = biggest river), or invented words (Kodak). Generate broadly with tools like BrandForge, then narrow down by testing spelling, pronunciation, and domain availability.',
+  },
+  {
+    question: 'Should a cool business name describe what I do?',
+    answer: 'No — the coolest names rarely do. Stripe doesn\'t say "payments," Nike doesn\'t say "shoes," and Slack doesn\'t say "chat." Suggestive names are more memorable and give you room to expand. If you must be descriptive, use a modifier like "Nova" or "Labs" rather than literally describing your product.',
+  },
+  {
+    question: 'What if the .com domain for my cool name is taken?',
+    answer: 'Try adding a short modifier like "get," "app," or "hq" (e.g., getnova.com, novahq.com). Consider .co, .io, or .ai for tech brands. You can also use your brand word plus a descriptor (stripe.com → stripe.com/payments). Avoid hyphens, numbers, or misspellings of the domain — they kill the coolness factor.',
+  },
+  {
+    question: 'Are cool business names harder to trademark?',
+    answer: 'Actually, the opposite is true. Suggestive and invented names are easier to trademark than descriptive ones. "CoolBusinessNames.com" would be hard to protect, but "Vexol" or "Nexora" are highly distinctive and much easier to register. The USPTO favors names that are arbitrary or fanciful.',
+  },
+  {
+    question: 'Can a cool name also be professional?',
+    answer: 'Absolutely. "Cool" doesn\'t mean "casual." Names like Goldman Sachs, McKinsey, and Blackstone are cool because they sound authoritative and memorable. The key is matching your name\'s energy to your industry — a law firm should sound different from a sneaker brand, but both should be distinctive and easy to remember.',
+  },
+  {
+    question: 'How many name ideas should I generate before choosing?',
+    answer: 'Aim for 50–100 initial ideas, then narrow to 10–15 based on your criteria (memorability, domain availability, trademark potential). Test those 10 with real people and usually 2–3 will stand out. The key is generating enough volume that you find unexpected gems — BrandForge generates 5 per round, so 10–20 rounds gives you a strong pool.',
+  },
+  {
+    question: 'What industries have the coolest business names?',
+    answer: 'Tech and consumer brands tend to have the coolest names (Apple, Stripe, Slack, Spotify) because they prioritize memorability over descriptiveness. Finance is catching up (Robinhood, Lemonade). The industries with the least cool names are often healthcare, legal, and accounting — which means there\'s a huge opportunity to stand out simply by choosing a name that doesn\'t sound like every other firm in your space.',
+  },
+]
+
 const INDUSTRY_NAMES = [
   {
     industry: 'Tech & SaaS',
@@ -145,6 +180,8 @@ const INDUSTRY_NAMES = [
   },
 ]
 
+
+
 export default function CoolBusinessNamesPage() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -153,6 +190,39 @@ export default function CoolBusinessNamesPage() {
         description="Discover 150+ cool business name ideas organized by industry, plus a proven 5-step framework for creating a name that stands out."
         url="https://brandforge-phi-pearl.vercel.app/blog/cool-business-names"
         datePublished="2026-05-28"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Cool Business Names', item: 'https://brandforge-phi-pearl.vercel.app/blog/cool-business-names' },
+            ],
+          }),
+        }}
       />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">
@@ -393,6 +463,32 @@ export default function CoolBusinessNamesPage() {
       </section>
 
       {/* Newsletter CTA */}
+      
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <NewsletterCta />
     </article>
   )

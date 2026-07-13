@@ -16,6 +16,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/ai-name-generator-vs-traditional' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'Is an AI name generator better than a naming agency?',
+    answer: 'It depends on your needs. AI name generators like BrandForge are faster (seconds vs weeks), cheaper (free vs $5,000–$50,000+), and produce surprisingly high-quality results. Naming agencies offer deeper strategic research and legal trademark clearance. For most startups and small businesses, AI is the clear winner on cost-to-quality ratio. Enterprise companies may still benefit from agencies for stakeholder management and full legal review.',
+  },
+  {
+    question: 'How much does a naming agency cost?',
+    answer: 'Professional naming agencies typically charge $5,000–$50,000+ for a naming project, with premium firms like Siegel+Gale or Catchword charging $15,000–$50,000. The process takes 4–8 weeks and usually includes brand strategy research, name generation, and preliminary trademark screening. AI name generators like BrandForge are free for unlimited name generation, with brand kits available for $9.',
+  },
+  {
+    question: 'Can AI name generators produce truly creative names?',
+    answer: 'Yes. Modern AI name generators use large language models trained on millions of successful brand names, linguistic patterns, and naming techniques. They can produce portmanteaus, metaphors, compound words, and evocative names — the same techniques used by professional naming agencies. The advantage is that AI can generate hundreds of options in seconds, giving you a much wider pool to filter from.',
+  },
+  {
+    question: 'What are the limitations of AI name generators?',
+    answer: 'AI name generators have three main limitations: (1) They don\'t replace full trademark legal review — always verify names through USPTO before committing. (2) They can\'t deeply understand your brand strategy the way a human naming consultant would. (3) They may occasionally produce names that sound good but have unintended meanings in other languages. Use AI for broad generation, then apply human judgment for final selection.',
+  },
+  {
+    question: 'How fast is BrandForge compared to DIY brainstorming?',
+    answer: 'BrandForge generates name ideas in under 30 seconds. DIY brainstorming typically takes 2–4 weeks to produce a comparable number of viable options. The speed advantage comes from AI\'s ability to instantly apply dozens of naming techniques (portmanteaus, metaphors, compounds, etc.) and check domain/social availability in real-time — something that would take hours to do manually for each name.',
+  },
+  {
+    question: 'Should I use AI, DIY, or an agency for naming?',
+    answer: 'The smartest approach is to combine methods: Start with AI (BrandForge) to generate a broad pool of options quickly and cheaply. Then apply DIY brainstorming to add personal context and refine favorites. If needed, bring in an agency for final trademark clearance and stakeholder alignment. Most businesses find that AI + DIY is sufficient — agencies add the most value for enterprise rebrands with large budgets.',
+  },
+  {
+    question: 'Do naming agencies use AI themselves?',
+    answer: 'Increasingly, yes. Many modern naming agencies now use AI as part of their workflow — generating initial concepts with AI, then refining with human expertise. This means you\'re often paying agency prices for a process that starts with the same technology BrandForge gives you for free. The difference is the strategic wrapper and legal review that agencies add.',
+  },
+  {
+    question: 'Is BrandForge\'s AI name generator free?',
+    answer: 'Yes, BrandForge\'s name generator is completely free with unlimited generations. You get instant name ideas with domain and social media availability checks at no cost. A complete brand kit — including logo concepts, color palette, tagline, and font pairings — is available for $9 one-time.',
+  },
+]
+
 export default function AIVsTraditionalNaming() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -24,6 +59,24 @@ export default function AIVsTraditionalNaming() {
         description="We compared AI naming tools, naming agencies, and DIY brainstorming. The results on price, speed, and quality might surprise you."
         url="https://brandforge-phi-pearl.vercel.app/blog/ai-name-generator-vs-traditional"
         datePublished="2025-05-10"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
@@ -126,6 +179,31 @@ export default function AIVsTraditionalNaming() {
           <a href="/generate" className="btn-primary">Generate Names Free</a>
         </div>
       </div>
+
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
     </article>
   )
 }

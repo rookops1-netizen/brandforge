@@ -235,6 +235,41 @@ const techniques = [
   },
 ]
 
+const FAQ_ITEMS = [
+  {
+    question: 'How do I come up with a unique business name?',
+    answer: 'Use proven naming techniques: (1) Portmanteau — blend two words (Pinterest = pin + interest). (2) Foreign words — borrow from Latin, Greek, or other languages (Lego = Latin "I put together"). (3) Deliberate misspelling — modify a real word (Lyft, Fiverr). (4) Evocative metaphors — choose a word that suggests a feeling (Stripe, Amazon). (5) Compound words — combine two real words (Facebook, Dropbox). BrandForge applies all these techniques automatically based on your business description.',
+  },
+  {
+    question: 'What makes a business name truly unique?',
+    answer: 'A truly unique name is: (1) Ownable — you can trademark it, get the domain, and own the social handles. (2) Pronounceable — people can say it and spell it after hearing it once. (3) Suggestive, not descriptive — "Stripe" suggests payments without saying "payment processing." (4) Culturally appropriate — it doesn\'t have unintended meanings in your target markets. A name that\'s merely unusual but can\'t be pronounced or spelled isn\'t unique — it\'s just bad.',
+  },
+  {
+    question: 'Can I use a misspelled word as a business name?',
+    answer: 'Yes — deliberate misspelling is one of the most effective naming techniques. Lyft (not Lift), Fiverr (not Fiver), Reddit (not Read It), and Tumblr (not Tumbler) all use this approach. The key is that the misspelling must still be easy to pronounce and spell when heard. If someone hears your name and can\'t figure out how to type it, the misspelling is too extreme.',
+  },
+  {
+    question: 'Should I use a foreign word for my business name?',
+    answer: 'Foreign words can make excellent brand names — Lego (Latin for "I put together"), Volvo (Latin for "I roll"), and Audi (Latin for "listen") are all Latin-derived. The advantages: they\'re distinctive, often available as domains, and easy to trademark. The key is choosing a word that sounds good in your primary market, regardless of whether customers know the translation. Always check that the word doesn\'t have negative meanings in other languages you might expand into.',
+  },
+  {
+    question: 'How do I check if my unique business name is available?',
+    answer: 'Check four things: (1) Domain availability — search at a domain registrar. (2) Trademark search — use USPTO\'s TESS database for identical and similar marks. (3) Social media handles — check Twitter/X, Instagram, LinkedIn, and TikTok. (4) Google search — does your name appear uniquely or get lost among competitors? BrandForge automatically checks domain and social availability for every name it generates.',
+  },
+  {
+    question: 'What are examples of unique business names?',
+    answer: 'The most unique business names use naming techniques that create something genuinely new: Portmanteaus like Netflix (net + flicks) and Pinterest (pin + interest). Foreign words like Lego (Latin) and Volvo (Latin). Deliberate misspellings like Lyft and Reddit. Evocative metaphors like Stripe, Amazon, and Nike. Compounds like Facebook and Dropbox. Each technique creates a name that\'s ownable, memorable, and hard to copy.',
+  },
+  {
+    question: 'Is it better to have a unique name or a descriptive name?',
+    answer: 'Unique names almost always win. Descriptive names ("Online Shoe Store") are forgettable, hard to trademark, and difficult to rank for in SEO because you compete with every business in that category. Evocative names ("Zappos") are memorable, easy to trademark, and stand out in search. The best names are unique but suggestive — they hint at what you do without being generic.',
+  },
+  {
+    question: 'Is BrandForge\'s name generator free?',
+    answer: 'Yes! BrandForge\'s name generator is completely free with unlimited generations. You get name ideas using all six naming techniques — portmanteaus, foreign words, compounds, misspellings, metaphors, and real words — with instant domain and social availability checks. A complete brand kit is available for $9 one-time.',
+  },
+]
+
 export default function UniqueBusinessNamesPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
@@ -243,6 +278,39 @@ export default function UniqueBusinessNamesPage() {
         description="Browse 120+ unique business name ideas across 8 industries, plus learn the 6 proven techniques for creating names nobody else has."
         url="https://brandforge-phi-pearl.vercel.app/blog/unique-business-names"
         datePublished="2025-05-20"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Unique Business Names', item: 'https://brandforge-phi-pearl.vercel.app/blog/unique-business-names' },
+            ],
+          }),
+        }}
       />
       {/* Header */}
       <div className="mb-12">
@@ -520,6 +588,32 @@ export default function UniqueBusinessNamesPage() {
       </div>
 
       {/* Newsletter */}
+      
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <BlogNewsletterSection />
     </div>
   )

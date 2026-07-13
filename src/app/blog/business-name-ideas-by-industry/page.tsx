@@ -73,6 +73,41 @@ const industryNames: Record<string, { names: string[]; pattern: string; patternD
 
 const industries = Object.keys(industryNames)
 
+const FAQ_ITEMS = [
+  {
+    question: 'How do I come up with business name ideas by industry?',
+    answer: 'Start by identifying the naming patterns that work in your industry — tech favors short invented words (Figma, Notion), food brands use ingredient + place combos (Ember & Oak, Salt House), and consulting firms use directional + professional terms (Meridian Group, Apex Advisory). Use our industry-specific lists above as inspiration, then use BrandForge\'s AI generator to create names that follow those patterns automatically.',
+  },
+  {
+    question: 'What makes a good business name for my industry?',
+    answer: 'A good industry-specific name balances memorability with relevance. In tech, short and punchy wins (Slack, Stripe). In food, sensory and evocative names work best (Ember & Oak, Salt House). In finance, trust and stability matter (ClearLedger, Meridian Group). The key is choosing a name that signals your industry without being generic — evocative beats descriptive every time.',
+  },
+  {
+    question: 'Should I include my industry in my business name?',
+    answer: 'Generally no. Including your industry in your name (like "TechSolutions" or "FreshBakery") makes it harder to pivot if your business evolves. Amazon doesn\'t say "AmazonBooks" and Slack doesn\'t say "SlackChat." Use an evocative name that suggests your industry without stating it literally, and let your tagline and marketing communicate what you do.',
+  },
+  {
+    question: 'How many business name ideas should I generate?',
+    answer: 'Aim for 50-100 name ideas before narrowing down. Most people stop after 10-15 and settle for mediocre names. Use industry-specific lists like the ones above for initial inspiration, then use BrandForge to generate dozens more tailored to your exact business description. The more options you generate, the better your final choice will be.',
+  },
+  {
+    question: 'Can I use a name from this list for my business?',
+    answer: 'The names in our lists are creative examples meant to inspire your own naming process. Before committing to any name, you must check: (1) domain availability, (2) trademark conflicts via USPTO, (3) social media handle availability, and (4) state business registration. BrandForge automatically checks domain and social availability for every name it generates.',
+  },
+  {
+    question: 'What\'s the difference between a business name and a brand name?',
+    answer: 'A business name is your legal entity (what you register with the state). A brand name is what customers know you by. Sometimes they\'re the same (Nike), sometimes they\'re different (The TJX Companies → TJ Maxx). Your brand name should be catchy and memorable, while your business name can be more descriptive for legal purposes.',
+  },
+  {
+    question: 'How do naming patterns differ across industries?',
+    answer: 'Each industry has distinct naming conventions: Tech favors short, invented words (Zoom, Stripe). Food & beverage uses sensory, place-based names (Salt House, Ember & Oak). Finance prefers trust-signaling words (Meridian, Capital). Creative agencies use compound metaphors (Ink & Ore, SignalCraft). Real estate uses foundation/architecture terms (Keystone, Hearthstone). Understanding these patterns helps you create names that feel right for your industry.',
+  },
+  {
+    question: 'Is BrandForge\'s name generator free?',
+    answer: 'Yes! BrandForge\'s name generator is completely free with unlimited generations. You get instant name ideas with domain and social media availability checks at no cost. A complete brand kit with logo concepts, color palette, tagline, and font pairings is available for $9 one-time.',
+  },
+]
+
 export default function BusinessNameIdeasByIndustryPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
@@ -81,6 +116,24 @@ export default function BusinessNameIdeasByIndustryPage() {
         description="Browse hundreds of name ideas across 10 industries — tech, food, fashion, consulting, and more."
         url="https://brandforge-phi-pearl.vercel.app/blog/business-name-ideas-by-industry"
         datePublished="2025-05-17"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       {/* Header */}
       <div className="mb-12">
@@ -195,6 +248,32 @@ export default function BusinessNameIdeasByIndustryPage() {
       </div>
 
       {/* Newsletter */}
+      
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <BlogNewsletterSection />
     </div>
   )

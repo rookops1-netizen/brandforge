@@ -16,6 +16,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/brand-color-psychology' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'What is brand color psychology?',
+    answer: 'Brand color psychology is the study of how colors influence consumer perception and behavior. Different colors evoke different emotions — blue signals trust and stability, red creates urgency and energy, green suggests growth and health. Choosing the right brand colors helps communicate your brand\'s personality and values before a single word is read.',
+  },
+  {
+    question: 'What color is best for a brand?',
+    answer: 'There\'s no single "best" brand color — it depends on your industry, audience, and personality. Blue is the most popular brand color (used by 33% of top brands) because it signals trust and reliability. Tech and finance brands often choose blue, while food brands lean toward red and orange for appetite stimulation. Pick the color that matches the emotion you want your audience to feel.',
+  },
+  {
+    question: 'How many colors should a brand have?',
+    answer: 'Most brands use 3-5 colors: 1 primary color (60% of usage), 1-2 secondary colors (30%), and 1-2 accent colors (10%). This 60-30-10 rule creates visual hierarchy and keeps your brand consistent. Start with your primary color based on psychology, then choose supporting colors that complement it.',
+  },
+  {
+    question: 'What does the color blue mean in branding?',
+    answer: 'Blue is the most universally positive brand color, signaling trust, stability, professionalism, and security. It\'s used by 33% of Fortune 500 companies and is especially popular in finance (Chase, Capital One), technology (IBM, Intel, Facebook), and healthcare. Blue also suppresses appetite, making it a poor choice for food brands.',
+  },
+  {
+    question: 'What does the color red mean in branding?',
+    answer: 'Red is the most attention-grabbing color, signaling energy, urgency, passion, and excitement. It physically raises heart rate and stimulates appetite — which is why it\'s used by virtually every fast-food chain (McDonald\'s, KFC, Pizza Hut, Burger King). Red is ideal for call-to-action buttons, sale announcements, and brands that want to project bold energy.',
+  },
+  {
+    question: 'How do I choose brand colors for my business?',
+    answer: 'Follow this 4-step process: (1) Define 2-3 emotions you want your brand to evoke (e.g., trust + innovation). (2) Match those emotions to colors using color psychology research. (3) Choose 1 primary color that represents your brand\'s dominant emotion. (4) Add 1-2 complementary colors using the 60-30-10 rule. Test your palette with real people in your target audience.',
+  },
+  {
+    question: 'Can BrandForge help me choose brand colors?',
+    answer: 'Yes! When you generate a brand kit on BrandForge, our AI recommends a complete color palette based on your business description. Describe a "sustainable coffee shop" and you\'ll get earthy greens and warm browns. Describe a "fintech app for freelancers" and you\'ll get trustworthy blues with energetic accents. The entire process takes under 30 seconds.',
+  },
+  {
+    question: 'Should I use black in my brand colors?',
+    answer: 'Black is powerful in branding — it signals sophistication, luxury, and authority. Brands like Chanel, Apple, and Nike use black as a primary color. It works best for premium brands, fashion houses, and high-end professional services. If your brand is playful or approachable, use black as an accent rather than a primary color.',
+  },
+]
+
 export default function BrandColorPsychology() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -24,6 +59,24 @@ export default function BrandColorPsychology() {
         description="Blue builds trust. Red drives action. Green signals growth. Here's how to pick a color palette that communicates exactly what your brand stands for."
         url="https://brandforge-phi-pearl.vercel.app/blog/brand-color-psychology"
         datePublished="2025-05-05"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
@@ -127,6 +180,31 @@ export default function BrandColorPsychology() {
           <a href="/brand-kit" className="btn-primary">Create Your Brand Kit</a>
         </div>
       </div>
+
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
     </article>
   )
 }

@@ -19,6 +19,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'How do I name a product that people will remember?',
+    answer: 'The most memorable product names follow one of five patterns: descriptive (Home Depot), suggestive (Slack), metaphorical (Nike), invented (Kodak), or compound (Facebook). Suggestive names are the sweet spot — they hint at what you do without being literal, making them both memorable and ownable. Aim for 1–3 syllables, easy spelling, and a name that evokes a feeling.',
+  },
+  {
+    question: 'Should my product name describe what it does?',
+    answer: 'It depends on your product type. B2B and enterprise products benefit from descriptive names (Salesforce, HubSpot) because decision-makers search by category. Consumer products and apps do better with suggestive names (Slack, Notion, Calendly) that are memorable and ownable. Avoid purely descriptive names for consumer products — they\'re forgettable and hard to trademark.',
+  },
+  {
+    question: 'How do I check if a product name is already taken?',
+    answer: 'Check four things: (1) Domain availability for your .com (or .io/.app for SaaS), (2) USPTO trademark search at tmsearch.uspto.gov, (3) Social media handle availability on Twitter/X, Instagram, and LinkedIn, (4) Google the name to see if another product uses it. BrandForge checks domain and social availability automatically during name generation.',
+  },
+  {
+    question: 'What if the .com domain for my product name is taken?',
+    answer: 'For SaaS and tech products, .io and .app are widely accepted alternatives (Linear.app, Vercel.com → actually Linear.io was original). For consumer products, .com matters more — try adding a short modifier like "get," "try," or "use" (e.g., getnotion.com was Notion\'s original domain). Avoid hyphens and numbers in your domain.',
+  },
+  {
+    question: 'How is product naming different from company naming?',
+    answer: 'Product names need to be shorter, more distinctive, and work across more contexts — app stores, social media, verbal recommendations, and tiny mobile icons. Company names can be longer and more descriptive. A product name should pass the "phone test" (can you say it once and have someone spell it correctly?) and the "app icon test" (does it look good in a 16x16 pixel square?).',
+  },
+  {
+    question: 'Should I use an invented word for my product name?',
+    answer: 'Invented names (Kodak, Xerox, Etsy) are the most ownable — zero SEO competition, maximum trademark protection, and no pre-existing associations. But they require significant marketing investment to build meaning. If you\'re a startup on a budget, go suggestive (Slack, Stripe). If you have marketing dollars and want a name that\'s 100% yours, invented is the strongest play.',
+  },
+  {
+    question: 'How many product name ideas should I generate?',
+    answer: 'Generate 50–100 names across all five naming frameworks (descriptive, suggestive, metaphorical, invented, compound). Then filter to your top 10 by checking: easy to spell, easy to say, domain available, no trademark conflicts, under 3 syllables, and fits your audience. Test your top 3–5 with real users before committing.',
+  },
+  {
+    question: 'What are the most common product naming mistakes?',
+    answer: 'The top mistakes: (1) Naming for yourself instead of your customer, (2) Choosing a name you can\'t own online (domain, social, trademark all taken), (3) Adding "app" or ".io" as a crutch, (4) Picking a name that describes today\'s feature instead of the outcome, (5) Skipping the "say it out loud" test, (6) Not checking international meanings (the Chevy Nova = "no go" in Spanish).',
+  },
+]
+
 const frameworks = [
   {
     name: 'The Descriptive Framework',
@@ -203,6 +238,8 @@ const namingProcessSteps = [
   },
 ]
 
+
+
 export default function ProductNamingGuidePage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
@@ -211,6 +248,39 @@ export default function ProductNamingGuidePage() {
         description="Complete product naming guide with frameworks, real examples, and common mistakes."
         url="https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide"
         datePublished="2025-05-20"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Product Naming Guide', item: 'https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide' },
+            ],
+          }),
+        }}
       />
       {/* Header */}
       <div className="mb-12">
@@ -486,6 +556,32 @@ export default function ProductNamingGuidePage() {
       </div>
 
       {/* Newsletter */}
+      
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <BlogNewsletterSection />
     </div>
   )

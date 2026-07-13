@@ -16,6 +16,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/tagline-writing-guide' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'What is a tagline?',
+    answer: 'A tagline is a short, memorable phrase that captures your brand\'s essence in 3-7 words. It appears under your logo, in ads, and in every customer\'s mental model of who you are. Think "Just Do It" (Nike), "Think Different" (Apple), or "Because You\'re Worth It" (L\'Oréal). A great tagline sells your brand in one second of attention.',
+  },
+  {
+    question: 'How do I write a tagline for my business?',
+    answer: 'Follow these steps: (1) Choose your tagline type — imperative ("Just Do It"), descriptive ("The World\'s Online Marketplace"), aspirational ("Because You\'re Worth It"), or superlative ("The Ultimate Driving Machine"). (2) Use a formula — [Verb] + [Outcome], [Subject] + [Benefit], or [Superlative] + [Category]. (3) Keep it under 7 words. (4) Test it: can you remember it after hearing it once? If not, it\'s too long.',
+  },
+  {
+    question: 'What are the 4 types of taglines?',
+    answer: 'The four main types are: (1) Imperative — action-oriented, telling the customer what to do ("Just Do It," "Think Different"). Best for active brands and fitness. (2) Descriptive — explains what you do ("The World\'s Online Marketplace"). Best for new categories and B2B. (3) Aspirational — sells a feeling ("Because You\'re Worth It"). Best for consumer and lifestyle brands. (4) Superlative — bold claims ("The Ultimate Driving Machine"). Best for premium brands with clear advantages.',
+  },
+  {
+    question: 'How long should a tagline be?',
+    answer: 'Under 7 words. The best taglines are 3-5 words: "Just Do It" (3), "Think Different" (2), "I\'m Lovin\' It" (3), "The Ultimate Driving Machine" (4). If you can\'t remember your tagline after hearing it once, it\'s too long. Every extra word dilutes the impact.',
+  },
+  {
+    question: 'What tagline mistakes should I avoid?',
+    answer: 'Four mistakes that kill taglines: (1) Being generic — "Your Trusted Partner" says nothing and half your competitors could use it. (2) Being clever at the expense of clarity — if people don\'t understand it on first read, it won\'t stick. (3) Copying competitors — find your own voice. (4) Changing it every year — consistency builds recognition. Pick one and commit for at least 2-3 years.',
+  },
+  {
+    question: 'Can BrandForge generate a tagline for my brand?',
+    answer: 'Yes! When you create a brand kit on BrandForge, our AI generates tagline options that match your business description, industry, and brand personality. It considers your target audience, competitive landscape, and desired emotional response — all in under 30 seconds.',
+  },
+  {
+    question: 'What\'s the difference between a tagline and a slogan?',
+    answer: 'They\'re often used interchangeably, but technically: a tagline is a permanent brand identifier (Nike\'s "Just Do It" has been used since 1988), while a slogan is typically temporary and campaign-specific (McDonald\'s "I\'m Lovin\' It" started as a campaign slogan). Taglines stay; slogans can change. For most small businesses, they\'re the same thing.',
+  },
+  {
+    question: 'What makes a tagline memorable?',
+    answer: 'Three things make taglines stick: (1) Rhythm and sound — alliteration, repetition, and short syllable counts make phrases catchy ("Just Do It" has a staccato rhythm). (2) Emotional resonance — the best taglines make you feel something, not just think something. (3) Simplicity — every word must earn its place. Cut anything that isn\'t essential.',
+  },
+]
+
 export default function TaglineWritingGuide() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
@@ -24,6 +59,24 @@ export default function TaglineWritingGuide() {
         description="Great taglines are not born — they are crafted. Here is the formula behind the icons."
         url="https://brandforge-phi-pearl.vercel.app/blog/tagline-writing-guide"
         datePublished="2025-04-20"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
       />
       <nav className="mb-8 text-sm text-slate-500">
         <Link href="/blog" className="hover:text-brand-600 transition-colors">Blog</Link>
@@ -128,6 +181,30 @@ export default function TaglineWritingGuide() {
           <a href="/brand-kit" className="btn-primary">Create Your Brand Kit</a>
         </div>
       </div>
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
     </article>
   )
 }

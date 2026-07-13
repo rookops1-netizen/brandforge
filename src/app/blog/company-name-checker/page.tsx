@@ -19,6 +19,41 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-checker' },
 }
 
+const FAQ_ITEMS = [
+  {
+    question: 'How do I check if a company name is available?',
+    answer: 'Check four things: (1) Domain availability — search at a registrar like Namecheap or Google Domains, (2) Trademark availability — search USPTO.gov for existing trademarks, (3) Social media handle availability — check Twitter/X, Instagram, LinkedIn, and Facebook, (4) State business registration — search your state\'s Secretary of State database. BrandForge checks domain and social availability automatically when generating names.',
+  },
+  {
+    question: 'Can I use a company name if the .com domain is taken?',
+    answer: 'Yes, but it depends on the situation. If the .com is a parked page or for sale, consider buying it or using an alternative TLD (.co, .io, .ai). If the .com belongs to an active business in your industry, pick a different name — you\'ll compete for search traffic and confuse customers. For local businesses, a .com with a city modifier (e.g., bostonplumbers.com) works well.',
+  },
+  {
+    question: 'Do I need to trademark my company name?',
+    answer: 'If you\'re doing business only in one state, a state-level DBA or LLC registration provides some protection. But if you plan to operate nationally, sell online, or expand, federal trademark registration is essential. It gives you exclusive nationwide rights, the ability to sue infringers, and prevents others from registering similar names.',
+  },
+  {
+    question: 'What\'s the difference between a business name, DBA, and trademark?',
+    answer: 'A business name is your legal entity name (e.g., Acme LLC). A DBA ("doing business as") is a trade name you operate under (e.g., Acme LLC doing business as "BrightPath"). A trademark is a federal registration that gives you exclusive rights to use that name for your goods or services nationwide. You need all three to be fully protected.',
+  },
+  {
+    question: 'How long does it take to check company name availability?',
+    answer: 'Domain availability is instant — search takes 10 seconds. Social handle checks take 5–10 minutes across platforms. USPTO trademark search takes 15–30 minutes. State registration checks vary but typically take 10–20 minutes. Total: about 1 hour for a thorough check. BrandForge automates domain and social checks, cutting that down significantly.',
+  },
+  {
+    question: 'What happens if I use a name that\'s already trademarked?',
+    answer: 'You could receive a cease-and-desist letter forcing you to rebrand, which means new domain, new website, new marketing materials, new business cards — expensive and time-consuming. In some cases, you could face legal damages. It\'s always cheaper to check trademark availability before committing than to rebrand after launch.',
+  },
+  {
+    question: 'Should I check social media handles before choosing a name?',
+    answer: 'Absolutely. Consistent handles across Twitter/X, Instagram, LinkedIn, and Facebook make your brand look professional and easy to find. If @yourname is taken on one platform but available on others, customers will get confused. BrandForge checks social handle availability automatically during name generation.',
+  },
+  {
+    question: 'Can two companies have the same name?',
+    answer: 'Yes, if they\'re in different industries and different geographic markets. "Delta" is both an airline and a faucet company. But if you\'re in the same industry or could reasonably expand into it, having the same name creates legal risk and customer confusion. Always check for competing businesses with similar names.',
+  },
+]
+
 const checkCategories = [
   {
     title: 'Domain Name Availability',
@@ -97,6 +132,8 @@ const redFlags = [
   },
 ]
 
+
+
 export default function CompanyNameCheckerPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
@@ -105,6 +142,39 @@ export default function CompanyNameCheckerPage() {
         description="Before you commit to a name, check these 4 things: domain availability, trademark conflicts, social handles, and state registration."
         url="https://brandforge-phi-pearl.vercel.app/blog/company-name-checker"
         datePublished="2025-05-20"
+      />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Company Name Checker', item: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-checker' },
+            ],
+          }),
+        }}
       />
       {/* Header */}
       <div className="mb-12">
@@ -372,6 +442,32 @@ export default function CompanyNameCheckerPage() {
       </div>
 
       {/* Newsletter */}
+      
+      {/* FAQ */}
+      <section className="mt-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-8">
+          Frequently Asked Questions
+        </h2>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map((faq, i) => (
+            <details key={i} className="group rounded-2xl border border-slate-200 bg-white">
+              <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
+                {faq.question}
+                <svg
+                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-4 text-sm text-slate-600 leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <BlogNewsletterSection />
     </div>
   )
