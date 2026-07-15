@@ -213,6 +213,28 @@ export default function StartupNamingMistakes() {
         </div>
       </section>
 
+      {/* Related Posts */}
+      <div className="mb-12 rounded-2xl bg-slate-50 p-6">
+        <p className="text-sm font-semibold text-slate-900 mb-3">📖 More naming guides:</p>
+        <ul className="space-y-2">
+          <li>
+            <Link href="/blog/startup-name-ideas" className="text-brand-600 hover:text-brand-700 text-sm">
+              Startup Name Ideas: 300+ Names for Startups in 2026 →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/how-to-choose-business-name" className="text-brand-600 hover:text-brand-700 text-sm">
+              How to Choose a Business Name: The Complete Guide →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/brand-name-ideas" className="text-brand-600 hover:text-brand-700 text-sm">
+              Brand Name Ideas: 300+ Creative Examples →
+            </Link>
+          </li>
+        </ul>
+      </div>
+
       {/* CTA */}
       <div className="mt-16 rounded-3xl bg-gradient-to-br from-brand-50 via-white to-purple-50 p-8 sm:p-12 text-center">
         <h2 className="text-2xl font-bold text-slate-900">Stop overthinking your name</h2>

@@ -626,6 +626,10 @@ export default function BusinessNameGeneratorBlog() {
             <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Company Name Checker: Verify Your Name Is Available</h3>
             <p className="text-sm text-slate-500 mt-1">Domain, trademark, social, and state registration checks.</p>
           </Link>
+          <Link href="/blog/startup-name-ideas" className="rounded-xl border border-slate-200 p-4 hover:border-brand-300 hover:bg-brand-50 transition-colors group">
+            <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Startup Name Ideas: 300+ Names for Startups in 2026</h3>
+            <p className="text-sm text-slate-500 mt-1">Startup naming strategies behind billion-dollar brands.</p>
+          </Link>
         </div>
       </section>
 

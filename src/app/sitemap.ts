@@ -210,6 +210,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — July 15
+    {
+      url: `${BASE_URL}/blog/startup-name-ideas`,
+      lastModified: new Date('2026-07-15'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/startup-name-generator`,

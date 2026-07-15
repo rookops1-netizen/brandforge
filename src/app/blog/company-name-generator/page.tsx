@@ -229,6 +229,7 @@ const RELATED_POSTS = [
   { slug: 'llc-naming-guide', title: 'How to Pick a Name for Your LLC: The Legal & Branding Guide', category: 'Legal' },
   { slug: 'company-name-checker', title: 'Company Name Checker: How to Verify Your Business Name Is Available', category: 'Legal' },
   { slug: 'startup-naming-mistakes', title: '7 Naming Mistakes That Kill Startups (Before They Even Launch)', category: 'Naming' },
+  { slug: 'startup-name-ideas', title: 'Startup Name Ideas: 300+ Names for Startups in 2026', category: 'Naming' },
 ]
 
 export default function CompanyNameGeneratorPage() {
