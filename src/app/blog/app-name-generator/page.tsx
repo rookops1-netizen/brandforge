@@ -277,11 +277,11 @@ const industries = [
 
 const relatedPosts = [
   { slug: 'product-naming-guide', title: 'Product Naming Guide: How to Name a Product That Sells', excerpt: 'The 5 naming frameworks behind Slack, Notion, and Tesla' },
+  { slug: 'product-name-generator', title: 'Product Name Generator: 250+ Product Name Ideas', excerpt: '250+ product name ideas and 6 naming frameworks' },
   { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name: The Complete Guide', excerpt: 'From brainstorming to trademark — everything you need' },
   { slug: 'startup-naming-mistakes', title: '7 Naming Mistakes That Kill Startups', excerpt: 'These naming traps kill startups before they launch' },
   { slug: 'brand-name-generator', title: 'Brand Name Generator: How to Find the Perfect Brand Name', excerpt: '7 naming styles behind iconic brands' },
   { slug: 'cool-business-names', title: 'Cool Business Names: 150+ Ideas', excerpt: '150+ cool names organized by industry' },
-  { slug: 'domain-name-availability', title: 'Domain Name Availability: What to Do When .com Is Taken', excerpt: 'Creative strategies for domain naming' },
 ]
 
 export default function AppNameGeneratorPage() {

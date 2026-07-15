@@ -243,6 +243,15 @@ const blogPosts = [
     date: '2026-07-15',
     featured: true,
   },
+  {
+    slug: 'startup-name-ideas',
+    title: 'Startup Name Ideas: 300+ Names for Startups in 2026 + Free AI Generator',
+    excerpt: '300+ startup name ideas across 10 industries, 7 naming strategies behind billion-dollar startups like Stripe, Notion, and Canva, and a free AI generator with domain availability checks.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-07-15',
+    featured: false,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -259,7 +268,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={25} />
+      <BlogIndexSchema postCount={26} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

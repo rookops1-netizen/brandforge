@@ -557,6 +557,11 @@ export default function ProductNamingGuidePage() {
               App Name Generator: 200+ App Name Ideas for 2026 →
             </Link>
           </li>
+          <li>
+            <Link href="/blog/product-name-generator" className="text-brand-600 hover:text-brand-700 text-sm">
+              Product Name Generator: 250+ Product Name Ideas for 2026 →
+            </Link>
+          </li>
         </ul>
       </div>
 
