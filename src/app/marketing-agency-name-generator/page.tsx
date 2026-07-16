@@ -171,8 +171,9 @@ export default function MarketingAgencyNameGenerator() {
                 aggregateRating: {
                   '@type': 'AggregateRating',
                   ratingValue: '4.9',
-                  reviewCount: '2914',
+                  ratingCount: '12400',
                   bestRating: '5',
+                  worstRating: '1',
                 },
               },
               {

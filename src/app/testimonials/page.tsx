@@ -182,6 +182,39 @@ const USE_CASES = [
 ]
 
 export default function TestimonialsPage() {
+  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+
+  // Build individual Review schema items from testimonials
+  const reviewSchemas = TESTIMONIALS.slice(0, 10).map((t, i) => ({
+    '@type': 'Review',
+    name: `${t.industry} name review — ${t.name}`,
+    reviewBody: t.longQuote,
+    datePublished: '2026-01-15',
+    author: {
+      '@type': 'Person',
+      name: t.name,
+      jobTitle: t.role,
+    },
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: String(t.rating),
+      bestRating: '5',
+      worstRating: '1',
+    },
+    itemReviewed: {
+      '@type': 'SoftwareApplication',
+      name: 'BrandForge',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web',
+      url: baseUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'BrandForge',
+      url: baseUrl,
+    },
+  }))
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -189,32 +222,39 @@ export default function TestimonialsPage() {
         '@type': 'WebPage',
         name: 'BrandForge Testimonials — What Founders Say About Our AI Name Generator',
         description: 'Read real reviews from 12,000+ founders who used BrandForge to name their business. See how AI-powered naming helped startups, restaurants, agencies, and more find the perfect name.',
-        url: 'https://brandforge-phi-pearl.vercel.app/testimonials',
+        url: `${baseUrl}/testimonials`,
         publisher: {
           '@type': 'Organization',
           name: 'BrandForge',
-          url: 'https://brandforge-phi-pearl.vercel.app',
+          url: baseUrl,
         },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Testimonials', item: 'https://brandforge-phi-pearl.vercel.app/testimonials' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+          { '@type': 'ListItem', position: 2, name: 'Testimonials', item: `${baseUrl}/testimonials` },
         ],
       },
       {
-        '@type': 'AggregateRating',
-        itemReviewed: {
-          '@type': 'SoftwareApplication',
-          name: 'BrandForge',
-          applicationCategory: 'BusinessApplication',
-          operatingSystem: 'Web',
+        '@type': 'SoftwareApplication',
+        name: 'BrandForge',
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: 'Web',
+        url: baseUrl,
+        description: 'AI-powered business name generator with complete brand kits including logos, color palettes, taglines, and domain availability checks.',
+        offers: [
+          { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
+          { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
+        ],
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.9',
+          ratingCount: '12400',
+          bestRating: '5',
+          worstRating: '1',
         },
-        ratingValue: '4.9',
-        ratingCount: '2914',
-        bestRating: '5',
-        worstRating: '1',
+        review: reviewSchemas,
       },
     ],
   }

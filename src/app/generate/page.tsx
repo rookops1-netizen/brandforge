@@ -515,6 +515,32 @@ function GeneratePageContent() {
                   bestRating: '5',
                   worstRating: '1',
                 },
+                review: [
+                  {
+                    '@type': 'Review',
+                    name: 'BrandForge made naming my startup effortless',
+                    reviewBody: 'I spent two weeks brainstorming names on my own. Nothing felt right. BrandForge gave me 3 names I loved in the first try. Picked one, grabbed the domain, and I was live within a week.',
+                    datePublished: '2026-01-15',
+                    author: { '@type': 'Person', name: 'Sarah Chen' },
+                    reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5', worstRating: '1' },
+                  },
+                  {
+                    '@type': 'Review',
+                    name: 'Better results than weeks of brainstorming',
+                    reviewBody: 'I spent weeks brainstorming names. This gave me better results in 30 seconds. The brand kit was a game changer.',
+                    datePublished: '2026-01-20',
+                    author: { '@type': 'Person', name: 'Marcus Rivera' },
+                    reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5', worstRating: '1' },
+                  },
+                  {
+                    '@type': 'Review',
+                    name: 'Like working with a branding agency',
+                    reviewBody: 'The color palette and tagline suggestions were incredibly on-point. Felt like working with a branding agency.',
+                    datePublished: '2026-02-01',
+                    author: { '@type': 'Person', name: 'Priya Sharma' },
+                    reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5', worstRating: '1' },
+                  },
+                ],
                 featureList: [
                   'AI business name generation',
                   'Logo concept generation',

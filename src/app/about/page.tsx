@@ -62,10 +62,29 @@ const stats = [
 ]
 
 export default function AboutPage() {
+  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+
+  const aboutWebPage = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'About BrandForge — AI-Powered Business Naming & Brand Kits',
+    description: 'BrandForge helps entrepreneurs name their business and build a complete brand identity — logos, colors, taglines, and domain checks — all powered by AI, all in under a minute.',
+    url: `${baseUrl}/about`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'BrandForge',
+      url: baseUrl,
+    },
+  }
+
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <OrganizationSchema detailed />
       <BreadcrumbSchema items={[{ name: 'About', href: '/about' }]} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutWebPage) }}
+      />
       {/* Hero */}
       <div className="text-center mb-16">
         <p className="text-sm font-semibold text-brand-600 tracking-wide uppercase mb-3">Our Story</p>

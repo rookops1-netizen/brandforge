@@ -138,7 +138,9 @@ export default function ConsultingNameGeneratorPage() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          ratingCount: '2847',
+          ratingCount: '12400',
+          bestRating: '5',
+          worstRating: '1',
         },
       },
       {

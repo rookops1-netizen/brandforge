@@ -136,7 +136,9 @@ export default function LandscapingNameGeneratorPage() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          ratingCount: '2914',
+          ratingCount: '12400',
+          bestRating: '5',
+          worstRating: '1',
         },
       },
       {

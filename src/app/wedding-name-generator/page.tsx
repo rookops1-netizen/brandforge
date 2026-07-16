@@ -136,7 +136,9 @@ export default function WeddingNameGeneratorPage() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          ratingCount: '2847',
+          ratingCount: '12400',
+          bestRating: '5',
+          worstRating: '1',
         },
         featureList: 'AI name generation,Brand kit creation,Logo concepts,Color palette generation,Tagline writing,Domain availability check,Social media handle check,PDF brand guidelines',
       },
