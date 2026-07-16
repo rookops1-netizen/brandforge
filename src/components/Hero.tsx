@@ -66,9 +66,32 @@ export function Hero() {
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            Describe your business idea and get unique name suggestions with complete
-            brand kits — logo concepts, color palettes, taglines, and domain availability.
+            Describe your business idea and get unique names with a complete brand kit —
+            logo concept, color palette, tagline, and domain check. Free to start, no signup required.
           </p>
+
+          {/* Feature pills */}
+          <div
+            className={`mx-auto mt-4 flex flex-wrap items-center justify-center gap-2 transition-all duration-700 delay-250 ${
+              mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+            }`}
+          >
+            {[
+              { label: 'Logo Concept', icon: '✦' },
+              { label: 'Color Palette', icon: '🎨' },
+              { label: 'Tagline', icon: '💬' },
+              { label: 'Domain Check', icon: '🌐' },
+              { label: 'Social Handles', icon: '✓' },
+            ].map((feat) => (
+              <span
+                key={feat.label}
+                className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-600 shadow-sm"
+              >
+                <span>{feat.icon}</span>
+                {feat.label}
+              </span>
+            ))}
+          </div>
 
           {/* Search form */}
           <div
@@ -108,13 +131,13 @@ export function Hero() {
 
           {/* Trust signals */}
           <div
-            className={`mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-slate-500 transition-all duration-700 delay-500 ${
+            className={`mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-slate-500 transition-all duration-700 delay-500 ${
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
             <div className="flex items-center gap-2">
               <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-              5 free generations
+              Free — no credit card
             </div>
             <div className="flex items-center gap-2">
               <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
@@ -122,7 +145,11 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-2">
               <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-              Domain checks
+              Domain & social checks
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+              50K+ names generated
             </div>
           </div>
         </div>

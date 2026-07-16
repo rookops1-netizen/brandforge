@@ -1,4 +1,5 @@
 import { Hero } from '@/components/Hero'
+import { IndustryQuickLinks } from '@/components/IndustryQuickLinks'
 import { SocialProof } from '@/components/SocialProof'
 import { HowItWorks } from '@/components/HowItWorks'
 import { Features } from '@/components/Features'
@@ -42,6 +43,7 @@ export default function Home() {
         <CancelBanner />
       </Suspense>
       <Hero />
+      <IndustryQuickLinks />
       <SocialProof />
       <HowItWorks />
       <Features />

@@ -70,6 +70,8 @@ export function CTA() {
             <span className="text-slate-400">No credit card required</span>
             <span className="text-slate-300">&middot;</span>
             <span className="text-slate-400">5 free generations included</span>
+            <span className="text-slate-300">&middot;</span>
+            <span className="text-slate-400">14-day money-back guarantee</span>
           </div>
         </div>
       </div>
