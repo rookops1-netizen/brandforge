@@ -223,6 +223,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — July 17
+    {
+      url: `${BASE_URL}/blog/how-to-come-up-with-business-name`,
+      lastModified: new Date('2026-07-17'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/startup-name-generator`,

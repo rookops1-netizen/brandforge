@@ -334,6 +334,23 @@ export default function HowToChooseBusinessName() {
           </a>
         </div>
       </div>
+
+      {/* Related Post */}
+      <div className="mt-12 rounded-2xl bg-slate-50 p-6">
+        <p className="text-sm font-semibold text-slate-900 mb-3">📖 Continue reading:</p>
+        <ul className="space-y-2">
+          <li>
+            <Link href="/blog/how-to-come-up-with-business-name" className="text-brand-600 hover:text-brand-700 text-sm">
+              How to Come Up with a Business Name: 10 Proven Methods →
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/business-name-generator" className="text-brand-600 hover:text-brand-700 text-sm">
+              Business Name Generator: 300+ Name Ideas for 2026 →
+            </Link>
+          </li>
+        </ul>
+      </div>
     </article>
   )
 }

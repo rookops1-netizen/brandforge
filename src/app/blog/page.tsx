@@ -241,7 +241,7 @@ const blogPosts = [
     category: 'Naming',
     readTime: '12 min',
     date: '2026-07-15',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'startup-name-ideas',
@@ -251,6 +251,15 @@ const blogPosts = [
     readTime: '15 min',
     date: '2026-07-15',
     featured: false,
+  },
+  {
+    slug: 'how-to-come-up-with-business-name',
+    title: 'How to Come Up with a Business Name: 10 Proven Methods (2026 Guide)',
+    excerpt: '10 proven brainstorming methods to come up with a business name, 200+ name ideas by industry, a 5-step naming process, and a free AI generator that checks domain availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-07-17',
+    featured: true,
   },
 ]
 
@@ -268,7 +277,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={26} />
+      <BlogIndexSchema postCount={27} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

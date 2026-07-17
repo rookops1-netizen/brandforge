@@ -513,6 +513,10 @@ export default function HowToChooseBrandNamePage() {
             <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Company Name Checker: Verify Your Business Name</h4>
             <p className="text-sm text-slate-500 mt-1">Domain, trademark, social handles, and state registration — the complete checklist.</p>
           </Link>
+          <Link href="/blog/how-to-come-up-with-business-name" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Come Up with a Business Name: 10 Proven Methods</h4>
+            <p className="text-sm text-slate-500 mt-1">Brainstorming methods, 200+ ideas by industry, and a free AI generator.</p>
+          </Link>
         </div>
       </section>
 
