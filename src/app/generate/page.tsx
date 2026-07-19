@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import type { GeneratedName, BusinessName, AvailabilityStatus } from '@/types'
 import { isFavorite, toggleFavorite } from '@/lib/favorites'
 import NameResultsGrid from '@/components/NameResultsGrid'
+import { GenerateTestimonials } from '@/components/GenerateTestimonials'
 
 const INDUSTRIES = [
   'Technology', 'Food & Beverage', 'Fashion', 'Health & Wellness',
@@ -431,6 +432,9 @@ function GeneratePageContent() {
           </a>
         </div>
       </section>
+
+      {/* Testimonials */}
+      <GenerateTestimonials />
 
       {/* Social proof strip */}
       <section className="border-y border-slate-100 bg-slate-50/50">
