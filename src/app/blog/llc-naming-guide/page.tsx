@@ -334,6 +334,57 @@ export default function LLCNamingGuidePage() {
         </div>
       </section>
 
+      {/* Related Articles */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-slate-900 mb-6">Continue Reading</h2>
+        <div className="grid sm:grid-cols-2 gap-4">
+          <Link href="/blog/llc-name-generator" className="group rounded-2xl border border-slate-200 bg-white p-6 hover:border-brand-300 hover:shadow-md transition-all duration-200">
+            <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors line-clamp-2">
+              LLC Name Generator: 300+ Name Ideas for 2026
+            </h3>
+            <p className="mt-2 text-sm text-slate-600 line-clamp-2">
+              300+ LLC name ideas by industry plus a free AI generator with domain availability checks.
+            </p>
+            <span className="mt-3 inline-flex items-center text-sm font-medium text-brand-600">
+              Read article →
+            </span>
+          </Link>
+          <Link href="/blog/company-name-checker" className="group rounded-2xl border border-slate-200 bg-white p-6 hover:border-brand-300 hover:shadow-md transition-all duration-200">
+            <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors line-clamp-2">
+              Company Name Checker: How to Verify Your Business Name
+            </h3>
+            <p className="mt-2 text-sm text-slate-600 line-clamp-2">
+              Check domain availability, trademark conflicts, social handles, and state registration before committing.
+            </p>
+            <span className="mt-3 inline-flex items-center text-sm font-medium text-brand-600">
+              Read article →
+            </span>
+          </Link>
+          <Link href="/blog/business-name-generator" className="group rounded-2xl border border-slate-200 bg-white p-6 hover:border-brand-300 hover:shadow-md transition-all duration-200">
+            <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors line-clamp-2">
+              Business Name Generator: 300+ Ideas for 2026
+            </h3>
+            <p className="mt-2 text-sm text-slate-600 line-clamp-2">
+              300+ business name ideas by industry with a free AI generator and domain availability checks.
+            </p>
+            <span className="mt-3 inline-flex items-center text-sm font-medium text-brand-600">
+              Read article →
+            </span>
+          </Link>
+          <Link href="/blog/how-to-choose-business-name" className="group rounded-2xl border border-slate-200 bg-white p-6 hover:border-brand-300 hover:shadow-md transition-all duration-200">
+            <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors line-clamp-2">
+              How to Choose a Business Name: Complete Guide
+            </h3>
+            <p className="mt-2 text-sm text-slate-600 line-clamp-2">
+              From brainstorming to trademark research — everything about picking a name that sticks.
+            </p>
+            <span className="mt-3 inline-flex items-center text-sm font-medium text-brand-600">
+              Read article →
+            </span>
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <div className="rounded-2xl border-2 border-brand-200 bg-brand-50/50 p-8 text-center mb-12">
         <h3 className="text-xl font-bold text-slate-900 mb-2">Start with the name — we handle the rest</h3>

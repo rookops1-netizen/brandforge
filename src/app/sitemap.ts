@@ -230,6 +230,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — July 19
+    {
+      url: `${BASE_URL}/blog/llc-name-generator`,
+      lastModified: new Date('2026-07-19'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/startup-name-generator`,
