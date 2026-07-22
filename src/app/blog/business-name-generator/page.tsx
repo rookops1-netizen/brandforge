@@ -634,6 +634,10 @@ export default function BusinessNameGeneratorBlog() {
             <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Come Up with a Business Name: 10 Proven Methods</h3>
             <p className="text-sm text-slate-500 mt-1">Brainstorming methods, 200+ ideas, and a free AI generator.</p>
           </Link>
+          <Link href="/blog/store-name-generator" className="rounded-xl border border-slate-200 p-4 hover:border-brand-300 hover:bg-brand-50 transition-colors group">
+            <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Store Name Generator: 300+ Store Name Ideas for 2026</h3>
+            <p className="text-sm text-slate-500 mt-1">300+ store name ideas by category, 7 naming strategies, and domain checks.</p>
+          </Link>
         </div>
       </section>
 

@@ -264,10 +264,19 @@ const blogPosts = [
   {
     slug: 'llc-name-generator',
     title: 'LLC Name Generator: 300+ LLC Name Ideas for 2026 + Free AI Tool',
-    excerpt: '300+ LLC name ideas by industry, state-by-state naming rules, and a free AI generator that checks domain availability. Find the perfect name for your LLC today.',
+    excerpt: '300+ LLC name ideas by industry, state-by-state naming rules, and a free AI generator that checks domain availability instantly. Find the perfect name for your LLC today.',
     category: 'Legal',
     readTime: '18 min',
     date: '2026-07-19',
+    featured: false,
+  },
+  {
+    slug: 'store-name-generator',
+    title: 'Store Name Generator: 300+ Store Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ store name ideas across 10 retail categories, 7 proven naming strategies behind iconic stores, and a free AI generator that checks domain availability instantly.',
+    category: 'Naming',
+    readTime: '14 min',
+    date: '2026-07-21',
     featured: true,
   },
 ]
@@ -286,7 +295,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={28} />
+      <BlogIndexSchema postCount={29} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

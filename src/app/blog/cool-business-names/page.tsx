@@ -459,6 +459,10 @@ export default function CoolBusinessNamesPage() {
             <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Choose a Business Name: The 2026 Guide</h4>
             <p className="mt-1 text-sm text-slate-500">Our comprehensive guide to choosing the perfect name for your business.</p>
           </Link>
+          <Link href="/blog/store-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Store Name Generator: 300+ Store Name Ideas for 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">300+ store name ideas by retail category with naming strategies and domain checks.</p>
+          </Link>
         </div>
       </section>
 
