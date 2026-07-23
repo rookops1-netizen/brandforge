@@ -205,6 +205,33 @@ export default function TaglineWritingGuide() {
           ))}
         </div>
       </section>
+
+      {/* Related articles */}
+      <section className="mt-16 border-t border-slate-200 pt-10">
+        <h3 className="text-lg font-semibold text-slate-900 mb-6">Related articles</h3>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Link href="/blog/brand-color-psychology" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Color Psychology: How Colors Shape Your Brand Identity</h4>
+            <p className="mt-1 text-sm text-slate-500">Learn how color choices influence perception and how to pick the perfect palette for your brand.</p>
+          </Link>
+          <Link href="/blog/brand-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Name Generator: How to Find the Perfect Brand Name in 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">The complete guide to finding a brand name that sticks — strategies, examples, and a free AI generator.</p>
+          </Link>
+          <Link href="/blog/how-to-choose-brand-name" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Choose a Brand Name: The Complete 2026 Guide</h4>
+            <p className="mt-1 text-sm text-slate-500">A step-by-step framework for choosing a brand name that fits your business, audience, and vision.</p>
+          </Link>
+          <Link href="/blog/creative-brand-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Creative Brand Names: 60+ Examples &amp; What Makes Them Work</h4>
+            <p className="mt-1 text-sm text-slate-500">Deconstruct 60+ real brand names and learn the repeatable naming patterns behind them.</p>
+          </Link>
+          <Link href="/blog/catchy-brand-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Catchy Brand Names: 250+ Memorable Ideas for 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">250+ catchy name ideas plus 7 naming formulas that make names stick in people&apos;s minds.</p>
+          </Link>
+        </div>
+      </section>
     </article>
   )
 }

@@ -204,6 +204,33 @@ export default function AIVsTraditionalNaming() {
           ))}
         </div>
       </section>
+
+      {/* Related articles */}
+      <section className="mt-16 border-t border-slate-200 pt-10">
+        <h3 className="text-lg font-semibold text-slate-900 mb-6">Related articles</h3>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Link href="/blog/free-brand-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Free Brand Name Generator: 8 Tools Compared</h4>
+            <p className="mt-1 text-sm text-slate-500">Honest comparison of the best free brand name generators — including which ones actually work.</p>
+          </Link>
+          <Link href="/blog/brand-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Name Generator: How to Find the Perfect Brand Name in 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">The complete guide to finding a brand name that sticks — strategies, examples, and a free AI generator.</p>
+          </Link>
+          <Link href="/blog/how-to-choose-brand-name" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Choose a Brand Name: The Complete 2026 Guide</h4>
+            <p className="mt-1 text-sm text-slate-500">A step-by-step framework for choosing a brand name that fits your business, audience, and vision.</p>
+          </Link>
+          <Link href="/blog/startup-naming-mistakes" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">7 Naming Mistakes That Kill Startups (Before They Even Launch)</h4>
+            <p className="mt-1 text-sm text-slate-500">The naming traps founders fall into over and over — and how to avoid them.</p>
+          </Link>
+          <Link href="/blog/creative-brand-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Creative Brand Names: 60+ Examples &amp; What Makes Them Work</h4>
+            <p className="mt-1 text-sm text-slate-500">Deconstruct 60+ real brand names and learn the repeatable naming patterns behind them.</p>
+          </Link>
+        </div>
+      </section>
     </article>
   )
 }

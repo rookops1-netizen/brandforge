@@ -246,6 +246,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Industry landing pages
     {
+      url: `${BASE_URL}/domain-name-generator`,
+      lastModified: new Date('2026-07-22'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${BASE_URL}/startup-name-generator`,
       lastModified: new Date('2026-05-29'),
       changeFrequency: 'weekly',
@@ -394,6 +400,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date('2026-07-07'),
       changeFrequency: 'weekly',
       priority: 0.9,
+    },
+    // Brand Kit export
+    {
+      url: `${BASE_URL}/export`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.4,
     },
     // Testimonials
     {

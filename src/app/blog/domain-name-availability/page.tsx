@@ -210,6 +210,33 @@ export default function DomainNameAvailability() {
           ))}
         </div>
       </section>
+
+      {/* Related articles */}
+      <section className="mt-16 border-t border-slate-200 pt-10">
+        <h3 className="text-lg font-semibold text-slate-900 mb-6">Related articles</h3>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Link href="/blog/company-name-checker" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Company Name Checker: How to Verify Your Business Name Is Available</h4>
+            <p className="mt-1 text-sm text-slate-500">Step-by-step guide to checking company name availability — trademarks, domains, and state registries.</p>
+          </Link>
+          <Link href="/blog/how-to-choose-business-name" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Choose a Business Name: The Complete 2026 Guide</h4>
+            <p className="mt-1 text-sm text-slate-500">The definitive guide to choosing, validating, and registering your business name.</p>
+          </Link>
+          <Link href="/blog/llc-naming-guide" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Pick a Name for Your LLC: The Legal &amp; Branding Guide</h4>
+            <p className="mt-1 text-sm text-slate-500">LLC naming rules by state, designation requirements, and how to protect your business name.</p>
+          </Link>
+          <Link href="/blog/brand-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Name Generator: How to Find the Perfect Brand Name in 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">The complete guide to finding a brand name that sticks — strategies, examples, and a free AI generator.</p>
+          </Link>
+          <Link href="/blog/business-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Business Name Generator: 300+ Name Ideas for 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">300+ business name ideas by industry with 7 naming strategies and domain availability checks.</p>
+          </Link>
+        </div>
+      </section>
     </article>
   )
 }

@@ -165,6 +165,12 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
     { slug: 'how-to-build-brand-identity', title: 'How to Build a Brand Identity' },
   ],
+  'domain-name-generator': [
+    { slug: 'domain-name-availability', title: 'Domain Name Availability: How to Check & Choose' },
+    { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
+    { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
+    { slug: 'company-name-checker', title: 'Company Name Checker: Verify Availability' },
+  ],
 }
 
 const BLOG_ICONS: Record<string, string> = {

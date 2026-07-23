@@ -349,6 +349,11 @@ export default function HowToChooseBusinessName() {
               Business Name Generator: 300+ Name Ideas for 2026 →
             </Link>
           </li>
+          <li>
+            <Link href="/blog/ai-name-generator-vs-traditional" className="text-brand-600 hover:text-brand-700 text-sm">
+              AI Name Generators vs Traditional Naming Agencies: What Actually Works? →
+            </Link>
+          </li>
         </ul>
       </div>
     </article>

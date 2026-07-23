@@ -274,6 +274,33 @@ export default function BusinessNameIdeasByIndustryPage() {
         </div>
       </section>
 
+      {/* Related articles */}
+      <section className="mb-12 border-t border-slate-200 pt-10">
+        <h3 className="text-lg font-semibold text-slate-900 mb-6">Related articles</h3>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Link href="/blog/business-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Business Name Generator: 300+ Name Ideas for 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">300+ business name ideas by industry with 7 naming strategies and domain availability checks.</p>
+          </Link>
+          <Link href="/blog/cool-business-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Cool Business Names: 250+ Ideas That Stand Out in 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">250+ cool business name ideas plus what makes a name sound cool and modern.</p>
+          </Link>
+          <Link href="/blog/unique-business-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Unique Business Names: 300+ Standout Ideas for 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">300+ unique business name ideas and 7 strategies to create names nobody else has.</p>
+          </Link>
+          <Link href="/blog/catchy-business-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Catchy Business Names: 250+ Memorable Ideas for 2026</h4>
+            <p className="mt-1 text-sm text-slate-500">250+ catchy business names with formulas and real examples of what makes names stick.</p>
+          </Link>
+          <Link href="/blog/how-to-choose-business-name" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Choose a Business Name: The Complete 2026 Guide</h4>
+            <p className="mt-1 text-sm text-slate-500">The definitive guide to choosing, validating, and registering your business name.</p>
+          </Link>
+        </div>
+      </section>
+
       <BlogNewsletterSection />
     </div>
   )
