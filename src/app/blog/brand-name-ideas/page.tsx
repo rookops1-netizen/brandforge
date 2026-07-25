@@ -268,6 +268,7 @@ const RELATED_POSTS = [
   { slug: 'cool-business-names', title: 'Cool Business Names: 150+ Ideas and How to Create Your Own', category: 'Naming' },
   { slug: 'catchy-business-names', title: '150+ Catchy Business Names for Every Industry', category: 'Naming' },
   { slug: 'unique-business-names', title: 'Unique Business Names: 120+ Standout Ideas & How to Create Your Own', category: 'Naming' },
+  { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas for 2026', category: 'Naming' },
 ]
 
 export default function BrandNameIdeasPage() {

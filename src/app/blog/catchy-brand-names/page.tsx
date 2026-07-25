@@ -308,6 +308,7 @@ const RELATED_POSTS = [
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name: The Complete Framework', category: 'Strategy' },
   { slug: 'cool-business-names', title: '200+ Cool Business Names That Stand Out', category: 'Naming' },
   { slug: 'creative-brand-names', title: '200+ Creative Brand Names + Free AI Generator', category: 'Naming' },
+  { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas for 2026', category: 'Naming' },
 ]
 
 export default function CatchyBrandNamesPage() {

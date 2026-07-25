@@ -274,6 +274,7 @@ const relatedPosts = [
   { slug: 'brand-name-ideas', title: 'Brand Name Ideas: 300+ Creative Examples for 2026', excerpt: '300+ brand name ideas across 10 categories with 7 proven naming techniques.' },
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name in 2026', excerpt: 'A step-by-step framework for choosing a brand name with a validation checklist.' },
   { slug: 'domain-name-availability', title: 'Domain Name Availability: When .com Is Taken', excerpt: 'Creative domain strategies when .com is gone — alternative TLDs, modifiers, and more.' },
+  { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas for 2026', excerpt: '300+ clothing brand name ideas across 10 fashion categories with naming strategies used by iconic brands.' },
 ]
 
 export default function StoreNameGeneratorPage() {

@@ -52,9 +52,9 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'creative-brand-names', title: 'Creative Brand Names' },
   ],
   'fashion-name-generator': [
+    { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas' },
     { slug: 'brand-color-psychology', title: 'Brand Color Psychology: What Your Colors Say' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
-    { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
     { slug: 'creative-brand-names', title: 'Creative Brand Names' },
   ],
   'food-truck-name-generator': [

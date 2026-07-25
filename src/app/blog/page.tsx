@@ -277,6 +277,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '14 min',
     date: '2026-07-21',
+    featured: false,
+  },
+  {
+    slug: 'clothing-brand-name-generator',
+    title: 'Clothing Brand Name Generator: 300+ Clothing Brand Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ clothing brand name ideas across 10 fashion categories, 7 naming strategies used by iconic brands, and a free AI generator that checks domain availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-07-25',
     featured: true,
   },
 ]
@@ -295,7 +304,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={29} />
+      <BlogIndexSchema postCount={30} />
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
