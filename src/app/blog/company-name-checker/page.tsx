@@ -438,6 +438,11 @@ export default function CompanyNameCheckerPage() {
               7 Naming Mistakes That Kill Startups →
             </Link>
           </li>
+          <li>
+            <Link href="/blog/brand-name-availability-checker" className="text-brand-600 hover:text-brand-700 text-sm">
+              Brand Name Availability Checker: Verify Your Name Is Available →
+            </Link>
+          </li>
         </ul>
       </div>
 

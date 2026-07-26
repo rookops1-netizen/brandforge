@@ -235,6 +235,10 @@ export default function DomainNameAvailability() {
             <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Business Name Generator: 300+ Name Ideas for 2026</h4>
             <p className="mt-1 text-sm text-slate-500">300+ business name ideas by industry with 7 naming strategies and domain availability checks.</p>
           </Link>
+          <Link href="/blog/brand-name-availability-checker" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Name Availability Checker: Verify Your Name Is Available</h4>
+            <p className="mt-1 text-sm text-slate-500">Complete 4-step checklist to check domain, trademark, social handle, and business registration availability.</p>
+          </Link>
         </div>
       </section>
     </article>

@@ -517,6 +517,10 @@ export default function HowToChooseBrandNamePage() {
             <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Come Up with a Business Name: 10 Proven Methods</h4>
             <p className="text-sm text-slate-500 mt-1">Brainstorming methods, 200+ ideas by industry, and a free AI generator.</p>
           </Link>
+          <Link href="/blog/brand-name-availability-checker" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Name Availability Checker: Verify Your Name Is Available</h4>
+            <p className="text-sm text-slate-500 mt-1">Complete 4-step checklist to check domain, trademark, social handle, and business registration availability.</p>
+          </Link>
         </div>
       </section>
 

@@ -286,6 +286,24 @@ const blogPosts = [
     category: 'Naming',
     readTime: '15 min',
     date: '2026-07-25',
+    featured: false,
+  },
+  {
+    slug: 'brand-name-availability-checker',
+    title: 'Brand Name Availability Checker: How to Verify Your Brand Name Is Available in 2026',
+    excerpt: 'Check if your brand name is available as a domain, trademark, social handle, and business registration. Complete 4-step availability checker with real-time domain and social search.',
+    category: 'Domains',
+    readTime: '8 min',
+    date: '2026-07-26',
+    featured: false,
+  },
+  {
+    slug: 'youtube-channel-name-generator',
+    title: 'YouTube Channel Name Generator: 300+ YouTube Channel Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ YouTube channel name ideas across 10 content categories, 7 naming strategies used by top YouTubers like MrBeast and MKBHD, and a free AI generator with handle availability checks.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-07-26',
     featured: true,
   },
 ]
@@ -304,7 +322,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema postCount={30} />
+      <BlogIndexSchema    postCount={32}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

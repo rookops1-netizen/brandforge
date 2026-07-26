@@ -292,10 +292,10 @@ const industries = [
 const relatedPosts = [
   { slug: 'startup-naming-mistakes', title: '7 Naming Mistakes That Kill Startups', excerpt: 'The naming traps that founders fall into over and over' },
   { slug: 'app-name-generator', title: 'App Name Generator: 200+ App Name Ideas', excerpt: '200+ app name ideas and 6 naming frameworks behind hit apps' },
+  { slug: 'youtube-channel-name-generator', title: 'YouTube Channel Name Generator: 300+ Channel Name Ideas', excerpt: '300+ YouTube channel name ideas and 7 naming strategies from top creators' },
   { slug: 'company-name-generator', title: 'Company Name Generator: 250+ Name Ideas', excerpt: '250+ company name ideas by industry with naming strategies' },
   { slug: 'brand-name-ideas', title: 'Brand Name Ideas: 300+ Creative Examples', excerpt: '300+ brand name ideas with naming techniques and real examples' },
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name: The Complete Framework', excerpt: 'A step-by-step decision framework for choosing your brand name' },
-  { slug: 'domain-name-availability', title: 'Domain Name Availability: When .com Is Taken', excerpt: 'Creative strategies for domain naming when .com is gone' },
 ]
 
 export default function StartupNameIdeasPage() {
