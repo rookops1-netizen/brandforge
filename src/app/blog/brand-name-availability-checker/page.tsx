@@ -194,9 +194,9 @@ const relatedPosts = [
     excerpt: '7 naming styles, 60+ real examples, and a free AI tool that checks domain and social availability.',
   },
   {
-    slug: 'llc-naming-guide',
-    title: 'How to Pick a Name for Your LLC: The Legal & Branding Guide',
-    excerpt: 'LLC naming rules, state requirements, DBA strategies, and trademark considerations.',
+    slug: 'podcast-name-generator',
+    title: 'Podcast Name Generator: 300+ Podcast Name Ideas for 2026',
+    excerpt: '300+ podcast name ideas, 7 naming strategies from hit shows like Serial and The Daily, and a free AI generator.',
   },
   {
     slug: 'startup-naming-mistakes',

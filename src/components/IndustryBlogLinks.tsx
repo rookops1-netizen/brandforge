@@ -76,8 +76,8 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'llc-naming-guide', title: 'How to Pick a Name for Your LLC' },
   ],
   'podcast-name-generator': [
+    { slug: 'podcast-name-generator', title: 'Podcast Name Generator: 300+ Ideas for 2026' },
     { slug: 'youtube-channel-name-generator', title: 'YouTube Channel Name Generator: 300+ Ideas' },
-    { slug: 'product-naming-guide', title: 'Product Naming Guide: Name a Product That Sells' },
     { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
   ],

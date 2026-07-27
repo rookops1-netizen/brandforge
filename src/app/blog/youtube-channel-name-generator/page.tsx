@@ -271,7 +271,7 @@ const relatedPosts = [
   { slug: 'brand-name-ideas', title: 'Brand Name Ideas: 300+ Creative Examples for 2026', excerpt: '300+ brand name ideas across 10 categories with 7 proven naming techniques.' },
   { slug: 'catchy-brand-names', title: 'Catchy Brand Names: 250+ Memorable Ideas for 2026', excerpt: '250+ catchy brand name ideas and 7 naming formulas that make names stick.' },
   { slug: 'app-name-generator', title: 'App Name Generator: 200+ App Name Ideas for 2026', excerpt: '200+ app name ideas and 6 naming frameworks behind hit apps like Slack and Notion.' },
-  { slug: 'podcast-name-generator', title: 'Podcast Name Generator', excerpt: 'Generate podcast names with AI and check domain availability instantly.' },
+  { slug: 'podcast-name-generator', title: 'Podcast Name Generator: 300+ Podcast Name Ideas for 2026', excerpt: '300+ podcast name ideas, 7 naming strategies from hit shows like Serial and The Daily, and a free AI generator.' },
   { slug: 'startup-name-ideas', title: 'Startup Name Ideas: 300+ Names for Startups in 2026', excerpt: '300+ startup name ideas and 7 naming strategies behind billion-dollar startups.' },
   { slug: 'creative-brand-names', title: 'Creative Brand Names: 200+ Unique Ideas for 2026', excerpt: '200+ creative brand name ideas with naming techniques from top branding agencies.' },
 ]

@@ -304,7 +304,25 @@ const blogPosts = [
     category: 'Naming',
     readTime: '15 min',
     date: '2026-07-26',
+    featured: false,
+  },
+  {
+    slug: 'blog-name-generator',
+    title: 'Blog Name Generator: 250+ Blog Name Ideas for 2026 + Free AI Tool',
+    excerpt: '250+ blog name ideas across 10 niches, 7 naming strategies used by top bloggers like Pinch of Yum and Zen Habits, and a free AI generator that checks domain availability instantly.',
+    category: 'Naming',
+    readTime: '14 min',
+    date: '2026-07-27',
     featured: true,
+  },
+  {
+    slug: 'podcast-name-generator',
+    title: 'Podcast Name Generator: 300+ Podcast Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ podcast name ideas across 10 content categories, 7 naming strategies used by hit podcasts like Serial and The Daily, and a free AI generator with domain and social handle checks.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-06-02',
+    featured: false,
   },
 ]
 
@@ -322,7 +340,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={32}/>
+      <BlogIndexSchema    postCount={34}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

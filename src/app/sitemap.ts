@@ -265,6 +265,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — July 27
+    {
+      url: `${BASE_URL}/blog/blog-name-generator`,
+      lastModified: new Date('2026-07-27'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    // Blog articles — July 27
+    {
+      url: `${BASE_URL}/blog/podcast-name-generator`,
+      lastModified: new Date('2026-07-27'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/domain-name-generator`,
