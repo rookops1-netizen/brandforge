@@ -203,6 +203,11 @@ const relatedPosts = [
     title: '7 Naming Mistakes That Kill Startups (Before They Even Launch)',
     excerpt: 'Hard-to-spell names, inside jokes, trademark conflicts — these naming traps cost founders thousands.',
   },
+  {
+    slug: 'blog-name-generator',
+    title: 'Blog Name Generator: 250+ Blog Name Ideas for 2026',
+    excerpt: '250+ blog name ideas across 10 niches, 7 naming strategies from top bloggers, and a free AI generator.',
+  },
 ]
 
 export default function BrandNameAvailabilityCheckerPage() {

@@ -272,8 +272,8 @@ const relatedPosts = [
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name in 2026', excerpt: 'The complete decision framework for picking a brand name that sticks.' },
   { slug: 'brand-name-ideas', title: 'Brand Name Ideas: 300+ Creative Examples', excerpt: 'The ultimate collection of brand name ideas across 10 categories.' },
   { slug: 'youtube-channel-name-generator', title: 'YouTube Channel Name Generator: 300+ Ideas', excerpt: 'Naming strategies from top YouTubers and 300+ channel name ideas.' },
+  { slug: 'blog-name-generator', title: 'Blog Name Generator: 250+ Blog Name Ideas', excerpt: '250+ blog name ideas across 10 niches, 7 naming strategies from top bloggers.' },
   { slug: 'catchy-brand-names', title: 'Catchy Brand Names: 250+ Memorable Ideas', excerpt: '7 proven naming formulas that make names stick.' },
-  { slug: 'how-to-come-up-with-business-name', title: 'How to Come Up with a Business Name', excerpt: '10 proven brainstorming methods and 200+ name ideas by industry.' },
   { slug: 'brand-name-availability-checker', title: 'Brand Name Availability Checker', excerpt: 'How to verify your brand name is available — domain, trademark, social, and state registration.' },
 ]
 
