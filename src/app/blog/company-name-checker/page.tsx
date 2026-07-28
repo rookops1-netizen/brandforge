@@ -51,7 +51,7 @@ const FAQ_ITEMS = [
   {
     question: 'Can two companies have the same name?',
     answer: 'Yes, if they\'re in different industries and different geographic markets. "Delta" is both an airline and a faucet company. But if you\'re in the same industry or could reasonably expand into it, having the same name creates legal risk and customer confusion. Always check for competing businesses with similar names.',
-  },
+  }
 ]
 
 const checkCategories = [
@@ -63,7 +63,7 @@ const checkCategories = [
       'Search your desired name at a domain registrar (Namecheap, Google Domains, etc.)',
       'Check .com, .io, .co, and relevant industry TLDs (.ai for tech, .design for creative)',
       'If the .com is taken but not actively used, check if it\'s listed for sale on Sedo or Afternic',
-      'Consider alternative spellings or adding a modifier (get[name].com, [name]app.com)',
+      'Consider alternative spellings or adding a modifier (get[name].com, [name]app.com)'
     ],
     proTip: 'A name with an available .com is worth 10x more than one where you have to use a quirky TLD. If the .com is taken by an active business, seriously reconsider the name.',
     tools: ['BrandForge\'s built-in domain checker', 'Namecheap bulk search', 'DomainTyper for real-time checking', 'ICANN WHOIS lookup'],
@@ -76,7 +76,7 @@ const checkCategories = [
       'Search the USPTO database (TESS) for identical and similar marks',
       'Check your state\'s business entity registry (Secretary of State website)',
       'Search common law trademarks (Google the name + industry)',
-      'If expanding internationally, check WIPO and EU IPO databases',
+      'If expanding internationally, check WIPO and EU IPO databases'
     ],
     proTip: 'A name that\'s trademarked in a different industry might still be usable — but it\'s risky. If there\'s any chance of market overlap, find another name.',
     tools: ['USPTO TESS (free)', 'Google Patents search', 'State Secretary of State databases', 'LegalZoom trademark search'],
@@ -89,7 +89,7 @@ const checkCategories = [
       'Check major platforms: Instagram, Twitter/X, Facebook, LinkedIn, TikTok, YouTube',
       'Search for the exact handle (e.g., @yourbrandname) on each platform',
       'Check if similar handles exist that could cause confusion (e.g., @yourbrand_name)',
-      'Verify the name isn\'t being used as a hashtag with heavy traffic',
+      'Verify the name isn\'t being used as a hashtag with heavy traffic'
     ],
     proTip: 'Having @yourname everywhere beats @yourname_hq or @yournameofficial. If the exact handle is taken on 2+ major platforms, consider a different name.',
     tools: ['Namechk.com (free bulk checker)', 'KnowEm (paid, comprehensive)', 'BrandForge\'s social checker', 'Manual platform searches'],
@@ -102,11 +102,11 @@ const checkCategories = [
       'Search your state\'s Secretary of State business entity database',
       'Check both exact match and "similar name" results',
       'Verify the name follows your state\'s naming rules (e.g., must include "LLC" for LLCs)',
-      'If forming a corporation, check naming suffix requirements (Inc., Corp., Ltd.)',
+      'If forming a corporation, check naming suffix requirements (Inc., Corp., Ltd.)'
     ],
     proTip: 'Even if a name is taken in another state, you can usually register it in yours. But if you plan to operate nationally, check all states you\'ll do business in.',
     tools: ['Your state\'s Secretary of State website', 'LegalZoom business name search', 'IncFile name availability check'],
-  },
+  }
 ]
 
 const redFlags = [
@@ -129,7 +129,7 @@ const redFlags = [
   {
     title: 'The name is very similar to a well-known brand',
     description: 'Even without a trademark conflict, brand confusion hurts you. Customers searching for you might find the other brand instead. Distinctiveness wins.',
-  },
+  }
 ]
 
 
@@ -142,39 +142,6 @@ export default function CompanyNameCheckerPage() {
         description="Before you commit to a name, check these 4 things: domain availability, trademark conflicts, social handles, and state registration."
         url="https://brandforge-phi-pearl.vercel.app/blog/company-name-checker"
         datePublished="2025-05-20"
-      />
-      {/* FAQ Schema for rich snippets */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: FAQ_ITEMS.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-              },
-            })),
-          }),
-        }}
-      />
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Company Name Checker', item: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-checker' },
-            ],
-          }),
-        }}
       />
       {/* Header */}
       <div className="mb-12">

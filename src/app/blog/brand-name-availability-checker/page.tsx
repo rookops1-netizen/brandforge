@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'brand name domain availability',
     'trademark name availability check',
     'brand name search availability',
-    'brand name availability 2026',
+    'brand name availability 2026'
   ],
   openGraph: {
     title: 'Brand Name Availability Checker: How to Verify Your Brand Name Is Available in 2026',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Brand Name Availability Checker: Verify Your Brand Name Is Available',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'Can I use a brand name that\'s used in a different industry?',
     answer: 'Possibly, but it depends on trademark law. Trademark protection is industry-specific — "Delta" is a registered trademark for both an airline and a faucet company because customers won\'t confuse the two. However, if the existing brand is "famous" (like Nike or Apple), they have protection across all industries. And if there\'s any likelihood of customer confusion, you could still face a lawsuit. When in doubt, consult a trademark attorney or choose a completely unique name.',
-  },
+  }
 ]
 
 const CHECKLIST_ITEMS = [
@@ -112,7 +112,7 @@ const CHECKLIST_ITEMS = [
     title: 'Check State Business Registration',
     description: 'If you\'re forming an LLC or corporation, search your state\'s Secretary of State database for business name conflicts. This is legally required for entity formation and prevents you from using a name that\'s already registered in your state. Sole proprietors using a DBA should check with their county clerk.',
     tip: 'Even if a name isn\'t trademarked federally, a state-level business registration can block you from using it in that state. Always check both federal and state databases.',
-  },
+  }
 ]
 
 const RED_FLAGS = [
@@ -140,7 +140,7 @@ const RED_FLAGS = [
     flag: 'The name is very similar to a famous brand',
     why: 'Famous brands (Nike, Apple, Google) have "famous mark" protection that extends across ALL industries, not just their own. "Googgle" or "Nikke" will get you sued regardless of your business type.',
     whatToDo: 'Choose a name that\'s clearly distinct from any well-known brand. This is one area where creativity matters — avoid anything that could be seen as riding on someone else\'s coattails.',
-  },
+  }
 ]
 
 const industries = [
@@ -169,7 +169,7 @@ const industries = [
   { name: 'Salon Names', href: '/salon-name-generator' },
   { name: 'Construction Names', href: '/construction-name-generator' },
   { name: 'Marketing Agency Names', href: '/marketing-agency-name-generator' },
-  { name: 'Domain Names', href: '/domain-name-generator' },
+  { name: 'Domain Names', href: '/domain-name-generator' }
 ]
 
 const relatedPosts = [
@@ -207,7 +207,7 @@ const relatedPosts = [
     slug: 'blog-name-generator',
     title: 'Blog Name Generator: 250+ Blog Name Ideas for 2026',
     excerpt: '250+ blog name ideas across 10 niches, 7 naming strategies from top bloggers, and a free AI generator.',
-  },
+  }
 ]
 
 export default function BrandNameAvailabilityCheckerPage() {
@@ -251,30 +251,7 @@ export default function BrandNameAvailabilityCheckerPage() {
             text: faq.answer,
           },
         })),
-      },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            name: 'Home',
-            item: 'https://brandforge-phi-pearl.vercel.app',
-          },
-          {
-            '@type': 'ListItem',
-            position: 2,
-            name: 'Blog',
-            item: 'https://brandforge-phi-pearl.vercel.app/blog',
-          },
-          {
-            '@type': 'ListItem',
-            position: 3,
-            name: 'Brand Name Availability Checker',
-            item: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-availability-checker',
-          },
-        ],
-      },
+      }
     ],
   }
 

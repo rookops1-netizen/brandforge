@@ -64,6 +64,7 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'small-business-name-generator', title: 'Small Business Name Generator' },
   ],
   'tech-name-generator': [
+    { slug: 'saas-name-generator', title: 'SaaS Name Generator: 300+ Ideas for 2026' },
     { slug: 'startup-naming-mistakes', title: '7 Naming Mistakes That Kill Startups' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
@@ -161,6 +162,7 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
   ],
   'marketing-agency-name-generator': [
     { slug: 'company-name-generator', title: 'Company Name Generator: 250+ Ideas' },
+    { slug: 'saas-name-generator', title: 'SaaS Name Generator: 300+ SaaS Name Ideas' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
     { slug: 'how-to-build-brand-identity', title: 'How to Build a Brand Identity' },
@@ -193,6 +195,7 @@ const BLOG_ICONS: Record<string, string> = {
   'company-name-generator': '🏢',
   'how-to-come-up-with-business-name': '💡',
   'youtube-channel-name-generator': '🎬',
+  'saas-name-generator': '🚀',
 }
 
 export function IndustryBlogLinks({ industry, gradient = 'from-slate-50 to-white' }: IndustryBlogLinksProps) {

@@ -287,6 +287,24 @@ export default function PodcastNameGeneratorPage() {
         datePublished="2026-07-27"
         dateModified="2026-07-27"
       />
+      {/* FAQ Schema for rich snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
 
       {/* Header */}
       <header className="mb-12">

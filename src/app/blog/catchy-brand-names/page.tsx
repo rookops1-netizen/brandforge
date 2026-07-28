@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'catchy startup names',
     'brand naming tips',
     'what makes a brand name catchy',
-    'catchy brand name generator',
+    'catchy brand name generator'
   ],
   openGraph: {
     title: 'Catchy Brand Names: 250+ Memorable Ideas for 2026 + Free AI Generator',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Catchy Brand Names: 250+ Memorable Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -60,7 +60,7 @@ const NAME_IDEAS = [
       'Traction', 'PulseAI', 'Codehive', 'Shiftwise', 'NovaPeak',
       'Brightpath', 'Synthia', 'Meld', 'Quantumly', 'ArcForge',
       'Rapidgrid', 'Sparkbase', 'Cleverset', 'Ironstack', 'Dataloom',
-      'Thrivekit', 'Nimbly', 'Brightshift', 'Launchpoint', 'Corewave',
+      'Thrivekit', 'Nimbly', 'Brightshift', 'Launchpoint', 'Corewave'
     ],
   },
   {
@@ -71,7 +71,7 @@ const NAME_IDEAS = [
       'Wildthread', 'The Linen Project', 'Maison Luxe', 'Kindred Cloth', 'Rivière',
       'Alto', 'Sable', 'Copper & Pine', 'Heirloom Co.', 'Atlas Wear',
       'Verano', 'Lumière', 'The Velvet Studio', 'Sundial', 'Arclight',
-      'Floriana', 'March & Bloom', 'Silhouette', 'The Good Stitch', 'Nomad Thread',
+      'Floriana', 'March & Bloom', 'Silhouette', 'The Good Stitch', 'Nomad Thread'
     ],
   },
   {
@@ -82,7 +82,7 @@ const NAME_IDEAS = [
       'Brassfield', 'Sprout & Vine', 'Wildgrain', 'Cedar & Spice', 'Bloom Kitchen',
       'Fireside', 'The Rustic Plate', 'Golden Thistle', 'Mint & Malt', 'Ember & Rye',
       'The Olive Press', 'Saffron Trail', 'Heritage Kitchen', 'Stonecrop', 'The Copper Pot',
-      'Briar Kitchen', 'Flame & Fork', 'Rosemary & Co.', 'The Grain Mill', 'Ash & Em',
+      'Briar Kitchen', 'Flame & Fork', 'Rosemary & Co.', 'The Grain Mill', 'Ash & Em'
     ],
   },
   {
@@ -93,7 +93,7 @@ const NAME_IDEAS = [
       'Nurture Co.', 'The Still Point', 'Vitalroot', 'Harmony Health', 'Breathework',
       'Equilibrium', 'Greenpath', 'Recharge', 'Lumina Wellness', 'Pureform',
       'Restore', 'Thrive Collective', 'Mindful Motion', 'Bodyraft', 'Oasis Wellness',
-      'The Good Body', 'Grounded', 'Flowstate', 'Everwell', 'Sage Wellness',
+      'The Good Body', 'Grounded', 'Flowstate', 'Everwell', 'Sage Wellness'
     ],
   },
   {
@@ -104,7 +104,7 @@ const NAME_IDEAS = [
       'Arch Capital', 'Bridgeworth', 'Forgepoint', 'Meridian Finance', 'Vault & Co.',
       'Everest Wealth', 'Precision Capital', 'Crest Finance', 'Horizonvest', 'Ironclad',
       'Northpoint Capital', 'Guardian Wealth', 'Atlas Finance', 'Keystonevest', 'Fortify',
-      'Ashbridge', 'The Ledger Group', 'Ironbound', 'Truvest', 'Stonewell',
+      'Ashbridge', 'The Ledger Group', 'Ironbound', 'Truvest', 'Stonewell'
     ],
   },
   {
@@ -115,7 +115,7 @@ const NAME_IDEAS = [
       'Canopy Creative', 'Render & Co.', 'Vivid Studio', 'Boldform', 'Frame & Form',
       'Alto Design', 'Kindred Creative', 'The Shape Studio', 'Lightbox', 'Draftcraft',
       'Palette Co.', 'Studio North', 'Prismworks', 'Mosaic Labs', 'Opus Studio',
-      'The Artisan Co.', 'Hue & Thread', 'Ember Creative', 'Signal Creative', 'Archetype',
+      'The Artisan Co.', 'Hue & Thread', 'Ember Creative', 'Signal Creative', 'Archetype'
     ],
   },
   {
@@ -126,7 +126,7 @@ const NAME_IDEAS = [
       'Ridgeline Holdings', 'Crest Property Group', 'Ironworks Realty', 'Bluefield', 'Granite Estates',
       'Oakmont Group', 'Pinnacle Properties', 'Landmark Realty', 'Copper & Oak Real Estate', 'Meridian Holdings',
       'Northgate Realty', 'The Horizon Group', 'Greenfield Properties', 'Westmark Realty', 'Heritage Estates',
-      'Cedar Realty', 'Summit & Stone', 'Sterling Properties', 'True North Realty', 'Vanguard Holdings',
+      'Cedar Realty', 'Summit & Stone', 'Sterling Properties', 'True North Realty', 'Vanguard Holdings'
     ],
   },
   {
@@ -137,7 +137,7 @@ const NAME_IDEAS = [
       'Elevate Learning', 'Curiosity Co.', 'The Learning Lab', 'Wellspring Academy', 'Knowledgeworks',
       'Spark Education', 'Mindsprout', 'Insight Academy', 'The Study Co.', 'Luminary Learning',
       'Nexlearn', 'Brainworks', 'Clarify', 'The Academy Project', 'Wavelength',
-      'Intellectia', 'Skillforge', 'The Mentor Lab', 'Catalyst Learning', 'Pathwright',
+      'Intellectia', 'Skillforge', 'The Mentor Lab', 'Catalyst Learning', 'Pathwright'
     ],
   },
   {
@@ -148,7 +148,7 @@ const NAME_IDEAS = [
       'Goodsift', 'Mint & Market', 'The Find Co.', 'Tradehill', 'Waresmith',
       'Unboxed', 'Ridge Supply Co.', 'The Goods Lab', 'Bloom & Cart', 'Nextdoor Goods',
       'Keen Market', 'Luxe & Co.', 'Homespin', 'Iron & Oak Co.', 'Shelf & Co.',
-      'The General Store Co.', 'Copper Cart', 'Vault Goods', 'Goodspring', 'The Stockroom',
+      'The General Store Co.', 'Copper Cart', 'Vault Goods', 'Goodspring', 'The Stockroom'
     ],
   },
   {
@@ -159,9 +159,9 @@ const NAME_IDEAS = [
       'Meridian Strategy', 'Pinnacle Group', 'Summit Consulting', 'The Partnership Lab', 'Vanguard Advisory',
       'Truepoint', 'Westpath Group', 'Impact Partners', 'Keystone Strategy', 'Landmark Consulting',
       'Apex Advisory', 'Bridgepoint Group', 'Northstar Partners', 'The Strategy Firm', 'Catalyst Consulting',
-      'Equinox Group', 'Truemark', 'Horizon Associates', 'Onpoint', 'Vertex Group',
+      'Equinox Group', 'Truemark', 'Horizon Associates', 'Onpoint', 'Vertex Group'
     ],
-  },
+  }
 ]
 
 const CATCHY_FORMULAS = [
@@ -220,7 +220,7 @@ const CATCHY_FORMULAS = [
     why: 'Invented names are 100% ownable — no SEO competition, no trademark conflicts, and the name becomes synonymous with your brand.',
     howTo: 'Combine sounds that evoke your industry. Hard consonants (K, X, Z) feel sharp and techy. Soft sounds (L, M, S) feel warm. Test with 10 people — if they can spell it after hearing it once, it works.',
     generated: ['Zynova', 'Krexio', 'Veltris', 'Ondura', 'Xyptik'],
-  },
+  }
 ]
 
 const CATCHY_TESTS = [
@@ -263,7 +263,7 @@ const CATCHY_TESTS = [
     test: 'The Emotion Test',
     description: 'Say your name and immediately write the first emotion that comes to mind. If it evokes something specific (excitement, trust, fun), it\'s working. If it\'s "meh," try again.',
     icon: '❤️',
-  },
+  }
 ]
 
 const FAQ_ITEMS = [
@@ -298,7 +298,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is it worth paying for a premium domain name?',
     answer: 'If the domain is under $2,000 and you\'re committed to the brand for 5+ years, it\'s usually worth it. A great domain increases credibility, improves SEO, and saves you from "get[brand]" workarounds. For a side project, start with an alternative and upgrade later.',
-  },
+  }
 ]
 
 const RELATED_POSTS = [
@@ -308,7 +308,7 @@ const RELATED_POSTS = [
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name: The Complete Framework', category: 'Strategy' },
   { slug: 'cool-business-names', title: '200+ Cool Business Names That Stand Out', category: 'Naming' },
   { slug: 'creative-brand-names', title: '200+ Creative Brand Names + Free AI Generator', category: 'Naming' },
-  { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas for 2026', category: 'Naming' },
+  { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas for 2026', category: 'Naming' }
 ]
 
 export default function CatchyBrandNamesPage() {
@@ -330,43 +330,8 @@ export default function CatchyBrandNamesPage() {
           'brand names that stick',
           'memorable business names',
           'catchy company names',
-          'what makes a brand name catchy',
+          'what makes a brand name catchy'
         ]}
-      />
-
-      {/* FAQ Schema for rich snippets */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: FAQ_ITEMS.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-              },
-            })),
-          }),
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Catchy Brand Names', item: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-brand-names' },
-            ],
-          }),
-        }}
       />
 
       <article className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
@@ -619,7 +584,7 @@ export default function CatchyBrandNamesPage() {
               { emoji: '🌿', name: 'Landscaping', href: '/landscaping-name-generator' },
               { emoji: '💇', name: 'Salon', href: '/salon-name-generator' },
               { emoji: '🏗️', name: 'Construction', href: '/construction-name-generator' },
-              { emoji: '📈', name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+              { emoji: '📈', name: 'Marketing Agency', href: '/marketing-agency-name-generator' }
             ].map((industry) => (
               <Link
                 key={industry.href}

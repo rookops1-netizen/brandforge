@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'creative business names',
     'cool business name ideas',
     'how to come up with a cool business name',
-    'cool name generator',
+    'cool name generator'
   ],
   openGraph: {
     title: 'Cool Business Names: 150+ Ideas and How to Create Your Own',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Cool Business Names: 150+ Ideas and How to Create Your Own',
-      },
+      }
     ],
   },
   twitter: {
@@ -78,7 +78,7 @@ const FAQ_ITEMS = [
   {
     question: 'What industries have the coolest business names?',
     answer: 'Tech and consumer brands tend to have the coolest names (Apple, Stripe, Slack, Spotify) because they prioritize memorability over descriptiveness. Finance is catching up (Robinhood, Lemonade). The industries with the least cool names are often healthcare, legal, and accounting — which means there\'s a huge opportunity to stand out simply by choosing a name that doesn\'t sound like every other firm in your space.',
-  },
+  }
 ]
 
 const INDUSTRY_NAMES = [
@@ -95,7 +95,7 @@ const INDUSTRY_NAMES = [
       { name: 'Kinetiq', vibe: 'Energetic, fast' },
       { name: 'Orbitra', vibe: 'Expansive, connected' },
       { name: 'Nexvia', vibe: 'Next-gen, forward' },
-      { name: 'Cloudburst', vibe: 'Sudden, impactful' },
+      { name: 'Cloudburst', vibe: 'Sudden, impactful' }
     ],
   },
   {
@@ -111,7 +111,7 @@ const INDUSTRY_NAMES = [
       { name: 'Wild Thistle', vibe: 'Untamed, natural' },
       { name: 'Honeyvine', vibe: 'Sweet, organic' },
       { name: 'Salt & Stone', vibe: 'Minimal, elemental' },
-      { name: 'Moss & Madder', vibe: 'Foraged, earthy' },
+      { name: 'Moss & Madder', vibe: 'Foraged, earthy' }
     ],
   },
   {
@@ -127,7 +127,7 @@ const INDUSTRY_NAMES = [
       { name: 'Sienna & Clay', vibe: 'Earth-toned, artisan' },
       { name: 'Opaline', vibe: 'Iridescent, feminine' },
       { name: 'Thread & Theory', vibe: 'Intentional, modern' },
-      { name: 'Gilded Age', vibe: 'Luxurious, vintage' },
+      { name: 'Gilded Age', vibe: 'Luxurious, vintage' }
     ],
   },
   {
@@ -143,7 +143,7 @@ const INDUSTRY_NAMES = [
       { name: 'Root & Rise', vibe: 'Grounded, ascending' },
       { name: 'Breathwork Co.', vibe: 'Intentional, wellness' },
       { name: 'Peakology', vibe: 'Science of performance' },
-      { name: 'Kinetic Republic', vibe: 'Energetic, community' },
+      { name: 'Kinetic Republic', vibe: 'Energetic, community' }
     ],
   },
   {
@@ -159,7 +159,7 @@ const INDUSTRY_NAMES = [
       { name: 'Brightpath', vibe: 'Clear, illuminating' },
       { name: 'Pitch & Pivot', vibe: 'Dynamic, nimble' },
       { name: 'Archetype Studio', vibe: 'Foundational, iconic' },
-      { name: 'Outpost Creative', vibe: 'Frontier, bold' },
+      { name: 'Outpost Creative', vibe: 'Frontier, bold' }
     ],
   },
   {
@@ -175,9 +175,9 @@ const INDUSTRY_NAMES = [
       { name: 'Opal Market', vibe: 'Colorful, precious' },
       { name: 'Wayfarer Goods', vibe: 'Travel, quality' },
       { name: 'Stock & Stone', vibe: 'Solid, foundational' },
-      { name: 'Kindred Supply', vibe: 'Community, essential' },
+      { name: 'Kindred Supply', vibe: 'Community, essential' }
     ],
-  },
+  }
 ]
 
 
@@ -190,39 +190,6 @@ export default function CoolBusinessNamesPage() {
         description="Discover 150+ cool business name ideas organized by industry, plus a proven 5-step framework for creating a name that stands out."
         url="https://brandforge-phi-pearl.vercel.app/blog/cool-business-names"
         datePublished="2026-05-28"
-      />
-      {/* FAQ Schema for rich snippets */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: FAQ_ITEMS.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-              },
-            })),
-          }),
-        }}
-      />
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Cool Business Names', item: 'https://brandforge-phi-pearl.vercel.app/blog/cool-business-names' },
-            ],
-          }),
-        }}
       />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">

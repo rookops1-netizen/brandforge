@@ -313,7 +313,7 @@ const blogPosts = [
     category: 'Naming',
     readTime: '14 min',
     date: '2026-07-27',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'podcast-name-generator',
@@ -323,6 +323,15 @@ const blogPosts = [
     readTime: '15 min',
     date: '2026-06-02',
     featured: false,
+  },
+  {
+    slug: 'saas-name-generator',
+    title: 'SaaS Name Generator: 300+ SaaS Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ SaaS name ideas across 10 categories, 7 naming strategies used by top SaaS companies like Stripe, Notion, and Figma, and a free AI generator with domain availability checks.',
+    category: 'Naming',
+    readTime: '12 min',
+    date: '2026-07-28',
+    featured: true,
   },
 ]
 
@@ -340,7 +349,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={34}/>
+      <BlogIndexSchema    postCount={35}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

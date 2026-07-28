@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'gift shop name ideas',
     'store name ideas 2026',
     'unique store names',
-    'best store names',
+    'best store names'
   ],
   openGraph: {
     title: 'Store Name Generator: 300+ Store Name Ideas for 2026 + Free AI Tool',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Store Name Generator: 300+ Store Name Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'What store name mistakes should I avoid?',
     answer: 'The 6 biggest store naming mistakes: (1) Too generic — "The Gift Shop" or "Fashion Store" are forgettable and impossible to trademark, (2) Too complicated — long names, hyphens, and numbers confuse customers, (3) Limiting — "Baby Shoes Only" is great until you want to sell kids\' clothes too, (4) Trendy spellings — "Kool Kidz" looks dated in 3 years, (5) Copying competitors — slight variations of popular stores create confusion and legal risk, (6) Ignoring the domain — if the .com is taken by a domain squatter asking $5,000, you\'ll regret not checking earlier.',
-  },
+  }
 ]
 
 const nameCategories = [
@@ -95,7 +95,7 @@ const nameCategories = [
       'Velvet & Vine', 'Maison Noir', 'The Copper Line', 'Evermore Collective', 'Sunday Silk',
       'Harbor & Bloom', 'The Gilded Frame', 'Rosy & Rue', 'Cedar & Co.', 'Linen & Lace',
       'The Pearl Button', 'Amber & Oak', 'Stitchwell', 'Moonstone Market', 'The Velvet Closet',
-      'Wildflower & Co.', 'The Sunday Edit', 'Copper & Cotton', 'Silver & Sage', 'The Little Wardrobe',
+      'Wildflower & Co.', 'The Sunday Edit', 'Copper & Cotton', 'Silver & Sage', 'The Little Wardrobe'
     ],
   },
   {
@@ -104,7 +104,7 @@ const nameCategories = [
       'The Findery', 'Wrapped & Ready', 'Little Luxe', 'The Curated Co.', 'Ember & Ivy',
       'The Gift Garden', 'Paper & Prose', 'Bright & Bound', 'The Good Market', 'Bundles & Bows',
       'The Artful Box', 'Twine & Parcel', 'Keepsake Collective', 'The Sunday Supply', 'Petals & Post',
-      'The Maker\'s Market', 'Joyshop', 'The Honey Jar', 'Treasure & Tale', 'Gilded Gift Co.',
+      'The Maker\'s Market', 'Joyshop', 'The Honey Jar', 'Treasure & Tale', 'Gilded Gift Co.'
     ],
   },
   {
@@ -113,7 +113,7 @@ const nameCategories = [
       'Hearth & Home', 'The Iron Lantern', 'Willow & Nest', 'Cedar & Stone', 'The Brass Tacks',
       'Dwell & Co.', 'The Maker\'s Home', 'Nook & Cranny', 'Amber Interiors', 'The Wooden Spoon',
       'Fern & Feather', 'The Linen Closet', 'Coastal Craft', 'The Cottage Supply', 'Timber & Twine',
-      'The House Collective', 'Bloom & Board', 'The Stone House', 'Rustic & Roam', 'The Hearth Store',
+      'The House Collective', 'Bloom & Board', 'The Stone House', 'Rustic & Roam', 'The Hearth Store'
     ],
   },
   {
@@ -122,7 +122,7 @@ const nameCategories = [
       'The Green Basket', 'Harvest & Haven', 'The Daily Fig', 'Pantry & Plate', 'Sprout Market',
       'The Olive Branch', 'Golden Grain', 'The Urban Orchard', 'Bloom & Basket', 'Salt & Seed',
       'The Crafted Kitchen', 'Fresh & Fare', 'The Copper Pot', 'Field & Fork', 'Savory Market',
-      'The Good Scoop', 'Mint & Market', 'The Local Root', 'Rosemary & Co.', 'The Sunday Pantry',
+      'The Good Scoop', 'Mint & Market', 'The Local Root', 'Rosemary & Co.', 'The Sunday Pantry'
     ],
   },
   {
@@ -131,7 +131,7 @@ const nameCategories = [
       'The Open Page', 'Ink & Ember', 'Chapter & Verse', 'The Bookbound Co.', 'Parchment & Pine',
       'The Reading Room', 'Folio & Fold', 'The Paper Trail', 'Inkwell & Co.', 'The Bindery',
       'Margin Notes', 'The Quiet Bookshop', 'Pen & Parcel', 'The Last Chapter', 'Thorn & Spine',
-      'The Story Store', 'Prose & Print', 'The Bookmark', 'Ledger & Leaf', 'The Paper Garden',
+      'The Story Store', 'Prose & Print', 'The Bookmark', 'Ledger & Leaf', 'The Paper Garden'
     ],
   },
   {
@@ -140,7 +140,7 @@ const nameCategories = [
       'Glow & Bloom', 'The Copper Cabinet', 'Aura & Oak', 'Petal & Potion', 'The Glow Market',
       'Ritual & Rose', 'The Bare Botanist', 'Honey & Herb', 'Bloom Apothecary', 'The Clean Counter',
       'Lather & Leaf', 'The Velvet Skin', 'Sage & Silk', 'The Wellness Shelf', 'Dew & Dawn',
-      'The Potion Shop', 'Olive & Orchid', 'The Simple Ritual', 'Nectar & Night', 'The Green Vanity',
+      'The Potion Shop', 'Olive & Orchid', 'The Simple Ritual', 'Nectar & Night', 'The Green Vanity'
     ],
   },
   {
@@ -149,7 +149,7 @@ const nameCategories = [
       'Trail & Timber', 'The Iron Pack', 'Ridgeline Supply', 'Summit & Stone', 'The Basecamp Co.',
       'Fern & Flint', 'The Wild Supply', 'Hearth & Hike', 'Boundary Goods', 'The Nomad Shop',
       'Pine & Path', 'The Trail Store', 'Crest & Compass', 'The Outpost', 'Alpine & Ash',
-      'The Expedition Co.', 'Birch & Blade', 'The Camp Supply', 'Storm & Steel', 'The Wild Market',
+      'The Expedition Co.', 'Birch & Blade', 'The Camp Supply', 'Storm & Steel', 'The Wild Market'
     ],
   },
   {
@@ -158,7 +158,7 @@ const nameCategories = [
       'The Little Market', 'Sprout & Story', 'The Wonder Shop', 'Tiny & Wild', 'The Playful Pine',
       'Little Legends', 'The Happy Beetle', 'Bloom & Play', 'The Tiny Workshop', 'Acorn & Oak',
       'The Joy Shop', 'Little Wonders', 'The Cotton Candy Co.', 'Hop & Huck', 'The Sunny Shop',
-      'Pixie & Pine', 'The Dinosaur Store', 'Little Forest', 'The Sparkle Shop', 'Giggles & Grow',
+      'Pixie & Pine', 'The Dinosaur Store', 'Little Forest', 'The Sparkle Shop', 'Giggles & Grow'
     ],
   },
   {
@@ -167,7 +167,7 @@ const nameCategories = [
       'The Rusty Needle', 'Reclaimed & Co.', 'The Vintage Post', 'Secondhand Stories', 'The Attic Shop',
       'Past & Present', 'The Curiosity Shop', 'Found & Foraged', 'The Nostalgia Store', 'Retro & Relic',
       'The Dusty Rose', 'Time & Again', 'The Heirloom Market', 'Reworked', 'The Yesterday Shop',
-      'Revival & Co.', 'The Memory Lane', 'Bygone & Bloom', 'The Revival Shop', 'Thrift & Thread',
+      'Revival & Co.', 'The Memory Lane', 'Bygone & Bloom', 'The Revival Shop', 'Thrift & Thread'
     ],
   },
   {
@@ -176,9 +176,9 @@ const nameCategories = [
       'The Digital Bazaar', 'Cart & Co.', 'Ships & Shares', 'The Click Market', 'Scroll & Select',
       'The Daily Drop', 'Boxed & Bound', 'The Online Order', 'Palette & Pixel', 'The E-Shop Co.',
       'Quick Ship Market', 'The Browser Store', 'Click & Co.', 'The Cloud Market', 'Dash & Delivered',
-      'The Digital Shelf', 'Wave & Wire', 'The Order Co.', 'Sync & Ship', 'The Web Market',
+      'The Digital Shelf', 'Wave & Wire', 'The Order Co.', 'Sync & Ship', 'The Web Market'
     ],
-  },
+  }
 ]
 
 const namingStrategies = [
@@ -237,7 +237,7 @@ const namingStrategies = [
     examples: ['Blue Bottle Coffee', 'Banana Republic', 'Pottery Barn', 'The Gap'],
     bestFor: 'Stores with a strong visual identity or brand story — artisan, craft, specialty',
     howToUse: 'Pick an object, place, or concept that represents your store. "Blue Bottle" = rare, special coffee.',
-  },
+  }
 ]
 
 const industries = [
@@ -264,7 +264,7 @@ const industries = [
   { name: 'Craft', href: '/craft-name-generator' },
   { name: 'Nonprofit', href: '/nonprofit-name-generator' },
   { name: 'Podcast', href: '/podcast-name-generator' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' }
 ]
 
 const relatedPosts = [
@@ -274,7 +274,7 @@ const relatedPosts = [
   { slug: 'brand-name-ideas', title: 'Brand Name Ideas: 300+ Creative Examples for 2026', excerpt: '300+ brand name ideas across 10 categories with 7 proven naming techniques.' },
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name in 2026', excerpt: 'A step-by-step framework for choosing a brand name with a validation checklist.' },
   { slug: 'domain-name-availability', title: 'Domain Name Availability: When .com Is Taken', excerpt: 'Creative domain strategies when .com is gone — alternative TLDs, modifiers, and more.' },
-  { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas for 2026', excerpt: '300+ clothing brand name ideas across 10 fashion categories with naming strategies used by iconic brands.' },
+  { slug: 'clothing-brand-name-generator', title: 'Clothing Brand Name Generator: 300+ Ideas for 2026', excerpt: '300+ clothing brand name ideas across 10 fashion categories with naming strategies used by iconic brands.' }
 ]
 
 export default function StoreNameGeneratorPage() {
@@ -306,15 +306,7 @@ export default function StoreNameGeneratorPage() {
                     text: faq.answer,
                   },
                 })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-                  { '@type': 'ListItem', position: 3, name: 'Store Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/blog/store-name-generator' },
-                ],
-              },
+              }
             ],
           }),
         }}

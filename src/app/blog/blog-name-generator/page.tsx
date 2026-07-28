@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'good blog names',
     'catchy blog names',
     'lifestyle blog names',
-    'blog name ideas for beginners',
+    'blog name ideas for beginners'
   ],
   openGraph: {
     title: 'Blog Name Generator: 250+ Blog Name Ideas for 2026 + Free AI Tool',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Blog Name Generator: 250+ Blog Name Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'How long should a blog name be?',
     answer: 'The sweet spot is 1-2 words, 6-14 characters. Here\'s what the data shows: Top blogs average 10 characters. Single-word names (Kitchn, Sprudge, Dooce) are punchy but harder to get as .com domains. Two-word names (Budget Bytes, Wait But Why, Zen Habits) are the most common format and easier to find as .com. Three or more words (The Pioneer Woman, A Cup of Jo) work but risk being shortened by readers. Avoid names over 20 characters — they get truncated in search results, social media profiles, and browser tabs.',
-  },
+  }
 ]
 
 const nameCategories = [
@@ -95,7 +95,7 @@ const nameCategories = [
       'The Daily Shift', 'Life Canvas', 'Bold & Bloom', 'The Growth Lab', 'Mindful Pulse',
       'Everyday Spark', 'The Open Journal', 'Fresh Chapter', 'Life Unscripted', 'The Intentional Co.',
       'Morning Theory', 'The Honest Lens', 'Daymaker Blog', 'Shift & Sprout', 'The Curious Life',
-      'Bloom Theory', 'Life in Focus', 'The Daily Thread', 'Unplugged Living', 'Purpose & Pen',
+      'Bloom Theory', 'Life in Focus', 'The Daily Thread', 'Unplugged Living', 'Purpose & Pen'
     ],
   },
   {
@@ -104,7 +104,7 @@ const nameCategories = [
       'The Flavor Lab', 'Pinch & Plate', 'Spice Theory', 'The Recipe Shift', 'Taste Craft',
       'Coastal Kitchen', 'The Hungry Lens', 'Fresh Fork', 'Plate & Pen', 'The Seasoned Co.',
       'Flame & Fork', 'Taste Pulse', 'The Cook Theory', 'Savour Lab', 'The Fresh Plate',
-      'Kitchen Craft', 'The Flavor Shift', 'Spoon & Story', 'Copper Kitchen', 'The Tasty Loop',
+      'Kitchen Craft', 'The Flavor Shift', 'Spoon & Story', 'Copper Kitchen', 'The Tasty Loop'
     ],
   },
   {
@@ -113,7 +113,7 @@ const nameCategories = [
       'Byte Forge', 'Code Theory', 'The Tech Loop', 'Pixel Shift', 'Circuit Craft',
       'The Debug Lab', 'Stack & Ship', 'Dev Pulse', 'The Build Theory', 'Neon Circuit',
       'Code & Coil', 'The Sync Lab', 'Bit Craft', 'The Deploy Co.', 'Logic Lane',
-      'Pixel Theory', 'The Hack Shift', 'Build & Break', 'The Code Canvas', 'Dev Unplugged',
+      'Pixel Theory', 'The Hack Shift', 'Build & Break', 'The Code Canvas', 'Dev Unplugged'
     ],
   },
   {
@@ -122,7 +122,7 @@ const nameCategories = [
       'The Drift Lab', 'Waypoint Craft', 'Nomad Theory', 'The Travel Shift', 'Atlas & Pen',
       'Roam Craft', 'The Compass Co.', 'Trek Theory', 'The Latitude Loop', 'Map & Memory',
       'The Wander Lens', 'Horizon Shift', 'Path & Pack', 'The Journey Lab', 'Trail Theory',
-      'The Explore Co.', 'Route Craft', 'The Voyage Shift', 'Wander Pulse', 'The Open Road Co.',
+      'The Explore Co.', 'Route Craft', 'The Voyage Shift', 'Wander Pulse', 'The Open Road Co.'
     ],
   },
   {
@@ -131,7 +131,7 @@ const nameCategories = [
       'The Fit Shift', 'Move Theory', 'Iron Pulse', 'The Wellness Lab', 'Form & Fuel',
       'The Active Co.', 'Fit Craft', 'The Motion Studio', 'Rep Theory', 'The Strength Shift',
       'Core & Calm', 'The Wellness Loop', 'Power Protocol', 'Grit & Grace', 'Body Theory',
-      'The Fit Canvas', 'Move & Mend', 'The Vitality Co.', 'Endurance Shift', 'The Health Lab',
+      'The Fit Canvas', 'Move & Mend', 'The Vitality Co.', 'Endurance Shift', 'The Health Lab'
     ],
   },
   {
@@ -140,7 +140,7 @@ const nameCategories = [
       'The Money Shift', 'Wealth Theory', 'The Invest Lab', 'Capital Craft', 'The Finance Loop',
       'Stack & Save', 'The Profit Engine', 'Money Pulse', 'The Growth Studio', 'Scale Theory',
       'The Compound Co.', 'Fiscal Craft', 'The Wealth Lens', 'Value Protocol', 'The Build Loop',
-      'Dollar Theory', 'The Smart Money', 'Equity Shift', 'The Portfolio Co.', 'Coin & Craft',
+      'Dollar Theory', 'The Smart Money', 'Equity Shift', 'The Portfolio Co.', 'Coin & Craft'
     ],
   },
   {
@@ -149,7 +149,7 @@ const nameCategories = [
       'The Glow Lab', 'Style Theory', 'The Chic Shift', 'Velvet Craft', 'Hue & Thread',
       'The Style Studio', 'Radiant Theory', 'The Look Loop', 'Aura Blog', 'The Fashion Shift',
       'Canvas Beauty', 'The Style Lens', 'Glow & Grain', 'Polish Theory', 'The Beauty Co.',
-      'Thread Theory', 'The Radiant Shift', 'Style Pulse', 'The Wardrobe Lab', 'Chic & Craft',
+      'Thread Theory', 'The Radiant Shift', 'Style Pulse', 'The Wardrobe Lab', 'Chic & Craft'
     ],
   },
   {
@@ -158,7 +158,7 @@ const nameCategories = [
       'The Nest Theory', 'Tiny & Wild', 'Parent Pulse', 'The Family Shift', 'Sprout & Story',
       'The Daily Nest', 'Little Theory', 'The Parent Lab', 'Home & Heart', 'The Village Co.',
       'Growth & Giggles', 'The Mom Shift', 'Tiny Steps Co.', 'The Family Canvas', 'Crib & Craft',
-      'The Joy Loop', 'Little Lens', 'The Nest Craft', 'Hearth & Home', 'The Parent Theory',
+      'The Joy Loop', 'Little Lens', 'The Nest Craft', 'Hearth & Home', 'The Parent Theory'
     ],
   },
   {
@@ -167,7 +167,7 @@ const nameCategories = [
       'The Maker Lab', 'Craft Theory', 'The DIY Shift', 'Home & Hammer', 'Build & Bloom',
       'The Workshop Co.', 'Maker Pulse', 'The Craft Loop', 'Timber & Thread', 'The Home Shift',
       'Studio Craft', 'The Maker Theory', 'Hammer & Heart', 'The DIY Canvas', 'Plywood & Pen',
-      'The Workshop Lab', 'Handmade Theory', 'The Maker Shift', 'Tool & Craft', 'The Homebrew Co.',
+      'The Workshop Lab', 'Handmade Theory', 'The Maker Shift', 'Tool & Craft', 'The Homebrew Co.'
     ],
   },
   {
@@ -176,9 +176,9 @@ const nameCategories = [
       'The Knowledge Lab', 'Learn Theory', 'The Study Shift', 'Brain Craft', 'Insight Engine',
       'The Learning Loop', 'Skill Theory', 'The Curious Co.', 'Mind Bloom', 'The Lesson Lab',
       'Clarity Studio', 'The Think Shift', 'QuickThink', 'The Guide Post', 'Know & Craft',
-      'The Skill Lab', 'Bright Theory', 'The Study Canvas', 'Learn Pulse', 'The Insight Co.',
+      'The Skill Lab', 'Bright Theory', 'The Study Canvas', 'Learn Pulse', 'The Insight Co.'
     ],
-  },
+  }
 ]
 
 const namingStrategies = [
@@ -237,7 +237,7 @@ const namingStrategies = [
     examples: ['Wait But Why', 'Think Growth', 'Make It', 'Go Overseas'],
     bestFor: 'Motivational, educational, and how-to blogs — action phrases create energy and make readers want to click',
     howToUse: 'Use a verb or question that your target reader would ask or act on. "Wait But Why" creates curiosity. "Think Growth" is aspirational. "Go Overseas" is a command that adventure seekers want to follow. Keep it to 2-3 words. The action should connect to your content mission.',
-  },
+  }
 ]
 
 const industries = [
@@ -264,7 +264,7 @@ const industries = [
   { name: 'Craft', href: '/craft-name-generator' },
   { name: 'Nonprofit', href: '/nonprofit-name-generator' },
   { name: 'Podcast', href: '/podcast-name-generator' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' }
 ]
 
 const relatedPosts = [
@@ -273,7 +273,7 @@ const relatedPosts = [
   { slug: 'youtube-channel-name-generator', title: 'YouTube Channel Name Generator: 300+ Ideas for 2026', excerpt: '300+ YouTube channel name ideas and 7 naming strategies used by top creators.' },
   { slug: 'podcast-name-generator', title: 'Podcast Name Generator', excerpt: 'Generate podcast names with AI and check domain availability instantly.' },
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name in 2026', excerpt: 'A step-by-step framework for choosing a brand name — 6 naming styles and a 10-point validation checklist.' },
-  { slug: 'creative-brand-names', title: 'Creative Brand Names: 200+ Unique Ideas for 2026', excerpt: '200+ creative brand name ideas with naming techniques from top branding agencies.' },
+  { slug: 'creative-brand-names', title: 'Creative Brand Names: 200+ Unique Ideas for 2026', excerpt: '200+ creative brand name ideas with naming techniques from top branding agencies.' }
 ]
 
 export default function BlogNameGeneratorPage() {
@@ -305,15 +305,7 @@ export default function BlogNameGeneratorPage() {
                     text: faq.answer,
                   },
                 })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-                  { '@type': 'ListItem', position: 3, name: 'Blog Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/blog/blog-name-generator' },
-                ],
-              },
+              }
             ],
           }),
         }}

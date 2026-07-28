@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'good youtube channel names',
     'vlog name ideas',
     'youtube brand name generator',
-    'catchy youtube channel names',
+    'catchy youtube channel names'
   ],
   openGraph: {
     title: 'YouTube Channel Name Generator: 300+ YouTube Channel Name Ideas for 2026 + Free AI Tool',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'YouTube Channel Name Generator: 300+ YouTube Channel Name Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'What YouTube channel name mistakes should I avoid?',
     answer: 'The 6 biggest YouTube naming mistakes: (1) Too long — "TheUltimateTechReviewChannel" won\'t fit in YouTube\'s display and is impossible to remember. Aim for 2 words max. (2) Numbers and special characters — "TechReviews2026" and "Gamer_Boy_X" look amateur and are hard to search. (3) Generic names — "Tech Reviews" and "Gaming Channel" are impossible to rank for and forgettable. (4) Hard to spell — if someone can\'t type your name after hearing it, they can\'t find you. (5) Copying popular channels — slight variations of "MrBeast" or "MKBHD" will get you lost in their search results. (6) Too niche — "iPhone12Cases" locks you into a product that ages out.',
-  },
+  }
 ]
 
 const nameCategories = [
@@ -95,7 +95,7 @@ const nameCategories = [
       'ByteForge', 'Pixel Drift', 'Ctrl Alt Create', 'The Tech Loop', 'Neon Circuit',
       'Code & Coil', 'FrameRate', 'Pixel Theory', 'The Sync Lab', 'Digital Drift',
       'Tech Nomad', 'The Bit Studio', 'Circuit Break', 'Pixel Forge', 'Logic Lane',
-      'The Debug Diaries', 'Chip Theory', 'Pixel Shift', 'The Binary Beat', 'Code Breaker',
+      'The Debug Diaries', 'Chip Theory', 'Pixel Shift', 'The Binary Beat', 'Code Breaker'
     ],
   },
   {
@@ -104,7 +104,7 @@ const nameCategories = [
       'Day Drift', 'The Daily Thread', 'Life Unscripted', 'The Good Life Co.', 'Weekend Theory',
       'Morning Shift', 'The Honest Lens', 'Day by Day', 'Real Talk Daily', 'Life in Focus',
       'The Open Journal', 'Fresh Chapter', 'The Daily Shift', 'Life Unfiltered', 'Everyday Magic',
-      'The Raw Reel', 'Life Canvas', 'The Spontaneous Co.', 'Daymaker', 'The Unplanned Life',
+      'The Raw Reel', 'Life Canvas', 'The Spontaneous Co.', 'Daymaker', 'The Unplanned Life'
     ],
   },
   {
@@ -113,7 +113,7 @@ const nameCategories = [
       'Smart Every Day', 'The Knowledge Lab', 'Learn Loop', 'The Study Studio', 'QuickThink',
       'The Skill Shift', 'Brain Frame', 'The Insight Engine', 'Learn Fast Co.', 'Mind Bloom',
       'The Think Tank', 'Skill Forge', 'The Learning Curve', 'Bright Method', 'The How-To Hub',
-      'Clarity Studio', 'The Guide Post', 'Know Theory', 'The Lesson Lab', 'Think Clear',
+      'Clarity Studio', 'The Guide Post', 'Know Theory', 'The Lesson Lab', 'Think Clear'
     ],
   },
   {
@@ -122,7 +122,7 @@ const nameCategories = [
       'The Fit Shift', 'Move Theory', 'Iron Mindset', 'The Strength Lab', 'Form & Function',
       'The Active Co.', 'Fit Framework', 'The Motion Studio', 'Rep Theory', 'The Daily Burn',
       'Iron Forge', 'The Movement Loop', 'Core Shift', 'The Wellness Loop', 'Power Protocol',
-      'The Form Lab', 'Grit & Grace', 'The Fit Protocol', 'Body Theory', 'The Active Shift',
+      'The Form Lab', 'Grit & Grace', 'The Fit Protocol', 'Body Theory', 'The Active Shift'
     ],
   },
   {
@@ -131,7 +131,7 @@ const nameCategories = [
       'The Flavor Lab', 'Spice Theory', 'The Cook Shift', 'Taste Lab', 'The Fresh Plate',
       'Flame & Fork', 'The Recipe Loop', 'Kitchen Theory', 'The Dish Studio', 'Coastal Kitchen',
       'The Seasoned Co.', 'Taste Shift', 'The Pantry Lab', 'Stove & Story', 'The Flavor Shift',
-      'Plate Theory', 'The Hungry Lens', 'Spice & Steel', 'The Cook Theory', 'Fresh Frame Kitchen',
+      'Plate Theory', 'The Hungry Lens', 'Spice & Steel', 'The Cook Theory', 'Fresh Frame Kitchen'
     ],
   },
   {
@@ -140,7 +140,7 @@ const nameCategories = [
       'The Glow Lab', 'Style Theory', 'The Beauty Shift', 'Gloss & Glass', 'The Style Studio',
       'Radiant Theory', 'The Look Loop', 'Aura & Co.', 'The Chic Shift', 'Velvet Theory',
       'The Glam Lab', 'Beauty Protocol', 'The Style Engine', 'Glow Frame', 'The Beauty Lens',
-      'Hue Theory', 'The Radiant Co.', 'Polish & Glow', 'The Style Shift', 'Canvas Beauty',
+      'Hue Theory', 'The Radiant Co.', 'Polish & Glow', 'The Style Shift', 'Canvas Beauty'
     ],
   },
   {
@@ -149,7 +149,7 @@ const nameCategories = [
       'The Money Shift', 'Wealth Theory', 'The Invest Lab', 'The Finance Loop', 'Capital Think',
       'The Profit Engine', 'Money Protocol', 'The Growth Studio', 'Scale Theory', 'The Wealth Lens',
       'The Compound Co.', 'Equity Shift', 'The Portfolio Lab', 'Fiscal Theory', 'The Build Loop',
-      'The Smart Money', 'Value Protocol', 'The Founder Lab', 'Stack Theory', 'The Dividend Shift',
+      'The Smart Money', 'Value Protocol', 'The Founder Lab', 'Stack Theory', 'The Dividend Shift'
     ],
   },
   {
@@ -158,7 +158,7 @@ const nameCategories = [
       'The Joke Lab', 'Laugh Theory', 'The Comedy Shift', 'Punchline Co.', 'The Fun Loop',
       'Gag Forge', 'The Chuckle Studio', 'Bit Theory', 'The Satire Shift', 'The Irony Engine',
       'LOL Lab', 'The Prank Loop', 'Comic Shift', 'The Laugh Lens', 'The Jest Co.',
-      'Funny Theory', 'The Humor Hub', 'The Bit Shift', 'Laugh Forge', 'The Comedy Lens',
+      'Funny Theory', 'The Humor Hub', 'The Bit Shift', 'Laugh Forge', 'The Comedy Lens'
     ],
   },
   {
@@ -167,7 +167,7 @@ const nameCategories = [
       'The Drift Lab', 'Waypoint Theory', 'The Travel Shift', 'Nomad Loop', 'The Journey Studio',
       'Atlas Theory', 'The Explore Co.', 'The Route Lens', 'Roam Shift', 'The Compass Lab',
       'Trek Theory', 'The Latitude Loop', 'The Wander Engine', 'Path Theory', 'The Horizon Shift',
-      'The Adventure Lab', 'Map & Memory', 'The Voyage Co.', 'The Trail Theory', 'Wander Forge',
+      'The Adventure Lab', 'Map & Memory', 'The Voyage Co.', 'The Trail Theory', 'Wander Forge'
     ],
   },
   {
@@ -176,9 +176,9 @@ const nameCategories = [
       'The Sound Lab', 'Chord Theory', 'The Music Shift', 'Beat Forge', 'The Creative Loop',
       'Melody Studio', 'The Art Engine', 'Rhythm Theory', 'The Sound Shift', 'The Studio Co.',
       'Note Theory', 'The Mix Lab', 'The Creative Lens', 'Canvas Theory', 'The Artful Shift',
-      'The Track Loop', 'Sound Forge', 'The Composition Co.', 'Tone Theory', 'The Creative Shift',
+      'The Track Loop', 'Sound Forge', 'The Composition Co.', 'Tone Theory', 'The Creative Shift'
     ],
-  },
+  }
 ]
 
 const namingStrategies = [
@@ -237,7 +237,7 @@ const namingStrategies = [
     examples: ['TechWithTim', 'FitnessBlender', 'ProZD', 'SuperCarBlondie'],
     bestFor: 'Channels in competitive niches that need clear positioning — the niche word helps discovery, the modifier makes it memorable',
     howToUse: 'Pick your niche (tech, fitness, cooking, gaming) and pair it with a distinctive modifier. The modifier should be a power word, your name, or an evocative word. "Tech" + "With Tim" = personal + clear. "Fitness" + "Blender" = unexpected + memorable. Avoid generic modifiers like "Pro," "Best," or "Daily."',
-  },
+  }
 ]
 
 const industries = [
@@ -264,7 +264,7 @@ const industries = [
   { name: 'Craft', href: '/craft-name-generator' },
   { name: 'Nonprofit', href: '/nonprofit-name-generator' },
   { name: 'Podcast', href: '/podcast-name-generator' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' }
 ]
 
 const relatedPosts = [
@@ -273,7 +273,7 @@ const relatedPosts = [
   { slug: 'podcast-name-generator', title: 'Podcast Name Generator: 300+ Podcast Name Ideas for 2026', excerpt: '300+ podcast name ideas, 7 naming strategies from hit shows like Serial and The Daily, and a free AI generator.' },
   { slug: 'blog-name-generator', title: 'Blog Name Generator: 250+ Blog Name Ideas for 2026', excerpt: '250+ blog name ideas across 10 niches, 7 naming strategies from top bloggers, and a free AI generator.' },
   { slug: 'startup-name-ideas', title: 'Startup Name Ideas: 300+ Names for Startups in 2026', excerpt: '300+ startup name ideas and 7 naming strategies behind billion-dollar startups.' },
-  { slug: 'creative-brand-names', title: 'Creative Brand Names: 200+ Unique Ideas for 2026', excerpt: '200+ creative brand name ideas with naming techniques from top branding agencies.' },
+  { slug: 'creative-brand-names', title: 'Creative Brand Names: 200+ Unique Ideas for 2026', excerpt: '200+ creative brand name ideas with naming techniques from top branding agencies.' }
 ]
 
 export default function YouTubeChannelNameGeneratorPage() {
@@ -305,15 +305,7 @@ export default function YouTubeChannelNameGeneratorPage() {
                     text: faq.answer,
                   },
                 })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-                  { '@type': 'ListItem', position: 3, name: 'YouTube Channel Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/blog/youtube-channel-name-generator' },
-                ],
-              },
+              }
             ],
           }),
         }}

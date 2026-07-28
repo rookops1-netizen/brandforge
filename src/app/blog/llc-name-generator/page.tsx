@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'AI LLC name generator',
     'LLC naming guide',
     'cool LLC names',
-    'unique LLC names',
+    'unique LLC names'
   ],
   openGraph: {
     title: 'LLC Name Generator: 300+ LLC Name Ideas for 2026 + Free AI Tool',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'LLC Name Generator: 300+ LLC Name Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'Can I change my LLC name after registering?',
     answer: 'Yes, but it\'s easier to get it right the first time. To change your LLC name, you need to file an Amendment to your Articles of Organization with your state (usually $50–$150), update your EIN with the IRS, update bank accounts, licenses, contracts, and marketing materials. It\'s doable but time-consuming. Spend a few extra days choosing the right name upfront — it\'ll save you headaches later.',
-  },
+  }
 ]
 
 const nameCategories = [
@@ -94,7 +94,7 @@ const nameCategories = [
     names: [
       'Apex Strategy Group LLC', 'Meridian Consulting LLC', 'Ironbridge Partners LLC', 'Summit Point Advisory LLC', 'Crestline Consulting LLC',
       'Keystone Solutions LLC', 'Clearpath Group LLC', 'Northstar Advisory LLC', 'Vantage Point LLC', 'Ascent Consulting LLC',
-      'Harborview Partners LLC', 'Bridgeport Group LLC', 'Cornerstone Advisory LLC', 'Redwood Consulting LLC', 'Silverline Group LLC',
+      'Harborview Partners LLC', 'Bridgeport Group LLC', 'Cornerstone Advisory LLC', 'Redwood Consulting LLC', 'Silverline Group LLC'
     ],
   },
   {
@@ -102,7 +102,7 @@ const nameCategories = [
     names: [
       'Greenfield Holdings LLC', 'Summit Properties LLC', 'Landmark Realty Group LLC', 'Horizon Estates LLC', 'Cedar Point Holdings LLC',
       'Stonebridge Properties LLC', 'Vista Real Estate LLC', 'Iron Gate Holdings LLC', 'Prairie View Group LLC', 'Crestwood Realty LLC',
-      'Oakhill Properties LLC', 'Harbor Real Estate LLC', 'Blue Ridge Holdings LLC', 'Pinnacle Property Group LLC', 'Timberline Estates LLC',
+      'Oakhill Properties LLC', 'Harbor Real Estate LLC', 'Blue Ridge Holdings LLC', 'Pinnacle Property Group LLC', 'Timberline Estates LLC'
     ],
   },
   {
@@ -110,7 +110,7 @@ const nameCategories = [
     names: [
       'NovaTech Solutions LLC', 'Cloudpeak Systems LLC', 'Dataforge Labs LLC', 'Stackr Technologies LLC', 'Celeris Digital LLC',
       'Quantum Logic LLC', 'Nexgen Systems LLC', 'Codevault Labs LLC', 'Infinitix LLC', 'Pulse Digital Group LLC',
-      'Synctide Technologies LLC', 'Luminary Systems LLC', 'Devflow Labs LLC', 'Platforma Digital LLC', 'Algoris Solutions LLC',
+      'Synctide Technologies LLC', 'Luminary Systems LLC', 'Devflow Labs LLC', 'Platforma Digital LLC', 'Algoris Solutions LLC'
     ],
   },
   {
@@ -118,7 +118,7 @@ const nameCategories = [
     names: [
       'VitaWell Group LLC', 'Clearpath Health LLC', 'Thrive Wellness LLC', 'Meridian Health Solutions LLC', 'Peak Vitality LLC',
       'Greenleaf Wellness LLC', 'Harmony Health Group LLC', 'Restorative Path LLC', 'Balance Point Wellness LLC', 'VitalPath Solutions LLC',
-      'Mindful Motion LLC', 'Core Strength Wellness LLC', 'Brightside Health LLC', 'Stillwater Wellness LLC', 'Ironclad Fitness LLC',
+      'Mindful Motion LLC', 'Core Strength Wellness LLC', 'Brightside Health LLC', 'Stillwater Wellness LLC', 'Ironclad Fitness LLC'
     ],
   },
   {
@@ -126,7 +126,7 @@ const nameCategories = [
     names: [
       'Ironclad Builders LLC', 'Foundation First LLC', 'Stonecraft Construction LLC', 'Keystone Builders Group LLC', 'True Level LLC',
       'Summit Construction LLC', 'Cornerstone Contracting LLC', 'Hardhat Solutions LLC', 'Bedrock Builders LLC', 'Ironridge Construction LLC',
-      'Solid Ground Group LLC', 'Pillar Construction LLC', 'Crestline Builders LLC', 'Framecraft LLC', 'Bulldog Contracting LLC',
+      'Solid Ground Group LLC', 'Pillar Construction LLC', 'Crestline Builders LLC', 'Framecraft LLC', 'Bulldog Contracting LLC'
     ],
   },
   {
@@ -134,7 +134,7 @@ const nameCategories = [
     names: [
       'Marketplace Group LLC', 'Shelf Holdings LLC', 'Cart Solutions LLC', 'Vendor Collective LLC', 'Goodspeed Commerce LLC',
       'Blue Cart LLC', 'Supplyline Group LLC', 'Stockwell Trading LLC', 'Boutique Holdings LLC', 'Quickship Solutions LLC',
-      'Retail Bridge LLC', 'Product Pipeline LLC', 'Wholesale Direct LLC', 'Copperline Commerce LLC', 'Tradewinds Group LLC',
+      'Retail Bridge LLC', 'Product Pipeline LLC', 'Wholesale Direct LLC', 'Copperline Commerce LLC', 'Tradewinds Group LLC'
     ],
   },
   {
@@ -142,7 +142,7 @@ const nameCategories = [
     names: [
       'Hearthside Kitchen LLC', 'Farmstead Provisions LLC', 'Ember & Oak LLC', 'Fresh Route Group LLC', 'Stone Mill LLC',
       'Heritage Kitchen LLC', 'Copper Kettle LLC', 'Greenplate Holdings LLC', 'Ridgeline Provisions LLC', 'Cedarwood Kitchen LLC',
-      'Saltbox Culinary LLC', 'Harvest Table LLC', 'Iron Chef Holdings LLC', 'Morning Trade LLC', 'Brookside Foods LLC',
+      'Saltbox Culinary LLC', 'Harvest Table LLC', 'Iron Chef Holdings LLC', 'Morning Trade LLC', 'Brookside Foods LLC'
     ],
   },
   {
@@ -150,7 +150,7 @@ const nameCategories = [
     names: [
       'Brightspark Creative LLC', 'Prism Group LLC', 'Signal Creative LLC', 'Narrative Works LLC', 'Catalyst Agency LLC',
       'Visioncraft Group LLC', 'Amplify Creative LLC', 'Bold & Bright LLC', 'Forge Creative LLC', 'Momentum Marketing LLC',
-      'Pixelcraft Studios LLC', 'Daybreak Creative LLC', 'Ironlight Agency LLC', 'Traction Group LLC', 'Sparks Creative LLC',
+      'Pixelcraft Studios LLC', 'Daybreak Creative LLC', 'Ironlight Agency LLC', 'Traction Group LLC', 'Sparks Creative LLC'
     ],
   },
   {
@@ -158,7 +158,7 @@ const nameCategories = [
     names: [
       'Ledger Point LLC', 'Clearview Financial LLC', 'Precision Accounting LLC', 'Summit Wealth Group LLC', 'Iron Capital LLC',
       'True North Financial LLC', 'Cornerstone Advisory LLC', 'Balance Sheet Group LLC', 'Meridian Capital LLC', 'Greenline Financial LLC',
-      'Trustbridge Holdings LLC', 'Atlas Financial LLC', 'Pillar Wealth LLC', 'Sentinel Capital Group LLC', 'Foothill Finance LLC',
+      'Trustbridge Holdings LLC', 'Atlas Financial LLC', 'Pillar Wealth LLC', 'Sentinel Capital Group LLC', 'Foothill Finance LLC'
     ],
   },
   {
@@ -166,9 +166,9 @@ const nameCategories = [
     names: [
       'Bright Home Solutions LLC', 'Silverline Services LLC', 'Cedar Hill Home LLC', 'Premier Edge LLC', 'Trusted Hands Group LLC',
       'Clearpath Home Services LLC', 'Ironclad Maintenance LLC', 'Blue Ribbon Services LLC', 'Neighborly Home LLC', 'Hearth Home Care LLC',
-      'Shield Home Group LLC', 'Pinecrest Services LLC', 'Steady Hand LLC', 'Gold Standard Home LLC', 'Reliable Home Partners LLC',
+      'Shield Home Group LLC', 'Pinecrest Services LLC', 'Steady Hand LLC', 'Gold Standard Home LLC', 'Reliable Home Partners LLC'
     ],
-  },
+  }
 ]
 
 const stateRules = [
@@ -179,7 +179,7 @@ const stateRules = [
   { state: 'Delaware', fee: '$90', rules: 'Must contain "LLC" or "L.L.C.". Very business-friendly state with minimal naming restrictions. Popular for startup formation.', url: 'corp.delaware.gov' },
   { state: 'Wyoming', fee: '$100', rules: 'Must contain "LLC" or "L.L.C.". Known for strong privacy protections and low fees. No state income tax.', url: 'sos.wyo.gov' },
   { state: 'Nevada', fee: '$425', rules: 'Must contain "LLC" or "L.L.C.". Strong privacy protections. Cannot contain "bank" or "insurance" without approval.', url: 'nvsilverflume.gov' },
-  { state: 'Illinois', fee: '$150', rules: 'Must contain "LLC" or "L.L.C.". Cannot contain words suggesting it\'s a corporation. Name must be distinguishable from existing Illinois entities.', url: 'cyberdriveillinois.com' },
+  { state: 'Illinois', fee: '$150', rules: 'Must contain "LLC" or "L.L.C.". Cannot contain words suggesting it\'s a corporation. Name must be distinguishable from existing Illinois entities.', url: 'cyberdriveillinois.com' }
 ]
 
 const industries = [
@@ -206,7 +206,7 @@ const industries = [
   { name: 'Podcast', href: '/podcast-name-generator' },
   { name: 'Wedding', href: '/wedding-name-generator' },
   { name: 'Music', href: '/music-name-generator' },
-  { name: 'Craft', href: '/craft-name-generator' },
+  { name: 'Craft', href: '/craft-name-generator' }
 ]
 
 const relatedPosts = [
@@ -215,7 +215,7 @@ const relatedPosts = [
   { slug: 'company-name-generator', title: 'Company Name Generator: 250+ Name Ideas for 2026', excerpt: '250+ company name ideas with 6 naming strategies and domain availability checks.' },
   { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name: The Complete Guide', excerpt: 'The complete guide to choosing a business name — from brainstorming to trademark research.' },
   { slug: 'domain-name-availability', title: 'Domain Name Availability: When .com Is Taken', excerpt: 'Creative domain strategies when .com is gone — alternative TLDs, modifiers, and more.' },
-  { slug: 'how-to-come-up-with-business-name', title: 'How to Come Up with a Business Name: 10 Proven Methods', excerpt: '10 brainstorming methods to come up with a business name plus 200+ ideas by industry.' },
+  { slug: 'how-to-come-up-with-business-name', title: 'How to Come Up with a Business Name: 10 Proven Methods', excerpt: '10 brainstorming methods to come up with a business name plus 200+ ideas by industry.' }
 ]
 
 export default function LLCNameGeneratorPage() {
@@ -247,15 +247,7 @@ export default function LLCNameGeneratorPage() {
                     text: faq.answer,
                   },
                 })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-                  { '@type': 'ListItem', position: 3, name: 'LLC Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/blog/llc-name-generator' },
-                ],
-              },
+              }
             ],
           }),
         }}

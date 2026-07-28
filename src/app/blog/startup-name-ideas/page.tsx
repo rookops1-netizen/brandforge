@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'startup company name ideas',
     'SaaS startup names',
     'startup naming guide',
-    'good startup names',
+    'good startup names'
   ],
   openGraph: {
     title: 'Startup Name Ideas: 300+ Names for Startups in 2026 + Free AI Generator',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Startup Name Ideas: 300+ Names for Startups in 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'What are examples of great startup names and why do they work?',
     answer: 'Stripe works because it suggests a clean, linear path (like a payment stripe) — short, memorable, and evocative. Notion works because it evokes thinking and ideas — feels smart and organized. Canva works because it\'s a blank creative space — 5 letters, easy to spell, suggests design. Slack works because it suggests casual, flexible communication — the opposite of rigid enterprise tools. Zoom works because it implies speed and connection — 4 letters, one syllable, impossible to misspell. The pattern: short, evocative, easy to spell, and suggests the benefit without being literal.',
-  },
+  }
 ]
 
 const nameCategories = [
@@ -93,72 +93,72 @@ const nameCategories = [
     title: 'Tech & SaaS',
     names: [
       'Nexova', 'Stackr', 'Codify', 'Cloudpeak', 'Vervex', 'Devflow', 'Synctide', 'Luminary', 'Buildkit', 'Celeris',
-      'Quantro', 'Platforma', 'Infinitix', 'Nebulr', 'Dataforge',
+      'Quantro', 'Platforma', 'Infinitix', 'Nebulr', 'Dataforge'
     ],
   },
   {
     title: 'AI & Machine Learning',
     names: [
       'Cognivex', 'Neuralspark', 'Intellimind', 'Deepcraft', 'Synthetix', 'Aivolve', 'Brainforge', 'Modelworks', 'Predictiv', 'Trainloop',
-      'Algoris', 'Mindforge', 'Datamind', 'Patternly', 'Inferkit',
+      'Algoris', 'Mindforge', 'Datamind', 'Patternly', 'Inferkit'
     ],
   },
   {
     title: 'Fintech & Payments',
     names: [
       'Ledgrify', 'Paymint', 'Vaultex', 'Equityx', 'Cointrek', 'Finova', 'Clearpay', 'Capitaly', 'Fundbridge', 'Bankify',
-      'Wealthkit', 'Investr', 'Paystream', 'Monetix', 'Richpath',
+      'Wealthkit', 'Investr', 'Paystream', 'Monetix', 'Richpath'
     ],
   },
   {
     title: 'Health & Wellness',
     names: [
       'Vitarise', 'Wellpath', 'Pulsekit', 'Healify', 'Mindflow', 'Bodyforge', 'Zenpeak', 'Nutrisync', 'Fitvault', 'Careloop',
-      'Healthstack', 'Remedify', 'Vitalix', 'Thriveup', 'Curepath',
+      'Healthstack', 'Remedify', 'Vitalix', 'Thriveup', 'Curepath'
     ],
   },
   {
     title: 'E-Commerce & Marketplace',
     names: [
       'Marketly', 'Shelfx', 'Cartify', 'Tradely', 'Buystack', 'Vendorio', 'Shopforge', 'Merchanix', 'Pickr', 'Stockwell',
-      'Buyflow', 'Goodmarket', 'Sellstream', 'Boutiquey', 'Dealsphere',
+      'Buyflow', 'Goodmarket', 'Sellstream', 'Boutiquey', 'Dealsphere'
     ],
   },
   {
     title: 'Productivity & Collaboration',
     names: [
       'Taskflow', 'Rallify', 'Syncboard', 'Focusly', 'Teampeak', 'Doistly', 'Agendix', 'Workstream', 'Plannr', 'Collabra',
-      'Efficio', 'Flowstate', 'Checkmark', 'Priority', 'Hiveboard',
+      'Efficio', 'Flowstate', 'Checkmark', 'Priority', 'Hiveboard'
     ],
   },
   {
     title: 'Education & EdTech',
     names: [
       'Learnstack', 'Skillforge', 'Brainpath', 'Studyly', 'Coursify', 'Edupulse', 'Graspr', 'Masteryx', 'Thinklab', 'Tutorkit',
-      'Academix', 'Knowhub', 'Flashpeak', 'Mindforge', 'Learncraft',
+      'Academix', 'Knowhub', 'Flashpeak', 'Mindforge', 'Learncraft'
     ],
   },
   {
     title: 'Real Estate & PropTech',
     names: [
       'Propvault', 'Estatify', 'Rentkit', 'Homeforge', 'Buildr', 'Leasely', 'Nestworks', 'Propertylab', 'Dwellox', 'Houseprism',
-      'Spacebridge', 'Realtyhub', 'Plotstream', 'Keyfinder', 'Urbanix',
+      'Spacebridge', 'Realtyhub', 'Plotstream', 'Keyfinder', 'Urbanix'
     ],
   },
   {
     title: 'Sustainability & Green Tech',
     names: [
       'Greenforge', 'Earthly', 'Sustainix', 'Ecopeak', 'Climatix', 'Verdant', 'Carbonkit', 'Solkraft', 'Terravox', 'Biorise',
-      'Cleanstream', 'Renewly', 'Planetworks', 'Growstack', 'Netzero',
+      'Cleanstream', 'Renewly', 'Planetworks', 'Growstack', 'Netzero'
     ],
   },
   {
     title: 'Food & Beverage',
     names: [
       'Freshforge', 'Tastely', 'Bitekit', 'Cookstack', 'Plateme', 'Mealmix', 'Nourishify', 'Harvestly', 'Kitchenloop', 'Flavourx',
-      'Chefcraft', 'Foodstream', 'Pantrylab', 'Savourworks', 'Menumind',
+      'Chefcraft', 'Foodstream', 'Pantrylab', 'Savourworks', 'Menumind'
     ],
-  },
+  }
 ]
 
 const namingStrategies = [
@@ -170,7 +170,7 @@ const namingStrategies = [
       { name: 'Notion', why: 'Evokes thinking, ideas, and mental models' },
       { name: 'Slack', why: 'Suggests casual, flexible, easy communication' },
       { name: 'Canva', why: 'A blank creative canvas — 5 letters' },
-      { name: 'Figma', why: 'Figure + sigma — design with mathematical precision' },
+      { name: 'Figma', why: 'Figure + sigma — design with mathematical precision' }
     ],
     strengths: ['Highly memorable', 'Rich storytelling potential', 'Room for brand evolution', 'Easy to trademark'],
     weaknesses: ['Requires marketing to build meaning', 'Risk of being too abstract', 'Harder for SEO initially'],
@@ -184,7 +184,7 @@ const namingStrategies = [
       { name: 'Dropbox', why: 'Drop + box — files you can drop anywhere' },
       { name: 'Evernote', why: 'Ever + note — notes that last forever' },
       { name: 'Facebook', why: 'Face + book — a directory of people' },
-      { name: 'Shopify', why: 'Shop + ify — turn anything into a shop' },
+      { name: 'Shopify', why: 'Shop + ify — turn anything into a shop' }
     ],
     strengths: ['Immediately descriptive', 'Easy to understand', 'Domain-friendly (more options)', 'Strong SEO potential'],
     weaknesses: ['Can feel generic if both words are common', 'Need both words to be short', 'Many good compounds are taken'],
@@ -198,7 +198,7 @@ const namingStrategies = [
       { name: 'Duo', why: 'Two people, one call — 3 letters' },
       { name: 'Vine', why: 'Short like the videos — 4 letters' },
       { name: 'Square', why: 'A shape that suggests fairness and solidity' },
-      { name: 'Block', why: 'A building unit — fundamental and strong' },
+      { name: 'Block', why: 'A building unit — fundamental and strong' }
     ],
     strengths: ['Maximum memorability', 'Perfect for mobile', 'Great for app icons', 'Easy to say and spell'],
     weaknesses: ['Hard to find available .com domains', 'May need marketing to build meaning', 'Limited SEO signal'],
@@ -212,7 +212,7 @@ const namingStrategies = [
       { name: 'Etsy', why: 'Short, catchy, sounds like "etsy" = easy' },
       { name: 'Spotify', why: 'Spot + identify — finding music' },
       { name: 'Waze', why: 'Ways + ease — easy navigation' },
-      { name: 'Lululemon', why: 'Invented — sounds playful and athletic' },
+      { name: 'Lululemon', why: 'Invented — sounds playful and athletic' }
     ],
     strengths: ['Completely ownable', 'No SEO competition', 'Works globally', 'Easy to trademark'],
     weaknesses: ['Requires significant marketing investment', 'No inherent meaning to anchor on', 'Harder to spell sometimes'],
@@ -226,7 +226,7 @@ const namingStrategies = [
       { name: 'Amazon', why: 'Vast, enormous — the everything store' },
       { name: 'Uber', why: 'German for "over" or "super" — premium transportation' },
       { name: 'Tinder', why: 'Something that catches fire — sparking connections' },
-      { name: 'Robinhood', why: 'Taking from the rich — democratizing finance' },
+      { name: 'Robinhood', why: 'Taking from the rich — democratizing finance' }
     ],
     strengths: ['Instantly recognizable', 'Easy to spell and say', 'Rich with associations', 'Built-in storytelling'],
     weaknesses: ['Very hard to get .com domain', 'Expensive to acquire', 'SEO competition from the dictionary word', 'Trademark challenges'],
@@ -240,7 +240,7 @@ const namingStrategies = [
       { name: 'Kickstarter', why: 'Kick + start — launching projects into motion' },
       { name: 'Shutterfly', why: 'Shutter + fly — fast photo service' },
       { name: 'Couchsurfing', why: 'Couch + surfing — staying on strangers\' couches' },
-      { name: 'SoundCloud', why: 'Sound + cloud — audio in the cloud' },
+      { name: 'SoundCloud', why: 'Sound + cloud — audio in the cloud' }
     ],
     strengths: ['Implies action and utility', 'Easy to understand the benefit', 'Often has domains available', 'Strong for SEO'],
     weaknesses: ['Can sound generic', 'May limit perceived scope', 'Harder to stand out in crowded categories'],
@@ -254,12 +254,12 @@ const namingStrategies = [
       { name: 'Warby Parker', why: 'Two characters from Jack Kerouac novels' },
       { name: 'Huffman (Reddit)', why: 'Co-founder Steve Huffman\'s name was in the original URL' },
       { name: 'Goldman Sachs', why: 'Marcus Goldman + Samuel Sachs — partnership brand' },
-      { name: 'J.P. Morgan', why: 'The founder\'s name became synonymous with finance' },
+      { name: 'J.P. Morgan', why: 'The founder\'s name became synonymous with finance' }
     ],
     strengths: ['Authentic and personal', 'Great for personal brands', 'Unique by definition', 'Strong founder story'],
     weaknesses: ['Hard to sell the company later', 'Doesn\'t describe what you do', 'Can create confusion in B2B', 'Founder reputation = brand reputation'],
     bestFor: 'Consulting firms, personal brands, agencies, and startups where founder credibility is the differentiator',
-  },
+  }
 ]
 
 const industries = [
@@ -286,16 +286,16 @@ const industries = [
   { name: 'Yoga', href: '/yoga-name-generator' },
   { name: 'Restaurant', href: '/restaurant-name-generator' },
   { name: 'Construction', href: '/construction-name-generator' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' }
 ]
 
 const relatedPosts = [
+  { slug: 'saas-name-generator', title: 'SaaS Name Generator: 300+ SaaS Name Ideas', excerpt: '300+ SaaS name ideas across 10 categories with strategies from top SaaS companies' },
   { slug: 'startup-naming-mistakes', title: '7 Naming Mistakes That Kill Startups', excerpt: 'The naming traps that founders fall into over and over' },
   { slug: 'app-name-generator', title: 'App Name Generator: 200+ App Name Ideas', excerpt: '200+ app name ideas and 6 naming frameworks behind hit apps' },
   { slug: 'youtube-channel-name-generator', title: 'YouTube Channel Name Generator: 300+ Channel Name Ideas', excerpt: '300+ YouTube channel name ideas and 7 naming strategies from top creators' },
   { slug: 'company-name-generator', title: 'Company Name Generator: 250+ Name Ideas', excerpt: '250+ company name ideas by industry with naming strategies' },
-  { slug: 'brand-name-ideas', title: 'Brand Name Ideas: 300+ Creative Examples', excerpt: '300+ brand name ideas with naming techniques and real examples' },
-  { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name: The Complete Framework', excerpt: 'A step-by-step decision framework for choosing your brand name' },
+  { slug: 'brand-name-ideas', title: 'Brand Name Ideas: 300+ Creative Examples', excerpt: '300+ brand name ideas with naming techniques and real examples' }
 ]
 
 export default function StartupNameIdeasPage() {
@@ -327,15 +327,7 @@ export default function StartupNameIdeasPage() {
                     text: faq.answer,
                   },
                 })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-                  { '@type': 'ListItem', position: 3, name: 'Startup Name Ideas', item: 'https://brandforge-phi-pearl.vercel.app/blog/startup-name-ideas' },
-                ],
-              },
+              }
             ],
           }),
         }}

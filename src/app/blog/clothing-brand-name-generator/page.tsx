@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'best clothing brand names',
     'streetwear brand name ideas',
     'boutique name ideas',
-    'clothing brand name ideas 2026',
+    'clothing brand name ideas 2026'
   ],
   openGraph: {
     title: 'Clothing Brand Name Generator: 300+ Clothing Brand Name Ideas for 2026 + Free AI Tool',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Clothing Brand Name Generator: 300+ Clothing Brand Name Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'What clothing brand name mistakes should I avoid?',
     answer: 'The 6 biggest clothing naming mistakes: (1) Too generic — "Fashion Co." or "The Clothing Store" are forgettable and untrademarkable, (2) Too complicated — long names, hyphens, and numbers confuse customers and look bad on labels, (3) Trendy spellings — "Kool Kloset" will look dated in 2 years, (4) Too niche — "Just Yoga Pants" limits you when you want to add tops, (5) Copying competitors — slight variations of existing brands create legal risk and customer confusion, (6) Ignoring the label test — if your name doesn\'t fit inside a 1.5" label, it\'s too long.',
-  },
+  }
 ]
 
 const nameCategories = [
@@ -95,7 +95,7 @@ const nameCategories = [
       'VOID', 'Ninth District', 'Offramp', 'Raw Label', 'Concrete Theory',
       'Unlisted', 'Zero Gravity', 'Deadstock Co.', 'Blk Market', 'Shift NYC',
       'Hoodrich', 'Off the Grid', 'Rebel Output', 'Slate District', 'Unhinged',
-      'No Quarter', 'Fifth Mode', 'Rogue Supply', 'After Dark', 'Underground Ltd.',
+      'No Quarter', 'Fifth Mode', 'Rogue Supply', 'After Dark', 'Underground Ltd.'
     ],
   },
   {
@@ -104,7 +104,7 @@ const nameCategories = [
       'Maison Éclat', 'Atelier Noir', 'Velvet & Stone', 'The Gilded Thread', 'Haus of Lux',
       'Soleil Maison', 'Opus Couture', 'Noir Atelier', 'The Last Thread', 'Grand Maison',
       'Lumière', 'The Heritage Co.', 'Silk & Sovereign', 'Maison Claret', 'Éclat Studio',
-      'The Refined', 'Manoir', 'Atelier Crest', 'Sovereign Label', 'The House Collective',
+      'The Refined', 'Manoir', 'Atelier Crest', 'Sovereign Label', 'The House Collective'
     ],
   },
   {
@@ -113,7 +113,7 @@ const nameCategories = [
       'Evercloth', 'Forma', 'Line & Length', 'Plain Studio', 'The Simple Thread',
       'Muji Way', 'Cubit', 'Base Layer', 'Mono Studio', 'The Good Plain',
       'Shift', 'Unmarked', 'The Standard Issue', 'Essential Co.', 'Tone',
-      'Quiet Label', 'The White Label', 'Less & Co.', 'Basic Rights', 'Neutrals',
+      'Quiet Label', 'The White Label', 'Less & Co.', 'Basic Rights', 'Neutrals'
     ],
   },
   {
@@ -122,7 +122,7 @@ const nameCategories = [
       'Earththread', 'Regenerative', 'The Good Loop', 'Clover & Cotton', 'New Ground',
       'Slow Stitch', 'Terra Cloth', 'The Honest Thread', 'Kind Fiber', 'Replant',
       'Grown & Sewn', 'The Circular Co.', 'Greenweave', 'Soil & Spin', 'Conscious Thread',
-      'The Renewed', 'Botanica', 'Field & Fiber', 'The Sustainable Stitch', 'Ecoform',
+      'The Renewed', 'Botanica', 'Field & Fiber', 'The Sustainable Stitch', 'Ecoform'
     ],
   },
   {
@@ -131,7 +131,7 @@ const nameCategories = [
       'Kinetic', 'Power Thread', 'Stride Studio', 'The Motion Co.', 'Flex Apparel',
       'Velo City', 'Altitude Fit', 'Core & Motion', 'The Active Thread', 'Pulse Wear',
       'Gravity Co.', 'Sweat Theory', 'Momentum Apparel', 'The Fit Loop', 'Range Motion',
-      'Iron Thread', 'The Endurance Co.', 'Velocity Studio', 'Align & Move', 'The Run Lab',
+      'Iron Thread', 'The Endurance Co.', 'Velocity Studio', 'Align & Move', 'The Run Lab'
     ],
   },
   {
@@ -140,7 +140,7 @@ const nameCategories = [
       'Retro Rewind', 'The Archive Co.', 'Bygone Supply', 'Second Life Thread', 'The Vintage Cell',
       'Time Warp Cloth', 'Heirloom Label', 'The Reclaimed Thread', 'Past Life Studio', 'Thrift Theory',
       'Decades Co.', 'The Curated Past', 'Reworked', 'Archive & Thread', 'The Yesterday Label',
-      'Old Made New', 'The Nostalgia Thread', 'Reworn Studio', 'The Classic Cell', 'Found & Worn',
+      'Old Made New', 'The Nostalgia Thread', 'Reworn Studio', 'The Classic Cell', 'Found & Worn'
     ],
   },
   {
@@ -149,7 +149,7 @@ const nameCategories = [
       'Little Sprout Co.', 'Tiny & Wild', 'The Joyful Thread', 'Acorn Apparel', 'Small Wonder',
       'Little Fox Cloth', 'The Playful Pine', 'Sprout & Stitch', 'Little Legend', 'The Tiny Thread',
       'Bloom Kids', 'The Happy Thread', 'Little North', 'The Small Co.', 'Dandelion Kids',
-      'Little Nest', 'The Sunny Thread', 'Little Forest Co.', 'The Play Thread', 'Seedling Studio',
+      'Little Nest', 'The Sunny Thread', 'Little Forest Co.', 'The Play Thread', 'Seedling Studio'
     ],
   },
   {
@@ -158,7 +158,7 @@ const nameCategories = [
       'Island Drift', 'The Solstice Co.', 'Coastal Thread', 'Sun Lodge', 'Palm & Leisure',
       'The Vacation Label', 'Tide & Trail', 'Sundown Cloth', 'The Shore Studio', 'Coral & Coast',
       'The Holiday Thread', 'Beach House Co.', 'Sunstroke', 'The Lazy Label', 'Wave & Warmth',
-      'The Getaway Co.', 'Salt & Sun', 'The Resort Thread', 'Tropical Standard', 'The Island Studio',
+      'The Getaway Co.', 'Salt & Sun', 'The Resort Thread', 'Tropical Standard', 'The Island Studio'
     ],
   },
   {
@@ -167,7 +167,7 @@ const nameCategories = [
       'The Proper Thread', 'Iron & Collar', 'Stitch & Board', 'The Refined Co.', 'Tailor & Thread',
       'The Office Label', 'Crest & Cloth', 'The Gentleman\'s Stitch', 'Board & Weave', 'The Drape Co.',
       'Collar & Cuff', 'The Fitted Thread', 'Sovereign Stitch', 'The Formal Edge', 'Weave & Iron',
-      'The Executive Thread', 'Lapel & Co.', 'The Pressed Label', 'Sharp & Stitched', 'The Tailored Thread',
+      'The Executive Thread', 'Lapel & Co.', 'The Pressed Label', 'Sharp & Stitched', 'The Tailored Thread'
     ],
   },
   {
@@ -176,9 +176,9 @@ const nameCategories = [
       'The Denim Cell', 'Selvage Studio', 'Hardware & Thread', 'The Stitch Lab', 'Rivet & Roll',
       'The Accessory Thread', 'Buckle & Weave', 'Denim Theory', 'The Pocket Co.', 'Indigo & Iron',
       'The Leather Thread', 'Warp & Weft', 'The Hardware Label', 'Copper & Denim', 'The Stitch Co.',
-      'Raw Denim Studio', 'The Thread & Buckle', 'Blue Standard', 'The Pocket Thread', 'Weave & Metal',
+      'Raw Denim Studio', 'The Thread & Buckle', 'Blue Standard', 'The Pocket Thread', 'Weave & Metal'
     ],
-  },
+  }
 ]
 
 const namingStrategies = [
@@ -237,7 +237,7 @@ const namingStrategies = [
     examples: ['Outdoor Voices', 'Bathing Ape', 'Sweaty Betty', 'Arc\'teryx'],
     bestFor: 'Performance, athletic, or niche apparel where customers need to immediately understand your category',
     howToUse: 'Combine a descriptive word with an unexpected one. "Outdoor" (category) + "Voices" (personality) = descriptive yet distinctive. Avoid generic pairings like "Fashion Wear."',
-  },
+  }
 ]
 
 const industries = [
@@ -264,7 +264,7 @@ const industries = [
   { name: 'Craft', href: '/craft-name-generator' },
   { name: 'Nonprofit', href: '/nonprofit-name-generator' },
   { name: 'Podcast', href: '/podcast-name-generator' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' }
 ]
 
 const relatedPosts = [
@@ -273,7 +273,7 @@ const relatedPosts = [
   { slug: 'fashion-name-generator', title: 'Fashion Brand Name Generator', excerpt: 'Generate fashion brand names with AI and check domain availability instantly.' },
   { slug: 'business-name-generator', title: 'Business Name Generator: 300+ Name Ideas for 2026', excerpt: '300+ business name ideas by industry with 7 proven naming frameworks.' },
   { slug: 'creative-brand-names', title: 'Creative Brand Names: 200+ Unique Ideas for 2026', excerpt: '200+ creative brand name ideas with naming techniques from top branding agencies.' },
-  { slug: 'startup-naming-mistakes', title: 'Startup Naming Mistakes: 7 Errors That Kill New Brands', excerpt: 'The 7 most common naming mistakes startups make and how to avoid each one.' },
+  { slug: 'startup-naming-mistakes', title: 'Startup Naming Mistakes: 7 Errors That Kill New Brands', excerpt: 'The 7 most common naming mistakes startups make and how to avoid each one.' }
 ]
 
 export default function ClothingBrandNameGeneratorPage() {
@@ -305,15 +305,7 @@ export default function ClothingBrandNameGeneratorPage() {
                     text: faq.answer,
                   },
                 })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-                  { '@type': 'ListItem', position: 3, name: 'Clothing Brand Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/blog/clothing-brand-name-generator' },
-                ],
-              },
+              }
             ],
           }),
         }}

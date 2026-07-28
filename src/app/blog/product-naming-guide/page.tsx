@@ -51,7 +51,7 @@ const FAQ_ITEMS = [
   {
     question: 'What are the most common product naming mistakes?',
     answer: 'The top mistakes: (1) Naming for yourself instead of your customer, (2) Choosing a name you can\'t own online (domain, social, trademark all taken), (3) Adding "app" or ".io" as a crutch, (4) Picking a name that describes today\'s feature instead of the outcome, (5) Skipping the "say it out loud" test, (6) Not checking international meanings (the Chevy Nova = "no go" in Spanish).',
-  },
+  }
 ]
 
 const frameworks = [
@@ -63,7 +63,7 @@ const frameworks = [
       { name: 'Bank of America', why: 'Bank. In America.' },
       { name: 'International Business Machines (IBM)', why: 'International. Business. Machines.' },
       { name: 'PetSmart', why: 'Smart shopping for pets.' },
-      { name: 'Home Depot', why: 'A depot for home improvement.' },
+      { name: 'Home Depot', why: 'A depot for home improvement.' }
     ],
     strengths: ['Instantly understood', 'Great for SEO', 'No explanation needed'],
     weaknesses: ['Less memorable than evocative names', 'Harder to trademark broadly', 'Can feel generic'],
@@ -77,7 +77,7 @@ const frameworks = [
       { name: 'Notion', why: 'Suggests ideas and thinking without saying "productivity"' },
       { name: 'Stripe', why: 'Suggests a line of payment without saying "payments"' },
       { name: 'Airbnb', why: 'Air bed + breakfast (the original concept)' },
-      { name: 'Spotify', why: 'Suggests "spot" and "identify" — finding music' },
+      { name: 'Spotify', why: 'Suggests "spot" and "identify" — finding music' }
     ],
     strengths: ['Memorable and distinctive', 'Easier to trademark', 'Room for brand evolution'],
     weaknesses: ['Requires marketing to explain the connection', 'Not instantly obvious', 'Need to "get it" for the aha moment'],
@@ -91,7 +91,7 @@ const frameworks = [
       { name: 'Amazon', why: 'The biggest river — the biggest store' },
       { name: 'Patagonia', why: 'Wilderness region — the brand is about outdoor adventure' },
       { name: 'Casper', why: 'Friendly ghost — mattresses should be friendly, not scary' },
-      { name: 'Lemonade', why: 'Something refreshing and simple — insurance doesn\'t have to be complicated' },
+      { name: 'Lemonade', why: 'Something refreshing and simple — insurance doesn\'t have to be complicated' }
     ],
     strengths: ['Highly memorable', 'Rich storytelling potential', 'Can be very unique'],
     weaknesses: ['Takes longer to connect to the product', 'Risk of being too abstract', 'May not work in all cultures'],
@@ -105,7 +105,7 @@ const frameworks = [
       { name: 'Xerox', why: 'Derived from xerography, but essentially invented' },
       { name: 'Esprit', why: 'French for "spirit" but functions as invented in English markets' },
       { name: 'Zumba', why: 'Invented — sounds energetic and fun' },
-      { name: 'Etsy', why: 'Invented — founder wanted something short and catchy' },
+      { name: 'Etsy', why: 'Invented — founder wanted something short and catchy' }
     ],
     strengths: ['Completely ownable as a trademark', 'No pre-existing associations', 'Works globally'],
     weaknesses: ['Requires significant marketing to build meaning', 'Can feel meaningless at first', 'Takes time for recognition'],
@@ -119,12 +119,12 @@ const frameworks = [
       { name: 'YouTube', why: 'You + tube (TV) — your own TV channel' },
       { name: 'Dropbox', why: 'Drop + box — a box you drop files into' },
       { name: 'LinkedIn', why: 'Linked + in — professional connections, linked together' },
-      { name: 'Basecamp', why: 'Base + camp — a starting point for projects' },
+      { name: 'Basecamp', why: 'Base + camp — a starting point for projects' }
     ],
     strengths: ['Easy to understand', 'Good for SEO (real words)', 'Familiar yet distinctive'],
     weaknesses: ['Can feel generic if not creative enough', 'Many compounds are taken as domains', 'Risk of blending in with other compounds'],
     bestFor: 'Tech products, marketplaces, anything where clarity matters',
-  },
+  }
 ]
 
 const productTypes = [
@@ -136,7 +136,7 @@ const productTypes = [
       'Avoid words that limit your product (e.g., "PhotoSync" when you might add video)',
       'Verb-inspired names suggest action: Figma, Notion, Framer',
       'The .io or .app TLD is socially acceptable for SaaS',
-      'Test: Does the name look good on a browser tab? It\'s where users will see it most.',
+      'Test: Does the name look good on a browser tab? It\'s where users will see it most.'
     ],
     examples: ['Figma', 'Linear', 'Raycast', 'Calendly', 'Vercel', 'PostHog'],
   },
@@ -148,7 +148,7 @@ const productTypes = [
       'Sound symbolism matters — "k" and "p" sounds feel strong and reliable',
       'The name needs to work on packaging, in reviews, and as a hashtag',
       'Consider how it reads on Amazon search results (first 50 characters matter)',
-      'If the product name could become a verb, that\'s gold (Google it, Hoover it)',
+      'If the product name could become a verb, that\'s gold (Google it, Hoover it)'
     ],
     examples: ['Allbirds', 'Oura', 'Whoop', 'Stanley', 'Glossier'],
   },
@@ -160,7 +160,7 @@ const productTypes = [
       'No special characters or numbers',
       'The app icon becomes the brand — make sure the name works as a tiny icon',
       'Avoid common words that get lost in App Store search (e.g., "Tasks" = invisible)',
-      'Consider the verb form: "I\'ll Venmo you" = product name as verb',
+      'Consider the verb form: "I\'ll Venmo you" = product name as verb'
     ],
     examples: ['Calendly', 'Duolingo', 'BeReal', 'Strava', 'Acorns'],
   },
@@ -172,10 +172,10 @@ const productTypes = [
       'Include an industry signal: "Secur" for security, "Pay" for payments',
       'Trust is everything: avoid overly playful names unless the brand supports it',
       'The name should sound good in a boardroom presentation: "We\'re evaluating Meridian"',
-      'Consider whether the name needs to work alongside a parent brand',
+      'Consider whether the name needs to work alongside a parent brand'
     ],
     examples: ['Salesforce', 'CrowdStrike', 'Datadog', 'HubSpot', 'Workday'],
-  },
+  }
 ]
 
 const mistakes = [
@@ -202,7 +202,7 @@ const mistakes = [
   {
     title: 'Not checking international meanings',
     description: 'The Toyota "Fiera" was a slang term for an unattractive woman in Puerto Rican Spanish. The Chevy "Nova" means "no go" in Spanish. A quick translation check takes 10 minutes and can save years of embarrassment.',
-  },
+  }
 ]
 
 const namingProcessSteps = [
@@ -235,7 +235,7 @@ const namingProcessSteps = [
     title: 'Test with real humans',
     description: 'Show your top 3-5 names to 10 people in your target audience. Ask: "What does this product do?" and "How does this name make you feel?" The name that gets the right answers wins.',
     example: 'If people guess "It\'s a note app?" when you\'re a project management tool, the name is too soft. If they say "Sounds powerful" when you sell confidence — that\'s a winner.',
-  },
+  }
 ]
 
 
@@ -248,39 +248,6 @@ export default function ProductNamingGuidePage() {
         description="Complete product naming guide with frameworks, real examples, and common mistakes."
         url="https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide"
         datePublished="2025-05-20"
-      />
-      {/* FAQ Schema for rich snippets */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: FAQ_ITEMS.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-              },
-            })),
-          }),
-        }}
-      />
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Product Naming Guide', item: 'https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide' },
-            ],
-          }),
-        }}
       />
       {/* Header */}
       <div className="mb-12">

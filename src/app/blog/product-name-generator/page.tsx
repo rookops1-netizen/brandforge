@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'product naming guide',
     'SaaS product name generator',
     'app product name ideas',
-    'product naming strategies',
+    'product naming strategies'
   ],
   openGraph: {
     title: 'Product Name Generator: 250+ Product Name Ideas for 2026 + Free AI Tool',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Product Name Generator: 250+ Product Name Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -61,7 +61,7 @@ const NAME_IDEAS = [
       'Flux', 'Glyph', 'Hive', 'Iris', 'Jolt',
       'Kinetic', 'Loop', 'Meld', 'Nexus', 'Onyx',
       'Prism', 'Quill', 'Ramp', 'Shift', 'Traction',
-      'Uplift', 'Vault', 'Warp', 'Xend', 'Zephyr',
+      'Uplift', 'Vault', 'Warp', 'Xend', 'Zephyr'
     ],
   },
   {
@@ -72,7 +72,7 @@ const NAME_IDEAS = [
       'Glidr', 'Hatch', 'Jolt', 'Kite', 'Leap',
       'Mint', 'Nova', 'Olio', 'Pulse', 'Quip',
       'Ripple', 'Spark', 'Thrive', 'Upbeat', 'Vibe',
-      'Wink', 'Yonder', 'Zing', 'Aura', 'Blink',
+      'Wink', 'Yonder', 'Zing', 'Aura', 'Blink'
     ],
   },
   {
@@ -83,7 +83,7 @@ const NAME_IDEAS = [
       'Fern & Co.', 'Grove', 'Harbor', 'Ivory', 'Juniper',
       'Kindle', 'Lumen', 'Moss', 'Nord', 'Orchid',
       'Pebble', 'Quarry', 'Ridge', 'Sage & Stone', 'Timber',
-      'Umber', 'Vine', 'Wren', 'Yarrow', 'Zenstone',
+      'Umber', 'Vine', 'Wren', 'Yarrow', 'Zenstone'
     ],
   },
   {
@@ -93,7 +93,7 @@ const NAME_IDEAS = [
       'Alto', 'Brimstone', 'Crave', 'Drift Kitchen', 'Ember & Ash',
       'Forge', 'Golden', 'Harvest Table', 'Ivy Kitchen', 'Juniper & Rye',
       'Kindred', 'Lark', 'Millstone', 'Noble', 'Oak & Ember',
-      'Plume', 'Quince', 'Rustic', 'Saffron', 'Thyme & Oak',
+      'Plume', 'Quince', 'Rustic', 'Saffron', 'Thyme & Oak'
     ],
   },
   {
@@ -103,7 +103,7 @@ const NAME_IDEAS = [
       'Align', 'Breathe', 'Calmera', 'Dawn', 'Equinox',
       'Flowstate', 'Gravitate', 'Harmony', 'Innerwell', 'Justmove',
       'Kinestetix', 'Lumina', 'Moxie', 'Nurture', 'Origin',
-      'Pulse', 'Quieta', 'Revive', 'Solace', 'Truwell',
+      'Pulse', 'Quieta', 'Revive', 'Solace', 'Truwell'
     ],
   },
   {
@@ -113,7 +113,7 @@ const NAME_IDEAS = [
       'Aura Beauty', 'Bezel', 'Canopy', 'Delara', 'Embellish',
       'Fleur', 'Gilded', 'Halo', 'Illume', 'Joule',
       'Kova', 'Luxeora', 'Mirth', 'Nella', 'Opulence',
-      'Prim & Co.', 'Quartz', 'Rivière', 'Siren', 'Velora',
+      'Prim & Co.', 'Quartz', 'Rivière', 'Siren', 'Velora'
     ],
   },
   {
@@ -123,7 +123,7 @@ const NAME_IDEAS = [
       'Accrue', 'Balanced', 'Capitalwise', 'Dividend', 'Equity',
       'Fairlead', 'Greenlight', 'Hedge', 'Investa', 'Joule Finance',
       'Keystore', 'Ledgerly', 'Minted', 'Networth', 'Onramp',
-      'Payflow', 'Quotient', 'Revenue', 'Stackr', 'Trustline',
+      'Payflow', 'Quotient', 'Revenue', 'Stackr', 'Trustline'
     ],
   },
   {
@@ -133,7 +133,7 @@ const NAME_IDEAS = [
       'Acumen', 'Brainwave', 'Clarify', 'Diploma', 'ElevatEd',
       'FocusFlow', 'Gradience', 'Hone', 'Insight', 'Jumpstart',
       'KnowledgeNest', 'Learnify', 'Masterkey', 'NovaLearn', 'Optima',
-      'Primr', 'Quest', 'RaisEd', 'Scholarly', 'Thinkspace',
+      'Primr', 'Quest', 'RaisEd', 'Scholarly', 'Thinkspace'
     ],
   },
   {
@@ -143,7 +143,7 @@ const NAME_IDEAS = [
       'Arch & Anchor', 'Basecamp', 'Canopy Home', 'Dwell', 'Eaves',
       'Fireside', 'Greenhouse', 'Hearth & Co.', 'Ironclad', 'Joist',
       'Kestrel', 'Lodge', 'Mantle', 'Nook', 'Outpost',
-      'Perch', 'Quarters', 'Rafter', 'Shelter', 'Timbercraft',
+      'Perch', 'Quarters', 'Rafter', 'Shelter', 'Timbercraft'
     ],
   },
   {
@@ -153,9 +153,9 @@ const NAME_IDEAS = [
       'Aftersight', 'Boldcut', 'Chromas', 'Draftroom', 'Exposure',
       'Filmwork', 'Glow Studio', 'Highlight', 'Inkwell', 'Jamroom',
       'Keyframe', 'Luminary', 'Mural', 'Noodle', 'Optic',
-      'Pixelraft', 'Reframe', 'Stitch', 'Tonecraft', 'Viewfinder',
+      'Pixelraft', 'Reframe', 'Stitch', 'Tonecraft', 'Viewfinder'
     ],
-  },
+  }
 ]
 
 const FRAMEWORKS = [
@@ -200,7 +200,7 @@ const FRAMEWORKS = [
     examples: ['Ben & Jerry\'s', 'Hewlett-Packard', 'Procter & Gamble', 'Mckinsey'],
     strengths: 'Authentic, personal brand, built-in story',
     bestFor: 'Consulting, personal brands, boutique products',
-  },
+  }
 ]
 
 const STEPS = [
@@ -233,7 +233,7 @@ const STEPS = [
     title: 'Test with your target audience',
     description: 'Share your top 3-5 names with 10 people in your actual target audience — not friends and family. Ask three questions: What does this name make you think of? Would you trust a product called this? Can you spell it after hearing it once? You\'re looking for clarity, not consensus.',
     tip: 'A name that some people love and some hate is better than one everyone feels "meh" about. Polarization = memorability.',
-  },
+  }
 ]
 
 const PRODUCT_VS_COMPANY = [
@@ -242,7 +242,7 @@ const PRODUCT_VS_COMPANY = [
   { aspect: 'Domain priority', product: '.io or .app acceptable', company: '.com preferred' },
   { aspect: 'Naming style', product: 'Short, punchy, ownable', company: 'Can include location or industry' },
   { aspect: 'Flexibility', product: 'Must work in app stores, URLs, social', company: 'Broader, can evolve' },
-  { aspect: 'Trademark scope', product: 'Category-specific', company: 'Broader protection' },
+  { aspect: 'Trademark scope', product: 'Category-specific', company: 'Broader protection' }
 ]
 
 const MISTAKES = [
@@ -275,7 +275,7 @@ const MISTAKES = [
     title: 'Ignoring international meanings',
     description: 'The Chevy Nova famously means "no go" in Spanish. Before you commit, check your name\'s meaning in your top 5 markets. A name that means something embarrassing in another language is a rebrand waiting to happen.',
     instead: 'Run your top names through Google Translate for your top markets. Ask native speakers if the name has any unintended meanings.',
-  },
+  }
 ]
 
 const FAQ_ITEMS = [
@@ -310,7 +310,7 @@ const FAQ_ITEMS = [
   {
     question: 'What are the most popular product naming styles in 2026?',
     answer: 'The top product naming trends in 2026 are: (1) Suggestive single words — short, evocative, ownable (Slack, Notion, Figma), (2) Nature and material metaphors — conveying growth, craft, or authenticity (Grove, Ember, Cedar), (3) Invented words with natural phonetics — maximum ownability (Loom, Calendly, Miro), (4) Minimalist compound words — two ideas merged into one (Salesforce, Facebook), (5) Action verbs — names that double as commands (Zoom, Bolt, Dash).',
-  },
+  }
 ]
 
 const INDUSTRY_LINKS = [
@@ -338,7 +338,7 @@ const INDUSTRY_LINKS = [
   { name: 'Landscaping', href: '/landscaping-name-generator', desc: 'Lawn care, design, hardscaping' },
   { name: 'Salon', href: '/salon-name-generator', desc: 'Hair, nails, spa, barber' },
   { name: 'Construction', href: '/construction-name-generator', desc: 'General contracting, building, roofing' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator', desc: 'Digital, creative, ad agencies' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator', desc: 'Digital, creative, ad agencies' }
 ]
 
 const RELATED_POSTS = [
@@ -347,7 +347,7 @@ const RELATED_POSTS = [
   { slug: 'app-name-generator', title: 'App Name Generator: 200+ App Name Ideas for 2026', excerpt: '200+ app name ideas, 6 naming frameworks behind hit apps, and a free AI generator that checks domain availability.' },
   { slug: 'startup-naming-mistakes', title: '7 Naming Mistakes That Kill Startups', excerpt: 'Hard-to-spell names, inside jokes, trademark conflicts — the naming traps founders fall into over and over.' },
   { slug: 'business-name-generator', title: 'Business Name Generator: 300+ Name Ideas for 2026', excerpt: '300+ business name ideas by industry, 7 naming frameworks, and a free AI tool with domain availability checks.' },
-  { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name in 2026', excerpt: 'A step-by-step framework for choosing a brand name — 6 naming styles, a 10-point validation checklist, and a free AI tool.' },
+  { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name in 2026', excerpt: 'A step-by-step framework for choosing a brand name — 6 naming styles, a 10-point validation checklist, and a free AI tool.' }
 ]
 
 export default function ProductNameGeneratorBlog() {
@@ -396,7 +396,7 @@ export default function ProductNameGeneratorBlog() {
                 position: 2,
                 name: 'Product Name Generator',
                 item: 'https://brandforge-phi-pearl.vercel.app/blog/product-name-generator',
-              },
+              }
             ],
           }),
         }}

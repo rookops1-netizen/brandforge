@@ -38,7 +38,7 @@ const industries = [
       { name: 'Architechs', pattern: 'Pun (architects)' },
       { name: 'Framewire', pattern: 'Compound' },
       { name: 'Cortexia', pattern: 'Suffix extension' },
-      { name: 'ShiftSync', pattern: 'Alliteration + compound' },
+      { name: 'ShiftSync', pattern: 'Alliteration + compound' }
     ],
   },
   {
@@ -59,7 +59,7 @@ const industries = [
       { name: 'Plum & Seed', pattern: 'Alliterative compound' },
       { name: 'Wildbrine', pattern: 'Compound (wild + brine)' },
       { name: 'Goldenrod', pattern: 'Nature word' },
-      { name: 'Charred Leaf', pattern: 'Compound with nature' },
+      { name: 'Charred Leaf', pattern: 'Compound with nature' }
     ],
   },
   {
@@ -80,7 +80,7 @@ const industries = [
       { name: 'Kinsley Rose', pattern: 'Personal name + flower' },
       { name: 'Maison Clair', pattern: 'French phrasing (clear house)' },
       { name: 'Olivane', pattern: 'Blend (olive + vanilla)' },
-      { name: 'Threadlore', pattern: 'Compound (thread + lore)' },
+      { name: 'Threadlore', pattern: 'Compound (thread + lore)' }
     ],
   },
   {
@@ -101,7 +101,7 @@ const industries = [
       { name: 'Summitline', pattern: 'Compound' },
       { name: 'Cobalt Capital', pattern: 'Material + type' },
       { name: 'Veridian', pattern: 'Suffix extension (verdant)' },
-      { name: 'Crownmark', pattern: 'Compound' },
+      { name: 'Crownmark', pattern: 'Compound' }
     ],
   },
   {
@@ -122,7 +122,7 @@ const industries = [
       { name: 'Boundless Health', pattern: 'Evocative + type' },
       { name: 'Peakform', pattern: 'Compound' },
       { name: 'Awaken', pattern: 'Evocative verb' },
-      { name: 'Sustain', pattern: 'Evocative verb' },
+      { name: 'Sustain', pattern: 'Evocative verb' }
     ],
   },
   {
@@ -143,7 +143,7 @@ const industries = [
       { name: 'Threadbare', pattern: 'Evocative word' },
       { name: 'Mosaic Mind', pattern: 'Visual metaphor + noun' },
       { name: 'Chromascope', pattern: 'Blend (chromatic + scope)' },
-      { name: 'Wondercraft', pattern: 'Compound' },
+      { name: 'Wondercraft', pattern: 'Compound' }
     ],
   },
   {
@@ -164,7 +164,7 @@ const industries = [
       { name: 'Noodleworks', pattern: 'Colloquial compound' },
       { name: 'Ignite Learning', pattern: 'Verb + type' },
       { name: 'Ponderwell', pattern: 'Compound (ponder + well)' },
-      { name: 'Sparkpath', pattern: 'Compound' },
+      { name: 'Sparkpath', pattern: 'Compound' }
     ],
   },
   {
@@ -185,9 +185,9 @@ const industries = [
       { name: 'Anchor & Branch', pattern: 'Compound metaphor' },
       { name: 'Maple Square', pattern: 'Nature + shape' },
       { name: 'Hearthstone', pattern: 'Compound' },
-      { name: 'Crestview', pattern: 'Compound (crest + view)' },
+      { name: 'Crestview', pattern: 'Compound (crest + view)' }
     ],
-  },
+  }
 ]
 
 const techniques = [
@@ -232,7 +232,7 @@ const techniques = [
     examples: ['Tesla (Nikola Tesla)', 'Hugo Boss (founder)', 'Ben & Jerry\'s (founders)', 'J.Crew (mystery initials)'],
     howTo: 'Pick a name that matches your brand personality. A law firm called "Anderson & Partners" sounds established. A bakery called "Nora" feels warm and personal. The name should feel right for the vibe.',
     worksBest: 'Food, fashion, consulting, professional services',
-  },
+  }
 ]
 
 const FAQ_ITEMS = [
@@ -267,7 +267,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is BrandForge\'s name generator free?',
     answer: 'Yes! BrandForge\'s name generator is completely free with unlimited generations. You get name ideas using all six naming techniques — portmanteaus, foreign words, compounds, misspellings, metaphors, and real words — with instant domain and social availability checks. A complete brand kit is available for $9 one-time.',
-  },
+  }
 ]
 
 export default function UniqueBusinessNamesPage() {
@@ -278,39 +278,6 @@ export default function UniqueBusinessNamesPage() {
         description="Browse 120+ unique business name ideas across 8 industries, plus learn the 6 proven techniques for creating names nobody else has."
         url="https://brandforge-phi-pearl.vercel.app/blog/unique-business-names"
         datePublished="2025-05-20"
-      />
-      {/* FAQ Schema for rich snippets */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: FAQ_ITEMS.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-              },
-            })),
-          }),
-        }}
-      />
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Unique Business Names', item: 'https://brandforge-phi-pearl.vercel.app/blog/unique-business-names' },
-            ],
-          }),
-        }}
       />
       {/* Header */}
       <div className="mb-12">

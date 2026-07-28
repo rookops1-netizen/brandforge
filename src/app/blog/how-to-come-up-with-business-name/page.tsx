@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'business name generator',
     'good business name ideas',
     'how to find a business name',
-    'tips for naming a business',
+    'tips for naming a business'
   ],
   openGraph: {
     title: 'How to Come Up with a Business Name: 10 Proven Methods (2026 Guide)',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'How to Come Up with a Business Name: 10 Proven Methods',
-      },
+      }
     ],
   },
   twitter: {
@@ -62,7 +62,7 @@ const NAME_IDEAS = [
       'Brightpath', 'Stackmind', 'Pulsepoint', 'ArcForge', 'Meldr',
       'Launchdeck', 'Corewave', 'Nimblr', 'Thrivekit', 'Quantumly',
       'Rapidgrid', 'Cleverset', 'Ironstack', 'Dataloom', 'Vexol',
-      'Ziply', 'Cloudshift', 'Nextbase', 'Buildkit', 'Flowstate',
+      'Ziply', 'Cloudshift', 'Nextbase', 'Buildkit', 'Flowstate'
     ],
   },
   {
@@ -73,7 +73,7 @@ const NAME_IDEAS = [
       'The Gilded Fork', 'Sprout & Vine', 'Cedar & Spice', 'Bloom Kitchen', 'Fireside',
       'Golden Thistle', 'Mint & Malt', 'The Olive Press', 'Saffron Trail', 'Stonecrop',
       'The Copper Pot', 'Briar Kitchen', 'Flame & Fork', 'Heritage Kitchen', 'Ash & Em',
-      'Rosemary & Co.', 'The Grain Mill', 'Gather Kitchen', 'Salt & Ember', 'Basil & Iron',
+      'Rosemary & Co.', 'The Grain Mill', 'Gather Kitchen', 'Salt & Ember', 'Basil & Iron'
     ],
   },
   {
@@ -84,7 +84,7 @@ const NAME_IDEAS = [
       'Nurture Co.', 'The Still Point', 'Vitalroot', 'Harmony Health', 'Equilibrium',
       'Greenpath', 'Recharge', 'Lumina Wellness', 'Pureform', 'Restore',
       'Thrive Collective', 'Mindful Motion', 'Bodyraft', 'Oasis Wellness', 'Grounded',
-      'Flowstate Wellness', 'Everwell', 'Sage Wellness', 'Radiant Health', 'Wellcraft',
+      'Flowstate Wellness', 'Everwell', 'Sage Wellness', 'Radiant Health', 'Wellcraft'
     ],
   },
   {
@@ -95,7 +95,7 @@ const NAME_IDEAS = [
       'The Linen Project', 'Maison Luxe', 'Kindred Cloth', 'Rivière', 'Alto',
       'Sable', 'Copper & Pine', 'Heirloom Co.', 'Atlas Wear', 'Verano',
       'Lumière', 'The Velvet Studio', 'Sundial', 'Arclight', 'Floriana',
-      'March & Bloom', 'Silhouette', 'The Good Stitch', 'Nomad Thread', 'Oakes & Co.',
+      'March & Bloom', 'Silhouette', 'The Good Stitch', 'Nomad Thread', 'Oakes & Co.'
     ],
   },
   {
@@ -106,7 +106,7 @@ const NAME_IDEAS = [
       'Clearledger', 'Trustline', 'Paybridge', 'Meridian Finance', 'Corevest',
       'Balancesheet', 'Summit Finance', 'Greenline Capital', 'Prosperpath', 'Fiscally',
       'Wealthcraft', 'Boldvest', 'Trueledger', 'Equitable', 'Finpoint',
-      'Accrue', 'Vestwell', 'Steady Growth', 'Mintline', 'Capital Forge',
+      'Accrue', 'Vestwell', 'Steady Growth', 'Mintline', 'Capital Forge'
     ],
   },
   {
@@ -117,7 +117,7 @@ const NAME_IDEAS = [
       'Foundation Realty', 'Horizon Estates', 'Cornerstone Properties', 'Apex Homes', 'Cedar Realty',
       'Stonepath Properties', 'Heritage Estates', 'Primepoint Realty', 'Vista Homes', 'Noble Properties',
       'Ironbridge Realty', 'Greenfield Homes', 'Oakmont Properties', 'Pinnacle Realty', 'Trustline Estates',
-      'Truevest Realty', 'Anchor Properties', 'Crestview Homes', 'Crestpoint', 'Hearth Realty',
+      'Truevest Realty', 'Anchor Properties', 'Crestview Homes', 'Crestpoint', 'Hearth Realty'
     ],
   },
   {
@@ -128,7 +128,7 @@ const NAME_IDEAS = [
       'Freshcanvas', 'Brightline Creative', 'Studio Meridian', 'Artifex', 'Craft & Code',
       'The Design Lab', 'Folio Studio', 'Prism Creative', 'Vivid Studio', 'Oakes Creative',
       'Ironclad Design', 'Copper & Canvas', 'Wilde Design', 'Paper & Pixel', 'Sketchpad',
-      'Makers Studio', 'Hatch Creative', 'Frame & Form', 'Ink & Ember', 'Truecolor',
+      'Makers Studio', 'Hatch Creative', 'Frame & Form', 'Ink & Ember', 'Truecolor'
     ],
   },
   {
@@ -139,7 +139,7 @@ const NAME_IDEAS = [
       'Knowledgebase', 'Skillshift', 'The Learning Lab', 'Cleverpath', 'NextLesson',
       'Studyforge', 'Thinkspace', 'Curiousmind', 'Braintree Learning', 'Mastery Path',
       'Wisdom Craft', 'Insight Academy', 'Spark Learning', 'Growthmind', 'Truelearn',
-      'Academy Lane', 'Noble Studies', 'Illuminated Learning', 'Brainbank', 'Clarify',
+      'Academy Lane', 'Noble Studies', 'Illuminated Learning', 'Brainbank', 'Clarify'
     ],
   },
   {
@@ -150,7 +150,7 @@ const NAME_IDEAS = [
       'Marketstreet', 'Foundry & Supply', 'The Daily Goods', 'Crate & Barrel 2', 'Wellstocked',
       'The Storefront', 'Pantry & Co.', 'Rack & Shelf', 'Goodfinds', 'The Market Co.',
       'Shelflife', 'Basics & Beyond', 'Everyday Goods', 'Supply & Co.', 'The Goods Market',
-      'Pickwell', 'Freshmarket', 'Cabinet & Co.', 'The Find', 'Wellmade',
+      'Pickwell', 'Freshmarket', 'Cabinet & Co.', 'The Find', 'Wellmade'
     ],
   },
   {
@@ -161,9 +161,9 @@ const NAME_IDEAS = [
       'Foundation Advisory', 'Beacon Partners', 'Apex Consulting Group', 'Crestline Advisors', 'Steadfast Consulting',
       'Trustline Advisory', 'Cornerstone Partners', 'Greenfield Consulting', 'Vanguard Advisory', 'Pinnacle Group',
       'Forge Consulting', 'The Advisory Co.', 'Keystone Partners', 'Horizon Advisory', 'Noble Consulting',
-      'Clarity Partners', 'Truepath Advisors', 'Boldmove Consulting', 'Principled Group', 'Archway Partners',
+      'Clarity Partners', 'Truepath Advisors', 'Boldmove Consulting', 'Principled Group', 'Archway Partners'
     ],
-  },
+  }
 ]
 
 const METHODS = [
@@ -236,7 +236,7 @@ const METHODS = [
     description: 'Use an AI name generator (like BrandForge) to produce 100+ name ideas in seconds, then curate the best ones. AI is exceptionally good at generating options you\'d never think of — it combines patterns across languages, industries, and creative frameworks simultaneously.',
     example: 'Describe your business to BrandForge: "A sustainable clothing brand for active women aged 25-40." Get names like: Willow Active, Ember & Root, Verdant, Moss & Motion, Thrive Threads, Kin & Cloth, Evergreen Athletics, Verdant Way, The Good Thread, Root & Rise.',
     tip: 'Use AI as a brainstorming partner, not a decision-maker. Generate 100 names, pick your top 10, then apply the other 9 methods to refine them. The best names come from human creativity enhanced by AI breadth.',
-  },
+  }
 ]
 
 const INDUSTRY_LINKS = [
@@ -264,7 +264,7 @@ const INDUSTRY_LINKS = [
   { name: 'Landscaping', href: '/landscaping-name-generator', desc: 'Lawn & garden' },
   { name: 'Salon', href: '/salon-name-generator', desc: 'Hair & beauty' },
   { name: 'Construction', href: '/construction-name-generator', desc: 'Contractors & builders' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator', desc: 'Agencies & creatives' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator', desc: 'Agencies & creatives' }
 ]
 
 const FAQ_ITEMS = [
@@ -299,7 +299,7 @@ const FAQ_ITEMS = [
   {
     question: 'How long should a business name be?',
     answer: 'Aim for 2-3 syllables and 4-10 characters. Look at the most successful brands: Apple (5 chars), Slack (5 chars), Notion (6 chars), Stripe (6 chars), Shopify (7 chars). Shorter names are easier to remember, type, say in conversation, and fit on logos and social media profiles. If your name needs to be longer, consider a compound word (Basecamp, Figma) rather than a long single word.',
-  },
+  }
 ]
 
 const relatedPosts = [
@@ -308,7 +308,7 @@ const relatedPosts = [
   { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name: The Complete Decision Framework', category: 'Brand Strategy' },
   { slug: 'startup-naming-mistakes', title: '7 Naming Mistakes That Kill Startups', category: 'Naming' },
   { slug: 'free-brand-name-generator', title: 'Free Brand Name Generator: How to Name Without Spending a Dime', category: 'AI & Naming' },
-  { slug: 'small-business-name-generator', title: 'Small Business Name Generator: 200+ Name Ideas for 2026', category: 'Naming' },
+  { slug: 'small-business-name-generator', title: 'Small Business Name Generator: 200+ Name Ideas for 2026', category: 'Naming' }
 ]
 
 export default function HowToComeUpWithBusinessName() {
@@ -331,7 +331,7 @@ export default function HowToComeUpWithBusinessName() {
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-      { '@type': 'ListItem', position: 3, name: 'How to Come Up with a Business Name', item: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-come-up-with-business-name' },
+      { '@type': 'ListItem', position: 3, name: 'How to Come Up with a Business Name', item: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-come-up-with-business-name' }
     ],
   }
 
@@ -352,7 +352,7 @@ export default function HowToComeUpWithBusinessName() {
           'creative ways to name a business',
           'how to create a business name',
           'business name generator',
-          'how to pick a business name',
+          'how to pick a business name'
         ]}
       />
       <script

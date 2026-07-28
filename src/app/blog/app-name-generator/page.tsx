@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'mobile app naming',
     'how to come up with an app name',
     'app name brainstorming',
-    'unique app names',
+    'unique app names'
   ],
   openGraph: {
     title: 'App Name Generator: 200+ App Name Ideas for 2026 + Free AI Tool',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'App Name Generator: 200+ App Name Ideas for 2026',
-      },
+      }
     ],
   },
   twitter: {
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   {
     question: 'Can I rename my app later if I pick the wrong name?',
     answer: 'Yes, but it\'s expensive and painful. Rebranding an established app costs $10K–$100K+ depending on your user base, and you\'ll lose SEO authority, brand recognition, and App Store rankings. Famous rebrands (Downtown Project → Zappos, BackRub → Google, FaceMash → Facebook) worked because they happened early, before millions of users. Name it right the first time — spend a few hours now to save thousands later.',
-  },
+  }
 ]
 
 const nameCategories = [
@@ -93,72 +93,72 @@ const nameCategories = [
     title: 'Productivity & Task Management',
     names: [
       'Taskflow', 'Docket', 'Planr', 'Orbitask', 'Agendly', 'Sprintly', 'Doist', 'Focusly', 'Rally', 'Tickmark',
-      'Clearpath', 'Workrhythm', 'Nextstep', 'Momentum', 'Flowstate',
+      'Clearpath', 'Workrhythm', 'Nextstep', 'Momentum', 'Flowstate'
     ],
   },
   {
     title: 'Communication & Messaging',
     names: [
       'Pingboard', 'Chatterly', 'Loopline', 'Burst', 'Speakly', 'Threadline', 'Hivechat', 'Vocali', 'Echohub', 'Signalpath',
-      'Conversa', 'Channl', 'Syncword', 'Relaytalk', 'Waveconnect',
+      'Conversa', 'Channl', 'Syncword', 'Relaytalk', 'Waveconnect'
     ],
   },
   {
     title: 'Finance & Payments',
     names: [
       'Ledgr', 'Paymint', 'Cashflow', 'Equityx', 'Budgetly', 'Cointrek', 'Splitcheck', 'Finova', 'Clearpay', 'Vaultwise',
-      'Mintpath', 'Centsible', 'Paytrack', 'Wealthify', 'Balancely',
+      'Mintpath', 'Centsible', 'Paytrack', 'Wealthify', 'Balancely'
     ],
   },
   {
     title: 'Health & Fitness',
     names: [
       'Vitarun', 'Pulsely', 'Moveapp', 'Fitvault', 'Stridetrack', 'Wellpath', 'Calorily', 'Habitforge', 'Zenflow', 'Endurely',
-      'Pulsepoint', 'Breathely', 'Bodytrack', 'Stretchr', 'Activebeat',
+      'Pulsepoint', 'Breathely', 'Bodytrack', 'Stretchr', 'Activebeat'
     ],
   },
   {
     title: 'Education & Learning',
     names: [
       'Learnscape', 'Skillflow', 'Brainshelf', 'Studyly', 'Coursely', 'Knowhub', 'Graspit', 'Masterypath', 'Cognition', 'Thinkly',
-      'Lectura', 'Eduspark', 'Flashvault', 'Mindforge', 'Tutorloop',
+      'Lectura', 'Eduspark', 'Flashvault', 'Mindforge', 'Tutorloop'
     ],
   },
   {
     title: 'Social & Community',
     names: [
       'Crewlink', 'Famly', 'Gathr', 'Tribevine', 'Circleup', 'Peoply', 'Connecta', 'Linkhive', 'Bondr', 'Kithub',
-      'Socialarc', 'Meetpoint', 'Huddleup', 'Neighborly', 'Communityx',
+      'Socialarc', 'Meetpoint', 'Huddleup', 'Neighborly', 'Communityx'
     ],
   },
   {
     title: 'Creative & Design',
     names: [
       'Canvasly', 'Draftpath', 'Pixelhive', 'Colorway', 'Artsync', 'Designr', 'Sketchflow', 'Creately', 'Stylos', 'Visually',
-      'Moodboard', 'Palettr', 'Designlab', 'Framecraft', 'Studioforge',
+      'Moodboard', 'Palettr', 'Designlab', 'Framecraft', 'Studioforge'
     ],
   },
   {
     title: 'Food & Delivery',
     names: [
       'Plateme', 'Bitepath', 'Cookly', 'Freshdrop', 'Tastify', 'Mealmix', 'Orderly', 'Kitchenlink', 'Nourishly', 'Foodrhythm',
-      'Menumatch', 'Pantryapp', 'Recipely', 'Savourit', 'Chefpath',
+      'Menumatch', 'Pantryapp', 'Recipely', 'Savourit', 'Chefpath'
     ],
   },
   {
     title: 'Travel & Navigation',
     names: [
       'Waypath', 'Routely', 'Globetrek', 'Flyright', 'Navigo', 'Trekkit', 'Wanderapp', 'Tripshift', 'Compassly', 'Journeyx',
-      'Mapforge', 'Explorely', 'Arrival', 'Transitlink', 'Destinly',
+      'Mapforge', 'Explorely', 'Arrival', 'Transitlink', 'Destinly'
     ],
   },
   {
     title: 'Developer Tools & Infrastructure',
     names: [
       'Codestream', 'Pipeline', 'Deployly', 'Stacksync', 'Devhub', 'Buildr', 'Gitpath', 'Terminalx', 'Infraworks', 'Apexstack',
-      'Debugly', 'Containr', 'Cloudbuild', 'Shipit', 'Envault',
+      'Debugly', 'Containr', 'Cloudbuild', 'Shipit', 'Envault'
     ],
-  },
+  }
 ]
 
 const namingFrameworks = [
@@ -170,7 +170,7 @@ const namingFrameworks = [
       { name: 'Basecamp', why: 'Base + camp — your central project hub' },
       { name: 'Dropbox', why: 'Drop + box — files you can drop anywhere' },
       { name: 'Evernote', why: 'Ever + note — notes that last forever' },
-      { name: 'Figma', why: 'Figure + sigma — design with mathematical precision' },
+      { name: 'Figma', why: 'Figure + sigma — design with mathematical precision' }
     ],
     strengths: ['Immediately descriptive', 'Easy to trademark', 'Domain-friendly (two short words = more options)'],
     weaknesses: ['Can feel generic if words are common', 'Need both words to be short'],
@@ -184,7 +184,7 @@ const namingFrameworks = [
       { name: 'Notion', why: 'Evokes thinking, ideas, and mental models' },
       { name: 'Canva', why: 'Evokes canvas — a blank space for creativity' },
       { name: 'Spotify', why: 'Suggests "spot" and "identify" — finding music' },
-      { name: 'Loom', why: 'A loom weaves threads together — video threads' },
+      { name: 'Loom', why: 'A loom weaves threads together — video threads' }
     ],
     strengths: ['Highly memorable', 'Rich storytelling potential', 'Room for brand evolution'],
     weaknesses: ['Takes marketing to connect the metaphor to the product', 'Risk of being too abstract'],
@@ -198,7 +198,7 @@ const namingFrameworks = [
       { name: 'Figma', why: 'Design + precision in 5 letters' },
       { name: 'Vine', why: 'Short like the videos — 4 letters' },
       { name: 'Duo', why: 'Two people, one call — 3 letters' },
-      { name: 'Trello', why: 'Friendly and round, like "trill" — 6 letters' },
+      { name: 'Trello', why: 'Friendly and round, like "trill" — 6 letters' }
     ],
     strengths: ['Maximum memorability', 'Perfect for mobile', 'Great for app icons'],
     weaknesses: ['Hard to find available .com domains', 'May need marketing to build meaning'],
@@ -212,7 +212,7 @@ const namingFrameworks = [
       { name: 'Etsy', why: 'Short, catchy, sounds like "etsy" = easy' },
       { name: 'Skype', why: 'Sky + peer — calling through the sky' },
       { name: 'Doodle', why: 'Playful, easy, sounds like what it is' },
-      { name: 'Waze', why: 'Ways + ease — easy navigation' },
+      { name: 'Waze', why: 'Ways + ease — easy navigation' }
     ],
     strengths: ['Completely ownable', 'No SEO competition', 'Works globally'],
     weaknesses: ['Requires significant marketing investment', 'No inherent meaning to anchor on'],
@@ -226,7 +226,7 @@ const namingFrameworks = [
       { name: 'Spotify', why: 'Spot + ify — identify and play music' },
       { name: 'Simplifi', why: 'Simplify + ifi — make finances simple' },
       { name: 'Honey', why: 'A sweet noun that finds you savings' },
-      { name: 'Robinhood', why: 'A noun that means taking from the rich — democratizing finance' },
+      { name: 'Robinhood', why: 'A noun that means taking from the rich — democratizing finance' }
     ],
     strengths: ['Implies action and utility', 'Easy to understand', 'Often has domains available'],
     weaknesses: ['The "-ify" trend feels dated', 'Can sound like a generic product'],
@@ -240,12 +240,12 @@ const namingFrameworks = [
       { name: 'Ben & Jerry\'s', why: 'Two founders, one brand' },
       { name: 'Warby Parker', why: 'Two characters from Jack Kerouac novels' },
       { name: 'Moz', why: 'Named after founder Rand Fishkin\'s mom' },
-      { name: 'Bezos (→ Amazon)', why: 'Named after a river, not the founder — but could have been' },
+      { name: 'Bezos (→ Amazon)', why: 'Named after a river, not the founder — but could have been' }
     ],
     strengths: ['Authentic and personal', 'Great for personal brands', 'Unique by definition'],
     weaknesses: ['Hard to sell the company later', 'Doesn\'t describe what you do', 'Can create confusion in B2B'],
     bestFor: 'Personal brand apps, consulting tools, products where founder credibility matters',
-  },
+  }
 ]
 
 const industries = [
@@ -272,16 +272,16 @@ const industries = [
   { name: 'Yoga', href: '/yoga-name-generator' },
   { name: 'Restaurant', href: '/restaurant-name-generator' },
   { name: 'Construction', href: '/construction-name-generator' },
-  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+  { name: 'Marketing Agency', href: '/marketing-agency-name-generator' }
 ]
 
 const relatedPosts = [
+  { slug: 'saas-name-generator', title: 'SaaS Name Generator: 300+ SaaS Name Ideas', excerpt: '300+ SaaS name ideas across 10 categories with strategies from top SaaS companies' },
   { slug: 'product-naming-guide', title: 'Product Naming Guide: How to Name a Product That Sells', excerpt: 'The 5 naming frameworks behind Slack, Notion, and Tesla' },
   { slug: 'product-name-generator', title: 'Product Name Generator: 250+ Product Name Ideas', excerpt: '250+ product name ideas and 6 naming frameworks' },
   { slug: 'youtube-channel-name-generator', title: 'YouTube Channel Name Generator: 300+ Channel Name Ideas', excerpt: '300+ YouTube channel name ideas and 7 naming strategies from top creators' },
   { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name: The Complete Guide', excerpt: 'From brainstorming to trademark — everything you need' },
-  { slug: 'brand-name-generator', title: 'Brand Name Generator: How to Find the Perfect Brand Name', excerpt: '7 naming styles behind iconic brands' },
-  { slug: 'cool-business-names', title: 'Cool Business Names: 150+ Ideas', excerpt: '150+ cool names organized by industry' },
+  { slug: 'brand-name-generator', title: 'Brand Name Generator: How to Find the Perfect Brand Name', excerpt: '7 naming styles behind iconic brands' }
 ]
 
 export default function AppNameGeneratorPage() {
@@ -313,15 +313,7 @@ export default function AppNameGeneratorPage() {
                     text: faq.answer,
                   },
                 })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-                  { '@type': 'ListItem', position: 3, name: 'App Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/blog/app-name-generator' },
-                ],
-              },
+              }
             ],
           }),
         }}
