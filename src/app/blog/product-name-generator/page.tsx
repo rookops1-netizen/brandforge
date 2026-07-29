@@ -378,29 +378,6 @@ export default function ProductNameGeneratorBlog() {
           }),
         }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Blog',
-                item: 'https://brandforge-phi-pearl.vercel.app/blog',
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Product Name Generator',
-                item: 'https://brandforge-phi-pearl.vercel.app/blog/product-name-generator',
-              }
-            ],
-          }),
-        }}
-      />
 
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">

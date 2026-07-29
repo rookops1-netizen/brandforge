@@ -325,16 +325,6 @@ export default function HowToComeUpWithBusinessName() {
     })),
   }
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://brandforge-phi-pearl.vercel.app/blog' },
-      { '@type': 'ListItem', position: 3, name: 'How to Come Up with a Business Name', item: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-come-up-with-business-name' }
-    ],
-  }
-
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
       <BlogPostSchema
@@ -358,10 +348,6 @@ export default function HowToComeUpWithBusinessName() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       {/* Breadcrumb */}
