@@ -1,5 +1,7 @@
+import { SITE_URL } from '@/lib/site-config'
+
 export function JsonLd() {
-  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+  const baseUrl = SITE_URL
 
   const organization = {
     '@context': 'https://schema.org',

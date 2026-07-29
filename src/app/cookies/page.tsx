@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cookie Policy — BrandForge',
     description: 'How BrandForge uses cookies and tracking technologies.',
-    url: 'https://brandforge-phi-pearl.vercel.app/cookies',
+    url: 'https://brandforge.app/cookies',
     siteName: 'BrandForge',
     type: 'website',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/cookies' },
+  alternates: { canonical: 'https://brandforge.app/cookies' },
 }
 
 export default function CookiesPage() {
@@ -23,18 +23,18 @@ export default function CookiesPage() {
         '@type': 'WebPage',
         name: 'Cookie Policy',
         description: 'BrandForge Cookie Policy — how we use cookies and tracking technologies.',
-        url: 'https://brandforge-phi-pearl.vercel.app/cookies',
+        url: 'https://brandforge.app/cookies',
         isPartOf: {
           '@type': 'WebSite',
           name: 'BrandForge',
-          url: 'https://brandforge-phi-pearl.vercel.app',
+          url: 'https://brandforge.app',
         },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Cookie Policy', item: 'https://brandforge-phi-pearl.vercel.app/cookies' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Cookie Policy', item: 'https://brandforge.app/cookies' },
         ],
       },
     ],

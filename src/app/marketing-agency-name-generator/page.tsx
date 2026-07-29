@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Marketing Agency Name Generator — AI-Powered Agency Names',
     description: 'Generate marketing agency names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/marketing-agency-name-generator',
+    url: 'https://brandforge.app/marketing-agency-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Generate marketing agency names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/marketing-agency-name-generator',
+    canonical: 'https://brandforge.app/marketing-agency-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -103,7 +103,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'How do I check if a marketing agency name is available?',
-    a: 'Check three things: (1) Domain availability — use our free checker at brandforge-phi-pearl.vercel.app/generate or search on Namecheap. (2) Social handles — especially LinkedIn and Instagram, which are critical for agencies. (3) Business registration — search your state\'s business registry and USPTO.gov for existing trademarks. BrandForge checks domain and social availability automatically.',
+    a: 'Check three things: (1) Domain availability — use our free checker at brandforge.app/generate or search on Namecheap. (2) Social handles — especially LinkedIn and Instagram, which are critical for agencies. (3) Business registration — search your state\'s business registry and USPTO.gov for existing trademarks. BrandForge checks domain and social availability automatically.',
   },
   {
     q: 'What naming styles work best for marketing agencies?',
@@ -190,8 +190,8 @@ export default function MarketingAgencyNameGenerator() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Marketing Agency Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/marketing-agency-name-generator' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+                  { '@type': 'ListItem', position: 2, name: 'Marketing Agency Name Generator', item: 'https://brandforge.app/marketing-agency-name-generator' },
                 ],
               },
             ],

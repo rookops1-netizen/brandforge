@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Product Naming Guide: How to Name a Product That People Remember',
     description: 'From Slack to Tesla to Notion — learn the frameworks behind great product names and how to apply them to your own launch.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide',
+    url: 'https://brandforge.app/blog/product-naming-guide',
     siteName: 'BrandForge',
     type: 'article',
   },
 
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide' },
+  alternates: { canonical: 'https://brandforge.app/blog/product-naming-guide' },
 }
 
 const FAQ_ITEMS = [
@@ -246,7 +246,7 @@ export default function ProductNamingGuidePage() {
       <BlogPostSchema
         title="Product Naming Guide: How to Name a Product That Sells"
         description="Complete product naming guide with frameworks, real examples, and common mistakes."
-        url="https://brandforge-phi-pearl.vercel.app/blog/product-naming-guide"
+        url="https://brandforge.app/blog/product-naming-guide"
         datePublished="2025-05-20"
       />
       {/* Header */}

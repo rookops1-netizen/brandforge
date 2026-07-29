@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Startup Name Ideas: 300+ Names for Startups in 2026 + Free AI Generator',
     description: '300+ startup name ideas, 7 naming strategies behind billion-dollar startups, and a free AI generator with domain availability checks. Find your perfect startup name today.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/startup-name-ideas',
+    url: 'https://brandforge.app/blog/startup-name-ideas',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-15T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/startup-name-ideas',
+    canonical: 'https://brandforge.app/blog/startup-name-ideas',
   },
   robots: { index: true, follow: true },
 }
@@ -302,7 +302,7 @@ export default function StartupNameIdeasPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
       <BlogPostSchema
-        url="https://brandforge-phi-pearl.vercel.app/blog/startup-name-ideas"
+        url="https://brandforge.app/blog/startup-name-ideas"
         title="Startup Name Ideas: 300+ Names for Startups in 2026 + Free AI Generator"
         description="300+ startup name ideas across 10 industries, 7 naming strategies behind billion-dollar startups like Stripe, Notion, and Canva, and a free AI generator that checks domain availability instantly."
         datePublished="2026-07-15T12:00:00.000Z"

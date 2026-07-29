@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Food Truck Name Generator — AI-Powered Food Truck & Cart Names',
     description: 'Generate creative food truck names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/food-truck-name-generator',
+    url: 'https://brandforge.app/food-truck-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Generate creative food truck names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/food-truck-name-generator',
+    canonical: 'https://brandforge.app/food-truck-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -158,8 +158,8 @@ export default function FoodTruckNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Food Truck Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/food-truck-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Food Truck Name Generator', item: 'https://brandforge.app/food-truck-name-generator' },
         ],
       },
     ],

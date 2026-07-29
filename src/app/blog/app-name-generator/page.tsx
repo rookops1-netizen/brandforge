@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'App Name Generator: 200+ App Name Ideas for 2026 + Free AI Tool',
     description: '200+ app name ideas, 6 naming frameworks behind hit apps, and a free AI generator with domain availability checks. Find the perfect name for your app.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/app-name-generator',
+    url: 'https://brandforge.app/blog/app-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-13T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/app-name-generator',
+    canonical: 'https://brandforge.app/blog/app-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -288,7 +288,7 @@ export default function AppNameGeneratorPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
       <BlogPostSchema
-        url="https://brandforge-phi-pearl.vercel.app/blog/app-name-generator"
+        url="https://brandforge.app/blog/app-name-generator"
         title="App Name Generator: 200+ App Name Ideas for 2026 + Free AI Tool"
         description="200+ app name ideas across 10 categories, 6 proven naming frameworks behind hit apps like Slack, Notion, and Calendly, and a free AI generator that checks domain availability instantly."
         datePublished="2026-07-13T12:00:00.000Z"

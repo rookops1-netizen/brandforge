@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Company Name Generator: 250+ Name Ideas for 2026 + Free AI Tool',
     description: 'AI-powered company name generator with 250+ name ideas, 6 naming strategies, and instant domain availability checks. Find the perfect name for your company today.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-generator',
+    url: 'https://brandforge.app/blog/company-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-07T12:00:00.000Z',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-generator',
+    canonical: 'https://brandforge.app/blog/company-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -238,7 +238,7 @@ export default function CompanyNameGeneratorPage() {
       <BlogPostSchema
         title="Company Name Generator: 250+ Name Ideas for 2026 + Free AI Tool"
         description="The #1 free company name generator — get AI-powered company name ideas with instant domain and social availability checks. 250+ name ideas by industry, 6 naming strategies, and a step-by-step process."
-        url="https://brandforge-phi-pearl.vercel.app/blog/company-name-generator"
+        url="https://brandforge.app/blog/company-name-generator"
         datePublished="2026-07-07T12:00:00.000Z"
         dateModified="2026-07-07T12:00:00.000Z"
         keywords={[

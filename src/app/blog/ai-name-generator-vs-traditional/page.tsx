@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AI Name Generators vs Traditional Naming Agencies',
     description: 'AI naming tools vs agencies vs DIY — what actually works for business naming?',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/ai-name-generator-vs-traditional',
+    url: 'https://brandforge.app/blog/ai-name-generator-vs-traditional',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/ai-name-generator-vs-traditional' },
+  alternates: { canonical: 'https://brandforge.app/blog/ai-name-generator-vs-traditional' },
 }
 
 const FAQ_ITEMS = [
@@ -57,7 +57,7 @@ export default function AIVsTraditionalNaming() {
       <BlogPostSchema
         title="AI Name Generators vs Traditional Naming Agencies: What Actually Works?"
         description="We compared AI naming tools, naming agencies, and DIY brainstorming. The results on price, speed, and quality might surprise you."
-        url="https://brandforge-phi-pearl.vercel.app/blog/ai-name-generator-vs-traditional"
+        url="https://brandforge.app/blog/ai-name-generator-vs-traditional"
         datePublished="2025-05-10"
       />
       {/* FAQ Schema for rich snippets */}

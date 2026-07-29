@@ -3,12 +3,13 @@ import { Inter } from 'next/font/google'
 import { SupabaseProvider } from '@/components/supabase-provider'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/site-config'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://brandforge-phi-pearl.vercel.app'),
+  metadataBase: new URL(SITE_URL),
   title: 'BrandForge — Free AI Business Name Generator & Brand Kit Creator',
   description: 'Generate unique business names instantly with AI. Get complete brand kits with logo concepts, color palettes, taglines, and domain availability. Free to start — no credit card required.',
   keywords: [
@@ -516,7 +517,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BrandForge — Free AI Business Name Generator & Brand Kit',
     description: 'Generate unique business names with complete brand kits — logo concepts, color palettes, taglines, and domain availability. Free to start, no credit card required.',
-    url: 'https://brandforge-phi-pearl.vercel.app',
+    url: SITE_URL,
     siteName: 'BrandForge',
     type: 'website',
     locale: 'en_US',
@@ -540,7 +541,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app',
+    canonical: SITE_URL,
   },
 }
 

@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Privacy Policy — BrandForge',
     description: 'Learn how BrandForge collects, uses, and protects your personal information.',
-    url: 'https://brandforge-phi-pearl.vercel.app/privacy',
+    url: 'https://brandforge.app/privacy',
     siteName: 'BrandForge',
     type: 'website',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/privacy' },
+  alternates: { canonical: 'https://brandforge.app/privacy' },
 }
 
 export default function PrivacyPage() {
@@ -24,18 +24,18 @@ export default function PrivacyPage() {
         '@type': 'WebPage',
         name: 'Privacy Policy',
         description: 'BrandForge Privacy Policy — how we collect, use, and protect your information.',
-        url: 'https://brandforge-phi-pearl.vercel.app/privacy',
+        url: 'https://brandforge.app/privacy',
         isPartOf: {
           '@type': 'WebSite',
           name: 'BrandForge',
-          url: 'https://brandforge-phi-pearl.vercel.app',
+          url: 'https://brandforge.app',
         },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://brandforge-phi-pearl.vercel.app/privacy' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://brandforge.app/privacy' },
         ],
       },
     ],

@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: '150+ Catchy Business Names for Every Industry',
     description: 'Discover 150+ catchy business name ideas organized by industry. Learn what makes a name catchy and create your own with AI.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-business-names',
+    url: 'https://brandforge.app/blog/catchy-business-names',
     siteName: 'BrandForge',
     type: 'article',
   },
 
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-business-names' },
+  alternates: { canonical: 'https://brandforge.app/blog/catchy-business-names' },
 }
 
 const nameIdeas = [
@@ -140,7 +140,7 @@ export default function CatchyBusinessNamesPage() {
       <BlogPostSchema
         title="150+ Catchy Business Names for Every Industry"
         description="Discover 150+ catchy business name ideas organized by industry — tech, food, fashion, fitness, and more."
-        url="https://brandforge-phi-pearl.vercel.app/blog/catchy-business-names"
+        url="https://brandforge.app/blog/catchy-business-names"
         datePublished="2025-05-17"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

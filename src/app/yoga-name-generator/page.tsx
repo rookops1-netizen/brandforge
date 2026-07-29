@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Yoga Name Generator — AI-Powered Yoga Studio & Wellness Business Names',
     description: 'Generate creative yoga business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/yoga-name-generator',
+    url: 'https://brandforge.app/yoga-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Generate creative yoga business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/yoga-name-generator',
+    canonical: 'https://brandforge.app/yoga-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -155,8 +155,8 @@ export default function YogaNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Yoga Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/yoga-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Yoga Name Generator', item: 'https://brandforge.app/yoga-name-generator' },
         ],
       },
     ],

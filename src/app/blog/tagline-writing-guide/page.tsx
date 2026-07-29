@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Writing a Tagline That Sells: The Art and Science of Brand Slogans',
     description: 'The formula behind the world\'s most iconic brand taglines and how to write your own.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/tagline-writing-guide',
+    url: 'https://brandforge.app/blog/tagline-writing-guide',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/tagline-writing-guide' },
+  alternates: { canonical: 'https://brandforge.app/blog/tagline-writing-guide' },
 }
 
 const FAQ_ITEMS = [
@@ -57,7 +57,7 @@ export default function TaglineWritingGuide() {
       <BlogPostSchema
         title="Writing a Tagline That Sells: The Art and Science of Brand Slogans"
         description="Great taglines are not born — they are crafted. Here is the formula behind the icons."
-        url="https://brandforge-phi-pearl.vercel.app/blog/tagline-writing-guide"
+        url="https://brandforge.app/blog/tagline-writing-guide"
         datePublished="2025-04-20"
       />
       {/* FAQ Schema for rich snippets */}

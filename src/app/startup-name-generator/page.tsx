@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Startup Name Generator — AI-Powered Ideas & Brand Kits',
     description: 'Generate unique, investor-ready startup names with AI. Get a complete brand kit — logo, colors, tagline, domain check. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/startup-name-generator',
+    url: 'https://brandforge.app/startup-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Generate unique, investor-ready startup names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/startup-name-generator',
+    canonical: 'https://brandforge.app/startup-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -147,8 +147,8 @@ export default function StartupNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Startup Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/startup-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Startup Name Generator', item: 'https://brandforge.app/startup-name-generator' },
         ],
       },
     ],

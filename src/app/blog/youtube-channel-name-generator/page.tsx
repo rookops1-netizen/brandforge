@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'YouTube Channel Name Generator: 300+ YouTube Channel Name Ideas for 2026 + Free AI Tool',
     description: '300+ YouTube channel name ideas across 10 content categories, 7 naming strategies from top creators, and a free AI generator with domain and handle checks.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/youtube-channel-name-generator',
+    url: 'https://brandforge.app/blog/youtube-channel-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-26T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/youtube-channel-name-generator',
+    canonical: 'https://brandforge.app/blog/youtube-channel-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -280,7 +280,7 @@ export default function YouTubeChannelNameGeneratorPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
       <BlogPostSchema
-        url="https://brandforge-phi-pearl.vercel.app/blog/youtube-channel-name-generator"
+        url="https://brandforge.app/blog/youtube-channel-name-generator"
         title="YouTube Channel Name Generator: 300+ YouTube Channel Name Ideas for 2026 + Free AI Tool"
         description="300+ YouTube channel name ideas across 10 content categories, 7 proven naming strategies used by top YouTubers, and a free AI generator that checks domain and handle availability instantly."
         datePublished="2026-07-26T12:00:00.000Z"

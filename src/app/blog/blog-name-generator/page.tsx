@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Blog Name Generator: 250+ Blog Name Ideas for 2026 + Free AI Tool',
     description: '250+ blog name ideas across 10 niches, 7 naming strategies from top bloggers, and a free AI generator with domain availability checks.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/blog-name-generator',
+    url: 'https://brandforge.app/blog/blog-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-27T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/blog-name-generator',
+    canonical: 'https://brandforge.app/blog/blog-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -280,7 +280,7 @@ export default function BlogNameGeneratorPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
       <BlogPostSchema
-        url="https://brandforge-phi-pearl.vercel.app/blog/blog-name-generator"
+        url="https://brandforge.app/blog/blog-name-generator"
         title="Blog Name Generator: 250+ Blog Name Ideas for 2026 + Free AI Tool"
         description="250+ blog name ideas across 10 niches, 7 proven naming strategies used by top bloggers, and a free AI generator that checks domain availability instantly."
         datePublished="2026-07-27T12:00:00.000Z"

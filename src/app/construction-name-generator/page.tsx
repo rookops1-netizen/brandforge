@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Construction Business Name Generator — AI-Powered Contractor & Builder Names',
     description: 'Generate construction business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/construction-name-generator',
+    url: 'https://brandforge.app/construction-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Generate construction business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/construction-name-generator',
+    canonical: 'https://brandforge.app/construction-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -155,8 +155,8 @@ export default function ConstructionNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Construction Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/construction-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Construction Name Generator', item: 'https://brandforge.app/construction-name-generator' },
         ],
       },
     ],

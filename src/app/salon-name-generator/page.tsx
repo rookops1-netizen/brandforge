@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Salon Name Generator — AI-Powered Hair & Beauty Salon Names',
     description: 'Generate salon names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/salon-name-generator',
+    url: 'https://brandforge.app/salon-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Generate salon names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/salon-name-generator',
+    canonical: 'https://brandforge.app/salon-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -155,8 +155,8 @@ export default function SalonNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Salon Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/salon-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Salon Name Generator', item: 'https://brandforge.app/salon-name-generator' },
         ],
       },
     ],

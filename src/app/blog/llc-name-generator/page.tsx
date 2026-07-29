@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'LLC Name Generator: 300+ LLC Name Ideas for 2026 + Free AI Tool',
     description: '300+ LLC name ideas by industry, state-by-state naming rules, and a free AI generator with domain availability checks. Find the perfect name for your LLC.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/llc-name-generator',
+    url: 'https://brandforge.app/blog/llc-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-19T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/llc-name-generator',
+    canonical: 'https://brandforge.app/blog/llc-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -222,7 +222,7 @@ export default function LLCNameGeneratorPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
       <BlogPostSchema
-        url="https://brandforge-phi-pearl.vercel.app/blog/llc-name-generator"
+        url="https://brandforge.app/blog/llc-name-generator"
         title="LLC Name Generator: 300+ LLC Name Ideas for 2026 + Free AI Tool"
         description="300+ LLC name ideas by industry, state-by-state naming rules, and a free AI generator that checks domain availability instantly."
         datePublished="2026-07-19T12:00:00.000Z"

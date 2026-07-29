@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Creative Brand Names: 60+ Examples & What Makes Them Work',
     description: 'Deconstruct 60+ creative brand names and learn the patterns behind them. Apply these patterns to your own brand.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/creative-brand-names',
+    url: 'https://brandforge.app/blog/creative-brand-names',
     siteName: 'BrandForge',
     type: 'article',
   },
 
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/creative-brand-names' },
+  alternates: { canonical: 'https://brandforge.app/blog/creative-brand-names' },
 }
 
 const FAQ_ITEMS = [
@@ -132,7 +132,7 @@ export default function CreativeBrandNamesPage() {
       <BlogPostSchema
         title="Creative Brand Names: 60+ Examples and What Makes Them Work"
         description="Deconstruct 60+ real brand names from real companies and learn the patterns behind them — portmanteaus, metaphors, foreign words, and more."
-        url="https://brandforge-phi-pearl.vercel.app/blog/creative-brand-names"
+        url="https://brandforge.app/blog/creative-brand-names"
         datePublished="2025-05-17"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Brand Color Psychology: What Your Colors Say',
     description: 'How to pick a brand color palette that communicates exactly what your business stands for.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/brand-color-psychology',
+    url: 'https://brandforge.app/blog/brand-color-psychology',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/brand-color-psychology' },
+  alternates: { canonical: 'https://brandforge.app/blog/brand-color-psychology' },
 }
 
 const FAQ_ITEMS = [
@@ -57,7 +57,7 @@ export default function BrandColorPsychology() {
       <BlogPostSchema
         title="Brand Color Psychology: What Your Colors Say About Your Business"
         description="Blue builds trust. Red drives action. Green signals growth. Here's how to pick a color palette that communicates exactly what your brand stands for."
-        url="https://brandforge-phi-pearl.vercel.app/blog/brand-color-psychology"
+        url="https://brandforge.app/blog/brand-color-psychology"
         datePublished="2025-05-05"
       />
       {/* FAQ Schema for rich snippets */}

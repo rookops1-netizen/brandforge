@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Domain Name Generator — Check Domain Availability Instantly',
     description: 'Generate brand names with instant domain checks. Find available .com, .io, .co, .ai domains and get a complete brand kit.',
-    url: 'https://brandforge-phi-pearl.vercel.app/domain-name-generator',
+    url: 'https://brandforge.app/domain-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Generate brand names with instant domain checks. Find available .com, .io, .co, .ai domains and get a full brand kit.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/domain-name-generator',
+    canonical: 'https://brandforge.app/domain-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -156,8 +156,8 @@ export default function DomainNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Domain Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/domain-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Domain Name Generator', item: 'https://brandforge.app/domain-name-generator' },
         ],
       },
     ],

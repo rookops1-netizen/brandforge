@@ -1,3 +1,5 @@
+import { SITE_URL } from '@/lib/site-config'
+
 interface BlogPostSchemaProps {
   title: string
   description: string
@@ -19,7 +21,7 @@ export function BlogPostSchema({
   imageUrl,
   keywords,
 }: BlogPostSchemaProps) {
-  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+  const baseUrl = SITE_URL
 
   const blogPosting = {
     '@context': 'https://schema.org',
@@ -95,7 +97,7 @@ interface BreadcrumbSchemaProps {
 }
 
 export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
-  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+  const baseUrl = SITE_URL
 
   const breadcrumb = {
     '@context': 'https://schema.org',
@@ -130,7 +132,7 @@ interface OrganizationSchemaProps {
 }
 
 export function OrganizationSchema({ detailed = false }: OrganizationSchemaProps) {
-  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+  const baseUrl = SITE_URL
 
   const organization: Record<string, unknown> = {
     '@context': 'https://schema.org',
@@ -180,7 +182,7 @@ interface BlogIndexSchemaProps {
 }
 
 export function BlogIndexSchema({ postCount }: BlogIndexSchemaProps) {
-  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+  const baseUrl = SITE_URL
 
   const blog = {
     '@context': 'https://schema.org',

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Brand Name Availability Checker: How to Verify Your Brand Name Is Available in 2026',
     description: 'Check if your brand name is available as a domain, trademark, social handle, and business registration. Free 4-step availability checker with instant domain and social search.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-availability-checker',
+    url: 'https://brandforge.app/blog/brand-name-availability-checker',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-26T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-availability-checker',
+    canonical: 'https://brandforge.app/blog/brand-name-availability-checker',
   },
   robots: { index: true, follow: true },
 }
@@ -218,27 +218,27 @@ export default function BrandNameAvailabilityCheckerPage() {
         '@type': 'BlogPosting',
         headline: 'Brand Name Availability Checker: How to Verify Your Brand Name Is Available in 2026',
         description: 'Check if your brand name is available as a domain, trademark, social handle, and business registration. Free 4-step availability checker with real-time domain and social search.',
-        url: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-availability-checker',
+        url: 'https://brandforge.app/blog/brand-name-availability-checker',
         datePublished: '2026-07-26T12:00:00.000Z',
         dateModified: '2026-07-26T12:00:00.000Z',
         author: {
           '@type': 'Organization',
           name: 'BrandForge',
-          url: 'https://brandforge-phi-pearl.vercel.app',
+          url: 'https://brandforge.app',
         },
         publisher: {
           '@type': 'Organization',
           name: 'BrandForge',
-          url: 'https://brandforge-phi-pearl.vercel.app',
+          url: 'https://brandforge.app',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://brandforge-phi-pearl.vercel.app/opengraph-image',
+            url: 'https://brandforge.app/opengraph-image',
           },
         },
-        image: 'https://brandforge-phi-pearl.vercel.app/opengraph-image',
+        image: 'https://brandforge.app/opengraph-image',
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-availability-checker',
+          '@id': 'https://brandforge.app/blog/brand-name-availability-checker',
         },
       },
       {
@@ -264,7 +264,7 @@ export default function BrandNameAvailabilityCheckerPage() {
       <BlogPostSchema
         title="Brand Name Availability Checker: How to Verify Your Brand Name Is Available in 2026"
         description="Check if your brand name is available as a domain, trademark, social handle, and business registration. Free 4-step availability checker with real-time domain and social search."
-        url="https://brandforge-phi-pearl.vercel.app/blog/brand-name-availability-checker"
+        url="https://brandforge.app/blog/brand-name-availability-checker"
         datePublished="2026-07-26T12:00:00.000Z"
         dateModified="2026-07-26T12:00:00.000Z"
       />

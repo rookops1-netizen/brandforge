@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AI Business Name Generator — Free, Instant Results',
     description: 'Describe your business idea and get AI-generated name suggestions with complete brand kits. Free, instant, no signup required.',
-    url: 'https://brandforge-phi-pearl.vercel.app/generate',
+    url: 'https://brandforge.app/generate',
     siteName: 'BrandForge',
     type: 'website',
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/generate',
+    canonical: 'https://brandforge.app/generate',
   },
   robots: { index: true, follow: true },
 }

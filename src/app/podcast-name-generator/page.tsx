@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Podcast Name Generator — AI-Powered Podcast & Show Name Ideas',
     description: 'Generate creative podcast names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/podcast-name-generator',
+    url: 'https://brandforge.app/podcast-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: 'Generate creative podcast names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/podcast-name-generator',
+    canonical: 'https://brandforge.app/podcast-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -157,8 +157,8 @@ export default function PodcastNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Podcast Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/podcast-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Podcast Name Generator', item: 'https://brandforge.app/podcast-name-generator' },
         ],
       },
     ],

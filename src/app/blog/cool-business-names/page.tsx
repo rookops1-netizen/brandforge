@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cool Business Names: 150+ Ideas and How to Create Your Own',
     description: '150+ cool business name ideas by industry, plus a proven framework for creating a name that turns heads and sticks in memory.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/cool-business-names',
+    url: 'https://brandforge.app/blog/cool-business-names',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-05-28T14:00:00.000Z',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/cool-business-names',
+    canonical: 'https://brandforge.app/blog/cool-business-names',
   },
   robots: { index: true, follow: true },
 }
@@ -188,7 +188,7 @@ export default function CoolBusinessNamesPage() {
       <BlogPostSchema
         title="Cool Business Names: 150+ Ideas and How to Create Your Own"
         description="Discover 150+ cool business name ideas organized by industry, plus a proven 5-step framework for creating a name that stands out."
-        url="https://brandforge-phi-pearl.vercel.app/blog/cool-business-names"
+        url="https://brandforge.app/blog/cool-business-names"
         datePublished="2026-05-28"
       />
       {/* Breadcrumb */}

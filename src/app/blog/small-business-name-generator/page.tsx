@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Small Business Name Generator: 200+ Name Ideas for 2026',
     description: '200+ small business name ideas, 7 naming frameworks, and a free AI tool that checks domain availability. Find the perfect name for your small business.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/small-business-name-generator',
+    url: 'https://brandforge.app/blog/small-business-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-06-09T12:00:00.000Z',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/small-business-name-generator',
+    canonical: 'https://brandforge.app/blog/small-business-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -413,7 +413,7 @@ export default function SmallBusinessNameGeneratorBlog() {
       <BlogPostSchema
         title={metadata.title as string}
         description={metadata.description as string}
-        url="https://brandforge-phi-pearl.vercel.app/blog/small-business-name-generator"
+        url="https://brandforge.app/blog/small-business-name-generator"
         datePublished="2026-06-09"
         dateModified="2026-06-09"
         keywords={metadata.keywords as string[]}

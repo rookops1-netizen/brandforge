@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Catchy Brand Names: 250+ Memorable Ideas for 2026 + Free AI Generator',
     description: '250+ catchy brand name ideas, 7 naming formulas that make names stick, and a free AI generator with domain availability checks. Find your perfect catchy brand name today.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-brand-names',
+    url: 'https://brandforge.app/blog/catchy-brand-names',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-12T12:00:00.000Z',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/catchy-brand-names',
+    canonical: 'https://brandforge.app/blog/catchy-brand-names',
   },
   robots: { index: true, follow: true },
 }
@@ -317,7 +317,7 @@ export default function CatchyBrandNamesPage() {
       <BlogPostSchema
         title="Catchy Brand Names: 250+ Memorable Ideas for 2026 + Free AI Generator"
         description="Discover 250+ catchy brand name ideas across 10 industries, 7 proven naming formulas that make names stick, and a free AI generator that checks domain availability instantly."
-        url="https://brandforge-phi-pearl.vercel.app/blog/catchy-brand-names"
+        url="https://brandforge.app/blog/catchy-brand-names"
         datePublished="2026-07-12T12:00:00.000Z"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Tech Name Generator — AI-Powered Tech Startup & SaaS Names',
     description: 'Generate creative tech startup names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/tech-name-generator',
+    url: 'https://brandforge.app/tech-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Generate creative tech startup names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/tech-name-generator',
+    canonical: 'https://brandforge.app/tech-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -158,8 +158,8 @@ export default function TechNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Tech Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/tech-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Tech Name Generator', item: 'https://brandforge.app/tech-name-generator' },
         ],
       },
     ],

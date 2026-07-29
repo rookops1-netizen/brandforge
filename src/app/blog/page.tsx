@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BrandForge Blog — Business Naming Tips & Brand Strategy',
     description: 'Expert advice on choosing the perfect business name and building your brand identity.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog',
+    url: 'https://brandforge.app/blog',
     siteName: 'BrandForge',
     type: 'website',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog' },
+  alternates: { canonical: 'https://brandforge.app/blog' },
 }
 
 const blogPosts = [

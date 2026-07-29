@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Cleaning Business Name Generator — AI-Powered Cleaning & Maid Service Names',
     description: 'Generate cleaning business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/cleaning-business-name-generator',
+    url: 'https://brandforge.app/cleaning-business-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Generate cleaning business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/cleaning-business-name-generator',
+    canonical: 'https://brandforge.app/cleaning-business-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -155,8 +155,8 @@ export default function CleaningBusinessNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Cleaning Business Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/cleaning-business-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Cleaning Business Name Generator', item: 'https://brandforge.app/cleaning-business-name-generator' },
         ],
       },
     ],

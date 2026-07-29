@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Education Name Generator — AI-Powered Course, Tutoring & EdTech Business Names',
     description: 'Generate creative education business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/education-name-generator',
+    url: 'https://brandforge.app/education-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Generate creative education business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/education-name-generator',
+    canonical: 'https://brandforge.app/education-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -158,8 +158,8 @@ export default function EducationNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Education Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/education-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Education Name Generator', item: 'https://brandforge.app/education-name-generator' },
         ],
       },
     ],

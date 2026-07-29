@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BrandForge vs Namelix vs Looka — Which Name Generator Is Best?',
     description: 'Compare the top AI business name generators side-by-side. See which tool gives you the most complete brand identity.',
-    url: 'https://brandforge-phi-pearl.vercel.app/compare',
+    url: 'https://brandforge.app/compare',
     siteName: 'BrandForge',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/compare',
+    canonical: 'https://brandforge.app/compare',
   },
   robots: { index: true, follow: true },
 }
@@ -41,11 +41,11 @@ export default function ComparePage() {
             '@type': 'WebPage',
             name: 'BrandForge vs Namelix vs Looka — Business Name Generator Comparison',
             description: 'Compare the top AI business name generators side-by-side. See which tool gives you the most complete brand identity.',
-            url: 'https://brandforge-phi-pearl.vercel.app/compare',
+            url: 'https://brandforge.app/compare',
             isPartOf: {
               '@type': 'WebSite',
               name: 'BrandForge',
-              url: 'https://brandforge-phi-pearl.vercel.app',
+              url: 'https://brandforge.app',
             },
           }),
         }}

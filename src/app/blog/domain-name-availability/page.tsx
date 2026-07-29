@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Domain Name Availability: Creative Strategies When .com Is Taken',
     description: 'Smart strategies for finding available domains when .com is already taken.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/domain-name-availability',
+    url: 'https://brandforge.app/blog/domain-name-availability',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/domain-name-availability' },
+  alternates: { canonical: 'https://brandforge.app/blog/domain-name-availability' },
 }
 
 const FAQ_ITEMS = [
@@ -57,7 +57,7 @@ export default function DomainNameAvailability() {
       <BlogPostSchema
         title="Domain Name Availability: Creative Strategies When .com Is Taken"
         description="Your perfect name is available — just maybe not as a .com. Learn smart domain strategies using alternative TLDs, modifiers, and creative workarounds."
-        url="https://brandforge-phi-pearl.vercel.app/blog/domain-name-availability"
+        url="https://brandforge.app/blog/domain-name-availability"
         datePublished="2025-04-28"
       />
       {/* FAQ Schema for rich snippets */}

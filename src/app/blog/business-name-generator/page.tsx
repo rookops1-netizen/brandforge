@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Business Name Generator: 300+ Name Ideas for 2026 + Free AI Tool',
     description: 'AI-powered business name generator with 300+ name ideas, 7 naming frameworks, and instant domain availability checks. Find the perfect name for your business today.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/business-name-generator',
+    url: 'https://brandforge.app/blog/business-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-06-12T12:00:00.000Z',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/business-name-generator',
+    canonical: 'https://brandforge.app/blog/business-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -331,7 +331,7 @@ export default function BusinessNameGeneratorBlog() {
     },
     {
       q: 'How do I check if a business name is available?',
-      a: 'Check three things: (1) Domain availability — use our free checker at brandforge-phi-pearl.vercel.app/generate or search on Namecheap. (2) Social handle availability — search on Twitter/X, Instagram, and Facebook. (3) Trademark status — search USPTO.gov for existing trademarks in your industry. If all three are clear, you\'re good to go.',
+      a: 'Check three things: (1) Domain availability — use our free checker at brandforge.app/generate or search on Namecheap. (2) Social handle availability — search on Twitter/X, Instagram, and Facebook. (3) Trademark status — search USPTO.gov for existing trademarks in your industry. If all three are clear, you\'re good to go.',
     },
     {
       q: 'Should I include my industry in my business name?',
@@ -356,7 +356,7 @@ export default function BusinessNameGeneratorBlog() {
       <BlogPostSchema
         title={metadata.title as string}
         description={metadata.description as string}
-        url="https://brandforge-phi-pearl.vercel.app/blog/business-name-generator"
+        url="https://brandforge.app/blog/business-name-generator"
         datePublished="2026-06-12"
         dateModified="2026-06-12"
         keywords={metadata.keywords as string[]}

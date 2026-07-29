@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BrandForge Testimonials — What Founders Say About Our AI Name Generator',
     description: 'Real reviews from 12,000+ founders who used BrandForge to name their business and build brand kits.',
-    url: 'https://brandforge-phi-pearl.vercel.app/testimonials',
+    url: 'https://brandforge.app/testimonials',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Real reviews from 12,000+ founders who used BrandForge to name their business.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/testimonials',
+    canonical: 'https://brandforge.app/testimonials',
   },
   robots: { index: true, follow: true },
 }
@@ -182,7 +182,7 @@ const USE_CASES = [
 ]
 
 export default function TestimonialsPage() {
-  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+  const baseUrl = 'https://brandforge.app'
 
   // Build individual Review schema items from testimonials
   const reviewSchemas = TESTIMONIALS.slice(0, 10).map((t, i) => ({

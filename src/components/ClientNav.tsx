@@ -35,7 +35,7 @@ export default function ClientNav() {
             <Link href="/generate" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
               Generate
             </Link>
-            <Link href="/dashboard" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
+            <Link href="/generate" className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors">
               Dashboard
             </Link>
             <button

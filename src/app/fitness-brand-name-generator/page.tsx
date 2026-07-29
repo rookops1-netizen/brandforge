@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Fitness Brand Name Generator — AI-Powered Ideas & Brand Kits',
     description: 'Generate unique fitness brand names with AI. Complete brand kits — logo, colors, tagline, domain check. Gyms, apps, apparel. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/fitness-brand-name-generator',
+    url: 'https://brandforge.app/fitness-brand-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Generate unique fitness brand names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/fitness-brand-name-generator',
+    canonical: 'https://brandforge.app/fitness-brand-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -155,8 +155,8 @@ export default function FitnessBrandNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Fitness Brand Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/fitness-brand-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Fitness Brand Name Generator', item: 'https://brandforge.app/fitness-brand-name-generator' },
         ],
       },
     ],

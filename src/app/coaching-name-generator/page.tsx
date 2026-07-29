@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Coaching Name Generator — AI-Powered Coaching & Life Coach Names',
     description: 'Generate creative coaching business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/coaching-name-generator',
+    url: 'https://brandforge.app/coaching-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: 'Generate creative coaching business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/coaching-name-generator',
+    canonical: 'https://brandforge.app/coaching-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -157,8 +157,8 @@ export default function CoachingNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Coaching Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/coaching-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Coaching Name Generator', item: 'https://brandforge.app/coaching-name-generator' },
         ],
       },
     ],

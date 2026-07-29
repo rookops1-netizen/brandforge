@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Terms of Service — BrandForge',
     description: 'Terms governing the use of BrandForge AI business name generator and brand kit services.',
-    url: 'https://brandforge-phi-pearl.vercel.app/terms',
+    url: 'https://brandforge.app/terms',
     siteName: 'BrandForge',
     type: 'website',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/terms' },
+  alternates: { canonical: 'https://brandforge.app/terms' },
 }
 
 export default function TermsPage() {
@@ -23,18 +23,18 @@ export default function TermsPage() {
         '@type': 'WebPage',
         name: 'Terms of Service',
         description: 'BrandForge Terms of Service — terms governing the use of our AI business name generator and brand kit services.',
-        url: 'https://brandforge-phi-pearl.vercel.app/terms',
+        url: 'https://brandforge.app/terms',
         isPartOf: {
           '@type': 'WebSite',
           name: 'BrandForge',
-          url: 'https://brandforge-phi-pearl.vercel.app',
+          url: 'https://brandforge.app',
         },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: 'https://brandforge-phi-pearl.vercel.app/terms' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: 'https://brandforge.app/terms' },
         ],
       },
     ],

@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Choose a Business Name: The Complete Guide for 2026',
     description: 'Everything you need to know about picking the perfect business name — from brainstorming to trademarks.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-business-name',
+    url: 'https://brandforge.app/blog/how-to-choose-business-name',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-business-name' },
+  alternates: { canonical: 'https://brandforge.app/blog/how-to-choose-business-name' },
 }
 
 const FAQ_ITEMS = [
@@ -57,7 +57,7 @@ export default function HowToChooseBusinessName() {
       <BlogPostSchema
         title="How to Choose a Business Name: The Complete Guide for 2026"
         description="Everything you need to know about picking the perfect business name — from brainstorming techniques and trademark research to domain strategy and AI-assisted naming."
-        url="https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-business-name"
+        url="https://brandforge.app/blog/how-to-choose-business-name"
         datePublished="2025-05-15"
       />
 

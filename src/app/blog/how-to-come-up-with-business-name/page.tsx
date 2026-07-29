@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Come Up with a Business Name: 10 Proven Methods (2026 Guide)',
     description: '10 proven brainstorming methods, 200+ name ideas by industry, and a free AI generator with instant domain availability checks. Find your perfect business name today.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-come-up-with-business-name',
+    url: 'https://brandforge.app/blog/how-to-come-up-with-business-name',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-17T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-come-up-with-business-name',
+    canonical: 'https://brandforge.app/blog/how-to-come-up-with-business-name',
   },
   robots: { index: true, follow: true },
 }
@@ -330,7 +330,7 @@ export default function HowToComeUpWithBusinessName() {
       <BlogPostSchema
         title="How to Come Up with a Business Name: 10 Proven Methods (2026 Guide)"
         description="10 proven brainstorming methods, 200+ name ideas by industry, and a free AI generator that checks domain availability instantly. Find your perfect business name today."
-        url="https://brandforge-phi-pearl.vercel.app/blog/how-to-come-up-with-business-name"
+        url="https://brandforge.app/blog/how-to-come-up-with-business-name"
         datePublished="2026-07-17T12:00:00.000Z"
         keywords={[
           'how to come up with a business name',

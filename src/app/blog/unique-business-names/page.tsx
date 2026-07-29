@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Unique Business Names: 120+ Standout Ideas & Naming Techniques',
     description: 'Tired of finding your perfect name is already taken? Learn the techniques behind genuinely unique business names and browse 120+ examples by industry.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/unique-business-names',
+    url: 'https://brandforge.app/blog/unique-business-names',
     siteName: 'BrandForge',
     type: 'article',
   },
 
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/unique-business-names' },
+  alternates: { canonical: 'https://brandforge.app/blog/unique-business-names' },
 }
 
 const industries = [
@@ -276,7 +276,7 @@ export default function UniqueBusinessNamesPage() {
       <BlogPostSchema
         title="Unique Business Names: 120+ Standout Ideas and How to Create Your Own"
         description="Browse 120+ unique business name ideas across 8 industries, plus learn the 6 proven techniques for creating names nobody else has."
-        url="https://brandforge-phi-pearl.vercel.app/blog/unique-business-names"
+        url="https://brandforge.app/blog/unique-business-names"
         datePublished="2025-05-20"
       />
       {/* Header */}

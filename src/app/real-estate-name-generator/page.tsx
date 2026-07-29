@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Real Estate Name Generator — AI-Powered Realty & Property Names',
     description: 'Generate professional real estate business names with AI. Logo, colors, tagline, domain check — all in one. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/real-estate-name-generator',
+    url: 'https://brandforge.app/real-estate-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Generate professional real estate business names with AI. Logo, colors, tagline, domain check — all in one.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/real-estate-name-generator',
+    canonical: 'https://brandforge.app/real-estate-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -158,8 +158,8 @@ export default function RealEstateNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Real Estate Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/real-estate-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Real Estate Name Generator', item: 'https://brandforge.app/real-estate-name-generator' },
         ],
       },
     ],

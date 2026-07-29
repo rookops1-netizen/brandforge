@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Business Name Ideas by Industry: The 2026 Edition',
     description: 'Hundreds of business name ideas organized by industry with vibe descriptions and naming patterns.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/business-name-ideas-by-industry',
+    url: 'https://brandforge.app/blog/business-name-ideas-by-industry',
     siteName: 'BrandForge',
     type: 'article',
   },
 
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/business-name-ideas-by-industry' },
+  alternates: { canonical: 'https://brandforge.app/blog/business-name-ideas-by-industry' },
 }
 
 const industryNames: Record<string, { names: string[]; pattern: string; patternDesc: string }> = {
@@ -114,7 +114,7 @@ export default function BusinessNameIdeasByIndustryPage() {
       <BlogPostSchema
         title="Business Name Ideas by Industry: The 2026 Edition"
         description="Browse hundreds of name ideas across 10 industries — tech, food, fashion, consulting, and more."
-        url="https://brandforge-phi-pearl.vercel.app/blog/business-name-ideas-by-industry"
+        url="https://brandforge.app/blog/business-name-ideas-by-industry"
         datePublished="2025-05-17"
       />
       {/* FAQ Schema for rich snippets */}

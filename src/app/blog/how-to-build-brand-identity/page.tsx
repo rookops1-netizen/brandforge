@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Build a Brand Identity from Scratch (2026 Guide)',
     description: 'Create a complete brand identity step by step — name, logo, colors, typography, and tagline. Free guide with real examples.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-build-brand-identity',
+    url: 'https://brandforge.app/blog/how-to-build-brand-identity',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-build-brand-identity' },
+  alternates: { canonical: 'https://brandforge.app/blog/how-to-build-brand-identity' },
 }
 
 const FAQ_ITEMS = [
@@ -57,7 +57,7 @@ export default function HowToBuildBrandIdentity() {
       <BlogPostSchema
         title="How to Build a Brand Identity from Scratch: The 2026 Guide"
         description="Learn how to create a complete brand identity step by step — name, logo, colors, typography, and tagline."
-        url="https://brandforge-phi-pearl.vercel.app/blog/how-to-build-brand-identity"
+        url="https://brandforge.app/blog/how-to-build-brand-identity"
         datePublished="2026-05-25"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

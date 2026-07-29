@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About BrandForge',
     description: 'AI-powered business naming and brand kits. From idea to identity in seconds.',
-    url: 'https://brandforge-phi-pearl.vercel.app/about',
+    url: 'https://brandforge.app/about',
     siteName: 'BrandForge',
     type: 'website',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/about' },
+  alternates: { canonical: 'https://brandforge.app/about' },
 }
 
 const teamValues = [
@@ -62,7 +62,7 @@ const stats = [
 ]
 
 export default function AboutPage() {
-  const baseUrl = 'https://brandforge-phi-pearl.vercel.app'
+  const baseUrl = 'https://brandforge.app'
 
   const aboutWebPage = {
     '@context': 'https://schema.org',

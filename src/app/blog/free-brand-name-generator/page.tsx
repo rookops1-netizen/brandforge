@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Brand Name Generator: The Complete Guide to Naming Your Business for Free',
     description: 'Compare the best free brand name generators — plus learn how to get professional-quality names without paying naming agencies $5K+.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/free-brand-name-generator',
+    url: 'https://brandforge.app/blog/free-brand-name-generator',
     siteName: 'BrandForge',
     type: 'article',
   },
 
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/free-brand-name-generator' },
+  alternates: { canonical: 'https://brandforge.app/blog/free-brand-name-generator' },
 }
 
 const freeTools = [
@@ -134,7 +134,7 @@ export default function FreeBrandNameGeneratorPage() {
       <BlogPostSchema
         title="Free Brand Name Generator: How to Name Your Business Without Spending a Dime"
         description="Compare the 8 best free brand name generators — including BrandForge. See which tools actually produce creative, usable names."
-        url="https://brandforge-phi-pearl.vercel.app/blog/free-brand-name-generator"
+        url="https://brandforge.app/blog/free-brand-name-generator"
         datePublished="2025-05-18"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

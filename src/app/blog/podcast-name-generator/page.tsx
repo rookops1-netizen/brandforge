@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Podcast Name Generator: 300+ Podcast Name Ideas for 2026 + Free AI Tool',
     description: '300+ podcast name ideas by category, 7 naming strategies from top podcasts like Serial and The Daily, and a free AI generator with domain and handle checks.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/podcast-name-generator',
+    url: 'https://brandforge.app/blog/podcast-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-27T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/podcast-name-generator',
+    canonical: 'https://brandforge.app/blog/podcast-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -283,7 +283,7 @@ export default function PodcastNameGeneratorPage() {
       <BlogPostSchema
         title="Podcast Name Generator: 300+ Podcast Name Ideas for 2026 + Free AI Tool"
         description="300+ podcast name ideas across 10 content categories, 7 proven naming strategies used by top podcasts like Serial and The Daily, and a free AI generator that checks domain and social handle availability instantly."
-        url="https://brandforge-phi-pearl.vercel.app/blog/podcast-name-generator"
+        url="https://brandforge.app/blog/podcast-name-generator"
         datePublished="2026-07-27"
         dateModified="2026-07-27"
       />

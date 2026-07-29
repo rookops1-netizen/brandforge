@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Choose a Brand Name in 2026: The Complete Decision Framework',
     description: 'A proven framework for choosing a brand name — 6 naming styles, a 5-step validation process, and a free AI tool that checks availability instantly.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-brand-name',
+    url: 'https://brandforge.app/blog/how-to-choose-brand-name',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-06-10T12:00:00.000Z',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-brand-name',
+    canonical: 'https://brandforge.app/blog/how-to-choose-brand-name',
   },
   robots: { index: true, follow: true },
 }
@@ -134,7 +134,7 @@ export default function HowToChooseBrandNamePage() {
       <BlogPostSchema
         title="How to Choose a Brand Name in 2026: The Complete Decision Framework"
         description="A step-by-step framework for choosing a brand name — from brainstorming and naming styles to legal checks and domain availability. Includes real examples and a free AI naming tool."
-        url="https://brandforge-phi-pearl.vercel.app/blog/how-to-choose-brand-name"
+        url="https://brandforge.app/blog/how-to-choose-brand-name"
         datePublished="2026-06-10"
         keywords={[
           'how to choose a brand name',

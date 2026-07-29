@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'BrandForge Pricing — Free Name Generation, $9 Brand Kit Pro',
     description: 'Generate business names for free. Unlock a complete brand kit — logo, colors, tagline, domain check — for just $9. No subscription required.',
-    url: 'https://brandforge-phi-pearl.vercel.app/pricing',
+    url: 'https://brandforge.app/pricing',
     siteName: 'BrandForge',
     type: 'website',
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/pricing',
+    canonical: 'https://brandforge.app/pricing',
   },
   robots: { index: true, follow: true },
 }

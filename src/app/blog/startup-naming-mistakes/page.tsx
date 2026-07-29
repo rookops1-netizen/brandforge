@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: '7 Naming Mistakes That Kill Startups (Before They Even Launch)',
     description: 'The naming traps founders fall into and how to avoid them.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes',
+    url: 'https://brandforge.app/blog/startup-naming-mistakes',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes' },
+  alternates: { canonical: 'https://brandforge.app/blog/startup-naming-mistakes' },
 }
 
 const FAQ_ITEMS = [
@@ -57,7 +57,7 @@ export default function StartupNamingMistakes() {
       <BlogPostSchema
         title="7 Naming Mistakes That Kill Startups (Before They Even Launch)"
         description="Hard-to-spell names, inside jokes, trademark conflicts — these are the naming traps founders fall into over and over."
-        url="https://brandforge-phi-pearl.vercel.app/blog/startup-naming-mistakes"
+        url="https://brandforge.app/blog/startup-naming-mistakes"
         datePublished="2025-04-15"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Wedding Name Generator — AI-Powered Wedding Business & Venue Names',
     description: 'Generate unique wedding business names with AI. Venue names, planner names, floral names — get a complete brand kit with logo, colors, tagline, domain check. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/wedding-name-generator',
+    url: 'https://brandforge.app/wedding-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Generate unique wedding business names with AI. Venues, planners, florals — logo, colors, tagline, domain check. Free to start.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/wedding-name-generator',
+    canonical: 'https://brandforge.app/wedding-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -156,8 +156,8 @@ export default function WeddingNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Wedding Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/wedding-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Wedding Name Generator', item: 'https://brandforge.app/wedding-name-generator' },
         ],
       },
     ],

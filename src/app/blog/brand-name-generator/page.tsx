@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Brand Name Generator: How to Find the Perfect Brand Name in 2026',
     description: 'The complete guide to using a brand name generator — 7 naming styles, 60+ real examples, and a free AI tool that checks domain availability.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-generator',
+    url: 'https://brandforge.app/blog/brand-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-06-07T12:00:00.000Z',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-generator',
+    canonical: 'https://brandforge.app/blog/brand-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -169,7 +169,7 @@ export default function BrandNameGeneratorPage() {
       <BlogPostSchema
         title="Brand Name Generator: How to Find the Perfect Brand Name in 2026"
         description="Learn how to use a brand name generator effectively, understand the 7 naming styles that create iconic brands, and get a free AI-powered tool that generates names with domain availability checks."
-        url="https://brandforge-phi-pearl.vercel.app/blog/brand-name-generator"
+        url="https://brandforge.app/blog/brand-name-generator"
         datePublished="2026-06-07T12:00:00.000Z"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

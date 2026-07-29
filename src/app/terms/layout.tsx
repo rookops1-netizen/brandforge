@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'Terms of Service — BrandForge',
     description:
       'Read the terms and conditions for using BrandForge, our AI-powered business name generator and brand kit tool.',
-    url: 'https://brandforge-phi-pearl.vercel.app/terms',
+    url: 'https://brandforge.app/terms',
   },
 }
 
@@ -29,18 +29,18 @@ export default function TermsLayout({
                 '@type': 'WebPage',
                 name: 'Terms of Service',
                 description: 'Terms and conditions for using BrandForge, the AI-powered business name generator and brand kit tool.',
-                url: 'https://brandforge-phi-pearl.vercel.app/terms',
+                url: 'https://brandforge.app/terms',
                 publisher: {
                   '@type': 'Organization',
                   name: 'BrandForge',
-                  url: 'https://brandforge-phi-pearl.vercel.app',
+                  url: 'https://brandforge.app',
                 },
               },
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: 'https://brandforge-phi-pearl.vercel.app/terms' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+                  { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: 'https://brandforge.app/terms' },
                 ],
               },
             ],

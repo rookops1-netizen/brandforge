@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Store Name Generator: 300+ Store Name Ideas for 2026 + Free AI Tool',
     description: '300+ store name ideas across 10 retail categories, 7 naming strategies, and a free AI generator with domain availability checks.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/store-name-generator',
+    url: 'https://brandforge.app/blog/store-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-21T12:00:00.000Z',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/store-name-generator',
+    canonical: 'https://brandforge.app/blog/store-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -281,7 +281,7 @@ export default function StoreNameGeneratorPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
       <BlogPostSchema
-        url="https://brandforge-phi-pearl.vercel.app/blog/store-name-generator"
+        url="https://brandforge.app/blog/store-name-generator"
         title="Store Name Generator: 300+ Store Name Ideas for 2026 + Free AI Tool"
         description="300+ store name ideas across 10 retail categories, 7 proven naming strategies, and a free AI generator that checks domain availability instantly."
         datePublished="2026-07-21T12:00:00.000Z"

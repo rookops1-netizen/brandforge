@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Music Name Generator — AI-Powered Band, Label & Music Business Names',
     description: 'Generate unique music names with AI. Band names, label names, studio names — get a complete brand kit with logo, colors, tagline, domain check. Free to start.',
-    url: 'https://brandforge-phi-pearl.vercel.app/music-name-generator',
+    url: 'https://brandforge.app/music-name-generator',
     siteName: 'BrandForge',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Generate unique music names with AI. Band names, label names, studio names — logo, colors, tagline, domain check. Free to start.',
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/music-name-generator',
+    canonical: 'https://brandforge.app/music-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -156,8 +156,8 @@ export default function MusicNameGeneratorPage() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge-phi-pearl.vercel.app' },
-          { '@type': 'ListItem', position: 2, name: 'Music Name Generator', item: 'https://brandforge-phi-pearl.vercel.app/music-name-generator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
+          { '@type': 'ListItem', position: 2, name: 'Music Name Generator', item: 'https://brandforge.app/music-name-generator' },
         ],
       },
     ],

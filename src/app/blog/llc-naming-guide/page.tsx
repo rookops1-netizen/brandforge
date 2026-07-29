@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Pick a Name for Your LLC',
     description: 'Legal requirements, state rules, trademark considerations, and branding tips for naming your LLC.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/llc-naming-guide',
+    url: 'https://brandforge.app/blog/llc-naming-guide',
     siteName: 'BrandForge',
     type: 'article',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/llc-naming-guide' },
+  alternates: { canonical: 'https://brandforge.app/blog/llc-naming-guide' },
 }
 
 const FAQ_ITEMS = [
@@ -58,7 +58,7 @@ export default function LLCNamingGuidePage() {
       <BlogPostSchema
         title="How to Pick a Name for Your LLC: The Legal and Branding Guide"
         description="Everything you need to know about naming your LLC — legal requirements, state rules, DBA names, trademark considerations, and branding tips."
-        url="https://brandforge-phi-pearl.vercel.app/blog/llc-naming-guide"
+        url="https://brandforge.app/blog/llc-naming-guide"
         datePublished="2025-05-17"
         dateModified="2026-07-12T12:00:00.000Z"
         keywords={[

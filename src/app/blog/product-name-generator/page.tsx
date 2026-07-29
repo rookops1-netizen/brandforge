@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Product Name Generator: 250+ Product Name Ideas for 2026 + Free AI Tool',
     description: '250+ product name ideas across 10 categories, 6 naming frameworks behind hit products, and a free AI generator that checks domain availability instantly.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/product-name-generator',
+    url: 'https://brandforge.app/blog/product-name-generator',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-15T12:00:00.000Z',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/product-name-generator',
+    canonical: 'https://brandforge.app/blog/product-name-generator',
   },
   robots: { index: true, follow: true },
 }
@@ -301,7 +301,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How do I check if a product name is available?',
-    answer: 'Check four things simultaneously: (1) Domain availability for .com (or .io/.app for SaaS) — use our free checker at brandforge-phi-pearl.vercel.app/generate, (2) Social handle availability on Twitter/X, Instagram, and LinkedIn, (3) USPTO trademark search at tmsearch.uspto.gov for your industry, (4) A simple Google search to see if another product uses the name. If all four are clear, you\'re good to go.',
+    answer: 'Check four things simultaneously: (1) Domain availability for .com (or .io/.app for SaaS) — use our free checker at brandforge.app/generate, (2) Social handle availability on Twitter/X, Instagram, and LinkedIn, (3) USPTO trademark search at tmsearch.uspto.gov for your industry, (4) A simple Google search to see if another product uses the name. If all four are clear, you\'re good to go.',
   },
   {
     question: 'What if the .com domain for my product name is taken?',
@@ -356,7 +356,7 @@ export default function ProductNameGeneratorBlog() {
       <BlogPostSchema
         title={metadata.title as string}
         description={metadata.description as string}
-        url="https://brandforge-phi-pearl.vercel.app/blog/product-name-generator"
+        url="https://brandforge.app/blog/product-name-generator"
         datePublished="2026-07-15"
         dateModified="2026-07-15"
         keywords={metadata.keywords as string[]}

@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Company Name Checker: How to Verify Your Business Name Is Available',
     description: 'Before you commit to a business name, make sure it\'s actually available. Here\'s how to check domain availability, trademark conflicts, social handles, and state registrations.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-checker',
+    url: 'https://brandforge.app/blog/company-name-checker',
     siteName: 'BrandForge',
     type: 'article',
   },
 
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://brandforge-phi-pearl.vercel.app/blog/company-name-checker' },
+  alternates: { canonical: 'https://brandforge.app/blog/company-name-checker' },
 }
 
 const FAQ_ITEMS = [
@@ -140,7 +140,7 @@ export default function CompanyNameCheckerPage() {
       <BlogPostSchema
         title="Company Name Checker: How to Verify Your Business Name Is Available"
         description="Before you commit to a name, check these 4 things: domain availability, trademark conflicts, social handles, and state registration."
-        url="https://brandforge-phi-pearl.vercel.app/blog/company-name-checker"
+        url="https://brandforge.app/blog/company-name-checker"
         datePublished="2025-05-20"
       />
       {/* Header */}

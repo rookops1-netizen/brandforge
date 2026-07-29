@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Brand Name Ideas: 300+ Creative Examples for 2026 + Free AI Generator',
     description: '300+ brand name ideas across 10 categories, 7 naming techniques with real examples, and a free AI generator that checks domain availability. Find your perfect brand name today.',
-    url: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-ideas',
+    url: 'https://brandforge.app/blog/brand-name-ideas',
     siteName: 'BrandForge',
     type: 'article',
     publishedTime: '2026-07-08T12:00:00.000Z',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ['/opengraph-image'],
   },
   alternates: {
-    canonical: 'https://brandforge-phi-pearl.vercel.app/blog/brand-name-ideas',
+    canonical: 'https://brandforge.app/blog/brand-name-ideas',
   },
   robots: { index: true, follow: true },
 }
@@ -277,7 +277,7 @@ export default function BrandNameIdeasPage() {
       <BlogPostSchema
         title="Brand Name Ideas: 300+ Creative Examples for 2026 + Free AI Generator"
         description="The ultimate collection of 300+ brand name ideas across 10 categories — plus 7 proven naming techniques with real examples, a step-by-step naming process, and a free AI brand name generator."
-        url="https://brandforge-phi-pearl.vercel.app/blog/brand-name-ideas"
+        url="https://brandforge.app/blog/brand-name-ideas"
         datePublished="2026-07-08T12:00:00.000Z"
         dateModified="2026-07-08T12:00:00.000Z"
         keywords={[
