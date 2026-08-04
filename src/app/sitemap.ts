@@ -287,6 +287,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — August 4
+    {
+      url: `${BASE_URL}/blog/brand-naming-guide`,
+      lastModified: new Date('2026-08-04'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/domain-name-generator`,

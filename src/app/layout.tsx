@@ -240,6 +240,18 @@ export const metadata: Metadata = {
     'brand name strategy',
     'brand name checklist',
     'brand name validation',
+    // Brand naming guide keywords
+    'brand naming guide',
+    'how to pick a brand name',
+    'brand name tips',
+    'brand naming tips',
+    'brand naming strategies',
+    'brand naming principles',
+    'brand name best practices',
+    'naming your brand',
+    'brand naming checklist',
+    'tips for naming a brand',
+    'brand name guide 2026',
     // Business name generator blog keywords
     'business name ideas 2026',
     'AI business name generator',

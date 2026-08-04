@@ -521,6 +521,10 @@ export default function HowToChooseBrandNamePage() {
             <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Name Availability Checker: Verify Your Name Is Available</h4>
             <p className="text-sm text-slate-500 mt-1">Complete 4-step checklist to check domain, trademark, social handle, and business registration availability.</p>
           </Link>
+          <Link href="/blog/brand-naming-guide" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Naming Guide: 12 Proven Tips</h4>
+            <p className="text-sm text-slate-500 mt-1">12 practical tips from analyzing 500+ brands — what makes Stripe, Airbnb, and Notion work.</p>
+          </Link>
         </div>
       </section>
 

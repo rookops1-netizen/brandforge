@@ -606,6 +606,10 @@ export default function BrandNameGeneratorPage() {
             <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">AI Name Generators vs Traditional Naming Agencies</h4>
             <p className="mt-1 text-sm text-slate-500">We compared AI naming tools, naming agencies, and DIY brainstorming on price, speed, and quality.</p>
           </Link>
+          <Link href="/blog/brand-naming-guide" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-200 hover:shadow-md transition-all">
+            <h4 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Naming Guide: 12 Proven Tips</h4>
+            <p className="mt-1 text-sm text-slate-500">12 practical tips for a brand name that sticks — with real examples from Stripe, Airbnb, and Notion.</p>
+          </Link>
         </div>
       </section>
 
