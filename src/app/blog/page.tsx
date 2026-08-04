@@ -342,6 +342,15 @@ const blogPosts = [
     date: '2026-08-04',
     featured: false,
   },
+  {
+    slug: 'nail-salon-name-generator',
+    title: 'Nail Salon Name Generator: 300+ Nail Salon Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ nail salon name ideas across 10 categories, 7 naming strategies used by top salons, and a free AI generator that checks domain and social availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-08-04',
+    featured: true,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
