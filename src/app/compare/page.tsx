@@ -1,5 +1,6 @@
 import { Comparison } from '@/components/Comparison'
 import { BreadcrumbSchema } from '@/components/BlogPostSchema'
+import { SITE_URL } from '@/lib/site-config'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -41,11 +42,11 @@ export default function ComparePage() {
             '@type': 'WebPage',
             name: 'BrandForge vs Namelix vs Looka — Business Name Generator Comparison',
             description: 'Compare the top AI business name generators side-by-side. See which tool gives you the most complete brand identity.',
-            url: 'https://brandforge.app/compare',
+            url: `${SITE_URL}/compare`,
             isPartOf: {
               '@type': 'WebSite',
               name: 'BrandForge',
-              url: 'https://brandforge.app',
+              url: SITE_URL,
             },
           }),
         }}

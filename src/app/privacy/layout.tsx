@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SITE_URL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy — BrandForge',
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Privacy Policy — BrandForge',
     description:
       'Learn how BrandForge collects, uses, and protects your personal information.',
-    url: 'https://brandforge.app/privacy',
+    url: `${SITE_URL}/privacy`,
   },
 }
 
@@ -17,6 +18,8 @@ export default function PrivacyLayout({
 }: {
   children: React.ReactNode
 }) {
+  const baseUrl = SITE_URL
+
   return (
     <>
       <script
@@ -29,18 +32,18 @@ export default function PrivacyLayout({
                 '@type': 'WebPage',
                 name: 'Privacy Policy',
                 description: 'Learn how BrandForge collects, uses, and protects your personal information.',
-                url: 'https://brandforge.app/privacy',
+                url: `${baseUrl}/privacy`,
                 publisher: {
                   '@type': 'Organization',
                   name: 'BrandForge',
-                  url: 'https://brandforge.app',
+                  url: baseUrl,
                 },
               },
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://brandforge.app/privacy' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+                  { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: `${baseUrl}/privacy` },
                 ],
               },
             ],

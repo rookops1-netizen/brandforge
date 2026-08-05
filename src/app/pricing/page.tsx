@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { SITE_URL } from '@/lib/site-config'
 
 const PRICING_FAQ = [
   {
@@ -410,7 +411,7 @@ export default function PricingPage() {
                 applicationCategory: 'BusinessApplication',
                 operatingSystem: 'Web',
                 description: 'Complete brand identity kit with AI-generated logo concepts, color palettes, taglines, typography, domain and social handle availability checks.',
-                url: 'https://brandforge.app/pricing',
+                url: `${SITE_URL}/pricing`,
                 offers: [
                   { '@type': 'Offer', price: '0', priceCurrency: 'USD', name: 'Free', description: 'Free tier — 5 name suggestions per search' },
                   { '@type': 'Offer', price: '9', priceCurrency: 'USD', name: 'Brand Kit Pro', description: 'Complete brand identity per name — one-time purchase' },
@@ -430,8 +431,8 @@ export default function PricingPage() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Pricing', item: 'https://brandforge.app/pricing' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+                  { '@type': 'ListItem', position: 2, name: 'Pricing', item: `${SITE_URL}/pricing` },
                 ],
               },
             ],

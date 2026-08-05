@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BreadcrumbSchema } from '@/components/BlogPostSchema'
+import { SITE_URL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'BrandForge Testimonials — What Founders Say About Our AI Name Generator',
@@ -182,7 +183,7 @@ const USE_CASES = [
 ]
 
 export default function TestimonialsPage() {
-  const baseUrl = 'https://brandforge.app'
+  const baseUrl = SITE_URL
 
   // Build individual Review schema items from testimonials
   const reviewSchemas = TESTIMONIALS.slice(0, 10).map((t, i) => ({

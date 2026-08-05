@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { IndustryBlogLinks } from '@/components/IndustryBlogLinks'
+import { IndustryPageSchema } from '@/components/IndustryPageSchema'
 
 export const metadata: Metadata = {
   title: 'Free Marketing Agency Name Generator — AI-Powered Agency, Digital Marketing & Ad Firm Names',
@@ -149,54 +150,11 @@ const INDUSTRY_LINKS = [
 export default function MarketingAgencyNameGenerator() {
   return (
     <>
-      {/* Structured Data: SoftwareApplication + FAQPage + BreadcrumbList */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@graph': [
-              {
-                '@type': 'SoftwareApplication',
-                name: 'BrandForge Marketing Agency Name Generator',
-                applicationCategory: 'BusinessApplication',
-                operatingSystem: 'Web',
-                description: 'AI-powered marketing agency name generator with domain availability checking, social handle verification, and complete brand kit creation including logo concepts, color palettes, and taglines.',
-                offers: {
-                  '@type': 'Offer',
-                  price: '0',
-                  priceCurrency: 'USD',
-                  description: 'Free to generate names, $9 for full brand kit',
-                },
-                aggregateRating: {
-                  '@type': 'AggregateRating',
-                  ratingValue: '4.9',
-                  ratingCount: '12400',
-                  bestRating: '5',
-                  worstRating: '1',
-                },
-              },
-              {
-                '@type': 'FAQPage',
-                mainEntity: FAQ_ITEMS.map((item) => ({
-                  '@type': 'Question',
-                  name: item.q,
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: item.a,
-                  },
-                })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Marketing Agency Name Generator', item: 'https://brandforge.app/marketing-agency-name-generator' },
-                ],
-              },
-            ],
-          }),
-        }}
+      <IndustryPageSchema
+        name="Marketing Agency Name Generator"
+        path="/marketing-agency-name-generator"
+        description="AI-powered marketing agency name generator with domain availability checking, social handle verification, and complete brand kit creation including logo concepts, color palettes, and taglines."
+        faqItems={FAQ_ITEMS}
       />
 
       {/* Hero */}

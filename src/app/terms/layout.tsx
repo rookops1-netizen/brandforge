@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SITE_URL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'Terms of Service — BrandForge',
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Terms of Service — BrandForge',
     description:
       'Read the terms and conditions for using BrandForge, our AI-powered business name generator and brand kit tool.',
-    url: 'https://brandforge.app/terms',
+    url: `${SITE_URL}/terms`,
   },
 }
 
@@ -17,6 +18,8 @@ export default function TermsLayout({
 }: {
   children: React.ReactNode
 }) {
+  const baseUrl = SITE_URL
+
   return (
     <>
       <script
@@ -29,18 +32,18 @@ export default function TermsLayout({
                 '@type': 'WebPage',
                 name: 'Terms of Service',
                 description: 'Terms and conditions for using BrandForge, the AI-powered business name generator and brand kit tool.',
-                url: 'https://brandforge.app/terms',
+                url: `${baseUrl}/terms`,
                 publisher: {
                   '@type': 'Organization',
                   name: 'BrandForge',
-                  url: 'https://brandforge.app',
+                  url: baseUrl,
                 },
               },
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: 'https://brandforge.app/terms' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+                  { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: `${baseUrl}/terms` },
                 ],
               },
             ],

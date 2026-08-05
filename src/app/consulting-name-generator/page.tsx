@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { IndustryPageSchema } from '@/components/IndustryPageSchema'
 import { IndustryBlogLinks } from '@/components/IndustryBlogLinks'
 
 export const metadata: Metadata = {
@@ -122,54 +123,9 @@ const FAQ_ITEMS = [
 ]
 
 export default function ConsultingNameGeneratorPage() {
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'SoftwareApplication',
-        name: 'BrandForge Consulting Name Generator',
-        applicationCategory: 'BusinessApplication',
-        operatingSystem: 'Web',
-        description: 'AI-powered consulting business name generator with complete brand kits including logos, colors, taglines, and domain/social availability.',
-        offers: [
-          { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
-          { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
-        ],
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          ratingCount: '12400',
-          bestRating: '5',
-          worstRating: '1',
-        },
-      },
-      {
-        '@type': 'FAQPage',
-        mainEntity: FAQ_ITEMS.map(item => ({
-          '@type': 'Question',
-          name: item.q,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: item.a,
-          },
-        })),
-      },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-          { '@type': 'ListItem', position: 2, name: 'Consulting Name Generator', item: 'https://brandforge.app/consulting-name-generator' },
-        ],
-      },
-    ],
-  }
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <IndustryPageSchema name="Consulting Name Generator" path="/consulting-name-generator" description="AI-powered consulting name generator with complete brand kits including logos, colors, taglines, and domain availability." faqItems={FAQ_ITEMS} />
 
       {/* Hero */}
       <section className="relative overflow-hidden">

@@ -6,6 +6,7 @@ import type { GeneratedName, BusinessName, AvailabilityStatus } from '@/types'
 import { isFavorite, toggleFavorite } from '@/lib/favorites'
 import NameResultsGrid from '@/components/NameResultsGrid'
 import { GenerateTestimonials } from '@/components/GenerateTestimonials'
+import { SITE_URL } from '@/lib/site-config'
 
 const INDUSTRIES = [
   'Technology', 'Food & Beverage', 'Fashion', 'Health & Wellness',
@@ -507,7 +508,7 @@ function GeneratePageContent() {
                 applicationCategory: 'BusinessApplication',
                 operatingSystem: 'Web',
                 description: 'AI-powered business name generator with complete brand kits including logo concepts, color palettes, taglines, and domain availability checks.',
-                url: 'https://brandforge.app/generate',
+                url: `${SITE_URL}/generate`,
                 offers: [
                   { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
                   { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
@@ -569,8 +570,8 @@ function GeneratePageContent() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Generate', item: 'https://brandforge.app/generate' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+                  { '@type': 'ListItem', position: 2, name: 'Generate', item: `${SITE_URL}/generate` },
                 ],
               },
             ],

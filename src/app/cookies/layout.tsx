@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SITE_URL } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'Cookie Policy — BrandForge',
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Cookie Policy — BrandForge',
     description:
       'Understand how BrandForge uses cookies and similar tracking technologies on our website.',
-    url: 'https://brandforge.app/cookies',
+    url: `${SITE_URL}/cookies`,
   },
 }
 
@@ -17,6 +18,8 @@ export default function CookiesLayout({
 }: {
   children: React.ReactNode
 }) {
+  const baseUrl = SITE_URL
+
   return (
     <>
       <script
@@ -29,18 +32,18 @@ export default function CookiesLayout({
                 '@type': 'WebPage',
                 name: 'Cookie Policy',
                 description: 'How BrandForge uses cookies and similar tracking technologies.',
-                url: 'https://brandforge.app/cookies',
+                url: `${baseUrl}/cookies`,
                 publisher: {
                   '@type': 'Organization',
                   name: 'BrandForge',
-                  url: 'https://brandforge.app',
+                  url: baseUrl,
                 },
               },
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-                  { '@type': 'ListItem', position: 2, name: 'Cookie Policy', item: 'https://brandforge.app/cookies' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+                  { '@type': 'ListItem', position: 2, name: 'Cookie Policy', item: `${baseUrl}/cookies` },
                 ],
               },
             ],

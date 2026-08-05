@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { IndustryPageSchema } from '@/components/IndustryPageSchema'
 import { IndustryBlogLinks } from '@/components/IndustryBlogLinks'
 
 export const metadata: Metadata = {
@@ -120,49 +121,6 @@ const FAQ_ITEMS = [
 ]
 
 export default function WeddingNameGeneratorPage() {
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'SoftwareApplication',
-        name: 'BrandForge Wedding Name Generator',
-        applicationCategory: 'BusinessApplication',
-        operatingSystem: 'Web',
-        description: 'AI-powered wedding business name generator with complete brand kits including logos, colors, taglines, and domain availability.',
-        offers: [
-          { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: 'Free tier — 5 name suggestions per search' },
-          { '@type': 'Offer', price: '9', priceCurrency: 'USD', description: 'Brand Kit Pro — complete brand identity per name' },
-        ],
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          ratingCount: '12400',
-          bestRating: '5',
-          worstRating: '1',
-        },
-        featureList: 'AI name generation,Brand kit creation,Logo concepts,Color palette generation,Tagline writing,Domain availability check,Social media handle check,PDF brand guidelines',
-      },
-      {
-        '@type': 'FAQPage',
-        mainEntity: FAQ_ITEMS.map(item => ({
-          '@type': 'Question',
-          name: item.q,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: item.a,
-          },
-        })),
-      },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://brandforge.app' },
-          { '@type': 'ListItem', position: 2, name: 'Wedding Name Generator', item: 'https://brandforge.app/wedding-name-generator' },
-        ],
-      },
-    ],
-  }
-
   const ALL_LINKS = [
     { href: '/startup-name-generator', emoji: '🚀', label: 'Startup Name Generator' },
     { href: '/restaurant-name-generator', emoji: '🍽️', label: 'Restaurant Name Generator' },
@@ -194,10 +152,7 @@ export default function WeddingNameGeneratorPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <IndustryPageSchema name="Wedding Name Generator" path="/wedding-name-generator" description="AI-powered wedding name generator with complete brand kits including logos, colors, taglines, and domain availability." faqItems={FAQ_ITEMS} />
 
       {/* Hero */}
       <section className="relative overflow-hidden">
