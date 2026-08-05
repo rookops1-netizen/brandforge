@@ -349,6 +349,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '15 min',
     date: '2026-08-04',
+    featured: false,
+  },
+  {
+    slug: 'bakery-name-generator',
+    title: 'Bakery Name Generator: 300+ Bakery Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ bakery name ideas across 10 categories, 7 naming strategies used by successful bakeries, and a free AI generator that checks domain and social availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-08-05',
     featured: true,
   },
 ]
@@ -367,7 +376,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={36}/>
+      <BlogIndexSchema    postCount={38}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

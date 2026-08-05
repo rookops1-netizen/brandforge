@@ -22,6 +22,7 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
   ],
   'restaurant-name-generator': [
+    { slug: 'bakery-name-generator', title: 'Bakery Name Generator: 300+ Ideas for 2026' },
     { slug: 'catchy-business-names', title: '150+ Catchy Business Names' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
@@ -58,6 +59,7 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'creative-brand-names', title: 'Creative Brand Names' },
   ],
   'food-truck-name-generator': [
+    { slug: 'bakery-name-generator', title: 'Bakery Name Generator: 300+ Ideas for 2026' },
     { slug: 'catchy-business-names', title: '150+ Catchy Business Names' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
@@ -113,6 +115,7 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'free-brand-name-generator', title: 'Free Brand Name Generator' },
   ],
   'coffee-name-generator': [
+    { slug: 'bakery-name-generator', title: 'Bakery Name Generator: 300+ Ideas for 2026' },
     { slug: 'catchy-business-names', title: '150+ Catchy Business Names' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
@@ -196,6 +199,7 @@ const BLOG_ICONS: Record<string, string> = {
   'how-to-come-up-with-business-name': '💡',
   'youtube-channel-name-generator': '🎬',
   'saas-name-generator': '🚀',
+  'bakery-name-generator': '🥖',
 }
 
 export function IndustryBlogLinks({ industry, gradient = 'from-slate-50 to-white' }: IndustryBlogLinksProps) {
