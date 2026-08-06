@@ -49,7 +49,7 @@ export function Pricing() {
             <p className="text-sm text-slate-500 mb-6">Perfect for brainstorming</p>
             <div className="mb-6">
               <span className="text-4xl font-bold text-slate-900">$0</span>
-              <span className="text-slate-400 text-sm">/forever</span>
+              <span className="text-slate-500 text-sm">/forever</span>
             </div>
             <ul className="space-y-3 mb-8 flex-1">
               {[
@@ -93,7 +93,7 @@ export function Pricing() {
             <p className="text-sm text-slate-500 mb-6">Full branding in one click</p>
             <div className="mb-6">
               <span className="text-4xl font-bold text-slate-900">$9</span>
-              <span className="text-slate-400 text-sm">/brand kit</span>
+              <span className="text-slate-500 text-sm">/brand kit</span>
             </div>
             <ul className="space-y-3 mb-8 flex-1">
               {[
@@ -145,7 +145,7 @@ export function Pricing() {
         </div>
 
         {/* Enterprise note */}
-        <p className="mt-8 text-center text-sm text-slate-400">
+        <p className="mt-8 text-center text-sm text-slate-500">
           Need team access or custom volume?{' '}
           <a href="mailto:hello@brandforge.ai" className="text-brand-600 hover:underline font-medium">
             Contact us

@@ -124,7 +124,7 @@ export function Hero() {
                 Generate Names
               </button>
             </form>
-            <p className="mt-3 text-xs text-slate-400">
+            <p className="mt-3 text-xs text-slate-500">
               Try: &ldquo;A boutique wine bar in Portland&rdquo; or &ldquo;An online tutoring marketplace&rdquo;
             </p>
           </div>

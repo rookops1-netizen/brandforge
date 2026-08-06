@@ -464,6 +464,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/florist-name-generator`,
+      lastModified: new Date('2026-08-06'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     // Brand Kit export
     {
       url: `${BASE_URL}/export`,

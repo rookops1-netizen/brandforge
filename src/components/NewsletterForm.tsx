@@ -93,7 +93,7 @@ export function NewsletterForm({ variant = 'footer', className = '' }: Newslette
         {status === 'error' && message && (
           <p className="mt-1.5 text-xs text-red-500">{message}</p>
         )}
-        <p className="mt-1.5 text-xs text-slate-400">No spam. Unsubscribe anytime.</p>
+        <p className="mt-1.5 text-xs text-slate-500">No spam. Unsubscribe anytime.</p>
       </div>
     )
   }
@@ -123,7 +123,7 @@ export function NewsletterForm({ variant = 'footer', className = '' }: Newslette
       {status === 'error' && message && (
         <p className="mt-2 text-sm text-red-500 text-center">{message}</p>
       )}
-      <p className="mt-2 text-xs text-slate-400 text-center">No spam. Unsubscribe anytime.</p>
+      <p className="mt-2 text-xs text-slate-500 text-center">No spam. Unsubscribe anytime.</p>
     </div>
   )
 }

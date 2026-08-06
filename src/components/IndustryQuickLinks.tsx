@@ -26,6 +26,9 @@ const industries = [
   { name: 'Salon', slug: 'salon-name-generator', shortName: 'Salon' },
   { name: 'Construction', slug: 'construction-name-generator', shortName: 'Construction' },
   { name: 'Marketing Agency', slug: 'marketing-agency-name-generator', shortName: 'Marketing' },
+  { name: 'Florist', slug: 'florist-name-generator', shortName: 'Florist' },
+  { name: 'Domain', slug: 'domain-name-generator', shortName: 'Domain' },
+  { name: 'Clothing Brand', slug: 'clothing-brand-name-generator', shortName: 'Clothing' },
 ]
 
 export function IndustryQuickLinks() {
@@ -54,8 +57,8 @@ export function IndustryQuickLinks() {
             </Link>
           ))}
         </div>
-        <p className="mt-4 text-center text-xs text-slate-400">
-          25 industry-specific name generators — each with AI-powered suggestions, domain checks, and brand kits
+        <p className="mt-4 text-center text-xs text-slate-500">
+          28 industry-specific name generators — each with AI-powered suggestions, domain checks, and brand kits
         </p>
       </div>
     </section>

@@ -82,7 +82,6 @@ export function BrandKitPreview() {
             <button
               key={b.name}
               onClick={() => setActiveBrand(i)}
-              aria-label={b.name}
               className={`px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${
                 i === activeBrand
                   ? 'bg-brand-600 text-white shadow-md shadow-brand-600/25'
@@ -122,7 +121,7 @@ export function BrandKitPreview() {
                       <h3 className="text-2xl font-bold text-slate-900">{brand.name}</h3>
                       <div className="flex items-center gap-2">
                         <span className="text-sm text-brand-600 font-medium">{brand.industry}</span>
-                        <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">{brand.vibe}</span>
+                        <span className="text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">{brand.vibe}</span>
                       </div>
                     </div>
                   </div>
@@ -131,19 +130,19 @@ export function BrandKitPreview() {
 
                 {/* Tagline */}
                 <div className="rounded-xl bg-gradient-to-r from-slate-50 to-brand-50 px-5 py-4">
-                  <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1">Tagline</p>
+                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-1">Tagline</p>
                   <p className="text-lg text-slate-900 font-semibold italic">&ldquo;{brand.tagline}&rdquo;</p>
                 </div>
 
                 {/* Logo Concept */}
                 <div>
-                  <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Logo Concept</p>
+                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-2">Logo Concept</p>
                   <p className="text-sm text-slate-700 leading-relaxed">{brand.logoDescription}</p>
                 </div>
 
                 {/* Typography */}
                 <div>
-                  <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Typography</p>
+                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-2">Typography</p>
                   <p className="text-sm text-slate-700">{brand.font}</p>
                 </div>
               </div>
@@ -152,7 +151,7 @@ export function BrandKitPreview() {
               <div className="space-y-6">
                 {/* Color Palette */}
                 <div>
-                  <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-3">Color Palette</p>
+                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-3">Color Palette</p>
                   <div className="grid grid-cols-5 gap-3">
                     {brand.colors.map((color, i) => (
                       <div key={color} className="text-center">
@@ -161,7 +160,7 @@ export function BrandKitPreview() {
                           style={{ backgroundColor: color }}
                         />
                         <p className="mt-1.5 text-xs font-medium text-slate-700 truncate">{brand.colorNames[i]}</p>
-                        <p className="text-xs text-slate-400 font-mono">{color}</p>
+                        <p className="text-xs text-slate-500 font-mono">{color}</p>
                       </div>
                     ))}
                   </div>
@@ -169,7 +168,7 @@ export function BrandKitPreview() {
 
                 {/* Domain & Social Availability */}
                 <div>
-                  <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-3">Domain & Social Availability</p>
+                  <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-3">Domain & Social Availability</p>
                   <div className="space-y-2">
                     <div className="flex items-center justify-between rounded-lg bg-slate-50 px-4 py-3">
                       <span className="text-sm font-medium text-slate-700">{brand.domain}</span>
@@ -198,7 +197,7 @@ export function BrandKitPreview() {
                 </div>
 
                 {/* Pro badge */}
-                <div className="flex items-center gap-2 text-xs text-slate-400">
+                <div className="flex items-center gap-2 text-xs text-slate-500">
                   <svg className="h-4 w-4 text-brand-500" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
                   </svg>

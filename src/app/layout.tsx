@@ -1,12 +1,19 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { SupabaseProvider } from '@/components/supabase-provider'
+import dynamic from 'next/dynamic'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/site-config'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
+
+// Dynamic import SupabaseProvider to reduce initial JS bundle by ~46KB
+// Auth is only needed on /brand-kit and /generate pages, so lazy-load it
+const SupabaseProvider = dynamic(
+  () => import('@/components/supabase-provider').then(mod => ({ default: mod.SupabaseProvider })),
+  { ssr: false }
+)
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -566,6 +573,32 @@ export const metadata: Metadata = {
     'cupcake bakery names',
     'artisan bakery names',
     'bakery brand names',
+    // Florist name generator keywords
+    'florist name generator',
+    'flower shop names',
+    'florist business names',
+    'floral business names',
+    'florist name ideas',
+    'flower shop name ideas',
+    'floral design names',
+    'flower business names',
+    'how to name a flower shop',
+    'florist naming guide',
+    'flower boutique names',
+    'flower studio names',
+    'floral studio names',
+    'wedding florist names',
+    'flower delivery names',
+    'plant shop names',
+    'succulent shop names',
+    'dried flower business names',
+    'boutique florist names',
+    'florist brand names',
+    'creative flower shop names',
+    'best florist names',
+    'unique flower shop names',
+    'florist name ideas 2026',
+    'catchy flower shop names',
     'home bakery names'
   ],
   openGraph: {
