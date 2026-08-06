@@ -320,7 +320,7 @@ export default function ClothingBrandNameGeneratorPage() {
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
           300+ clothing brand name ideas organized by fashion category, 7 naming strategies used by the world&apos;s most iconic fashion brands, and a free AI generator that checks domain availability instantly.
         </p>
-        <div className="mt-6 flex items-center gap-4 text-sm text-slate-400">
+        <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
           <time dateTime="2026-07-25">July 25, 2026</time>
           <span>·</span>
           <span>15 min read</span>

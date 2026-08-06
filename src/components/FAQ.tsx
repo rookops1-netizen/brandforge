@@ -94,7 +94,7 @@ export function FAQ() {
                   className={`w-5 h-5 flex-shrink-0 transition-all duration-300 ${
                     openIndex === i
                       ? "rotate-180 text-brand-500"
-                      : "text-slate-400"
+                      : "text-slate-500"
                   }`}
                   fill="none"
                   viewBox="0 0 24 24"

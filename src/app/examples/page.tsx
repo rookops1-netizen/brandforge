@@ -169,7 +169,7 @@ export default function ExamplesPage() {
                   <div>
                     <div className="flex items-center gap-3 mb-1">
                       <h2 className="text-2xl font-bold text-slate-900">{brand.name}</h2>
-                      <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">{brand.vibe}</span>
+                      <span className="text-xs text-slate-600 bg-slate-100 px-2 py-0.5 rounded-full">{brand.vibe}</span>
                     </div>
                     <p className="text-sm text-brand-600 font-medium mb-4">{brand.industry}</p>
                     
@@ -177,19 +177,19 @@ export default function ExamplesPage() {
                     
                     {/* Tagline */}
                     <div className="rounded-lg bg-slate-50 px-4 py-3 mb-6">
-                      <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1">Tagline</p>
+                      <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-1">Tagline</p>
                       <p className="text-slate-900 font-semibold italic">&ldquo;{brand.tagline}&rdquo;</p>
                     </div>
 
                     {/* Logo description */}
                     <div className="mb-6">
-                      <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Logo Concept</p>
+                      <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-2">Logo Concept</p>
                       <p className="text-sm text-slate-700 leading-relaxed">{brand.logoDescription}</p>
                     </div>
 
                     {/* Typography */}
                     <div className="mb-6">
-                      <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-2">Typography</p>
+                      <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-2">Typography</p>
                       <p className="text-sm text-slate-700">{brand.font}</p>
                     </div>
                   </div>
@@ -198,7 +198,7 @@ export default function ExamplesPage() {
                   <div>
                     {/* Color Palette */}
                     <div className="mb-8">
-                      <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-3">Color Palette</p>
+                      <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-3">Color Palette</p>
                       <div className="grid grid-cols-5 gap-2">
                         {brand.colors.map((color, i) => (
                           <div key={color}>
@@ -207,7 +207,7 @@ export default function ExamplesPage() {
                               style={{ backgroundColor: color }}
                             />
                             <p className="text-xs text-slate-500 mt-1 text-center truncate">{brand.colorNames[i]}</p>
-                            <p className="text-xs text-slate-400 text-center font-mono">{color}</p>
+                            <p className="text-xs text-slate-500 text-center font-mono">{color}</p>
                           </div>
                         ))}
                       </div>
@@ -215,7 +215,7 @@ export default function ExamplesPage() {
 
                     {/* Domain & Social */}
                     <div>
-                      <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-3">Availability</p>
+                      <p className="text-xs text-slate-500 font-medium uppercase tracking-wide mb-3">Availability</p>
                       <div className="space-y-2">
                         <div className="flex items-center gap-2 text-sm">
                           <svg className="h-4 w-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

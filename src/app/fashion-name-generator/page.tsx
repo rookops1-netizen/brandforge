@@ -161,7 +161,7 @@ export default function FashionNameGeneratorPage() {
               See Examples
             </a>
           </div>
-          <p className="mt-4 text-sm text-slate-400">Free • No credit card required • Results in seconds</p>
+          <p className="mt-4 text-sm text-slate-500">Free • No credit card required • Results in seconds</p>
         </div>
       </section>
 
@@ -210,7 +210,7 @@ export default function FashionNameGeneratorPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-slate-900">{item.name}</h3>
-                    <p className="text-sm text-slate-400">{item.style}</p>
+                    <p className="text-sm text-slate-500">{item.style}</p>
                   </div>
                 </div>
                 <p className="text-sm text-slate-500 italic mb-3">&ldquo;{item.tagline}&rdquo;</p>
@@ -223,7 +223,7 @@ export default function FashionNameGeneratorPage() {
               </div>
             ))}
           </div>
-          <p className="mt-8 text-center text-sm text-slate-400">
+          <p className="mt-8 text-center text-sm text-slate-500">
             These are real examples — your results will be tailored to your specific fashion style.
           </p>
         </div>
@@ -291,7 +291,7 @@ export default function FashionNameGeneratorPage() {
               <details key={i} className="group rounded-xl border border-slate-200 bg-slate-50">
                 <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-medium text-slate-900 hover:text-amber-600">
                   {item.q}
-                  <svg className="h-5 w-5 flex-shrink-0 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <svg className="h-5 w-5 flex-shrink-0 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                 </summary>

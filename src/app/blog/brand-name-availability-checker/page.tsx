@@ -275,7 +275,7 @@ export default function BrandNameAvailabilityCheckerPage() {
             <span className="inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-xs font-medium text-emerald-700">
               Domains & Legal
             </span>
-            <span className="text-sm text-slate-400">8 min read</span>
+            <span className="text-sm text-slate-500">8 min read</span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 mb-4">
             Brand Name Availability Checker: How to Verify Your Brand Name Is Available in 2026

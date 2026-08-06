@@ -196,7 +196,7 @@ function BrandKitPageContent() {
                 <p className="mt-4 text-sm text-slate-600">{kit.logoConcept}</p>
               ) : (
                 <div className="mt-4 relative">
-                  <p className="text-sm text-slate-400 blur-sm select-none">{kit.logoConcept}</p>
+                  <p className="text-sm text-slate-500 blur-sm select-none">{kit.logoConcept}</p>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="rounded-xl bg-white/90 px-4 py-2 shadow-sm border border-brand-200">
                       <span className="text-sm font-medium text-brand-600">Unlock full concept</span>
@@ -230,7 +230,7 @@ function BrandKitPageContent() {
                       ) : (
                         <>
                           <p className="mt-2 text-xs font-medium text-slate-900 capitalize">{label}</p>
-                          <p className="text-xs text-slate-400">••••••</p>
+                          <p className="text-xs text-slate-500">••••••</p>
                         </>
                       )}
                     </div>
@@ -251,7 +251,7 @@ function BrandKitPageContent() {
                   &ldquo;{kit.tagline}&rdquo;
                 </p>
               ) : (
-                <p className="mt-4 text-xl text-center font-medium italic text-slate-400 blur-sm select-none">
+                <p className="mt-4 text-xl text-center font-medium italic text-slate-500 blur-sm select-none">
                   &ldquo;{kit.tagline.substring(0, 25)}...&rdquo;
                 </p>
               )}

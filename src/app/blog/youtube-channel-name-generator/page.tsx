@@ -320,7 +320,7 @@ export default function YouTubeChannelNameGeneratorPage() {
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
           300+ YouTube channel name ideas organized by content category, 7 naming strategies used by the world&apos;s most successful creators, and a free AI generator that checks domain and handle availability instantly.
         </p>
-        <div className="mt-6 flex items-center gap-4 text-sm text-slate-400">
+        <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
           <time dateTime="2026-07-26">July 26, 2026</time>
           <span>·</span>
           <span>15 min read</span>

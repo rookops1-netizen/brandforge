@@ -400,7 +400,7 @@ export default function BlogPage() {
               <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-medium ${categoryColors[featuredPost.category] || 'bg-slate-100 text-slate-700'}`}>
                 {featuredPost.category}
               </span>
-              <span className="text-xs text-slate-400">Featured</span>
+              <span className="text-xs text-slate-500">Featured</span>
             </div>
             <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl group-hover:text-brand-600 transition-colors">
               {featuredPost.title}
@@ -408,7 +408,7 @@ export default function BlogPage() {
             <p className="mt-3 text-slate-600 text-base sm:text-lg max-w-2xl">
               {featuredPost.excerpt}
             </p>
-            <div className="mt-6 flex items-center gap-4 text-sm text-slate-400">
+            <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
               <time>{new Date(featuredPost.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
               <span>·</span>
               <span>{featuredPost.readTime} read</span>
@@ -437,7 +437,7 @@ export default function BlogPage() {
               <p className="mt-2 text-sm text-slate-600 line-clamp-3 flex-1">
                 {post.excerpt}
               </p>
-              <div className="mt-4 flex items-center gap-3 text-xs text-slate-400">
+              <div className="mt-4 flex items-center gap-3 text-xs text-slate-500">
                 <time>{new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</time>
                 <span>·</span>
                 <span>{post.readTime} read</span>

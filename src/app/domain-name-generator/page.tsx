@@ -159,7 +159,7 @@ export default function DomainNameGeneratorPage() {
               See Examples
             </a>
           </div>
-          <p className="mt-4 text-sm text-slate-400">Free • No credit card required • Results in seconds</p>
+          <p className="mt-4 text-sm text-slate-500">Free • No credit card required • Results in seconds</p>
         </div>
       </section>
 
@@ -186,7 +186,7 @@ export default function DomainNameGeneratorPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-slate-900">{item.name}</h3>
-                    <p className="text-sm text-slate-400">Brandable domain</p>
+                    <p className="text-sm text-slate-500">Brandable domain</p>
                   </div>
                 </div>
                 <p className="text-sm text-slate-500 italic mb-3">&ldquo;{item.tagline}&rdquo;</p>
@@ -195,12 +195,12 @@ export default function DomainNameGeneratorPage() {
                     <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6L19.5 4.5" /></svg>
                     {item.domain}
                   </span>
-                  <span className="text-xs text-slate-400">Available</span>
+                  <span className="text-xs text-slate-500">Available</span>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-8 text-center text-sm text-slate-400">
+          <p className="mt-8 text-center text-sm text-slate-500">
             These are real examples — your results will be tailored to your specific business idea.
           </p>
         </div>
@@ -222,7 +222,7 @@ export default function DomainNameGeneratorPage() {
               <div key={ext.ext} className="rounded-xl border border-slate-200 bg-white p-6 hover:border-brand-200 transition-colors">
                 <div className="text-2xl font-bold text-brand-600 mb-2">{ext.ext}</div>
                 <p className="text-sm text-slate-600 leading-relaxed mb-2">{ext.desc}</p>
-                <p className="text-xs text-slate-400 font-medium">{ext.best}</p>
+                <p className="text-xs text-slate-500 font-medium">{ext.best}</p>
               </div>
             ))}
           </div>
@@ -291,7 +291,7 @@ export default function DomainNameGeneratorPage() {
               <details key={i} className="group rounded-xl border border-slate-200 bg-white">
                 <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-medium text-slate-900 hover:text-brand-600">
                   {item.q}
-                  <svg className="h-5 w-5 flex-shrink-0 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <svg className="h-5 w-5 flex-shrink-0 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                 </summary>

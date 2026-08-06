@@ -90,7 +90,7 @@ export function BrandKitPreview() {
             >
               <span className="hidden sm:inline">{b.name}</span>
               <span className="sm:hidden">{b.name.split(' ')[0]}</span>
-              <span className="ml-2 text-xs opacity-60">{b.vibe}</span>
+              <span className={`ml-2 text-xs ${i === activeBrand ? 'text-white' : 'text-slate-500'}`}>{b.vibe}</span>
             </button>
           ))}
         </div>
@@ -121,7 +121,7 @@ export function BrandKitPreview() {
                       <h3 className="text-2xl font-bold text-slate-900">{brand.name}</h3>
                       <div className="flex items-center gap-2">
                         <span className="text-sm text-brand-600 font-medium">{brand.industry}</span>
-                        <span className="text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">{brand.vibe}</span>
+                        <span className="text-xs text-slate-600 bg-slate-100 px-2 py-0.5 rounded-full">{brand.vibe}</span>
                       </div>
                     </div>
                   </div>

@@ -320,7 +320,7 @@ export default function BlogNameGeneratorPage() {
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
           250+ blog name ideas organized by niche, 7 naming strategies behind the world&apos;s most popular blogs, and a free AI generator that checks domain availability instantly.
         </p>
-        <div className="mt-6 flex items-center gap-4 text-sm text-slate-400">
+        <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
           <time dateTime="2026-07-27">July 27, 2026</time>
           <span>·</span>
           <span>14 min read</span>

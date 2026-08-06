@@ -390,7 +390,7 @@ export default function BusinessNameGeneratorBlog() {
       <header className="mb-12">
         <div className="flex items-center gap-3 mb-4">
           <span className="inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-medium text-brand-700">Naming</span>
-          <span className="text-sm text-slate-400">June 12, 2026 · 12 min read</span>
+          <span className="text-sm text-slate-500">June 12, 2026 · 12 min read</span>
         </div>
         <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
           Business Name Generator: 300+ Name Ideas for 2026

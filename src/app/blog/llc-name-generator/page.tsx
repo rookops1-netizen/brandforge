@@ -262,7 +262,7 @@ export default function LLCNameGeneratorPage() {
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
           300+ LLC name ideas organized by industry, state-by-state naming rules you need to know, and a free AI generator that checks domain availability instantly.
         </p>
-        <div className="mt-6 flex items-center gap-4 text-sm text-slate-400">
+        <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
           <time dateTime="2026-07-19">July 19, 2026</time>
           <span>·</span>
           <span>18 min read</span>
@@ -500,8 +500,8 @@ export default function LLCNameGeneratorPage() {
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> No sales tax</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> Strong privacy protections</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> Preferred by investors and VCs</li>
-              <li className="flex items-start gap-2"><span className="text-slate-400 mt-0.5">•</span> $90 filing fee</li>
-              <li className="flex items-start gap-2"><span className="text-slate-400 mt-0.5">•</span> $300 annual franchise tax</li>
+              <li className="flex items-start gap-2"><span className="text-slate-500 mt-0.5">•</span> $90 filing fee</li>
+              <li className="flex items-start gap-2"><span className="text-slate-500 mt-0.5">•</span> $300 annual franchise tax</li>
             </ul>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-6">
@@ -512,7 +512,7 @@ export default function LLCNameGeneratorPage() {
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> Strong privacy (anonymous LLCs)</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> Low annual fees ($52)</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> Single-member friendly</li>
-              <li className="flex items-start gap-2"><span className="text-slate-400 mt-0.5">•</span> $100 filing fee</li>
+              <li className="flex items-start gap-2"><span className="text-slate-500 mt-0.5">•</span> $100 filing fee</li>
             </ul>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-6">
@@ -523,7 +523,7 @@ export default function LLCNameGeneratorPage() {
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> Strong asset protection</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> No franchise tax</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-0.5">✓</span> No information sharing with IRS</li>
-              <li className="flex items-start gap-2"><span className="text-slate-400 mt-0.5">•</span> $425 filing fee (higher)</li>
+              <li className="flex items-start gap-2"><span className="text-slate-500 mt-0.5">•</span> $425 filing fee (higher)</li>
             </ul>
           </div>
         </div>
@@ -567,7 +567,7 @@ export default function LLCNameGeneratorPage() {
               <summary className="flex items-center justify-between cursor-pointer px-6 py-4 text-left hover:bg-slate-50 transition-colors list-none">
                 <span className="text-base font-semibold text-slate-900 pr-4">{faq.question}</span>
                 <svg
-                  className="h-5 w-5 text-slate-400 flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                  className="h-5 w-5 text-slate-500 flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

@@ -365,7 +365,7 @@ export default function HowToComeUpWithBusinessName() {
           <span className="inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-medium text-brand-700">
             Naming Guide
           </span>
-          <span className="text-sm text-slate-400">15 min read</span>
+          <span className="text-sm text-slate-500">15 min read</span>
         </div>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 mb-4">
           How to Come Up with a Business Name: 10 Proven Methods
@@ -591,7 +591,7 @@ export default function HowToComeUpWithBusinessName() {
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
                 {faq.question}
                 <svg
-                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  className="h-5 w-5 text-slate-500 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

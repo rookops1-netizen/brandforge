@@ -321,7 +321,7 @@ export default function StoreNameGeneratorPage() {
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
           300+ store name ideas organized by retail category, 7 proven naming strategies behind iconic stores, and a free AI generator that checks domain availability instantly.
         </p>
-        <div className="mt-6 flex items-center gap-4 text-sm text-slate-400">
+        <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
           <time dateTime="2026-07-21">July 21, 2026</time>
           <span>·</span>
           <span>14 min read</span>

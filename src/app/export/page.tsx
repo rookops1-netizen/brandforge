@@ -126,17 +126,17 @@ function ExportPageContent() {
               {kit.name}
             </h1>
             <p className="mt-4 text-xl text-slate-500 italic">&ldquo;{kit.tagline}&rdquo;</p>
-            <p className="mt-6 text-slate-400">Brand Guidelines</p>
+            <p className="mt-6 text-slate-500">Brand Guidelines</p>
             <p className="mt-2 text-sm text-slate-300">{today}</p>
 
             <div className="mt-12 flex gap-6 items-center justify-center flex-wrap">
               <div className="text-center">
-                <p className="text-xs uppercase tracking-wider text-slate-400 mb-1">Meaning</p>
+                <p className="text-xs uppercase tracking-wider text-slate-500 mb-1">Meaning</p>
                 <p className="text-sm text-slate-700 max-w-xs">{meaning || 'A brand built on purpose and vision'}</p>
               </div>
               <div className="h-12 w-px bg-slate-200" />
               <div className="text-center">
-                <p className="text-xs uppercase tracking-wider text-slate-400 mb-1">Style</p>
+                <p className="text-xs uppercase tracking-wider text-slate-500 mb-1">Style</p>
                 <p className="text-sm text-slate-700 capitalize">{style}</p>
               </div>
             </div>
@@ -150,7 +150,7 @@ function ExportPageContent() {
         <div className="brand-page">
           <div className="px-8 sm:px-12 py-10 print:py-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-1">Logo Concept</h2>
-            <p className="text-sm text-slate-400 uppercase tracking-wider mb-8">Visual Identity</p>
+            <p className="text-sm text-slate-500 uppercase tracking-wider mb-8">Visual Identity</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               {/* Logo display */}
@@ -174,7 +174,7 @@ function ExportPageContent() {
                     <span className="text-sm text-slate-700">Primary brand color for logo mark</span>
                   </div>
                   <div className="flex items-center gap-3 p-4 rounded-xl bg-slate-50 border border-slate-100">
-                    <svg className="h-5 w-5 text-slate-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                    <svg className="h-5 w-5 text-slate-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
                     </svg>
                     <span className="text-sm text-slate-700">Works as standalone icon for app badges & favicons</span>
@@ -191,7 +191,7 @@ function ExportPageContent() {
         <div className="brand-page">
           <div className="px-8 sm:px-12 py-10 print:py-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-1">Color Palette</h2>
-            <p className="text-sm text-slate-400 uppercase tracking-wider mb-8">Brand Colors</p>
+            <p className="text-sm text-slate-500 uppercase tracking-wider mb-8">Brand Colors</p>
 
             {/* Large color swatches */}
             <div className="grid grid-cols-5 gap-4 mb-10">
@@ -203,7 +203,7 @@ function ExportPageContent() {
                   />
                   <p className="text-sm font-semibold text-slate-900 capitalize">{label}</p>
                   <p className="text-xs text-slate-500 font-mono mt-1">{color}</p>
-                  <p className="text-xs text-slate-400 mt-0.5 capitalize">
+                  <p className="text-xs text-slate-500 mt-0.5 capitalize">
                     {label === 'primary' ? 'Brand identity' :
                      label === 'secondary' ? 'Supporting accent' :
                      label === 'accent' ? 'Call-to-action' :
@@ -217,7 +217,7 @@ function ExportPageContent() {
             {/* Palette theme name */}
             {kit.colorPalette.name && (
               <div className="rounded-xl bg-slate-50 border border-slate-100 px-6 py-4 mb-8">
-                <p className="text-xs text-slate-400 uppercase tracking-wider">Palette Theme</p>
+                <p className="text-xs text-slate-500 uppercase tracking-wider">Palette Theme</p>
                 <p className="text-lg font-semibold text-slate-900 mt-1">{kit.colorPalette.name}</p>
               </div>
             )}
@@ -260,14 +260,14 @@ function ExportPageContent() {
         <div className="brand-page">
           <div className="px-8 sm:px-12 py-10 print:py-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-1">Typography & Tagline</h2>
-            <p className="text-sm text-slate-400 uppercase tracking-wider mb-8">Brand Voice</p>
+            <p className="text-sm text-slate-500 uppercase tracking-wider mb-8">Brand Voice</p>
 
             {/* Tagline */}
             <div
               className="rounded-2xl p-12 text-center mb-10"
               style={{ backgroundColor: kit.colorPalette.background }}
             >
-              <p className="text-sm text-slate-400 uppercase tracking-wider mb-4">Tagline</p>
+              <p className="text-sm text-slate-500 uppercase tracking-wider mb-4">Tagline</p>
               <p
                 className="text-4xl sm:text-5xl font-bold italic"
                 style={{ color: kit.colorPalette.text }}
@@ -279,16 +279,16 @@ function ExportPageContent() {
             {/* Typography recommendation */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl border border-slate-200 p-6">
-                <p className="text-xs text-slate-400 uppercase tracking-wider mb-2">Typography</p>
+                <p className="text-xs text-slate-500 uppercase tracking-wider mb-2">Typography</p>
                 <p className="text-lg font-semibold text-slate-900">{kit.fontSuggestion || kit.typography?.heading || 'Inter'}</p>
                 {kit.typography && (
                   <div className="mt-4 space-y-3">
                     <div>
-                      <p className="text-xs text-slate-400">Heading Font</p>
+                      <p className="text-xs text-slate-500">Heading Font</p>
                       <p className="text-base font-semibold text-slate-900">{kit.typography.heading}</p>
                     </div>
                     <div>
-                      <p className="text-xs text-slate-400">Body Font</p>
+                      <p className="text-xs text-slate-500">Body Font</p>
                       <p className="text-base text-slate-900">{kit.typography.body}</p>
                     </div>
                   </div>
@@ -297,7 +297,7 @@ function ExportPageContent() {
 
               {/* Type scale preview */}
               <div className="rounded-xl border border-slate-200 p-6">
-                <p className="text-xs text-slate-400 uppercase tracking-wider mb-4">Type Scale</p>
+                <p className="text-xs text-slate-500 uppercase tracking-wider mb-4">Type Scale</p>
                 <div className="space-y-3">
                   <p className="text-3xl font-bold text-slate-900">Heading 1</p>
                   <p className="text-2xl font-semibold text-slate-900">Heading 2</p>
@@ -316,13 +316,13 @@ function ExportPageContent() {
         <div className="brand-page">
           <div className="px-8 sm:px-12 py-10 print:py-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-1">Domain & Social Availability</h2>
-            <p className="text-sm text-slate-400 uppercase tracking-wider mb-8">Online Presence</p>
+            <p className="text-sm text-slate-500 uppercase tracking-wider mb-8">Online Presence</p>
 
             <div className="space-y-4">
               {/* Domain */}
               <div className="flex items-center justify-between rounded-xl border border-slate-200 px-6 py-4">
                 <div>
-                  <p className="text-xs text-slate-400 uppercase tracking-wider">Domain</p>
+                  <p className="text-xs text-slate-500 uppercase tracking-wider">Domain</p>
                   <p className="text-lg font-semibold text-slate-900 mt-1">
                     {kit.name.toLowerCase().replace(/\s+/g, '')}.com
                   </p>
@@ -340,7 +340,7 @@ function ExportPageContent() {
               {kit.socialHandles && Object.entries(kit.socialHandles).map(([platform, data]: [string, any]) => (
                 <div key={platform} className="flex items-center justify-between rounded-xl border border-slate-200 px-6 py-4">
                   <div>
-                    <p className="text-xs text-slate-400 uppercase tracking-wider">{platform}</p>
+                    <p className="text-xs text-slate-500 uppercase tracking-wider">{platform}</p>
                     <p className="text-lg font-semibold text-slate-900 mt-1">@{data.handle}</p>
                   </div>
                   <span className={`px-4 py-2 rounded-full text-sm font-semibold ${
@@ -373,7 +373,7 @@ function ExportPageContent() {
         <div className="brand-page">
           <div className="px-8 sm:px-12 py-10 print:py-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-1">Quick Reference Card</h2>
-            <p className="text-sm text-slate-400 uppercase tracking-wider mb-8">At-a-Glance</p>
+            <p className="text-sm text-slate-500 uppercase tracking-wider mb-8">At-a-Glance</p>
 
             <div className="rounded-2xl border-2 border-slate-200 overflow-hidden">
               {/* Color strip */}
@@ -404,7 +404,7 @@ function ExportPageContent() {
                     <div key={label} className="text-center">
                       <div className="h-14 rounded-xl shadow-inner border border-white/50" style={{ backgroundColor: color }} />
                       <p className="text-xs font-semibold text-slate-700 capitalize mt-2">{label}</p>
-                      <p className="text-xs text-slate-400 font-mono">{color}</p>
+                      <p className="text-xs text-slate-500 font-mono">{color}</p>
                     </div>
                   ))}
                 </div>
@@ -412,14 +412,14 @@ function ExportPageContent() {
                 {/* Typography and meaning */}
                 <div className="grid grid-cols-2 gap-6">
                   <div>
-                    <p className="text-xs text-slate-400 uppercase tracking-wider mb-1">Typography</p>
+                    <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Typography</p>
                     <p className="text-sm font-semibold text-slate-900">{kit.fontSuggestion || 'Inter'}</p>
                     {kit.typography && (
                       <p className="text-xs text-slate-500">{kit.typography.heading} / {kit.typography.body}</p>
                     )}
                   </div>
                   <div>
-                    <p className="text-xs text-slate-400 uppercase tracking-wider mb-1">Meaning</p>
+                    <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Meaning</p>
                     <p className="text-sm text-slate-700">{meaning || kit.name}</p>
                   </div>
                 </div>
@@ -428,7 +428,7 @@ function ExportPageContent() {
 
             {/* Footer */}
             <div className="mt-10 text-center">
-              <p className="text-sm text-slate-400">
+              <p className="text-sm text-slate-500">
                 Generated by <span className="font-semibold text-brand-600">BrandForge</span> on {today}
               </p>
               <p className="text-xs text-slate-300 mt-1">brandforge.app</p>

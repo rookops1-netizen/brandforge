@@ -89,7 +89,7 @@ export default function BrandColorPsychology() {
           <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-brand-100 text-brand-700">
             Brand Strategy
           </span>
-          <span className="text-sm text-slate-400">5 min read</span>
+          <span className="text-sm text-slate-500">5 min read</span>
         </div>
         <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
           Brand Color Psychology: What Your Colors Say About Your Business
@@ -192,7 +192,7 @@ export default function BrandColorPsychology() {
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
                 {faq.question}
                 <svg
-                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  className="h-5 w-5 text-slate-500 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

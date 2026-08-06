@@ -6,7 +6,7 @@ import { Footer } from '@/components/Footer'
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/site-config'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'], display: 'swap' })
+const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: true })
 
 // Dynamic import SupabaseProvider to reduce initial JS bundle by ~46KB
 // Auth is only needed on /brand-kit and /generate pages, so lazy-load it

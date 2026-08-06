@@ -363,7 +363,7 @@ export default function MarketingAgencyNameGenerator() {
             <details key={i} className="group rounded-2xl border border-slate-200 bg-white overflow-hidden">
               <summary className="flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-slate-50 transition-colors">
                 <span className="text-base font-semibold text-slate-900 pr-4">{faq.q}</span>
-                <svg className="h-5 w-5 text-slate-400 flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                <svg className="h-5 w-5 text-slate-500 flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
               </summary>

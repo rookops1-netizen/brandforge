@@ -456,7 +456,7 @@ export default function HowToChooseBrandNamePage() {
             <details key={i} className="group rounded-xl border border-slate-200 bg-white">
               <summary className="flex items-center justify-between cursor-pointer p-5 text-slate-900 font-medium hover:text-brand-600 transition-colors">
                 {item.q}
-                <svg className="h-5 w-5 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <svg className="h-5 w-5 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
               </summary>

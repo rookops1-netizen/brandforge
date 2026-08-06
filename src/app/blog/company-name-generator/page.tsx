@@ -387,7 +387,7 @@ export default function CompanyNameGeneratorPage() {
                 </div>
                 <p className="text-slate-600 mb-4">{strategy.description}</p>
                 <div className="mb-4">
-                  <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Real Examples</p>
+                  <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Real Examples</p>
                   <div className="flex flex-wrap gap-2">
                     {strategy.examples.map((example) => (
                       <span key={example} className="inline-flex items-center rounded-lg bg-purple-50 px-3 py-1 text-sm font-medium text-purple-700">
@@ -397,7 +397,7 @@ export default function CompanyNameGeneratorPage() {
                   </div>
                 </div>
                 <div className="mb-3">
-                  <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">Best For</p>
+                  <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Best For</p>
                   <p className="text-sm text-slate-600">{strategy.bestFor}</p>
                 </div>
                 <div className="rounded-xl bg-brand-50 p-4">
@@ -618,7 +618,7 @@ export default function CompanyNameGeneratorPage() {
                 <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
                   {faq.question}
                   <svg
-                    className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                    className="h-5 w-5 text-slate-500 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
                     fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

@@ -185,7 +185,7 @@ export default function CatchyBusinessNamesPage() {
           Stuck on what to call your business? We&apos;ve organized 150+ catchy name ideas by industry — 
           plus the principles that make names stick in people&apos;s heads.
         </p>
-        <div className="mt-4 flex items-center gap-3 text-sm text-slate-400">
+        <div className="mt-4 flex items-center gap-3 text-sm text-slate-500">
           <time>May 17, 2025</time>
           <span>·</span>
           <span>10 min read</span>
@@ -222,7 +222,7 @@ export default function CatchyBusinessNamesPage() {
             {category.names.map((item) => (
               <div key={item.name} className="flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
                 <span className="font-semibold text-slate-900">{item.name}</span>
-                <span className="text-xs text-slate-400 ml-2">{item.vibe}</span>
+                <span className="text-xs text-slate-500 ml-2">{item.vibe}</span>
               </div>
             ))}
           </div>
@@ -325,7 +325,7 @@ export default function CatchyBusinessNamesPage() {
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
                 {faq.question}
                 <svg
-                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  className="h-5 w-5 text-slate-500 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

@@ -116,7 +116,7 @@ export function Comparison() {
                     <td className="py-3.5 px-6">
                       <div>
                         <p className="text-sm font-medium text-slate-900">{feature.name}</p>
-                        <p className="text-xs text-slate-400 hidden lg:block">{feature.description}</p>
+                        <p className="text-xs text-slate-500 hidden lg:block">{feature.description}</p>
                       </div>
                     </td>
                     <td className="py-3.5 px-4 text-center">
@@ -127,7 +127,7 @@ export function Comparison() {
                           </svg>
                         </span>
                       ) : (
-                        <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-300">
+                        <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-200 text-slate-500">
                           <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                           </svg>
@@ -216,13 +216,13 @@ export function Comparison() {
               </div>
               <p className="text-xs text-slate-500 mb-3">{feature.description}</p>
               <div className="flex gap-3 text-xs">
-                <span className={`px-2 py-1 rounded-full ${feature.brandforge ? 'bg-brand-100 text-brand-700 font-medium' : 'bg-slate-100 text-slate-400'}`}>
+                <span className={`px-2 py-1 rounded-full ${feature.brandforge ? 'bg-brand-100 text-brand-700 font-medium' : 'bg-slate-200 text-slate-600'}`}>
                   BrandForge {feature.brandforge ? '✓' : '—'}
                 </span>
-                <span className={`px-2 py-1 rounded-full ${feature.namelix ? 'bg-green-50 text-green-700' : 'bg-slate-100 text-slate-400'}`}>
+                <span className={`px-2 py-1 rounded-full ${feature.namelix ? 'bg-green-50 text-green-700' : 'bg-slate-200 text-slate-600'}`}>
                   Namelix {feature.namelix ? '✓' : '—'}
                 </span>
-                <span className={`px-2 py-1 rounded-full ${feature.looka ? 'bg-green-50 text-green-700' : 'bg-slate-100 text-slate-400'}`}>
+                <span className={`px-2 py-1 rounded-full ${feature.looka ? 'bg-green-50 text-green-700' : 'bg-slate-200 text-slate-600'}`}>
                   Looka {feature.looka ? '✓' : '—'}
                 </span>
               </div>

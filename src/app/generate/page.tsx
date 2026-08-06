@@ -302,7 +302,7 @@ function GeneratePageContent() {
 
                 <div>
                   <label htmlFor="industry" className="block text-sm font-medium text-slate-700 mb-1.5">
-                    Industry <span className="text-slate-400 font-normal">(optional)</span>
+                    Industry <span className="text-slate-500 font-normal">(optional)</span>
                   </label>
                   <select
                     id="industry"
@@ -350,7 +350,7 @@ function GeneratePageContent() {
 
             {/* Example prompts */}
             <div className="mt-6">
-              <p className="text-xs font-medium text-slate-400 uppercase tracking-wider mb-3 text-center">Try an example</p>
+              <p className="text-xs font-medium text-slate-500 uppercase tracking-wider mb-3 text-center">Try an example</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                 {EXAMPLE_PROMPTS.map((prompt) => (
                   <button
@@ -479,7 +479,7 @@ function GeneratePageContent() {
               >
                 <span className="text-base font-semibold text-slate-900 pr-4">{faq.question}</span>
                 <svg
-                  className={`h-5 w-5 text-slate-400 flex-shrink-0 transition-transform duration-200 ${openFaq === i ? 'rotate-180' : ''}`}
+                  className={`h-5 w-5 text-slate-500 flex-shrink-0 transition-transform duration-200 ${openFaq === i ? 'rotate-180' : ''}`}
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

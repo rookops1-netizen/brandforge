@@ -179,7 +179,7 @@ export default function FreeBrandNameGeneratorPage() {
           You don&apos;t need a $10,000 naming agency to find a great brand name. Here are the 8 best
           free brand name generators — honestly compared — plus the strategy that works better than any tool.
         </p>
-        <div className="mt-4 flex items-center gap-3 text-sm text-slate-400">
+        <div className="mt-4 flex items-center gap-3 text-sm text-slate-500">
           <time>May 18, 2025</time>
           <span>·</span>
           <span>14 min read</span>
@@ -546,7 +546,7 @@ export default function FreeBrandNameGeneratorPage() {
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
                 {faq.question}
                 <svg
-                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  className="h-5 w-5 text-slate-500 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

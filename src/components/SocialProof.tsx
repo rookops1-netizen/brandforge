@@ -7,42 +7,42 @@ const testimonials = [
     name: "Sarah Chen",
     role: "Founder, BloomStack",
     avatar: "SC",
-    color: "#6366F1",
+    color: "#4338CA", // indigo-700 for WCAG AA contrast with white text
   },
   {
     quote: "I spent weeks brainstorming names. This gave me better results in 30 seconds. The brand kit was a game changer.",
     name: "Marcus Rivera",
     role: "CEO, PulseMetrics",
     avatar: "MR",
-    color: "#0EA5E9",
+    color: "#0369A1", // sky-700 for WCAG AA contrast with white text
   },
   {
     quote: "The color palette and tagline suggestions were incredibly on-point. Felt like working with a branding agency.",
     name: "Priya Sharma",
     role: "Co-founder, Veles",
     avatar: "PS",
-    color: "#8B5CF6",
+    color: "#6D28D9", // violet-700 for WCAG AA contrast with white text
   },
   {
     quote: "Got a name that sounds professional and trustworthy — exactly what cleaning clients need to see on Google Maps.",
     name: "James Okonkwo",
     role: "Owner, Northpoint Clean Co.",
     avatar: "JO",
-    color: "#14B8A6",
+    color: "#0F766E", // teal-700 for WCAG AA contrast with white text
   },
   {
     quote: "My clients always comment on the name. It's become part of our brand identity — warm, premium, and memorable.",
     name: "Amanda Liu",
     role: "Founder, Velvet Paws Pet Spa",
     avatar: "AL",
-    color: "#D97706",
+    color: "#B45309", // amber-700 for WCAG AA contrast with white text
   },
   {
     quote: "The name sounds artisan and approachable — exactly the vibe we wanted for our neighborhood roastery.",
     name: "David Kowalski",
     role: "Owner, Hearthstone Roasters",
     avatar: "DK",
-    color: "#B45309",
+    color: "#92400E", // amber-800 for WCAG AA contrast with white text
   },
 ]
 

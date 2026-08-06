@@ -382,7 +382,7 @@ export default function SaaSNameGeneratorPage() {
             See Pricing
           </a>
         </div>
-        <p className="mt-3 text-xs text-slate-400">Free • No credit card required • Domain &amp; social checks included</p>
+        <p className="mt-3 text-xs text-slate-500">Free • No credit card required • Domain &amp; social checks included</p>
       </div>
 
       {/* SaaS Name Ideas by Category */}
@@ -547,7 +547,7 @@ export default function SaaSNameGeneratorPage() {
             <details key={i} className="group rounded-xl border border-slate-200 bg-white">
               <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-medium text-slate-900 hover:text-brand-600">
                 {item.question}
-                <svg className="h-5 w-5 flex-shrink-0 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                <svg className="h-5 w-5 flex-shrink-0 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
               </summary>

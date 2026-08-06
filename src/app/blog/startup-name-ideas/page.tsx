@@ -342,7 +342,7 @@ export default function StartupNameIdeasPage() {
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
           300+ startup name ideas across 10 industries, 7 naming strategies behind billion-dollar startups like Stripe, Notion, and Canva, and a free AI tool that checks domain availability instantly.
         </p>
-        <div className="mt-6 flex items-center gap-4 text-sm text-slate-400">
+        <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
           <time dateTime="2026-07-15">July 15, 2026</time>
           <span>·</span>
           <span>15 min read</span>
@@ -635,7 +635,7 @@ export default function StartupNameIdeasPage() {
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
                 {faq.question}
                 <svg
-                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  className="h-5 w-5 text-slate-500 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

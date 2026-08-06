@@ -390,7 +390,7 @@ export default function ProductNameGeneratorBlog() {
       <header className="mb-12">
         <div className="flex items-center gap-3 mb-4">
           <span className="inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-medium text-brand-700">Naming</span>
-          <span className="text-sm text-slate-400">July 15, 2026 · 12 min read</span>
+          <span className="text-sm text-slate-500">July 15, 2026 · 12 min read</span>
         </div>
         <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
           Product Name Generator: 250+ Product Name Ideas for 2026

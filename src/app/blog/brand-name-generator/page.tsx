@@ -325,7 +325,7 @@ export default function BrandNameGeneratorPage() {
         </p>
 
         <div className="rounded-xl bg-slate-100 p-6 mb-6 font-mono text-sm text-slate-600">
-          <p className="text-slate-400 mb-2">{'// Typical generic name generator output for &ldquo;coffee&rdquo;:'}</p>
+          <p className="text-slate-500 mb-2">{'// Typical generic name generator output for &ldquo;coffee&rdquo;:'}</p>
           <p>CoffeeHub · BrewMaster · CaféGenius · Caféify · CoffeePlanet · TheCoffeeSpot · CoffeeCorner · BrewCafe · MyCaféOnline · CoffeeTime</p>
         </div>
 
@@ -338,7 +338,7 @@ export default function BrandNameGeneratorPage() {
         </p>
 
         <div className="rounded-xl bg-gradient-to-r from-brand-50 to-purple-50 p-6 mb-6">
-          <p className="text-slate-400 mb-2 text-sm">{'// AI name generator output for &ldquo;specialty coffee roaster, artisan, neighborhood feel&rdquo;:'}</p>
+          <p className="text-slate-500 mb-2 text-sm">{'// AI name generator output for &ldquo;specialty coffee roaster, artisan, neighborhood feel&rdquo;:'}</p>
           <div className="space-y-2">
             <p className="text-slate-900"><strong>Hearthstone Roasters</strong> — <span className="text-slate-600">warmth, craft, gathering place</span></p>
             <p className="text-slate-900"><strong>Velvet Brew</strong> — <span className="text-slate-600">smooth, premium, tactile</span></p>
@@ -525,27 +525,27 @@ export default function BrandNameGeneratorPage() {
         <div className="grid gap-3 sm:grid-cols-2">
           <Link href="/startup-name-generator" className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:bg-brand-50/30 transition-colors">
             <span className="font-medium text-slate-900 group-hover:text-brand-600">🚀 Startup Name Generator</span>
-            <svg className="h-4 w-4 text-slate-400 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            <svg className="h-4 w-4 text-slate-500 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
           </Link>
           <Link href="/restaurant-name-generator" className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:bg-brand-50/30 transition-colors">
             <span className="font-medium text-slate-900 group-hover:text-brand-600">🍽️ Restaurant Name Generator</span>
-            <svg className="h-4 w-4 text-slate-400 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            <svg className="h-4 w-4 text-slate-500 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
           </Link>
           <Link href="/fitness-brand-name-generator" className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:bg-brand-50/30 transition-colors">
             <span className="font-medium text-slate-900 group-hover:text-brand-600">💪 Fitness Brand Name Generator</span>
-            <svg className="h-4 w-4 text-slate-400 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            <svg className="h-4 w-4 text-slate-500 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
           </Link>
           <Link href="/tech-name-generator" className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:bg-brand-50/30 transition-colors">
             <span className="font-medium text-slate-900 group-hover:text-brand-600">⚡ Tech Name Generator</span>
-            <svg className="h-4 w-4 text-slate-400 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            <svg className="h-4 w-4 text-slate-500 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
           </Link>
           <Link href="/consulting-name-generator" className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:bg-brand-50/30 transition-colors">
             <span className="font-medium text-slate-900 group-hover:text-brand-600">📊 Consulting Name Generator</span>
-            <svg className="h-4 w-4 text-slate-400 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            <svg className="h-4 w-4 text-slate-500 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
           </Link>
           <Link href="/beauty-name-generator" className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 hover:border-brand-200 hover:bg-brand-50/30 transition-colors">
             <span className="font-medium text-slate-900 group-hover:text-brand-600">✨ Beauty Name Generator</span>
-            <svg className="h-4 w-4 text-slate-400 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+            <svg className="h-4 w-4 text-slate-500 group-hover:text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
           </Link>
         </div>
         <p className="mt-4 text-sm text-slate-500">
@@ -564,7 +564,7 @@ export default function BrandNameGeneratorPage() {
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-base font-semibold text-slate-900 hover:bg-slate-50 transition-colors rounded-2xl">
                 {faq.question}
                 <svg
-                  className="h-5 w-5 text-slate-400 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
+                  className="h-5 w-5 text-slate-500 flex-shrink-0 ml-4 transition-transform duration-200 group-open:rotate-180"
                   fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

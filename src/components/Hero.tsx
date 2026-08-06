@@ -13,11 +13,8 @@ const placeholderHints = [
 
 export function Hero() {
   const [description, setDescription] = useState('')
-  const [mounted, setMounted] = useState(false)
   const [placeholderIndex, setPlaceholderIndex] = useState(0)
   const router = useRouter()
-
-  useEffect(() => { setMounted(true) }, [])
 
   // Cycle placeholder hints
   useEffect(() => {
@@ -37,11 +34,7 @@ export function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-28 lg:px-8 lg:py-36">
         <div className="text-center">
           {/* Badge */}
-          <div
-            className={`mb-6 inline-flex items-center gap-2 rounded-full bg-brand-100 px-4 py-1.5 text-sm font-medium text-brand-700 transition-all duration-700 ${
-              mounted ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
-            }`}
-          >
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-brand-100 px-4 py-1.5 text-sm font-medium text-brand-700 animate-fade-in-up animate-delay-0">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-400 opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-brand-500" />
@@ -49,11 +42,9 @@ export function Hero() {
             AI-Powered Brand Creation
           </div>
 
-          {/* Headline */}
+          {/* Headline — no animation delay for fastest LCP */}
           <h1
-            className={`text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl transition-all duration-700 delay-100 ${
-              mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl"
           >
             Name your business.
             <br />
@@ -62,9 +53,7 @@ export function Hero() {
 
           {/* Subheading */}
           <p
-            className={`mx-auto mt-6 max-w-2xl text-lg text-slate-600 sm:text-xl transition-all duration-700 delay-200 ${
-              mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className="mx-auto mt-6 max-w-2xl text-lg text-slate-600 sm:text-xl animate-fade-in-up animate-delay-200"
           >
             Describe your business idea and get unique names with a complete brand kit —
             logo concept, color palette, tagline, and domain check. Free to start, no signup required.
@@ -72,9 +61,7 @@ export function Hero() {
 
           {/* Feature pills */}
           <div
-            className={`mx-auto mt-4 flex flex-wrap items-center justify-center gap-2 transition-all duration-700 delay-250 ${
-              mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className="mx-auto mt-4 flex flex-wrap items-center justify-center gap-2 animate-fade-in-up animate-delay-250"
           >
             {[
               { label: 'Logo Concept', icon: '✦' },
@@ -95,9 +82,7 @@ export function Hero() {
 
           {/* Search form */}
           <div
-            className={`mx-auto mt-10 max-w-xl transition-all duration-700 delay-300 ${
-              mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className="mx-auto mt-10 max-w-xl animate-fade-in-up animate-delay-300"
           >
             <form
               onSubmit={(e) => {
@@ -131,9 +116,7 @@ export function Hero() {
 
           {/* Trust signals */}
           <div
-            className={`mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-slate-500 transition-all duration-700 delay-500 ${
-              mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-slate-500 animate-fade-in-up animate-delay-500"
           >
             <div className="flex items-center gap-2">
               <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>

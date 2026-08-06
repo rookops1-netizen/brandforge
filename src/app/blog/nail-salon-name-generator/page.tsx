@@ -347,7 +347,7 @@ export default function NailSalonNameGeneratorPage() {
       <header className="mb-12">
         <div className="flex items-center gap-3 mb-4">
           <span className="inline-flex items-center rounded-full bg-pink-100 text-pink-700 px-3 py-1 text-xs font-medium">Naming</span>
-          <span className="text-xs text-slate-400">15 min read</span>
+          <span className="text-xs text-slate-500">15 min read</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 leading-tight">
           Nail Salon Name Generator: 300+ Nail Salon Name Ideas for 2026 + Free AI Tool
@@ -567,7 +567,7 @@ export default function NailSalonNameGeneratorPage() {
             <details key={i} className="group rounded-xl border border-slate-200 bg-white open:shadow-md transition-shadow">
               <summary className="flex cursor-pointer items-center justify-between px-5 py-4 text-sm font-semibold text-slate-900 hover:text-pink-700 transition-colors">
                 {faq.question}
-                <svg className="h-5 w-5 shrink-0 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <svg className="h-5 w-5 shrink-0 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
               </summary>
@@ -602,7 +602,7 @@ export default function NailSalonNameGeneratorPage() {
               href={link.href}
               className="group flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-700 hover:border-pink-200 hover:bg-pink-50 hover:text-pink-700 transition-all"
             >
-              <svg className="h-4 w-4 shrink-0 text-slate-400 group-hover:text-pink-500 transition-colors" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <svg className="h-4 w-4 shrink-0 text-slate-500 group-hover:text-pink-500 transition-colors" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
               {link.label}

@@ -447,7 +447,7 @@ export default function SmallBusinessNameGeneratorBlog() {
       <header className="mb-12">
         <div className="flex items-center gap-3 mb-4">
           <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-700">Naming</span>
-          <span className="text-sm text-slate-400">June 9, 2026 · 10 min read</span>
+          <span className="text-sm text-slate-500">June 9, 2026 · 10 min read</span>
         </div>
         <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
           Small Business Name Generator: 200+ Name Ideas for 2026
@@ -647,7 +647,7 @@ export default function SmallBusinessNameGeneratorBlog() {
             <details key={item.q} className="group rounded-2xl border border-slate-200">
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-lg font-semibold text-slate-900">
                 {item.q}
-                <svg className="h-5 w-5 text-slate-400 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                <svg className="h-5 w-5 text-slate-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
               <div className="px-6 pb-4 text-slate-600">
                 {item.a}
