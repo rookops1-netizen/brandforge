@@ -29,10 +29,11 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-color-psychology', title: 'Brand Color Psychology' },
   ],
   'fitness-brand-name-generator': [
+    { slug: 'fitness-brand-name-generator', title: 'Fitness Brand Name Generator: 300+ Ideas for 2026' },
     { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
-    { slug: 'free-brand-name-generator', title: 'Free Brand Name Generator' },
+    { slug: 'brand-color-psychology', title: 'Brand Color Psychology' },
   ],
   'real-estate-name-generator': [
     { slug: 'how-to-build-brand-identity', title: 'How to Build a Brand Identity' },
@@ -85,10 +86,10 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
   ],
   'coaching-name-generator': [
+    { slug: 'fitness-brand-name-generator', title: 'Fitness Brand Name Generator: 300+ Ideas for 2026' },
     { slug: 'how-to-build-brand-identity', title: 'How to Build a Brand Identity' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
-    { slug: 'free-brand-name-generator', title: 'Free Brand Name Generator' },
   ],
   'nonprofit-name-generator': [
     { slug: 'unique-business-names', title: 'Unique Business Names: 120+ Standout Ideas' },
@@ -109,10 +110,10 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'domain-name-availability', title: 'Domain Name Availability Guide' },
   ],
   'yoga-name-generator': [
+    { slug: 'fitness-brand-name-generator', title: 'Fitness Brand Name Generator: 300+ Ideas for 2026' },
     { slug: 'brand-color-psychology', title: 'Brand Color Psychology: What Your Colors Say' },
     { slug: 'how-to-choose-brand-name', title: 'How to Choose a Brand Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
-    { slug: 'free-brand-name-generator', title: 'Free Brand Name Generator' },
   ],
   'coffee-name-generator': [
     { slug: 'bakery-name-generator', title: 'Bakery Name Generator: 300+ Ideas for 2026' },
