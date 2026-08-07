@@ -307,6 +307,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — August 7
+    {
+      url: `${BASE_URL}/blog/fitness-brand-name-generator`,
+      lastModified: new Date('2026-08-07'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/domain-name-generator`,
@@ -467,6 +474,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${BASE_URL}/florist-name-generator`,
       lastModified: new Date('2026-08-06'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/catering-name-generator`,
+      lastModified: new Date('2026-08-07'),
       changeFrequency: 'weekly',
       priority: 0.9,
     },

@@ -183,6 +183,13 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
     { slug: 'small-business-name-generator', title: 'Small Business Name Generator' },
   ],
+  'catering-name-generator': [
+    { slug: 'bakery-name-generator', title: 'Bakery Name Generator: 300+ Ideas for 2026' },
+    { slug: 'catchy-business-names', title: '150+ Catchy Business Names' },
+    { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
+    { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
+    { slug: 'small-business-name-generator', title: 'Small Business Name Generator' },
+  ],
 }
 
 const BLOG_ICONS: Record<string, string> = {

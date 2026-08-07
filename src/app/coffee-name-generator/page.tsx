@@ -345,6 +345,9 @@ export default function CoffeeNameGeneratorPage() {
             <Link href="/restaurant-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               🍽️ Restaurant Name Generator
             </Link>
+            <Link href="/catering-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
+              🍴 Catering Name Generator
+            </Link>
             <Link href="/fitness-brand-name-generator" className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-600 hover:border-amber-300 hover:text-amber-600 transition-colors">
               💪 Fitness Brand Name Generator
             </Link>
