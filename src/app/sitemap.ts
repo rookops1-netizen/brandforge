@@ -314,6 +314,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    // Blog articles — August 8
+    {
+      url: `${BASE_URL}/blog/real-estate-brand-name-generator`,
+      lastModified: new Date('2026-08-08'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/domain-name-generator`,

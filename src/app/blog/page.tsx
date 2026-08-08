@@ -367,6 +367,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '15 min',
     date: '2026-08-07',
+    featured: false,
+  },
+  {
+    slug: 'real-estate-brand-name-generator',
+    title: 'Real Estate Brand Name Generator: 300+ Real Estate Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ real estate brand name ideas across 10 categories, 7 naming strategies used by top realty brands, and a free AI generator that checks domain and social availability instantly.',
+    category: 'Naming',
+    readTime: '18 min',
+    date: '2026-08-08',
     featured: true,
   },
 ]
@@ -385,7 +394,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={39}/>
+      <BlogIndexSchema    postCount={40}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

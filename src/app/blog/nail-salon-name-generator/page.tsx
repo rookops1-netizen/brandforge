@@ -588,7 +588,6 @@ export default function NailSalonNameGeneratorPage() {
           {[
             { href: '/beauty-name-generator', label: 'Beauty Brand Name Generator' },
             { href: '/salon-name-generator', label: 'Salon Name Generator' },
-            { href: '/clothing-brand-name-generator', label: 'Clothing Brand Name Generator' },
             { href: '/fashion-name-generator', label: 'Fashion Brand Name Generator' },
             { href: '/yoga-name-generator', label: 'Yoga Studio Name Generator' },
             { href: '/coffee-name-generator', label: 'Coffee Shop Name Generator' },
