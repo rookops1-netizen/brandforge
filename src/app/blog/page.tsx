@@ -376,6 +376,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '18 min',
     date: '2026-08-08',
+    featured: false,
+  },
+  {
+    slug: 'photography-brand-name-generator',
+    title: 'Photography Brand Name Generator: 300+ Photography Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ photography brand name ideas across 10 categories, 7 naming strategies used by top photography brands, and a free AI generator that checks domain and social availability instantly.',
+    category: 'Naming',
+    readTime: '16 min',
+    date: '2026-08-09',
     featured: true,
   },
 ]
@@ -394,7 +403,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={40}/>
+      <BlogIndexSchema    postCount={41}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
