@@ -137,6 +137,7 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-color-psychology', title: 'Brand Color Psychology' },
   ],
   'cleaning-business-name-generator': [
+    { slug: 'cleaning-business-name-generator', title: 'Cleaning Business Name Generator: 300+ Ideas for 2026' },
     { slug: 'small-business-name-generator', title: 'Small Business Name Generator: 200+ Ideas' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
@@ -219,6 +220,7 @@ const BLOG_ICONS: Record<string, string> = {
   'bakery-name-generator': '🥖',
   'real-estate-brand-name-generator': '🏠',
   'photography-brand-name-generator': '📸',
+  'cleaning-business-name-generator': '🧹',
 }
 
 export function IndustryBlogLinks({ industry, gradient = 'from-slate-50 to-white' }: IndustryBlogLinksProps) {
