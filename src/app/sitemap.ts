@@ -504,6 +504,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${BASE_URL}/clothing-brand-name-generator`,
+      lastModified: new Date('2026-08-10'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${BASE_URL}/catering-name-generator`,
       lastModified: new Date('2026-08-07'),
       changeFrequency: 'weekly',
