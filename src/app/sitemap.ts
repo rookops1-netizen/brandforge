@@ -340,6 +340,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/blog/construction-brand-name-generator`,
+      lastModified: new Date('2026-08-11'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Industry landing pages
     {
       url: `${BASE_URL}/domain-name-generator`,

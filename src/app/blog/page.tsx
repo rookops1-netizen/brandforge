@@ -385,7 +385,7 @@ const blogPosts = [
     category: 'Naming',
     readTime: '18 min',
     date: '2026-08-09',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'photography-brand-name-generator',
@@ -405,6 +405,15 @@ const blogPosts = [
     date: '2026-08-10',
     featured: false,
   },
+  {
+    slug: 'construction-brand-name-generator',
+    title: 'Construction Company Name Generator: 300+ Construction Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ construction company name ideas across 10 categories, 7 naming strategies from top contractors, and a free AI generator that checks domain & social availability.',
+    category: 'Naming',
+    readTime: '16 min',
+    date: '2026-08-11',
+    featured: true,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -421,7 +430,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={43}/>
+      <BlogIndexSchema    postCount={44}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
