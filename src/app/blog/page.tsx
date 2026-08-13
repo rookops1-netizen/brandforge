@@ -412,6 +412,24 @@ const blogPosts = [
     category: 'Naming',
     readTime: '16 min',
     date: '2026-08-11',
+    featured: false,
+  },
+  {
+    slug: 'marketing-agency-brand-name-generator',
+    title: 'Marketing Agency Name Generator: 300+ Marketing Agency Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ marketing agency name ideas across 10 categories, 7 naming strategies from top agencies, and a free AI generator that checks domain & social availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-08-13',
+    featured: false,
+  },
+  {
+    slug: 'auto-repair-shop-name-generator',
+    title: 'Auto Repair Shop Name Generator: 300+ Mechanic Shop Names for 2026 + Free AI Tool',
+    excerpt: '300+ auto repair shop name ideas across 10 categories, 7 naming strategies from top shops, and a free AI generator that checks domain & social availability.',
+    category: 'Naming',
+    readTime: '16 min',
+    date: '2026-08-13',
     featured: true,
   },
 ]
@@ -430,7 +448,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={44}/>
+      <BlogIndexSchema    postCount={46}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
