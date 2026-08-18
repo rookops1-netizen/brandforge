@@ -331,7 +331,7 @@ const blogPosts = [
     category: 'Naming',
     readTime: '12 min',
     date: '2026-07-28',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'brand-naming-guide',
@@ -433,21 +433,21 @@ const blogPosts = [
     featured: false,
   },
   {
-    slug: 'auto-repair-shop-name-generator',
-    title: 'Auto Repair Shop Name Generator: 300+ Mechanic Shop Names for 2026 + Free AI Tool',
-    excerpt: '300+ auto repair shop name ideas across 10 categories, 7 naming strategies from top shops, and a free AI generator that checks domain & social availability.',
-    category: 'Naming',
-    readTime: '16 min',
-    date: '2026-08-13',
-    featured: false,
-  },
-  {
     slug: 'unique-brand-names',
     title: 'Unique Brand Names: 250+ Standout Ideas for 2026 + Free AI Generator',
     excerpt: '250+ unique brand name ideas across 10 categories, 7 naming techniques behind iconic brands, and a free AI generator that checks domain availability instantly.',
     category: 'Brand Strategy',
     readTime: '7 min',
     date: '2026-08-14',
+    featured: false,
+  },
+  {
+    slug: 'restaurant-name-generator',
+    title: 'Restaurant Name Generator: 300+ Restaurant Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ restaurant name ideas across 10 categories, 7 proven naming strategies from top restaurant brands, and a free AI generator that checks domain & social availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-08-16',
     featured: true,
   },
 ]
@@ -466,7 +466,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={47}/>
+      <BlogIndexSchema    postCount={48}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

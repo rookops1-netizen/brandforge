@@ -22,10 +22,11 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
   ],
   'restaurant-name-generator': [
+    { slug: 'restaurant-name-generator', title: 'Restaurant Name Generator: 300+ Ideas for 2026' },
+    { slug: 'coffee-brand-name-generator', title: 'Coffee Shop Name Generator: 300+ Ideas' },
     { slug: 'bakery-name-generator', title: 'Bakery Name Generator: 300+ Ideas for 2026' },
     { slug: 'catchy-business-names', title: '150+ Catchy Business Names' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
-    { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
     { slug: 'brand-color-psychology', title: 'Brand Color Psychology' },
   ],
   'fitness-brand-name-generator': [
@@ -204,6 +205,13 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
     { slug: 'small-business-name-generator', title: 'Small Business Name Generator' },
   ],
+  'auto-repair-name-generator': [
+    { slug: 'auto-repair-shop-name-generator', title: 'Auto Repair Shop Name Generator: 300+ Ideas for 2026' },
+    { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
+    { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
+    { slug: 'small-business-name-generator', title: 'Small Business Name Generator' },
+    { slug: 'llc-naming-guide', title: 'How to Pick a Name for Your LLC' },
+  ],
 }
 
 const BLOG_ICONS: Record<string, string> = {
@@ -236,6 +244,9 @@ const BLOG_ICONS: Record<string, string> = {
   'construction-brand-name-generator': '🏗️',
   'marketing-agency-brand-name-generator': '📊',
   'coffee-brand-name-generator': '☕',
+  'auto-repair-shop-name-generator': '🔧',
+  'unique-brand-names': '💎',
+  'restaurant-name-generator': '🍽️',
 }
 
 export function IndustryBlogLinks({ industry, gradient = 'from-slate-50 to-white' }: IndustryBlogLinksProps) {
