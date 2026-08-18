@@ -433,6 +433,15 @@ const blogPosts = [
     featured: false,
   },
   {
+    slug: 'coffee-brand-name-generator',
+    title: 'Coffee Shop Name Generator: 300+ Coffee Brand Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ coffee shop and café name ideas across 10 categories, 7 naming strategies from top coffee brands, and a free AI generator that checks domain & social availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-08-14',
+    featured: false,
+  },
+  {
     slug: 'unique-brand-names',
     title: 'Unique Brand Names: 250+ Standout Ideas for 2026 + Free AI Generator',
     excerpt: '250+ unique brand name ideas across 10 categories, 7 naming techniques behind iconic brands, and a free AI generator that checks domain availability instantly.',
@@ -466,7 +475,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={48}/>
+      <BlogIndexSchema    postCount={49}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
