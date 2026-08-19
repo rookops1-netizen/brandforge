@@ -468,6 +468,15 @@ const blogPosts = [
     date: '2026-08-19',
     featured: true,
   },
+  {
+    slug: 'florist-name-generator',
+    title: 'Florist Name Generator: 300+ Flower Shop Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ florist and flower shop name ideas across 10 categories, 7 naming strategies from top floral brands, and a free AI generator that checks domain & social availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-08-19',
+    featured: false,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -484,7 +493,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={50}/>
+      <BlogIndexSchema    postCount={51}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

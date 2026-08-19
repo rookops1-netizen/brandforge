@@ -706,6 +706,11 @@ export const metadata: Metadata = {
     'unique flower shop names',
     'florist name ideas 2026',
     'catchy flower shop names',
+    'creative florist names',
+    'floral shop names',
+    'flower shop name generator',
+    'florist business name ideas',
+    'floral company names',
     'home bakery names',
     // Fitness brand name generator keywords
     'fitness brand name generator',
