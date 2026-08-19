@@ -457,6 +457,15 @@ const blogPosts = [
     category: 'Naming',
     readTime: '15 min',
     date: '2026-08-16',
+    featured: false,
+  },
+  {
+    slug: 'domain-name-generator',
+    title: 'Domain Name Generator: 300+ Domain Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ domain name ideas across 10 categories, 7 proven naming strategies for choosing the perfect domain, and a free AI generator that checks domain availability instantly.',
+    category: 'Domains',
+    readTime: '12 min',
+    date: '2026-08-19',
     featured: true,
   },
 ]
@@ -475,7 +484,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={49}/>
+      <BlogIndexSchema    postCount={50}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
