@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { NewsletterCta } from '@/components/NewsletterCta'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'How to Choose a Brand Name in 2026: The Complete Decision Framework',
@@ -144,6 +145,20 @@ export default function HowToChooseBrandNamePage() {
           'what makes a good brand name',
           'brand name validation',
           'brand name checklist',
+        ]}
+      />
+      <HowToSchema
+        name="How to Choose a Brand Name"
+        description="A proven 5-step framework for choosing a brand name — from defining your brand personality to validating availability with real people."
+        url="/blog/how-to-choose-brand-name"
+        totalTime="PT30M"
+        estimatedCost="$0"
+        steps={[
+          { name: 'Define your brand\'s personality', text: 'Write down 3-5 adjectives that describe your brand\'s personality — bold, warm, minimalist, playful. These become your filter for every name candidate.' },
+          { name: 'Generate 20-30 name candidates', text: 'Use a brand name generator to produce an initial batch, then add your own brainstorming. Try each of the 6 naming styles and generate at least 3 rounds with varied descriptions.' },
+          { name: 'Filter ruthlessly using your personality filter', text: 'Eliminate names that don\'t match at least 2 of your brand adjectives. Remove names that are hard to spell, hard to pronounce, over 3 syllables, or too similar to existing brands. Aim for 5-8 strong candidates.' },
+          { name: 'Run the validation checklist', text: 'Check each candidate for domain availability, social handle availability, trademark conflicts, and Google search results. Use BrandForge for automated domain and social checks.' },
+          { name: 'Test with real people and commit', text: 'Share your top 3 names with 3-5 people in your target audience. Ask them to spell it, tell you what it makes them think of, and whether they\'d trust a business with that name. Pick the best performer and commit.' },
         ]}
       />
 

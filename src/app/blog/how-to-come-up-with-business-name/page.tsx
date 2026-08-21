@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { NewsletterCta } from '@/components/NewsletterCta'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -343,6 +344,20 @@ export default function HowToComeUpWithBusinessName() {
           'how to create a business name',
           'business name generator',
           'how to pick a business name'
+        ]}
+      />
+      <HowToSchema
+        name="How to Come Up with a Business Name"
+        description="A proven 5-step process for coming up with a business name — from defining your brand DNA to testing with real people."
+        url="/blog/how-to-come-up-with-business-name"
+        totalTime="PT30M"
+        estimatedCost="$0"
+        steps={[
+          { name: 'Define your brand DNA', text: 'Write one sentence: "We help [audience] achieve [outcome] through [method]." This becomes your naming compass. Every name candidate should align with this statement.' },
+          { name: 'Generate 100+ name ideas', text: 'Use at least 3 naming methods. Don\'t filter yet — quantity creates quality. The best names often appear after idea #40, when your brain is forced past obvious choices.' },
+          { name: 'Narrow to your top 10', text: 'Run each name through a quick filter: Can you spell it after hearing it once? Does it sound good out loud? Is it 1-3 syllables? Does the .com domain exist? Cut anything that fails two or more checks.' },
+          { name: 'Validate availability', text: 'Check .com domain availability, USPTO trademark search, and social media handles. BrandForge checks domain and social availability automatically.' },
+          { name: 'Test with real people', text: 'Say your top 3 names to 10 people. Ask them to spell it back and tell you what they think the business does. If they can spell it and guess correctly, you\'ve found your name.' },
         ]}
       />
       <script

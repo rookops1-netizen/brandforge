@@ -477,6 +477,15 @@ const blogPosts = [
     date: '2026-08-19',
     featured: false,
   },
+  {
+    slug: 'beauty-name-generator',
+    title: 'Beauty Name Generator: 300+ Beauty Business Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ beauty business name ideas across 10 categories, 7 naming strategies from top beauty brands, and a free AI generator that checks domain & social availability instantly.',
+    category: 'Naming',
+    readTime: '16 min',
+    date: '2026-08-21',
+    featured: false,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -493,7 +502,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={51}/>
+      <BlogIndexSchema    postCount={52}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { NewsletterCta } from '@/components/NewsletterCta'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'Brand Name Generator: How to Find the Perfect Brand Name in 2026',
@@ -185,6 +186,20 @@ export default function BrandNameGeneratorPage() {
           'create a brand name',
           'best brand name generator',
           'brand naming guide',
+        ]}
+      />
+      <HowToSchema
+        name="How to Use a Brand Name Generator Effectively"
+        description="A proven 5-step process for using a brand name generator to find the perfect name — from writing a detailed description to validating availability."
+        url="/blog/brand-name-generator"
+        totalTime="PT15M"
+        estimatedCost="$0"
+        steps={[
+          { name: 'Write a detailed brand description', text: 'Don\'t just type "coffee shop." Write: "Specialty coffee roaster in a walkable neighborhood, focusing on single-origin beans, cozy seating, and community events." The more context you give, the better names you get.' },
+          { name: 'Generate multiple rounds (at least 3)', text: 'The first round is warm-up. By round 3, the generator starts producing names that really click. Vary your description slightly each time to explore different naming angles.' },
+          { name: 'Sort into naming styles', text: 'Group your generated names by the 7 naming styles: invented words, compounds, metaphors, founder names, acronyms, real words, and foreign words. This helps you see patterns and identify which style resonates most.' },
+          { name: 'Run the phone test', text: 'Say your top 5 names out loud to someone. Can they spell them correctly? Do they remember them 5 minutes later? If not, the name fails the phone test — and it\'ll fail in real life too.' },
+          { name: 'Validate availability', text: 'Check the .com domain, Twitter/X handle, and Instagram username. Search the USPTO trademark database. Google the name to see what comes up. BrandForge handles domain and social checks automatically.' },
         ]}
       />
 

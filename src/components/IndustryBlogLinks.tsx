@@ -51,6 +51,7 @@ const BLOG_LINKS: Record<string, BlogLink[]> = {
     { slug: 'brand-color-psychology', title: 'Brand Color Psychology: What Your Colors Say' },
   ],
   'beauty-name-generator': [
+    { slug: 'beauty-name-generator', title: 'Beauty Name Generator: 300+ Beauty Business Names' },
     { slug: 'brand-color-psychology', title: 'Brand Color Psychology: What Your Colors Say' },
     { slug: 'how-to-choose-business-name', title: 'How to Choose a Business Name' },
     { slug: 'brand-name-generator', title: 'Brand Name Generator: Find the Perfect Name' },
@@ -249,6 +250,7 @@ const BLOG_ICONS: Record<string, string> = {
   'unique-brand-names': '💎',
   'restaurant-name-generator': '🍽️',
     'domain-name-generator': '🌐',
+  'beauty-name-generator': '💄',
 }
 
 export function IndustryBlogLinks({ industry, gradient = 'from-slate-50 to-white' }: IndustryBlogLinksProps) {
