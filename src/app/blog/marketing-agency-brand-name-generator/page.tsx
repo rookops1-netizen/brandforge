@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -234,6 +235,19 @@ export default function MarketingAgencyBrandNameGeneratorPage() {
         url="https://brandforge.app/blog/marketing-agency-brand-name-generator"
         datePublished="2026-08-13"
         dateModified="2026-08-13"
+      />
+      <HowToSchema
+        name="How to Choose Your Marketing Agency Name: A 5-Step Process"
+        description="Go from brainstorm to final agency name in under an hour with this proven 5-step process."
+        url="https://brandforge.app/blog/marketing-agency-brand-name-generator"
+        totalTime="PT60M"
+        steps={[
+          { name: 'Define Your Positioning in One Sentence', text: 'Before brainstorming names, answer: "We help [target client] achieve [result] through [method]." If you can\'t fill in those blanks, you\'re not ready to name — you\'re still defining what you do.' },
+          { name: 'Generate 20-30 Candidates Using Multiple Strategies', text: 'Use 7 naming strategies systematically — try one name from each. Use BrandForge\'s generator for AI-powered suggestions, then add your own ideas. Aim for quantity first, quality second.' },
+          { name: 'Run the Three-Second Test', text: 'Show each name to 5 people who don\'t know your business. After 3 seconds, ask: "What does this company do?" If they guess marketing, advertising, or growth — you\'ve got a winner.' },
+          { name: 'Check Availability Across All Channels', text: 'Your shortlist needs: .com domain (non-negotiable for agencies), LinkedIn company page, Instagram handle, and USPTO trademark check. BrandForge checks domain and social availability automatically.' },
+          { name: 'Sleep on It, Then Say It Out Loud', text: 'Pick your top 3 names and sleep on them. The next morning, say each one out loud in: "Hi, I\'m calling from [Agency Name]." If it feels natural and confident, you\'ve found your name.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

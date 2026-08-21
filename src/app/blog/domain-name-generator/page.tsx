@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -234,6 +235,19 @@ export default function DomainNameGeneratorPage() {
         description="300+ domain name ideas across 10 categories, 7 proven naming strategies for choosing the perfect domain, and a free AI generator that checks domain availability instantly."
         datePublished="2026-08-19"
         dateModified="2026-08-19"
+      />
+      <HowToSchema
+        name="How to Choose Your Domain Name in 5 Steps"
+        description="A proven 5-step process for finding and securing the perfect domain name for your business."
+        url="https://brandforge.app/blog/domain-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Start with Your Brand Name, Not the Domain', text: 'Pick the right brand name first, then find the best domain for it. A great brand name on .io or .co is infinitely better than a mediocre name that happens to have a .com available.' },
+          { name: 'Check Availability Across All Major TLDs', text: 'Don\'t just check .com. Check .io, .co, .ai, .app, and .dev simultaneously. The perfect domain might be available on .io even if .com is taken.' },
+          { name: 'Run the Phone Test', text: 'Say your domain name out loud to a friend. Can they spell it correctly without asking? If you have to spell it out, it\'s too complicated. Every spelling error is a lost visitor.' },
+          { name: 'Check Social Handles and Trademarks', text: 'Verify @yourbrand is available on major social platforms and search USPTO for trademark conflicts. A domain is just one piece — consistent branding across platforms matters.' },
+          { name: 'Register Immediately and Buy Variants', text: 'Good domains disappear fast. Register your domain immediately, and buy the .com plus your primary alternative TLD. Redirect the secondary domain to your primary one.' },
+        ]}
       />
       <article className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}

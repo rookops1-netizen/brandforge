@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -310,6 +311,19 @@ export default function CleaningBusinessNameGeneratorPage() {
         url="https://brandforge.app/blog/cleaning-business-name-generator"
         datePublished="2026-08-09"
         dateModified="2026-08-09"
+      />
+      <HowToSchema
+        name="How to Name Your Cleaning Business in 5 Steps"
+        description="A proven 5-step process for naming your cleaning business — from defining your niche to testing with real people."
+        url="https://brandforge.app/blog/cleaning-business-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Cleaning Business Niche & Target Client', text: 'Get specific about what you clean — residential, commercial, deep cleaning, move-out, or specialized. Your niche determines whether your name should feel premium, friendly, or industrial.' },
+          { name: 'Brainstorm 30+ Names Using Multiple Strategies', text: 'Use BrandForge\'s cleaning name generator plus manual brainstorming. Try clean/safe words, speed/efficiency words, local names, and personal names. Volume first, filter later.' },
+          { name: 'Run the Google Maps & Nextdoor Test', text: 'Search Google Maps and Nextdoor in your service area for your top names. If 3+ businesses already use similar names, pick something more distinctive.' },
+          { name: 'Check Domain, Business Registration, and Trademark Availability', text: 'Verify the .com domain is available, check your state\'s Secretary of State database, and search USPTO for trademark conflicts. All three are essential.' },
+          { name: 'Test With Real People', text: 'Ask 5-10 potential clients if they can spell your name after hearing it once. Ask if it sounds trustworthy. The best cleaning names are easy to recommend by word of mouth.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

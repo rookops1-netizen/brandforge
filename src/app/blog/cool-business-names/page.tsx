@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { NewsletterCta } from '@/components/NewsletterCta'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'Cool Business Names: 150+ Ideas and How to Create Your Own (2026)',
@@ -190,6 +191,19 @@ export default function CoolBusinessNamesPage() {
         description="Discover 150+ cool business name ideas organized by industry, plus a proven 5-step framework for creating a name that stands out."
         url="https://brandforge.app/blog/cool-business-names"
         datePublished="2026-05-28"
+      />
+      <HowToSchema
+        name="5-Step Framework for Creating Cool Business Names"
+        description="A proven 5-step process for brainstorming, filtering, and validating cool business name ideas that stand out."
+        url="https://brandforge.app/blog/cool-business-names"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Brand Personality', text: 'Write down 5 adjectives that describe your brand — bold, playful, minimal, premium, innovative. This filters names that don\'t fit your vibe.' },
+          { name: 'Brainstorm Name Categories', text: 'Generate names across multiple categories: compound words, foreign words, abstract names, founder names, and metaphorical names.' },
+          { name: 'Use an AI Name Generator', text: 'Enter your brand description into BrandForge\'s AI name generator to get dozens of creative options you might never think of on your own.' },
+          { name: 'Filter for Availability', text: 'Check domain and social handle availability for your top picks. A cool name is useless if you can\'t own it online.' },
+          { name: 'Validate with Your Audience', text: 'Test your top 3-5 names with potential customers. Ask if the name feels trustworthy, memorable, and fits the product.' },
+        ]}
       />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-slate-500">

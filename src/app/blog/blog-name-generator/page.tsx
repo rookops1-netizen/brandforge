@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -287,6 +288,19 @@ export default function BlogNameGeneratorPage() {
         dateModified="2026-07-27T12:00:00.000Z"
         authorName="BrandForge"
         imageUrl="/opengraph-image"
+      />
+      <HowToSchema
+        name="How to Name Your Blog in 5 Steps"
+        description="A proven 5-step process for naming your blog — from defining your identity to testing with real readers."
+        url="https://brandforge.app/blog/blog-name-generator"
+        totalTime="PT20M"
+        steps={[
+          { name: 'Define Your Blog\'s Identity', text: 'Write down your blog\'s topic, target reader, tone, and what makes your perspective unique. A personal finance blog needs a different name than a travel blog.' },
+          { name: 'Generate 25+ Name Candidates', text: 'Use BrandForge\'s blog name generator plus manual brainstorming. Try topic-plus-name combos, metaphorical names, action words, and clever domain hacks. Aim for 25+ options.' },
+          { name: 'The Blog Filter: Cut for Platform Fit', text: 'Eliminate names that are too long for a URL, hard to spell out loud, or too similar to popular blogs. Your blog name needs to work on WordPress, Substack, and social platforms.' },
+          { name: 'Check Domain & Social Availability', text: 'Verify the .com domain is available, and check Twitter/X, Instagram, and TikTok for your handle. Consistent branding across platforms is essential for blog growth.' },
+          { name: 'Test With Real Readers', text: 'Share your top 3-5 names with people in your target audience. Ask: Does this name tell you what the blog is about? Would you click on it? Would you remember it a week later?' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

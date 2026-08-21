@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'How to Pick a Name for Your LLC: Legal & Branding Guide | BrandForge',
@@ -70,6 +71,21 @@ export default function LLCNamingGuidePage() {
           'fictitious business name',
           'LLC name availability',
           'LLC naming rules by state',
+        ]}
+      />
+
+      <HowToSchema
+        name="The Step-by-Step LLC Naming Process"
+        description="A 6-step process for choosing, validating, and registering your LLC name while meeting legal requirements."
+        url="https://brandforge.app/blog/llc-naming-guide"
+        totalTime="PT45M"
+        steps={[
+          { name: 'Brainstorm LLC Name Ideas', text: 'Generate a list of potential names using your brand values, industry keywords, and naming patterns. Use an AI name generator for inspiration.' },
+          { name: 'Check State Name Availability', text: 'Search your state\'s Secretary of State database to confirm no other LLC or corporation is using your desired name in your state.' },
+          { name: 'Verify Federal Trademark Status', text: 'Search USPTO.gov to ensure your name isn\'t trademarked at the federal level. This protects you from future legal disputes.' },
+          { name: 'Check Domain and Social Availability', text: 'Verify the .com domain and social media handles are available for your name. Consistent branding across platforms matters.' },
+          { name: 'Confirm Legal Compliance', text: 'Ensure your name meets state naming rules: includes "LLC" or "L.L.C.", doesn\'t contain restricted words without permission, and isn\'t misleading.' },
+          { name: 'Reserve and Register', text: 'Reserve your LLC name with the state (if needed), register your domain, claim social handles, and file your Articles of Organization.' },
         ]}
       />
 

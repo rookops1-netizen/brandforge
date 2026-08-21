@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'How to Build a Brand Identity from Scratch: The 2026 Guide — BrandForge Blog',
@@ -69,6 +70,21 @@ export default function HowToBuildBrandIdentity() {
           'brand kit template',
           'brand identity cost',
           'brand identity elements',
+        ]}
+      />
+      <HowToSchema
+        name="How to Build a Brand Identity from Scratch"
+        description="A step-by-step guide to creating a complete brand identity — from choosing your name to building a style guide."
+        url="https://brandforge.app/blog/how-to-build-brand-identity"
+        totalTime="PT30M"
+        steps={[
+          { name: 'Start with Your Brand Name', text: 'Choose a distinctive, memorable name that reflects your values and resonates with your target audience. Use a brand name generator for inspiration.' },
+          { name: 'Design Your Logo Concept', text: 'Create a visual mark that embodies your brand personality — whether minimalist, bold, playful, or elegant.' },
+          { name: 'Choose Your Color Palette', text: 'Select 3-5 colors that convey your brand mood. Consider color psychology and ensure strong contrast for accessibility.' },
+          { name: 'Select Your Typography', text: 'Pick headline and body fonts that match your brand voice. Limit to 2-3 typefaces for consistency.' },
+          { name: 'Write Your Tagline', text: 'Craft a short, memorable phrase that captures your brand promise and differentiates you from competitors.' },
+          { name: 'Check Domain and Social Availability', text: 'Verify that your brand name is available as a domain and across major social platforms for consistent branding.' },
+          { name: 'Create a Brand Style Guide', text: 'Document all your brand elements — name, logo, colors, typography, voice — in a single reference guide for your team.' },
         ]}
       />
 

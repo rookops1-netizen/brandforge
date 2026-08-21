@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -267,6 +268,18 @@ export default function BrandNameAvailabilityCheckerPage() {
         url="https://brandforge.app/blog/brand-name-availability-checker"
         datePublished="2026-07-26T12:00:00.000Z"
         dateModified="2026-07-26T12:00:00.000Z"
+      />
+      <HowToSchema
+        name="How to Check Brand Name Availability in 4 Steps"
+        description="A step-by-step process to verify your brand name is available as a domain, trademark, social handle, and business registration."
+        url="https://brandforge.app/blog/brand-name-availability-checker"
+        totalTime="PT20M"
+        steps={[
+          { name: 'Check Domain Availability', text: 'Search for your brand name as a .com domain. If taken, check .co, .io, .ai, and .net alternatives, but ideally pick a name where the .com is available.' },
+          { name: 'Search Trademark Databases', text: 'Use USPTO.gov TESS to search for your exact name and phonetic variations. Check International Classes relevant to your business.' },
+          { name: 'Verify Social Handle Availability', text: 'Check Instagram, Twitter/X, LinkedIn, Facebook, TikTok, and YouTube for @yourbrandname. Ideally the same handle should be available across all platforms.' },
+          { name: 'Check State Business Registration', text: 'Search your state\'s Secretary of State database for business name conflicts. This is legally required for LLC or corporation formation.' },
+        ]}
       />
       <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}

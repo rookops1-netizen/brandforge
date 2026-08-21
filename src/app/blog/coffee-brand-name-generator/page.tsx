@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -234,6 +235,19 @@ export default function CoffeeBrandNameGeneratorPage() {
         url="https://brandforge.app/blog/coffee-brand-name-generator"
         datePublished="2026-08-14"
         dateModified="2026-08-14"
+      />
+      <HowToSchema
+        name="How to Name Your Coffee Shop in 5 Steps"
+        description="A 5-step process for naming your coffee shop or café — from brainstorming to finalizing your brand name."
+        url="https://brandforge.app/blog/coffee-brand-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Brainstorm Broadly', text: 'Use BrandForge\'s coffee name generator to create a broad list. Try sensory names, craft names, location names, minimalist names, and playful names. Don\'t filter yet — the goal is volume.' },
+          { name: 'Filter by Brand Fit', text: 'Cross out names that don\'t match your coffee shop\'s vibe. A craft roaster needs a different name than a cozy neighborhood café.' },
+          { name: 'Check Domain Availability', text: 'Search for your top 5-10 names as .com domains. Your website is your digital storefront — a matching domain is essential.' },
+          { name: 'Verify Social Handles', text: 'Check Instagram, TikTok, and Twitter/X for @yourcoffeeshop. Consistent handles across platforms make you easy to find.' },
+          { name: 'Test and Finalize', text: 'Say the names out loud, picture them on a cup and awning, and ask friends for first impressions. Pick the name that feels right and is available everywhere.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

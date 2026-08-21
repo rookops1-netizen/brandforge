@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -233,6 +234,19 @@ export default function RestaurantNameGeneratorBlog() {
         description="300+ restaurant name ideas across 10 categories, 7 proven naming strategies from top restaurant brands, and a free AI generator that checks domain & social availability."
         url="https://brandforge.app/blog/restaurant-name-generator"
         datePublished="2026-08-16"
+      />
+      <HowToSchema
+        name="How to Name Your Restaurant in 5 Steps"
+        description="A proven 5-step process for naming your restaurant — from defining your concept to the recommendation test."
+        url="https://brandforge.app/blog/restaurant-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Restaurant Concept', text: 'Get specific about your cuisine, atmosphere, and target diner. A fine-dining French bistro needs a different name than a casual taco spot. Your concept drives your naming direction.' },
+          { name: 'Generate 20-30 Name Ideas', text: 'Use BrandForge\'s restaurant name generator to create a broad list. Try cuisine-based names, atmosphere names, location names, and chef/owner names. Don\'t filter yet — volume first.' },
+          { name: 'Run the Menu Test', text: 'Imagine each name printed on a menu, etched on a window, and said over the phone for a reservation. Which names feel right? Which ones are hard to spell or pronounce?' },
+          { name: 'Check Domain, Social Handles, and Trademark Availability', text: 'Verify the .com domain is available, check Instagram and Yelp for similar restaurant names, and search USPTO for trademark conflicts in Class 43 (Restaurant services).' },
+          { name: 'Say It in a Recommendation', text: 'The best restaurant names are easy to recommend by word of mouth. Say: "You have to try [Name] — it\'s amazing." If it sounds natural and memorable, you\'ve found the right name.' },
+        ]}
       />
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <header className="mb-12">

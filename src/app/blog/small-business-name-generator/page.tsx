@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { NewsletterCta } from '@/components/NewsletterCta'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'Small Business Name Generator: 200+ Name Ideas for 2026',
@@ -417,6 +418,20 @@ export default function SmallBusinessNameGeneratorBlog() {
         datePublished="2026-06-09"
         dateModified="2026-06-09"
         keywords={metadata.keywords as string[]}
+      />
+      <HowToSchema
+        name="How to Name Your Small Business in 5 Steps"
+        description="A systematic 5-step process to name your small business — from defining your brand DNA to testing with real people."
+        url="/blog/small-business-name-generator"
+        totalTime="PT30M"
+        estimatedCost="$0"
+        steps={[
+          { name: 'Define your brand\'s DNA', text: 'Get crystal clear on who you serve, what makes you different, and the feeling you want your name to evoke. Write these down — they\'re your naming compass.' },
+          { name: 'Generate 50+ name candidates', text: 'Use multiple naming frameworks to brainstorm at least 50 candidates. Don\'t filter yet — quantity first. Try compound words, metaphors, foreign words, and founder names.' },
+          { name: 'Filter ruthlessly', text: 'Run every name through a checklist: easy to spell? easy to pronounce? under 3 syllables? not trademarked? .com available? feels right for your industry? Most names fail 2-3 of these tests.' },
+          { name: 'Validate availability', text: 'Check domain availability, social handles, and trademark databases simultaneously. Use BrandForge\'s free domain and social handle checker to confirm availability in seconds.' },
+          { name: 'Test with real people', text: 'Share your top 3-5 names with 10 people in your target audience. Ask what the name makes them think of, whether they\'d trust the business, and if they can spell it after hearing it once.' },
+        ]}
       />
       <script
         type="application/ld+json"

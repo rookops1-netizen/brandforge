@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -295,6 +296,19 @@ export default function AppNameGeneratorPage() {
         dateModified="2026-07-13T12:00:00.000Z"
         authorName="BrandForge"
         imageUrl="/opengraph-image"
+      />
+      <HowToSchema
+        name="How to Name Your App in 5 Steps"
+        description="A proven 5-step process for naming your app — from defining personality to validating with real users."
+        url="https://brandforge.app/blog/app-name-generator"
+        totalTime="PT30M"
+        steps={[
+          { name: 'Define Your App\'s Personality', text: 'Write down your app\'s category, target user, core action, and emotional tone. Is it playful, professional, minimal, or bold? Your app\'s personality drives every name decision.' },
+          { name: 'Generate 50+ Name Ideas Across Frameworks', text: 'Use BrandForge\'s app name generator plus manual brainstorming. Try descriptive names, metaphorical names, compound words, and invented words. Aim for 50+ candidates.' },
+          { name: 'Filter to Your Top 10', text: 'Cut names that are too long (over 2 syllables), hard to spell, too similar to existing apps, or don\'t fit your app\'s personality. Keep only the 10 strongest candidates.' },
+          { name: 'Validate Availability', text: 'Check the App Store, Google Play, .com domain, and social handles for your top 10. A name that\'s taken on even one major platform will cause confusion.' },
+          { name: 'Test with Real People', text: 'Show your top 3-5 names to target users. Ask: Can you spell it? What does it make you feel? Would you download it? The best app names pass all three tests.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

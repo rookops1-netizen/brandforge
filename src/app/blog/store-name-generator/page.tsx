@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -288,6 +289,19 @@ export default function StoreNameGeneratorPage() {
         dateModified="2026-07-21T12:00:00.000Z"
         authorName="BrandForge"
         imageUrl="/opengraph-image"
+      />
+      <HowToSchema
+        name="How to Name Your Store in 4 Steps"
+        description="A proven process for naming your retail store — from brainstorming to customer validation."
+        url="https://brandforge.app/blog/store-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Retail Identity', text: 'Write down your store\'s category, target customer, price point, and shopping experience. A boutique thrift store needs a different name than a high-end electronics retailer.' },
+          { name: 'Generate 20+ Name Candidates', text: 'Use BrandForge\'s store name generator plus manual brainstorming. Try descriptive names, location names, founder names, and mood-based names. Volume first, quality second.' },
+          { name: 'Filter Using the 5-Rule Test', text: 'Apply five filters: Can you say it without spelling it out? Does it fit your store\'s vibe? Is the .com available? Is it under 3 syllables? Would you remember it after hearing it once?' },
+          { name: 'Check Domain & Trademark Availability', text: 'Verify the .com domain is available and search USPTO for trademark conflicts. Register your domain immediately — good store names get claimed fast.' },
+          { name: 'Test With 5 Real Customers', text: 'Share your top 3-5 names with people in your target demographic. Ask: Would you walk into a store with this name? The best store names invite customers in.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

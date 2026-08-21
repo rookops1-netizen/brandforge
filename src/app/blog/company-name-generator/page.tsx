@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { NewsletterCta } from '@/components/NewsletterCta'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'Company Name Generator: 250+ Name Ideas for 2026 + Free AI Tool',
@@ -252,6 +253,20 @@ export default function CompanyNameGeneratorPage() {
           'company name checker',
           'corporate name generator',
           'startup company names',
+        ]}
+      />
+      <HowToSchema
+        name="How to Name Your Company in 5 Steps"
+        description="A proven 5-step process for naming your company — from defining your company identity to testing with real people."
+        url="/blog/company-name-generator"
+        totalTime="PT30M"
+        estimatedCost="$0"
+        steps={[
+          { name: 'Define Your Company\'s Identity', text: 'Write down 3-5 words that describe what your company does, who it serves, and how it should feel. This is your naming brief — it separates a great name from a random one.' },
+          { name: 'Generate 20+ Name Options', text: 'Use an AI generator with your naming brief. Run it 4-5 times with different descriptions to get variety. Don\'t filter yet — quantity breeds quality.' },
+          { name: 'Filter Ruthlessly', text: 'Cross off anything that is hard to spell, sounds like a competitor, could be mispronounced, doesn\'t feel right when said out loud, or has a .com domain that\'s taken. Aim for 5-7 names.' },
+          { name: 'Validate Your Shortlist', text: 'Check domain availability, trademark conflicts via USPTO, social handles on Twitter/X, Instagram, LinkedIn, and Google search results. BrandForge checks domain and social automatically.' },
+          { name: 'Test & Commit', text: 'Say the name out loud in a sentence. Ask 5 people in your target audience what they think. Sleep on it. If it still feels right the next day, you\'ve found your name.' },
         ]}
       />
 

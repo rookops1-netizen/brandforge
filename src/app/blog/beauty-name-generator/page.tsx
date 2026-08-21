@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -233,6 +234,19 @@ export default function BeautyNameGeneratorBlog() {
         description="300+ beauty business name ideas across 10 categories, 7 proven naming strategies from top beauty brands, and a free AI generator that checks domain & social availability."
         url="https://brandforge.app/blog/beauty-name-generator"
         datePublished="2026-08-21"
+      />
+      <HowToSchema
+        name="How to Name Your Beauty Brand in 5 Steps"
+        description="A proven 5-step process for naming your beauty brand — from defining your concept to the recommendation test."
+        url="https://brandforge.app/blog/beauty-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Beauty Concept', text: 'Get specific about your beauty niche — skincare, makeup, clean beauty, luxury, or affordable. Your concept drives whether your name should feel scientific, luxurious, playful, or minimal.' },
+          { name: 'Generate 20-30 Name Ideas', text: 'Use BrandForge\'s beauty name generator to create a broad list. Try botanical names, sensory names, French-inspired names, and minimalist names. Volume first, filter later.' },
+          { name: 'Run the Instagram & TikTok Test', text: 'Search Instagram and TikTok for your top names. If 10+ beauty brands already use similar names, pick something more distinctive. In a visual industry, your name needs to stand out on a shelf and in a feed.' },
+          { name: 'Check Domain, Social Handles, and Trademark Availability', text: 'Verify the .com domain is available, check Instagram and TikTok handles, and search USPTO for trademark conflicts in Class 3 (Cosmetics and Beauty).' },
+          { name: 'Say It in a Recommendation', text: 'The best beauty names are easy to recommend: "You have to try [Name] — their serum is incredible." If it sounds natural and memorable, you\'ve found the right name.' },
+        ]}
       />
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <header className="mb-12">

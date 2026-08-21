@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -310,6 +311,19 @@ export default function SalonBrandNameGeneratorPage() {
         url="https://brandforge.app/blog/salon-brand-name-generator"
         datePublished="2026-08-10"
         dateModified="2026-08-10"
+      />
+      <HowToSchema
+        name="How to Name Your Salon in 5 Steps"
+        description="A proven 5-step process for naming your salon — from defining your vibe to the recommendation test."
+        url="https://brandforge.app/blog/salon-brand-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Salon Vibe & Target Client', text: 'Get specific about your salon\'s personality — is it modern and minimal, luxurious and indulgent, playful and creative, or classic and timeless? Your vibe determines your naming style.' },
+          { name: 'Brainstorm 30+ Names Using Multiple Strategies', text: 'Use BrandForge\'s salon name generator plus manual brainstorming. Try vibe-based names, craft-based names, location names, founder names, and sensory words. Volume first.' },
+          { name: 'Run the Instagram Test', text: 'Search Instagram for your top names. Check if @yourname is available, and see if there are already 10+ salons with similar names. A unique name is essential for social discovery.' },
+          { name: 'Check Domain, Business Registration, and Trademark Availability', text: 'Verify the .com domain is available, check your state\'s Secretary of State database, and search USPTO for trademark conflicts in Class 44 (Beauty/Salon services).' },
+          { name: 'The Recommendation Test', text: 'Say your name out loud: "You should try [Name] — they\'re amazing." If it sounds natural and memorable, you\'ve found the right name. The best salon names are names clients love to recommend.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -233,6 +234,19 @@ export default function FloristNameGeneratorBlog() {
         description="300+ florist and flower shop name ideas across 10 categories, 7 proven naming strategies from top floral brands, and a free AI generator that checks domain & social availability."
         url="https://brandforge.app/blog/florist-name-generator"
         datePublished="2026-08-19"
+      />
+      <HowToSchema
+        name="How to Name Your Florist in 5 Steps"
+        description="A proven 5-step process for naming your florist or flower shop — from defining your concept to the recommendation test."
+        url="https://brandforge.app/blog/florist-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Florist Concept', text: 'Get specific about your flower style — wedding-focused, modern arrangements, garden-style, tropical, or dried flowers. Your concept drives whether your name should feel romantic, modern, or playful.' },
+          { name: 'Generate 20-30 Name Ideas', text: 'Use BrandForge\'s florist name generator to create a broad list. Try botanical names, emotion-based names, location names, and artisan names. Don\'t filter yet — volume first.' },
+          { name: 'Run the Instagram Test', text: 'Search Instagram for your top names. If 10+ florists already use similar names, pick something more distinctive. Your name needs to stand out in a visually-driven industry.' },
+          { name: 'Check Domain, Social Handles, and Trademark Availability', text: 'Verify the .com domain is available, check Instagram and Pinterest for similar names, and search USPTO for trademark conflicts in the floral services category.' },
+          { name: 'Say It in a Recommendation', text: 'The best florist names are easy to recommend by word of mouth. Say: "You should try [Name] — their arrangements are stunning." If it sounds natural and memorable, you\'ve found the right name.' },
+        ]}
       />
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <header className="mb-12">

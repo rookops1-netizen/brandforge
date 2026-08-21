@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -248,6 +249,20 @@ export default function ProductNamingGuidePage() {
         description="Complete product naming guide with frameworks, real examples, and common mistakes."
         url="https://brandforge.app/blog/product-naming-guide"
         datePublished="2025-05-20"
+      />
+      <HowToSchema
+        name="The Product Naming Process: Step by Step"
+        description="A 6-step process for naming a product that sells — from defining positioning to final validation."
+        url="https://brandforge.app/blog/product-naming-guide"
+        totalTime="PT30M"
+        steps={[
+          { name: 'Define Your Product Positioning', text: 'Write down your product\'s category, target user, key benefit, and emotional promise. This anchors every name idea you generate.' },
+          { name: 'Choose a Naming Strategy', text: 'Pick from descriptive, suggestive, abstract, acronym, or founder naming approaches. Each has different trademark and branding implications.' },
+          { name: 'Generate Name Ideas', text: 'Brainstorm 30-50 name candidates using your positioning and strategy. Use BrandForge\'s AI name generator to expand your options.' },
+          { name: 'Filter and Shortlist', text: 'Narrow your list to 5-10 names that are short, memorable, easy to spell, and available as domains. Eliminate names that could cause confusion.' },
+          { name: 'Validate with Your Audience', text: 'Test your top 3-5 names with target customers. Check for negative associations, pronunciation issues, and memorability.' },
+          { name: 'Check Legal Availability', text: 'Search USPTO for trademark conflicts, check domain availability, and verify social handles. Register your final name before someone else does.' },
+        ]}
       />
       {/* Header */}
       <div className="mb-12">

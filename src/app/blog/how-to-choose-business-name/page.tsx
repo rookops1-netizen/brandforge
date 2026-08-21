@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const metadata: Metadata = {
   title: 'How to Choose a Business Name: The Complete Guide for 2026 — BrandForge Blog',
@@ -59,6 +60,20 @@ export default function HowToChooseBusinessName() {
         description="Everything you need to know about picking the perfect business name — from brainstorming techniques and trademark research to domain strategy and AI-assisted naming."
         url="https://brandforge.app/blog/how-to-choose-business-name"
         datePublished="2025-05-15"
+      />
+      <HowToSchema
+        name="How to Choose a Business Name"
+        description="A step-by-step approach to choosing a business name — from defining your brand brief to committing to your final name."
+        url="/blog/how-to-choose-business-name"
+        totalTime="PT45M"
+        estimatedCost="$0"
+        steps={[
+          { name: 'Define Your Brand Brief', text: 'Write down what your business does, who your target customer is, what feeling your name should evoke, and which names you love or hate and why. This brief becomes your north star for evaluating name candidates.' },
+          { name: 'Generate Broadly', text: 'Generate 50-100 raw name ideas using AI generators, mind mapping, foreign languages, and wordplay. The goal at this stage is volume, not quality — most will be bad, and that\'s the point.' },
+          { name: 'Filter Ruthlessly', text: 'Apply the five principles: Is it under 8 characters? Can you spell it after hearing it once? Is the .com available? Is it free of trademark conflicts? Does it feel right for your brand? If a name fails even one check, cut it.' },
+          { name: 'Test With Real People', text: 'Test your shortlist of 5-10 names with potential customers, naming communities, or quick ad tests — not friends and family. Get honest feedback on memorability and trustworthiness.' },
+          { name: 'Decide and Commit', text: 'The perfect name doesn\'t exist. Pick the best available name, register the domain, file the trademark, and start building. Don\'t let naming paralysis delay your launch.' },
+        ]}
       />
 
       {/* FAQ Schema for rich snippets */}

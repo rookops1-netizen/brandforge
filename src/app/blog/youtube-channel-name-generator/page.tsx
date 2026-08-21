@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -287,6 +288,19 @@ export default function YouTubeChannelNameGeneratorPage() {
         dateModified="2026-07-26T12:00:00.000Z"
         authorName="BrandForge"
         imageUrl="/opengraph-image"
+      />
+      <HowToSchema
+        name="How to Name Your YouTube Channel in 5 Steps"
+        description="A proven 5-step process for naming your YouTube channel — from defining your identity to testing with your target audience."
+        url="https://brandforge.app/blog/youtube-channel-name-generator"
+        totalTime="PT20M"
+        steps={[
+          { name: 'Define Your Channel Identity', text: 'Write down your channel\'s topic, target viewer, posting frequency, and what makes your take unique. A gaming channel needs a different name than a finance channel.' },
+          { name: 'Generate 25+ Name Candidates', text: 'Use BrandForge\'s YouTube name generator plus manual brainstorming. Try creator-plus-topic names, action words, inside jokes, and simple memorable words. Volume first.' },
+          { name: 'The YouTube Filter: Cut for Platform Fit', text: 'Eliminate names longer than 20 characters, names that are hard to say out loud, and names that are too similar to existing channels. Your name needs to work in search, thumbnails, and video intros.' },
+          { name: 'Check YouTube, Domain & Social Availability', text: 'Search YouTube for your top names, verify the .com domain is available, and check Instagram and TikTok for matching handles. Consistent branding across platforms helps growth.' },
+          { name: 'Test With Your Target Audience', text: 'Share your top 3-5 names with people who watch similar channels. Ask: Would you click on this? Can you remember it after hearing it once? The best YouTube names are instantly clickable.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

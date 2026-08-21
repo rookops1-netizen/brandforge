@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -234,6 +235,19 @@ export default function ConstructionBrandNameGeneratorPage() {
         url="https://brandforge.app/blog/construction-brand-name-generator"
         datePublished="2026-08-11"
         dateModified="2026-08-11"
+      />
+      <HowToSchema
+        name="How to Name Your Construction Company in 5 Steps"
+        description="A proven 5-step process for naming your construction business — from defining your niche to validating your name."
+        url="https://brandforge.app/blog/construction-brand-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Construction Niche', text: 'Get specific about what you build — residential, commercial, remodeling, roofing, or excavation. Your niche shapes your name and helps you stand out from generic "contractor" names.' },
+          { name: 'Generate 20-30 Name Ideas', text: 'Use BrandForge\'s construction name generator to create a broad list. Try strength-based names, location names, craft names, and modern names. Don\'t filter yet — volume first.' },
+          { name: 'Run the Job Site Sign Test', text: 'Write your top 10 names on paper and walk 30 feet away. Which names can you still read clearly? Which look professional on a truck door or yard sign? This eliminates names that are too long or complicated.' },
+          { name: 'Check Domain, Maps, and Trademark Availability', text: 'Verify the .com domain is available, check Google Maps for similar business names in your area, and search USPTO for trademark conflicts in Class 37 (Construction).' },
+          { name: 'Say It in a Recommendation', text: 'Most construction business comes from word of mouth. Pick a name people can remember, spell in a text, and find on Google without spelling it out.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script

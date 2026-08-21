@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BlogNewsletterSection } from '@/components/BlogNewsletterSection'
 import { BlogPostSchema } from '@/components/BlogPostSchema'
+import { HowToSchema } from '@/components/HowToSchema'
 
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
@@ -234,6 +235,19 @@ export default function AutoRepairShopNameGeneratorPage() {
         url="https://brandforge.app/blog/auto-repair-shop-name-generator"
         datePublished="2026-08-13"
         dateModified="2026-08-13"
+      />
+      <HowToSchema
+        name="How to Name Your Auto Repair Shop in 5 Steps"
+        description="A proven 5-step process for naming your auto repair business — from defining your niche to the recommendation test."
+        url="https://brandforge.app/blog/auto-repair-shop-name-generator"
+        totalTime="PT25M"
+        steps={[
+          { name: 'Define Your Repair Niche', text: 'Get specific about what you repair — general auto, European cars, transmission, oil change, or mobile repair. Your niche shapes whether your name should feel trustworthy, speedy, or specialized.' },
+          { name: 'Generate 20-30 Name Ideas', text: 'Use BrandForge\'s auto repair name generator to create a broad list. Try trust-based names, speed-based names, location names, and specialty names. Volume first, filter later.' },
+          { name: 'Run the Van Sign Test', text: 'Imagine your name on a van door, yard sign, or Google Maps listing. Which names can you read from 30 feet away? Which sound like a business you\'d trust with your car?' },
+          { name: 'Check Domain, Google Maps, and Trademark Availability', text: 'Verify the .com domain is available, check Google Maps for similar business names in your area, and search USPTO for trademark conflicts in automotive services.' },
+          { name: 'Say It in a Recommendation', text: 'The best auto repair names are easy to recommend: "Take it to [Name] — they\'re honest and fast." If it sounds natural and memorable, you\'ve found the right name.' },
+        ]}
       />
       {/* FAQ Schema for rich snippets */}
       <script
