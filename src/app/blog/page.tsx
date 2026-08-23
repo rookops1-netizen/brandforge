@@ -486,6 +486,15 @@ const blogPosts = [
     date: '2026-08-21',
     featured: false,
   },
+  {
+    slug: 'food-truck-name-generator',
+    title: 'Food Truck Name Generator: 300+ Food Truck Name Ideas for 2026 + Free AI Tool',
+    excerpt: '300+ food truck name ideas across 10 categories, 7 naming strategies from top food truck brands, and a free AI generator that checks domain & social availability instantly.',
+    category: 'Naming',
+    readTime: '15 min',
+    date: '2026-08-23',
+    featured: false,
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -502,7 +511,7 @@ export default function BlogPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <BlogIndexSchema    postCount={52}/>
+      <BlogIndexSchema    postCount={53}/>
       <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} />
       {/* Header */}
       <div className="text-center mb-16">
