@@ -42,6 +42,10 @@ const footerLinks = {
     { name: 'Salon', href: '/salon-name-generator' },
     { name: 'Construction', href: '/construction-name-generator' },
     { name: 'Marketing Agency', href: '/marketing-agency-name-generator' },
+    { name: 'Domain', href: '/domain-name-generator' },
+    { name: 'Florist', href: '/florist-name-generator' },
+    { name: 'Catering', href: '/catering-name-generator' },
+    { name: 'Clothing Brand', href: '/clothing-brand-name-generator' },
   ],
   Company: [
     { name: 'About', href: '/about' },

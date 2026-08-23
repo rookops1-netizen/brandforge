@@ -8,32 +8,32 @@ import { HowToSchema } from '@/components/HowToSchema'
 export const dynamic = 'force-static'
 export const metadata: Metadata = {
   title: 'Food Truck Name Generator: 300+ Food Truck Name Ideas for 2026 + Free AI Tool',
-  description: '300+ food truck name ideas across 10 categories, 7 proven naming strategies from top food truck brands, and a free AI generator that checks domain & social availability instantly.',
+  description: '300+ food truck name ideas across 10 categories, 7 proven naming strategies from top food trucks, and a free AI generator that checks domain & social availability instantly.',
   keywords: [
     'food truck name generator',
     'food truck names',
     'food truck name ideas',
+    'food cart name generator',
     'food truck business names',
     'creative food truck names',
     'catchy food truck names',
     'best food truck names',
-    'food cart name ideas',
-    'mobile food business names',
-    'street food name ideas',
-    'food truck branding',
-    'food truck naming tips',
     'how to name a food truck',
-    'food van names',
-    'food stall name ideas',
-    'taco truck names',
-    'ice cream truck names',
-    'burger truck names',
-    'pizza truck names',
+    'food truck naming tips',
+    'unique food truck names',
     'food truck brand names',
+    'cool food truck names',
+    'food truck name ideas 2026',
+    'funny food truck names',
+    'cute food truck names',
+    'street food names',
+    'mobile kitchen names',
+    'food trailer name ideas',
+    'pop-up restaurant names',
   ],
   openGraph: {
     title: 'Food Truck Name Generator: 300+ Food Truck Name Ideas for 2026 + Free AI Tool',
-    description: '300+ food truck name ideas across 10 categories, 7 naming strategies from top food truck brands, and a free AI generator with domain & social availability checks.',
+    description: '300+ food truck name ideas by category, 7 naming strategies from top food trucks, and a free AI generator with domain & social availability checks.',
     url: 'https://brandforge.app/blog/food-truck-name-generator',
     siteName: 'BrandForge',
     type: 'article',
@@ -61,127 +61,127 @@ export const metadata: Metadata = {
 
 const CATEGORIES = [
   {
-    name: 'Taco & Mexican Truck Names',
-    names: ['Taco Republic', 'Fuego Street Tacos', 'The Wandering Jalapeño', 'Casa Taqueria', 'Salsa Cartel', 'Guac & Roll', 'El Camino Taco', 'Cilantro Kings', 'Masa & Fire', 'Taco Circus', 'Baja Drift', 'The Salsa Route', 'Lucha Libre Tacos', 'Serrano Station', 'Tortilla Express', 'Carnita Club', 'Habanero Highway', 'Taco Bandito', 'El Fuego Truck', 'The Queso Quest', 'Verde & Co.', 'Pico de Gallo Truck', 'Chile Express', 'Taco Safari', 'The Marg Cart', 'Salsa Vaquera', 'Oaxaca on Wheels', 'Taco Terrarium', 'Fiesta Cart', 'Maíz Street'],
+    name: 'Punny & Playful Food Truck Names',
+    names: ['Holy Crepe', 'Wok This Way', 'Thai Me Up', 'Pho Real', 'Let Them Eat Tacos', 'Curry Up Now', 'Pasta La Vista', 'Wrap Star', 'Lord of the Fries', 'The Wing Dynasty', 'Naan Stop', 'Bahn Me!', 'Grill Seekers', 'Bite Club', 'Wok & Roll', 'The Fryfather', 'Pita Please', 'Soup-erman', 'Roll Model', 'Dough Not Disturb', 'Burger She Wrote', 'Taco Chance', 'Pho Shizzle', 'Mac & Cheese Please', 'The Great Bakesby', 'Falafel This Way', 'Ramenhood', 'Batter Up', 'Grill Power', 'Churro Luck'],
   },
   {
-    name: 'Burger & Slider Truck Names',
-    names: ['Patty Wagon', 'Slide & Serve', 'The Burger Bus', 'Smash Cartel', 'Bun & Run', 'Griddle Republic', 'Slider Society', 'The Beef Barn', 'Stacked Truck', 'Burger Bureau', 'Flip & Roll', 'Juicy Lucy Truck', 'Patty Shack', 'The Slider Kings', 'Grill Marks', 'Burger Drift', 'Sidecar Sliders', 'The Onion Ring', 'Chop House Truck', 'Burger Nomad', 'Double Stack', 'The Meltdown', 'Bun Buggy', 'Smash & Dash', 'The Brisket Bus', 'Griddle House', 'Slider Station', 'Burger Cartel', 'Patty Project', 'Flip Truck'],
+    name: 'Regional & Authentic Food Truck Names',
+    names: ['Seoul Street', 'Oaxaca Kitchen', 'Bengal Bite', 'Sicilian Slice', 'Hanoi Hustle', 'Bombay Box', 'Baja Bound', 'Nashville Flame', 'Memphis Smoke', 'Brooklyn Bao', 'Taipei Cart', 'Puebla Plate', 'Szechuan Street', 'Saigon Roll', 'Havana Street', 'Kyoto Cart', 'Carolina BBQ Co.', 'K-Town Kitchen', 'Chi-Town Bites', 'Texas Smoke Cart', 'NOLA Kitchen', 'PDX Wok', 'ATL Biscuit', 'Detroit Slice', 'Philly Cart', 'Portland Noodle', 'Austin Taco Project', 'LA Grill Cart', 'SF Rice Box', 'Chi-Town Grill'],
   },
   {
-    name: 'Pizza Truck Names',
-    names: ['Pie Cruiser', 'Dough & Go', 'The Pizza Pilgrim', 'Slice Squad', 'Brick Oven Bus', 'Dough Drift', 'Crust Cartel', 'The Rolling Pie', 'Slice Station', 'Wood-Fired Wheels', 'Neapolitan Express', 'The Pie Route', 'Slice & Drive', 'Dough Boy Truck', 'Pizza Pilots', 'The Slice Truck', 'Crust & Co.', 'Margherita Mobile', 'Calzone Cruiser', 'Dough Engine', 'Pie Patrol', 'Slice Runner', 'The Brick Bus', 'Focaccia Flyer', 'The Pizza Pod', 'Sicilian Street', 'Slice Ventures', 'The Dough Drop', 'Pizza Port', 'Crust Cruiser'],
+    name: 'Modern & Minimalist Food Truck Names',
+    names: ['STACK', 'BRICK', 'GRIND', 'SMOKT', 'BIRD', 'MELT', 'CART', 'FOLD', 'COAL', 'SLAB', 'SEAR', 'SALT', 'BLAZE', 'CUBE', 'ROAST', 'DRFT', 'BURN', 'CRFT', 'POKE', 'SIFT', 'GLAZE', 'RIND', 'TONG', 'BOLT', 'RUST', 'CHAR', 'KNOT', 'DASH', 'CRST', 'PINT'],
   },
   {
-    name: 'BBQ & Smoke Truck Names',
-    names: ['Rolling Embers', 'Smoke & Wheel', 'Brisket Bus', 'The Pit Stop', 'Hickory Highway', 'Smoke Wagon', 'Char & Cart', 'The Bark Truck', 'Ember & Iron', 'Smoke Drift', 'Low & Slow Mobile', 'Rib Runner', 'The Smokehouse Cart', 'Ash & Oak Truck', 'Wood-Fired Wheels', 'The Brisket Route', 'Smoke Signal Truck', 'Pitmaster Express', 'Burnt End Bus', 'The Char Cart', 'Smoke Nomad', 'Hickory & Co.', 'The Pit Patrol', 'BBQ Express', 'Smoky Road', 'The Ember Cart', 'Brisket & Brothers', 'Smoke Route', 'Char Cruiser', 'The BBQ Bus'],
+    name: 'Farm-to-Street & Sustainable Food Truck Names',
+    names: ['Farm Cart Kitchen', 'The Honest Trailer', 'Soil & Street', 'Field & Fry', 'The Local Wok', 'Earth Kitchen', 'Sprout & Cart', 'The Good Truck', 'Harvest Kitchen', 'The Green Wagon', 'Root & Roll', 'Garden Cart Co.', 'The Seasonal Slice', 'Bloom Kitchen', 'The Sustainable Skillet', 'Farm to Fork Truck', 'The Pasture Cart', 'Fresh Press Kitchen', 'The Collective Kitchen', 'Honest Earth Truck', 'Field Kitchen Co.', 'The Wild Wok', 'Greens & Grains', 'The Local Ladle', 'Terra Truck Kitchen', 'Farmstand Bites', 'The Heritage Cart', 'Community Kitchen', 'The Harvest Wagon', 'Patch & Plate'],
   },
   {
-    name: 'Asian & Fusion Truck Names',
-    names: ['The Wandering Wok', 'Ramen Road', 'Bao Bus', 'Noodle Cartel', 'Dim Sum Drift', 'Pho Wheels', 'The Rice Route', 'Wok & Roll', 'Miso Mobile', 'The Dumpling Drop', 'Sriracha Station', 'Bao House', 'Kimchi Cruiser', 'Yaki Cart', 'The Noodle Bus', 'Gyoza Go', 'Ramen Republic', 'The Bao Route', 'Teriyaki Truck', 'Wok Star', 'The Pho Express', 'Sushi Station', 'Umi Wheels', 'Banh Mi Bus', 'The Stir-Fry Cart', 'Mochi Mobile', 'Noodle Nomad', 'Wok Patrol', 'The Miso Route', 'Sumo Sliders'],
+    name: 'BBQ & Smoke-Focused Food Truck Names',
+    names: ['Smoke & Fire', 'The Brisket Cart', 'Low & Slow Kitchen', 'Char & Bark', 'The Pit Stop', 'Smoke Ring BBQ', 'The Burnt End', 'Ash & Ember', 'The Smokehouse Cart', 'Pitmaster Kitchen', 'The Wood Cart', 'Smoke Signal BBQ', 'The Charcoal Cart', 'Rack & Roll', 'The Brisket Project', 'Smoke & Coals', 'The Fire Pit', 'Hickory Kitchen', 'The Smoke Wagon', 'Oak & Flame', 'The BBQ Cart', 'Ember & Smoke', 'The Rib Wagon', 'Brisket & Roll', 'The Pit Kitchen', 'Smokehouse Mobile', 'The Cue Cart', 'Wood-Fired Kitchen', 'The Smoke Stack', 'Bark & Bite BBQ'],
   },
   {
-    name: 'Dessert & Sweet Truck Names',
-    names: ['Sweet Wheels', 'The Sugar Bus', 'Frost & Go', 'The Churro Cart', 'Cupcake Cruiser', 'Sweet Drift', 'The Ice Cream Route', 'Cookie Cartel', 'Waffle Wagon', 'The Sugar Drop', 'Frozen Wheels', 'The Donut Bus', 'Candy Cruiser', 'Sweet Roll Truck', 'The Frost Express', 'Cupcake Highway', 'Scoop Cart', 'The Sugar Route', 'Fudge Bus', 'Dough & Sugar', 'The Cookie Cart', 'The Churro Route', 'Gelato Go', 'Sweet Spot Truck', 'The Cake Cruiser', 'Sugar Nomad', 'The Pastry Bus', 'Ice Cream Express', 'The Brownie Bus', 'Sweet Ride'],
+    name: 'Breakfast & Brunch Food Truck Names',
+    names: ['The Morning Cart', 'Rise & Dine', 'Stacked Kitchen', 'Batter & Brew', 'The Waffle Wagon', 'Eggs & Co.', 'The Brunch Cart', 'Morning Glory Kitchen', 'The Biscuit Truck', 'Sunrise Skillet', 'The Pancake Project', 'Yolk & Roll', 'The French Toast Cart', 'Butter & Batter', 'The Breakfast Box', 'Dawn Kitchen', 'The Toast Cart', 'Morning Melt', 'The Hash Wagon', 'Brew & Bite', 'The Omelet Express', 'Sunny Side Kitchen', 'The Cinnamon Cart', 'Rise & Grind', 'The Brioche Truck', 'The Croissant Cart', 'First Bite Kitchen', 'The Egg Wagon', 'Breakfast & Beyond', 'The Morning Skillet'],
   },
   {
-    name: 'Healthy & Fresh Truck Names',
-    names: ['Green Machine', 'The Fresh Route', 'Sprout & Go', 'Veggie Drift', 'Lean & Green Truck', 'The Salad Cart', 'Harvest Wheels', 'Fresh Express', 'The Kale Route', 'Quinoa Cartel', 'Wellness Wagon', 'The Acai Bus', 'Clean Eats Truck', 'Green Go', 'Vitality Van', 'The Smoothie Route', 'Fresh Fuel', 'Raw & Roll', 'The Veggie Bus', 'Nourish Cart', 'The Power Bowl', 'Farm to Truck', 'Garden Express', 'The Herb Route', 'Fresh Pedal', 'Bowl & Go', 'The Green Cruiser', 'Alive Truck', 'Veggie Ventures', 'The Juice Bus'],
+    name: 'Dessert & Sweet Food Truck Names',
+    names: ['Sugar Rush Cart', 'The Sweet Wagon', 'Frost Kitchen', 'The Churro Cart', 'Cookie Dough Co.', 'The Ice Cream Express', 'Sweet Stack', 'The Cupcake Cart', 'Melt & Dip', 'The Pastry Wagon', 'Sugar & Spice Kitchen', 'The Donut Cart', 'Sweet Roll Kitchen', 'The Brownie Box', 'Candy Cart Co.', 'The Fudge Wagon', 'The Gelato Cart', 'Whipped Kitchen', 'The Churro Box', 'Sweet Stack Truck', 'The Macaron Cart', 'Cake & Cart', 'The Sundae Wagon', 'The Cookie Cart', 'Caramel Kitchen', 'The Waffle Cone Express', 'Sweet Tooth Truck', 'The Truffle Cart', 'Dough & Cream', 'The Sweet Skillet'],
   },
   {
-    name: 'Seafood Truck Names',
-    names: ['The Lobster Roll', 'Catch & Go', 'The Oyster Cart', 'Surf & Wheel', 'Ceviche Cruiser', 'The Fish Route', 'Shrimp Shack Truck', 'The Crab Bus', 'Pier Express', 'The Raw Bar Cart', 'Sea & Street', 'The Lobster Bus', 'Tide & Trailer', 'The Clam Cart', 'Fishmonger Express', 'The Tuna Route', 'Shellfish Wheels', 'The Crab Cart', 'Pier Drift', 'Ocean Express', 'The Shrimp Route', 'The Catch Cart', 'Harbor House Truck', 'The Lobster Cart', 'Seafood Express', 'Coral Cruiser', 'The Salmon Bus', 'Wave & Wheel', 'The Oyster Route', 'Dock & Go'],
+    name: 'Taco & Latin Food Truck Names',
+    names: ['Taco Cartel', 'The Taco Project', 'Baja Kitchen', 'Salsa & Smoke', 'The Al Pastor Cart', 'Taco Mafia', 'The Guac Wagon', 'Casa Taco', 'The Tortilla Cart', 'El Sabor Kitchen', 'The Queso Cart', 'Taco Nomad', 'The Salsa Bar', 'Oaxaca Street', 'The Chile Cart', 'Taco Republic', 'The Carnitas Wagon', 'Puebla Kitchen', 'The Tamale Cart', 'Taco Loco Co.', 'The Margarita Cart', 'Baja Taco Project', 'The Pico Truck', 'El Taco Cart', 'The Cilantro Kitchen', 'Taco Fuego', 'The Agave Wagon', 'Salsa Street', 'The Lime Cart', 'Taco Tierra'],
   },
   {
-    name: 'Clever & Pun Truck Names',
-    names: ['Wheelie Good Food', 'Grill Seeker', 'Bite Club', 'The Rolling Scone', 'Thai Me Up', 'Pita Please', 'Pasta La Vista', 'Lord of the Pies', 'Naan Stop', 'Bunless Journey', 'Falafel Force', 'Churro Loco', 'Waffle House of Cards', 'Donut Enter', 'Bacon the Rules', 'You Knead This', 'Pita Pocket Express', 'The Daily Bread', 'Soup Er Truck', 'Rolling in the Dough', 'Taco Chance', 'Pho Real', 'Churro Believe It', 'The Great Ba-cini', 'Naan of Your Business', 'Penne for Your Thoughts', 'Batter Up Truck', 'Mac the Knife', 'The Toast of the Town', 'Pizza My Mind'],
+    name: 'Asian-Inspired Food Truck Names',
+    names: ['The Dumpling Cart', 'Wok Street', 'Ramen Cart Co.', 'The Bao Wagon', 'Pho Cart Kitchen', 'Tokyo Street Bites', 'The Noodle Box', 'Dim Sum & Go', 'The Kimchi Cart', 'Thai Street Kitchen', 'The Spring Roll Wagon', 'Boba & Bites', 'The Pad Thai Cart', 'K-Town Kitchen', 'The Gyoza Cart', 'Hibachi Express', 'The Curry Wagon', 'Seoul Food Cart', 'The Mochi Truck', 'Teriyaki Kitchen', 'The Dim Sum Cart', 'Udon Street', 'The Sushi Box', 'Matcha Cart Co.', 'The Stir Fry Wagon', 'Yakitori Kitchen', 'The Miso Cart', 'Banh Mi Box', 'The Pho Wagon', 'Japchae Kitchen'],
   },
   {
-    name: 'Modern & Minimalist Truck Names',
-    names: ['DRIFT', 'HATCH', 'CRATE', 'CURB', 'STACK', 'PARE', 'SEAR', 'BLAZE', 'EMBER', 'PULSE', 'FORGE', 'ROAM', 'MINT', 'HUE', 'CHAR', 'BASE', 'SOW', 'BROIL', 'PARE Truck', 'ROAM Kitchen', 'HATCH Street', 'SEAR & Co.', 'CURB Side', 'BASE Kitchen', 'DRIFT Food', 'STACK Truck', 'EMBER Cart', 'FORGE Food', 'PULSE Kitchen'],
+    name: 'Burger & Sandwich Food Truck Names',
+    names: ['The Patty Wagon', 'Stacked & Stuffed', 'Melt Kitchen', 'The Grilled Cheese Cart', 'Burger Republic', 'The Sandwich Project', 'Slider Cart Co.', 'The Deli Wagon', 'Bun & Barrel', 'The Cheese Melt', 'Chop & Stack', 'The Hero Cart', 'Bite Kitchen', 'The Smash Wagon', 'Press & Melt', 'The Club Cart', 'Burger Cartel', 'The Reuben Box', 'Stack & Smash', 'The Melt Wagon', 'Grill Mark Kitchen', 'The Hoagie Cart', 'Burger Bros Cart', 'The Panini Wagon', 'Smash Kitchen', 'The Melt Cart', 'Brisket & Bun', 'The Slider Box', 'Griddle Kitchen', 'The Toasted Cart'],
   },
 ]
 
 const NAMING_STRATEGIES = [
   {
-    name: 'Food-First & Descriptive',
-    description: 'Names that tell people exactly what you serve — the fastest way to attract hungry customers.',
-    examples: 'Taco Republic, The Burger Bus, Smoke Wagon, Slice Station',
-    why: 'Food truck customers are walking by on the street, scrolling through delivery apps, or searching "food trucks near me." They make decisions in seconds. A name like "Taco Republic" or "The Burger Bus" instantly tells them what you serve — no guessing required. On Instagram and TikTok, descriptive names are searchable. "Best taco truck" is a search query. "Best Curiosity Cart" is not. Food-first names win in the food truck space because speed and clarity beat cleverness.',
+    name: 'Punny & Humorous Names',
+    description: 'Food trucks that make people smile — puns, wordplay, and food humor that creates instant memorability.',
+    examples: 'Holy Crepe, Wok This Way, Pho Real, Thai Me Up, Lord of the Fries',
+    why: 'Food trucks are street culture — playful, irreverent, and fun. A punny name makes your truck the one people photograph and share on Instagram. "Holy Crepe" gets a laugh and a follow. "Pho Real" makes people stop and smile. These names work because they\'re shareable — customers post photos of your truck name on social media, giving you free marketing. The key is making sure the pun matches your cuisine. "Lord of the Fries" only works for a fry-focused truck. Don\'t force it.',
   },
   {
-    name: 'Movement & Mobility',
-    description: 'Names that lean into the truck lifestyle — wheels, streets, routes, and roaming.',
-    examples: 'Rolling Embers, The Wandering Wok, Ramen Road, Pie Cruiser',
-    why: 'Food trucks are mobile by nature. Names that incorporate movement — "Rolling," "Wandering," "Route," "Drift," "Cruiser" — tap into the romance of the open road and the excitement of street food culture. These names feel alive, adventurous, and part of the experience. Customers don\'t just buy food from a truck — they buy into the story of a chef who took their craft to the streets.',
+    name: 'Cuisine-First Names',
+    description: 'Names that instantly tell customers what you cook — the most effective approach for food trucks.',
+    examples: 'Seoul Street, The Brisket Cart, The Dumpling Cart, Taco Cartel',
+    why: 'Food trucks have 3 seconds to communicate what they sell. People walking past at a festival or food truck park need to know immediately — "That\'s Korean BBQ" or "That\'s dumplings." "Seoul Street" tells you it\'s Korean food. "The Brisket Cart" tells you it\'s BBQ. "Taco Cartel" tells you it\'s tacos. These names convert better than clever abstract names because they eliminate confusion. When someone is hungry, clarity beats cleverness.',
   },
   {
-    name: 'Playful & Punny',
-    description: 'Clever wordplay that makes people smile and remember you.',
-    examples: 'Patty Wagon, Grill Seeker, Thai Me Up, Lord of the Pies',
-    why: 'Food trucks live on social media. A punny name is instantly shareable — people photograph it, tag it, and tell their friends about it. "Patty Wagon" gets a laugh and a photo. "Grill Seeker" gets a smirk and a follow. The food truck industry has a culture of fun and personality, and your name should reflect that. Just make sure the pun is easy to spell and pronounce — if someone can\'t search for it, the cleverness is wasted.',
+    name: 'Location & Neighborhood Names',
+    description: 'Names that anchor your truck to a city, neighborhood, or street — building local identity and search visibility.',
+    examples: 'Brooklyn Bao, Nashville Flame, Portland Noodle, ATX Taco Project',
+    why: 'Food trucks are hyperlocal businesses. When someone searches "food trucks near me" or "Austin food trucks" or "Portland street food," your location-based name dominates local search results. "Nashville Flame" shows up for Nashville food searches AND signals hot chicken. "Brooklyn Bao" combines place and cuisine. Location names also build fierce local loyalty — people love repping their city\'s food scene.',
   },
   {
-    name: 'Neighborhood & Location-Based',
-    description: 'Names that ground your truck in a place and build local identity.',
-    examples: 'Stone Street Tacos, Eastside BBQ, Mission Slider Co., Harbor Pie',
-    why: 'Food trucks are deeply local businesses. "Eastside BBQ" immediately tells people where to find you and creates neighborhood pride. Location-based names dominate in local search ("food truck near me" + your neighborhood name), and they create loyalty — people love supporting their local truck. This strategy is especially powerful in cities with strong neighborhood identities like Austin, Portland, or Brooklyn.',
+    name: 'Action & Verb-Based Names',
+    description: 'Names that use cooking verbs — grill, smoke, melt, stack, smash — creating energy and appetite appeal.',
+    examples: 'Smoke & Fire, Stacked Kitchen, The Melt Cart, Smash Kitchen, Grill Power',
+    why: 'Action names trigger appetite. When you read "Smoke & Fire," you can almost smell the BBQ. "The Melt Cart" makes you crave grilled cheese. "Smash Kitchen" makes you think of that perfect smashburger sear. These names work on a psychological level — they activate the same brain regions that fire when you\'re actually cooking or eating. They also perform well in Google searches because people search for "smash burgers near me" or "melted cheese food truck."',
   },
   {
-    name: 'Bold & Attitude-Driven',
-    description: 'Names with swagger and personality that stand out in a crowded pod.',
-    examples: 'Smoke Cartel, Salsa Cartel, Smash Cartel, Brisket Bandits',
-    why: 'When you\'re parked in a row of 8 food trucks at a festival, your name needs to stand out from 20 feet away on a menu board or banner. Bold names with attitude — "Cartel," "Bandits," "Republic," "Squad" — command attention and create a brand personality that\'s impossible to ignore. These names say "we\'re confident, we\'re different, and our food backs it up." They work especially well for BBQ, taco, and burger trucks.',
+    name: 'Minimalist One-Word Names',
+    description: 'Short, punchy, one-word names that look incredible on a truck wrap and Instagram feed.',
+    examples: 'STACK, GRIND, SMOKT, BIRD, MELT, SEAR, BLAZE, CHAR, DRFT, SALT',
+    why: 'One-word names dominate food truck culture — look at CAVA, DIGG, sweetgreen, and SHAK. They look stunning on truck wraps, Instagram feeds, and custom merchandise. "STACK" on a black truck with gold lettering? Instagram gold. "SMOKT" on a matte charcoal trailer? Instant credibility. These names work because they\'re impossible to miss, easy to remember, and they photograph beautifully. The key is choosing a word that\'s evocative of your food — "MELT" for grilled cheese, "BIRD" for chicken, "SEAR" for steak.',
   },
   {
-    name: 'Short & Punchy (One or Two Words)',
-    description: 'Minimalist names that look incredible on truck wraps, menus, and social media.',
-    examples: 'DRIFT, HATCH, SEAR, EMBER, CRATE, ROAM',
-    why: 'Your food truck name will be displayed on the side of a vehicle, printed on napkins, stamped on stickers, and posted on Instagram stories. Short names scale perfectly — they look amazing on a truck wrap and read instantly from across a parking lot. "DRIFT" on a matte black truck is a brand. "The Wandering Artisan Food Experience" is a paragraph. In the food truck world, where space is limited and first impressions happen fast, brevity wins.',
+    name: 'Cart, Wagon & Box Names',
+    description: 'Names that use "Cart," "Wagon," "Box," "Kitchen," or "Project" to signal mobile food culture.',
+    examples: 'The Dumpling Cart, The Sweet Wagon, The Melt Cart, Burger Republic, The Taco Project',
+    why: '"Cart," "Wagon," and "Box" are the food truck vocabulary. They immediately signal "mobile food" to customers, which is exactly what you want. "The Dumpling Cart" sounds authentic and street-food credible. "The Sweet Wagon" sounds fun and approachable. "The Taco Project" sounds modern and intentional. These suffixes also help with domain availability — "The Melt Cart" is much easier to get as a .com than just "Melt." Use "Kitchen" for a premium feel, "Cart" or "Wagon" for casual charm, and "Project" for a modern, artisanal vibe.',
   },
   {
-    name: 'Story & Heritage',
-    description: 'Names that reference culture, family recipes, or food traditions.',
-    examples: 'Oaxaca on Wheels, Neapolitan Express, The Brisket Route, Saffron Road',
-    why: 'Food trucks that succeed aren\'t just serving food — they\'re telling a story about where their recipes come from. Names like "Oaxaca on Wheels" or "Neapolitan Express" signal authenticity and heritage before anyone takes a bite. Customers increasingly seek out food trucks with genuine cultural stories. This strategy works especially well for cuisine-specific trucks — Mexican, Italian, Korean, Vietnamese — where the heritage is part of the selling point.',
+    name: 'Ingredient & Dish Names',
+    description: 'Names built around a signature ingredient or dish — creating a specialty reputation that draws crowds.',
+    examples: 'The Brisket Cart, Pho Cart Kitchen, The Guac Wagon, The Churro Cart, Cookie Dough Co.',
+    why: 'The most successful food trucks specialize — and their names reflect that. "The Brisket Cart" tells you this truck does one thing incredibly well. "Pho Cart Kitchen" signals pho expertise. "Cookie Dough Co." tells you exactly what to crave. These names create a specialty reputation that draws dedicated crowds. People don\'t go to "The Brisket Cart" for tacos — they go for the best brisket in the city. This focus makes your marketing 10x easier because you\'re known for one thing.',
   },
 ]
 
 const NAMING_MISTAKES = [
   {
-    title: 'Making your name impossible to spell',
-    description: 'Food trucks live on word-of-mouth. If someone says "You have to try Guërró Tacos" and their friend can\'t spell it to search on Instagram, you\'ve lost a customer. Your truck name should be spellable after hearing it once. "Fuego Tacos" works. "Phuego Taco\'s" does not. The same applies to hashtags — if people can\'t spell your name, they can\'t tag you.',
-  },
-  {
     title: 'Being too clever at the expense of clarity',
-    description: '"The Curiosity Cart" sounds intriguing, but what do they serve? Tacos? Ice cream? Mystery meat? Food truck customers decide in 3-5 seconds. If your name doesn\'t hint at what you serve, people will walk past. "Curiosity Cart BBQ" solves this. "The Curiosity Cart" alone doesn\'t. Cleverness is great — just pair it with clarity.',
+    description: '"XK Culinary" sounds cool but tells nobody what you cook. When someone\'s scrolling Instagram for food trucks, they need to know in 2 seconds that you serve tacos, BBQ, or dumplings. "The Brisket Cart" converts 5x better than "Flame & Fork" because customers immediately know what they\'re getting. Cleverness is a bonus, not the foundation.',
   },
   {
-    title: 'Choosing a name that limits your menu',
-    description: '"Just Tacos" locks you into tacos. What happens when you want to add breakfast burritos? Or seasonal specials? The most successful food trucks pick names that let their menu evolve. "Fuego Street Kitchen" lets you serve tacos, burritos, and anything else that fits the brand. "Just Tacos" doesn\'t. Think about where you want to be in 3 years, not just day one.',
+    title: 'Ignoring the Instagram and TikTok test',
+    description: 'Food trucks live and die by social media. Your name needs to look good as an @handle and on a truck wrap photo. @lordofthefries is memorable and shareable. @xkculinary3 is not. If your name doesn\'t work as a social handle, it doesn\'t work for a food truck. Check Instagram, TikTok, and Google handle availability before committing.',
   },
   {
-    title: 'Ignoring the Instagram & TikTok factor',
-    description: 'Food trucks get discovered on Instagram and TikTok. Your name needs to work as a handle (@rollingembers), look good in a story, and be findable in search. If the Instagram handle is taken, you\'re fighting for discoverability from day one. Check social handles before you commit to a name — this is non-negotiable for food trucks.',
+    title: 'Not checking local food truck regulations',
+    description: 'Many cities require your truck name on permits, health department certificates, and insurance. If you pick a name that\'s already registered locally, you\'ll be forced to rebrand — expensive when your truck is already wrapped. Search your city\'s food truck permit database and state business registry first.',
   },
   {
-    title: 'Skipping the truck wrap test',
-    description: 'Your name will be 4-8 feet wide on the side of a truck. Long names become unreadable at speed. "Rolling Embers" looks stunning on a truck wrap. "The Authentic Southern Barbecue Experience Food Truck" is a billboard that nobody can read while driving past. If your name doesn\'t fit on the side of a truck in bold letters, it\'s too long.',
+    title: 'Picking a name that\'s too cuisine-specific',
+    description: '"Just Tacos" is clear but what happens when you want to add birria ramen or loaded fries? The best food truck names grow with your menu. "The Brisket Cart" can expand to burgers, burnt ends, and sides. "Just Tacos" cannot. Pick a name that\'s specific enough to signal your style but broad enough to evolve.',
   },
   {
-    title: 'Forgetting about health department permits',
-    description: 'Most cities require your food truck name to match your business license, health permit, and insurance. Changing your name later means updating all of these — plus your truck wrap, menus, signage, social media, and domain. Choose a name you can commit to from day one. Do a quick search on your city\'s food truck permit database to make sure no one else is operating under a similar name.',
+    title: 'Forgetting the truck wrap test',
+    description: 'Your name will be printed on a 14-20 foot vehicle driving through traffic. Long names ("The Absolutely Amazing Authentic Mexican Food Cart") are unreadable at 35 mph. Short, punchy names ("TACO CARTEL" or "SMOKT" or "MELT") are visible from across a parking lot. Count the syllables. If it takes more than 2-3 seconds to read, it\'s too long for a truck.',
   },
   {
-    title: 'Not checking if the domain and handles are available',
-    description: 'Your food truck needs a website (for the menu, hours, and location) and social media (for posting daily locations). If the .com is taken and the Instagram handle is @rollingembers_truck_2026, your digital presence is fragmented from day one. Check domain availability and social handles before committing to any name. This takes 5 minutes and saves you weeks of rebranding.',
+    title: 'Skipping domain availability checks',
+    description: 'Your food truck needs a website for menus, locations, and catering inquiries. If your ideal name\'s .com is taken, you\'ll end up with a confusing URL like "holocrepefoodtruck-atx.com." BrandForge checks domain availability in real-time so you can pick a name with a clean .com from the start.',
+  },
+  {
+    title: 'Copying existing food truck names',
+    description: 'There are over 35,000 food trucks in the US. If "The Halal Guys" or "Kogi BBQ" inspired you, great — but don\'t copy their name. Customers and food bloggers know the originals. A derivative name ("The Halal Guys 2" or "Kogi Style BBQ") signals unoriginality. Be inspired by their naming strategy, not their actual name.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
     question: 'How does the food truck name generator work?',
-    answer: 'Describe your food truck — your cuisine (tacos, BBQ, burgers, dessert, etc.), your style (playful, bold, minimalist, heritage), and your target customers. BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain & social availability checks.',
+    answer: 'Describe your food truck concept — your cuisine type (BBQ, tacos, Asian, dessert, etc.), your vibe (playful, authentic, modern, farm-to-street), and your target location. BrandForge\'s AI generates custom name suggestions paired with complete brand kits including logo concepts, color palettes, taglines, and domain & social availability checks.',
   },
   {
     question: 'Is the food truck name generator free?',
@@ -189,174 +189,122 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What makes a good food truck name?',
-    answer: 'A great food truck name is easy to spell after hearing it once, hints at what you serve, looks incredible on a truck wrap, works as an Instagram handle, and makes people smile or curious. The best food truck names — Kogi BBQ, The Halal Guys, Coolhaus, Fuku — are distinctive, memorable, and instantly tell you something about the food.',
+    answer: 'A great food truck name is visible from 20 feet away (the truck wrap test), easy to say in one breath (the radio test), makes people hungry (appetite appeal), works as an @handle on Instagram and TikTok, and signals your cuisine clearly. The best food truck names — Kogi BBQ, The Halal Guys, Sweetgreen — are memorable, mouth-watering, and instantly clear.',
   },
   {
-    question: 'Should I include my cuisine in the food truck name?',
-    answer: 'In most cases, yes. Food truck customers make split-second decisions. A name like "Fuego Tacos" immediately tells people what you serve. A name like "The Curiosity Cart" makes them wonder — and most will just walk past. That said, if your truck has a strong brand identity and you\'re willing to invest in marketing, a cuisine-agnostic name like "DRIFT" or "ROAM" can work. Just pair it with a clear tagline or descriptor on the truck.',
+    question: 'Should my food truck name include my cuisine type?',
+    answer: 'Usually yes. Food trucks have 3 seconds to communicate what they sell. "The Brisket Cart" tells you BBQ. "Taco Cartel" tells you tacos. "The Dumpling Cart" tells you dumplings. If you want to be more abstract (like "SMOKT" or "BIRD"), make sure your logo, colors, and menu photos make the cuisine obvious. Cleverness is a bonus, not a replacement for clarity.',
   },
   {
-    question: 'Can I use these names for my food truck business?',
-    answer: 'Absolutely. All names you generate are yours to use commercially — for business registration, truck wraps, menus, social media, website, and merchandise. There are no licensing restrictions. Just make sure to check trademark availability for your final choice, especially in the food and beverage classes.',
+    question: 'Can I use these names for my food truck?',
+    answer: 'Absolutely. All names you generate are yours to use commercially — for business registration, truck wraps, menus, social media, and catering. There are no licensing restrictions. Just make sure to check trademark availability for your final choice.',
   },
   {
-    question: 'How important is a matching domain for food trucks?',
-    answer: 'Very important, but for different reasons than other businesses. Food trucks need a website primarily for: (1) posting daily locations and hours, (2) displaying the menu, and (3) catering inquiries. A matching domain makes you easy to find and looks professional on catering proposals. If your exact .com is taken, .co and .truck are strong alternatives in the food truck space.',
+    question: 'How do I check if a food truck name is already taken?',
+    answer: 'Four checks are essential: (1) Search your state\'s business registry to make sure the name isn\'t already registered. (2) Search the USPTO trademark database for existing registrations in Class 43 (food and drink services). (3) Search Instagram, TikTok, and Google for handle availability — these are your primary discovery channels. (4) Search your city\'s food truck permit database — even if a name isn\'t trademarked, having 3 other trucks with similar names in your city creates confusion.',
   },
   {
-    question: 'What comes in the brand kit for each name?',
-    answer: 'Each brand kit includes: a logo concept (text-based with font pairing), a 5-color palette with hex codes, a custom tagline, typography recommendations, and real-time availability checks for domains and social handles. You can download it all as a PDF brand guidelines document.',
+    question: 'Should my food truck name match my domain?',
+    answer: 'Ideally, yes. Your food truck\'s website is where people find your schedule, menu, and catering info. If the .com is taken, .truck, .kitchen, and .co are all popular alternatives for food trucks. BrandForge checks domain availability in real-time so you can pick a name with an available domain from the start.',
   },
   {
-    question: 'How do food truck names differ from restaurant names?',
-    answer: 'Food truck names face unique challenges that restaurant names don\'t: they must be readable at 30 mph on a truck wrap, spellable after a single mention at a loud festival, short enough for Instagram hashtags, and memorable enough for word-of-mouth in a competitive pod. A restaurant name works on a awning. A food truck name has to work on a moving vehicle, a tiny menu board, and a phone screen simultaneously. Shorter, punchier, and more descriptive wins.',
+    question: 'What are the biggest food truck naming trends in 2026?',
+    answer: 'The biggest trends are: (1) Punny and humorous names (Holy Crepe, Pho Real, Lord of the Fries) — shareable on social and create word-of-mouth. (2) Minimalist one-word names (STACK, SMOKT, MELT) — look stunning on truck wraps and Instagram. (3) Cuisine-first names (The Brisket Cart, Taco Cartel) — clarity converts hungry customers. (4) Cart/Wagon/Box suffixes (The Dumpling Cart, The Sweet Wagon) — authentic street food vibes. (5) Location-based names (Nashville Flame, Brooklyn Bao) — dominate local search. The best names combine trend awareness with your unique concept.',
   },
 ]
 
 const INDUSTRY_LINKS = [
-  { name: '🌮 AI Name Generator', href: '/generate', desc: 'Generate food truck names with full brand kits' },
-  { name: '🍽️ Restaurant Name Generator', href: '/blog/restaurant-name-generator', desc: '300+ restaurant name ideas' },
-  { name: '☕ Coffee Shop Name Generator', href: '/blog/coffee-brand-name-generator', desc: '300+ coffee shop name ideas' },
-  { name: '🥖 Bakery Name Generator', href: '/blog/bakery-name-generator', desc: '300+ bakery name ideas' },
-  { name: '🎯 Catchy Business Names', href: '/blog/catchy-business-names', desc: '150+ catchy business name ideas' },
-  { name: '📋 How to Choose a Business Name', href: '/blog/how-to-choose-business-name', desc: 'Complete naming guide for 2026' },
-  { name: '💼 Small Business Name Generator', href: '/blog/small-business-name-generator', desc: '200+ small business name ideas' },
-  { name: '🏠 Real Estate Name Generator', href: '/blog/real-estate-brand-name-generator', desc: '300+ real estate name ideas' },
-  { name: '📊 Marketing Agency Names', href: '/blog/marketing-agency-brand-name-generator', desc: '300+ marketing agency name ideas' },
-  { name: '✨ Brand Name Generator', href: '/blog/brand-name-generator', desc: 'How to find the perfect brand name' },
+  { name: '🌮 Food Truck Generator', href: '/food-truck-name-generator', desc: 'AI food truck name generator' },
+  { name: '🍽️ Restaurant Generator', href: '/blog/restaurant-name-generator', desc: 'Restaurant name ideas' },
+  { name: '☕ Coffee Generator', href: '/blog/coffee-brand-name-generator', desc: 'Coffee shop name ideas' },
+  { name: '🥖 Bakery Generator', href: '/blog/bakery-name-generator', desc: 'Bakery name ideas' },
+  { name: '🍾 Catering Generator', href: '/catering-name-generator', desc: 'Catering business names' },
+  { name: '💪 Fitness Generator', href: '/fitness-brand-name-generator', desc: 'Fitness brand names' },
+  { name: '🎉 Event Generator', href: '/wedding-name-generator', desc: 'Wedding & event business names' },
+  { name: '🐕 Pet Generator', href: '/pet-name-generator', desc: 'Pet business name ideas' },
+  { name: '🧹 Cleaning Generator', href: '/blog/cleaning-business-name-generator', desc: 'Cleaning business names' },
+  { name: '💼 Small Business Generator', href: '/blog/small-business-name-generator', desc: 'Small business name ideas' },
 ]
 
-export default function FoodTruckNameGeneratorPage() {
+export default function FoodTruckNameGeneratorBlog() {
   return (
     <>
       <BlogPostSchema
         title="Food Truck Name Generator: 300+ Food Truck Name Ideas for 2026 + Free AI Tool"
-        description="300+ food truck name ideas across 10 categories, 7 naming strategies from top food truck brands, and a free AI generator with domain & social availability checks."
+        description="300+ food truck name ideas across 10 categories, 7 proven naming strategies from top food trucks, and a free AI generator that checks domain & social availability."
         url="https://brandforge.app/blog/food-truck-name-generator"
         datePublished="2026-08-23"
-        dateModified="2026-08-23"
       />
       <HowToSchema
         name="How to Name Your Food Truck in 5 Steps"
-        description="A 5-step process for naming your food truck — from brainstorming to finalizing your brand name."
+        description="A proven 5-step process for naming your food truck — from defining your concept to the recommendation test."
         url="https://brandforge.app/blog/food-truck-name-generator"
         totalTime="PT20M"
         steps={[
-          { name: 'Brainstorm broadly by cuisine and style', text: 'Use BrandForge\'s food truck name generator to create a broad list. Try food-first names, playful names, bold names, location names, and heritage names. Don\'t filter yet — the goal is volume.' },
-          { name: 'Filter by your truck\'s vibe', text: 'Cross out names that don\'t match your food truck\'s personality. A BBQ truck needs a different name than an acai bowl truck. A playful pun works for a taco truck but feels wrong for a fine-dining pop-up.' },
-          { name: 'Run the Truck Wrap Test', text: 'Print your top 10 names in large bold letters and imagine each one on the side of your truck. Which names look stunning at 8 feet wide? Which ones are readable from 30 feet away? Which ones make you want to walk over and order? The Truck Wrap Test eliminates names that are too long, too complicated, or don\'t pop on a vehicle.' },
-          { name: 'Check domain, social handles, and local permits', text: 'Four checks: (1) Is the .com available? Check with BrandForge\'s domain checker. Also check .truck and .co as alternatives. (2) Check Instagram, TikTok, and Yelp for handle availability — these are your primary marketing channels. (3) Search your city\'s food truck permit database for similar names. (4) Search USPTO for trademark conflicts in Class 43 (food services).' },
-          { name: 'Say it at a loud festival', text: 'Food trucks live at festivals, street fairs, and busy pods where it\'s loud. Would someone say "You have to try Rolling Embers — their brisket is incredible" and would their friend remember it? The best food truck names are names people can hear in a noisy crowd, spell in a text, and find on Instagram. If it passes the festival test, it works.' },
+          { name: 'Define Your Food Truck Concept', text: 'Get specific about your cuisine, style, and audience. Are you BBQ, tacos, Asian fusion, dessert, or breakfast? Your concept drives whether your name should be punny, authentic, modern, or location-based. "The Brisket Cart" works for BBQ. "Holy Crepe" works for a crepe truck. "SMOKT" works for a modern, Instagram-worthy concept. Write down your cuisine, your vibe, and your ideal customer.' },
+          { name: 'Generate 20-30 Name Ideas', text: 'Use BrandForge\'s food truck name generator above to create a broad list. Try punny names, cuisine-first names, location names, action names, and minimalist names. Volume first, filter later. The best food truck names often come from combining two ideas — "Brooklyn" + "Bao" or "Smoke" + "Ring."' },
+          { name: 'Run the Truck Wrap Test', text: 'Imagine your top 10 names on a 16-foot food truck driving through city traffic. Can you read it from across a parking lot? Does it make sense in 2 seconds? Does it photograph well for Instagram? The Truck Wrap Test eliminates names that are too long, too abstract, or too hard to read at speed. If you can\'t fit it on a truck and read it from 20 feet, it\'s too long.' },
+          { name: 'Check Domain, Social Handles, and Local Permits', text: 'Four checks for food trucks: (1) Is the .com domain available? Check with BrandForge\'s domain checker. (2) Is the @handle available on Instagram and TikTok? These are your primary marketing channels. (3) Search your city\'s food truck permit database — is there already a truck with a similar name? (4) Check USPTO for trademark conflicts in Class 43 (food and drink services).' },
+          { name: 'Say It in a Recommendation', text: 'The best food truck names are easy to recommend: "You have to try The Brisket Cart — their burnt ends are insane." If someone can recommend your truck in one sentence and the listener can find it on Google or Instagram, you\'ve got a great name. Test your top 3 names by saying them out loud in a recommendation context. The one that feels most natural wins.' },
         ]}
       />
-      {/* FAQ Schema for rich snippets */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@graph': [
-              {
-                '@type': 'FAQPage',
-                mainEntity: FAQ_ITEMS.map((faq) => ({
-                  '@type': 'Question',
-                  name: faq.question,
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: faq.answer,
-                  },
-                })),
-              },
-              {
-                '@type': 'BreadcrumbList',
-                itemListElement: [
-                  {
-                    '@type': 'ListItem',
-                    position: 1,
-                    name: 'Home',
-                    item: 'https://brandforge.app',
-                  },
-                  {
-                    '@type': 'ListItem',
-                    position: 2,
-                    name: 'Blog',
-                    item: 'https://brandforge.app/blog',
-                  },
-                  {
-                    '@type': 'ListItem',
-                    position: 3,
-                    name: 'Food Truck Name Generator',
-                    item: 'https://brandforge.app/blog/food-truck-name-generator',
-                  },
-                ],
-              },
-            ],
-          }),
-        }}
-      />
-
-      <article className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-        {/* Hero */}
-        <header className="mb-12 text-center">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-orange-100 px-4 py-1.5 text-sm font-medium text-orange-700">
-            🌮 Food Truck Naming Guide
+      <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <header className="mb-12">
+          <div className="mb-4">
+            <span className="inline-flex items-center rounded-full bg-brand-50 px-3 py-1 text-xs font-medium text-brand-700">
+              Food Truck Naming Guide
+            </span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900">
-            Food Truck Name Generator:{' '}
-            <span className="gradient-text">300+ Ideas for 2026</span>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 mb-4">
+            Food Truck Name Generator: 300+ Food Truck Name Ideas for 2026
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
-            300+ food truck name ideas across 10 categories, 7 proven naming strategies from top food truck brands, and a free AI generator that checks domain availability instantly.
+          <p className="text-lg text-slate-600 mb-6">
+            300+ food truck name ideas across 10 categories, 7 naming strategies used by the most successful food trucks, and a free AI generator that checks domain & social availability instantly.
           </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <a
-              href="/generate"
-              className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
-            >
-              Generate Food Truck Names
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </a>
-            <a
-              href="/food-truck-name-generator"
-              className="btn-secondary inline-flex items-center gap-2 text-base px-8 py-3"
-            >
-              🌮 Try the Generator
-            </a>
+          <div className="flex items-center gap-4 text-sm text-slate-500">
+            <time dateTime="2026-08-23">August 23, 2026</time>
+            <span>·</span>
+            <span>15 min read</span>
           </div>
         </header>
 
-        {/* Table of Contents */}
-        <nav className="mb-12 rounded-2xl border border-slate-200 bg-slate-50 p-6">
-          <h2 className="text-sm font-semibold text-slate-900 mb-3">📋 In this guide:</h2>
-          <ol className="space-y-2 text-sm text-slate-600">
-            <li><a href="#categories" className="hover:text-brand-600 transition-colors">300+ food truck name ideas by category</a></li>
-            <li><a href="#strategies" className="hover:text-brand-600 transition-colors">7 naming strategies from top food truck brands</a></li>
-            <li><a href="#process" className="hover:text-brand-600 transition-colors">5-step naming process for food trucks</a></li>
-            <li><a href="#mistakes" className="hover:text-brand-600 transition-colors">7 naming mistakes that cost food trucks customers</a></li>
-            <li><a href="#faq" className="hover:text-brand-600 transition-colors">FAQ: Everything about food truck names</a></li>
-          </ol>
-        </nav>
+        {/* CTA Banner */}
+        <div className="mb-12 rounded-2xl bg-gradient-to-br from-brand-50 to-brand-100 border border-brand-200 p-6 sm:p-8 text-center">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
+            Generate Your Food Truck Name Now
+          </h2>
+          <p className="text-slate-600 mb-6">
+            Describe your food truck concept. Get AI-powered name suggestions with logo concepts, color palettes, taglines, and domain availability — free to start.
+          </p>
+          <a
+            href="/generate"
+            className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3"
+          >
+            Generate Food Truck Names
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+        </div>
 
         {/* Categories */}
-        <section id="categories" className="mb-16">
+        <section className="mb-16">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-2">
             300+ Food Truck Name Ideas by Category
           </h2>
           <p className="text-slate-600 mb-8">
-            Browse food truck name ideas organized by cuisine and style. From taco trucks and BBQ rigs to dessert carts and modern minimalist concepts — find inspiration for your mobile food business.
+            Browse food truck name ideas organized by type — from punny and playful names to BBQ-focused, Asian-inspired, and minimalist one-word names. Each category has 30 names designed for that specific food truck concept.
           </p>
 
           <div className="space-y-8">
-            {CATEGORIES.map((cat) => (
-              <div key={cat.name} className="rounded-2xl border border-slate-200 bg-white p-6">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">{cat.name}</h3>
+            {CATEGORIES.map((category) => (
+              <div key={category.name}>
+                <h3 className="text-lg font-bold text-slate-900 mb-3">{category.name}</h3>
                 <div className="flex flex-wrap gap-2">
-                  {cat.names.map((name) => (
+                  {category.names.map((name) => (
                     <span
                       key={name}
-                      className="inline-flex items-center rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm font-medium text-slate-700 hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 transition-colors cursor-default"
+                      className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm text-slate-700 hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 transition-colors cursor-default"
                     >
                       {name}
                     </span>
@@ -382,10 +330,10 @@ export default function FoodTruckNameGeneratorPage() {
         {/* Naming Strategies */}
         <section id="strategies" className="mb-16">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-2">
-            7 Naming Strategies Top Food Truck Brands Use
+            7 Naming Strategies Top Food Trucks Use
           </h2>
           <p className="text-slate-600 mb-8">
-            The best food truck names aren't random — they follow proven naming patterns. Here are 7 strategies used by successful food trucks across the country.
+            The best food truck names aren't random — they follow proven naming patterns. Here are 7 strategies used by the most successful food trucks in the country.
           </p>
 
           <div className="space-y-6">
@@ -415,7 +363,7 @@ export default function FoodTruckNameGeneratorPage() {
             How to Name Your Food Truck in 5 Steps
           </h2>
           <p className="text-slate-600 mb-8">
-            A proven process for naming your food truck — from brainstorming to your first day on the street.
+            A proven process for naming your food truck — from concept to first customer.
           </p>
 
           <div className="space-y-6">
@@ -425,8 +373,8 @@ export default function FoodTruckNameGeneratorPage() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-slate-900">Define your truck concept</h3>
-                  <p className="mt-2 text-slate-600">Before you name anything, get specific about what kind of food truck you're building. What's your cuisine? Who's your customer? What's the vibe — fast and loud, or slow and artisanal? Are you a taco truck at festivals, a dessert truck at corporate events, or a BBQ rig that parks at breweries? Your concept shapes your name entirely. "Rolling Embers" works for BBQ. "Frost & Go" works for ice cream. Write down your concept, your ideal customer, and the experience you want to deliver.</p>
+                  <h3 className="text-lg font-bold text-slate-900">Define your food truck concept</h3>
+                  <p className="mt-2 text-slate-600">Before you name anything, get specific about what kind of food truck you're building. BBQ? Tacos? Asian fusion? Dessert? Breakfast? Farm-to-street? The concept drives your name entirely. "The Brisket Cart" works for BBQ. "Holy Crepe" works for a crepe truck. "SMOKT" works for a modern, Instagram-worthy concept. "Brooklyn Bao" works for Asian fusion with a local identity. Write down your cuisine, your vibe, and your ideal customer — this is your naming brief.</p>
                 </div>
               </div>
             </div>
@@ -438,7 +386,7 @@ export default function FoodTruckNameGeneratorPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-slate-900">Generate 20-30 name ideas</h3>
-                  <p className="mt-2 text-slate-600">Use BrandForge's food truck name generator above to create a broad list. Try different angles — food-first names, playful puns, bold attitude names, location names, heritage names. Don't filter yet. The goal is volume. Mix in cuisine-specific options and broad concepts. You'll narrow down in the next steps.</p>
+                  <p className="mt-2 text-slate-600">Use BrandForge's food truck name generator above to create a broad list. Try punny names, cuisine-first names, location names, action names, and minimalist names. Volume first, filter later. The best food truck names often come from combining two ideas — "Brooklyn" + "Bao" or "Smoke" + "Ring." Don't judge yet — just generate.</p>
                 </div>
               </div>
             </div>
@@ -450,7 +398,7 @@ export default function FoodTruckNameGeneratorPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-slate-900">Run the Truck Wrap Test</h3>
-                  <p className="mt-2 text-slate-600">This is the most important test for food truck names. Print your top 10 names in large bold letters and imagine each one on the side of your truck at 4-8 feet wide. Which names look stunning? Which ones are readable from across a parking lot? Which ones make people want to walk over and order? The Truck Wrap Test eliminates names that are too long, too complicated, or don't pop on a vehicle. A name that works on a business card but not on a truck is the wrong name for a food truck.</p>
+                  <p className="mt-2 text-slate-600">Imagine your top 10 names on a 16-foot food truck driving through city traffic. Can you read it from across a parking lot? Does it make sense in 2 seconds? Does it photograph well for Instagram? The Truck Wrap Test eliminates names that are too long, too abstract, or too hard to read at speed. "STACK" on a matte black truck is visible from 100 feet. "The Absolutely Amazing Authentic Mexican Food Cart" is not readable from 20 feet.</p>
                 </div>
               </div>
             </div>
@@ -462,7 +410,7 @@ export default function FoodTruckNameGeneratorPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-slate-900">Check domain, social handles, and local permits</h3>
-                  <p className="mt-2 text-slate-600">Four checks, all critical for food trucks: (1) Is the .com domain available? Check with BrandForge's domain checker. Also check .truck and .co as alternatives. (2) Check Instagram, TikTok, and Yelp for handle availability — these are your primary marketing channels. (3) Search your city's food truck permit database for similar names — many cities have public registries. (4) Search the USPTO database for trademark conflicts in Class 43 (food services).</p>
+                  <p className="mt-2 text-slate-600">Four checks for food trucks: (1) Is the .com domain available? Check with BrandForge's domain checker. Also check .truck, .kitchen, and .co as alternatives. (2) Check Instagram and TikTok for handle availability — these are your primary marketing channels. (3) Search your city's food truck permit database — are there already trucks with similar names? (4) Search USPTO for trademark conflicts in Class 43 (food and drink services).</p>
                 </div>
               </div>
             </div>
@@ -473,8 +421,8 @@ export default function FoodTruckNameGeneratorPage() {
                   5
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-slate-900">Say it at a loud festival</h3>
-                  <p className="mt-2 text-slate-600">Food trucks thrive at festivals, street fairs, and busy food truck pods where it's loud and chaotic. Would someone say "You have to try Rolling Embers — their brisket is incredible" and would their friend remember it? Could they spell it in a text? Could they find it on Instagram? The best food truck names are names people can hear in a noisy crowd, spell in a text message, and find on social media. If it passes the festival test, it works.</p>
+                  <h3 className="text-lg font-bold text-slate-900">Say it in a recommendation</h3>
+                  <p className="mt-2 text-slate-600">Food trucks thrive on word of mouth. Would someone say "You HAVE to try The Brisket Cart — their burnt ends are insane" or "You have to try that one truck... what was it called?" The best food truck names are names people remember and can recommend without spelling them out. Test your top 3 by saying them in a recommendation — the one that feels most natural wins.</p>
                 </div>
               </div>
             </div>
@@ -484,7 +432,7 @@ export default function FoodTruckNameGeneratorPage() {
         {/* Naming Mistakes */}
         <section id="mistakes" className="mb-16">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-2">
-            7 Naming Mistakes That Cost Food Trucks Customers
+            7 Naming Mistakes That Kill Food Trucks
           </h2>
           <p className="text-slate-600 mb-8">
             Avoid these common pitfalls that make food trucks harder to find, remember, and recommend.
@@ -513,7 +461,7 @@ export default function FoodTruckNameGeneratorPage() {
             More Food & Beverage Name Generators
           </h2>
           <p className="text-slate-600 mb-6">
-            Explore name generators for food-adjacent and food & beverage businesses.
+            Explore name generators for food-adjacent and hospitality businesses.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {INDUSTRY_LINKS.map((link) => (
@@ -565,60 +513,55 @@ export default function FoodTruckNameGeneratorPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href="/generate"
-              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-slate-900 shadow-lg hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-3 text-base font-semibold text-slate-900 hover:bg-slate-100 transition-colors"
             >
-              Generate Food Truck Names
+              Generate Food Truck Names Free
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
             <a
               href="/pricing"
-              className="inline-flex items-center gap-2 rounded-lg border-2 border-white/30 px-8 py-3 text-base font-semibold text-white hover:bg-white/10 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg border border-white/30 px-8 py-3 text-base font-semibold text-white hover:bg-white/10 transition-colors"
             >
-              See Pricing
+              View Pricing
             </a>
           </div>
         </section>
 
-        {/* Related Posts */}
+        {/* Related Blog Posts */}
         <section className="mt-16">
-          <h2 className="text-xl font-bold text-slate-900 mb-6">Related Guides</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href="/blog/restaurant-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-sm transition-all">
-              <div className="text-2xl mb-2">🍽️</div>
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-6">
+            Continue Reading
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Link href="/blog/restaurant-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Restaurant Name Generator</h3>
-              <p className="text-sm text-slate-500 mt-1">300+ restaurant name ideas for every dining concept.</p>
+              <p className="mt-1 text-sm text-slate-500">300+ restaurant name ideas across 10 categories with naming strategies.</p>
             </Link>
-            <Link href="/blog/bakery-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-sm transition-all">
-              <div className="text-2xl mb-2">🥖</div>
-              <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Bakery Name Generator</h3>
-              <p className="text-sm text-slate-500 mt-1">300+ bakery name ideas for bakeries and pastry shops.</p>
-            </Link>
-            <Link href="/blog/coffee-brand-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-sm transition-all">
-              <div className="text-2xl mb-2">☕</div>
-              <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Coffee Shop Name Generator</h3>
-              <p className="text-sm text-slate-500 mt-1">300+ coffee shop and café name ideas.</p>
-            </Link>
-            <Link href="/blog/catchy-business-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-sm transition-all">
-              <div className="text-2xl mb-2">🎯</div>
-              <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Catchy Business Names</h3>
-              <p className="text-sm text-slate-500 mt-1">150+ catchy business name ideas that stick in people's minds.</p>
-            </Link>
-            <Link href="/blog/how-to-choose-business-name" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-sm transition-all">
-              <div className="text-2xl mb-2">✏️</div>
+            <Link href="/blog/how-to-choose-business-name" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">How to Choose a Business Name</h3>
-              <p className="text-sm text-slate-500 mt-1">The complete guide to naming a business in 2026.</p>
+              <p className="mt-1 text-sm text-slate-500">The complete guide to picking a name that sticks, ranks, and scales.</p>
             </Link>
-            <Link href="/blog/small-business-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-sm transition-all">
-              <div className="text-2xl mb-2">💼</div>
+            <Link href="/blog/catchy-business-names" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Catchy Business Names</h3>
+              <p className="mt-1 text-sm text-slate-500">150+ catchy name ideas and the 5 principles that make names stick.</p>
+            </Link>
+            <Link href="/blog/small-business-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Small Business Name Generator</h3>
-              <p className="text-sm text-slate-500 mt-1">200+ small business name ideas across every industry.</p>
+              <p className="mt-1 text-sm text-slate-500">200+ small business name ideas with frameworks for naming.</p>
+            </Link>
+            <Link href="/blog/brand-color-psychology" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Brand Color Psychology</h3>
+              <p className="mt-1 text-sm text-slate-500">What your brand colors say about your food truck — and which colors drive hunger.</p>
+            </Link>
+            <Link href="/blog/bakery-name-generator" className="group rounded-xl border border-slate-200 bg-white p-5 hover:border-brand-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">Bakery Name Generator</h3>
+              <p className="mt-1 text-sm text-slate-500">300+ bakery name ideas across 10 categories with proven naming strategies.</p>
             </Link>
           </div>
         </section>
 
-        {/* Newsletter */}
         <BlogNewsletterSection />
       </article>
     </>

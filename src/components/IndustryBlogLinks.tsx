@@ -251,9 +251,9 @@ const BLOG_ICONS: Record<string, string> = {
   'auto-repair-shop-name-generator': '🔧',
   'unique-brand-names': '💎',
   'restaurant-name-generator': '🍽️',
-    'domain-name-generator': '🌐',
-  'beauty-name-generator': '💄',
   'food-truck-name-generator': '🌮',
+  'domain-name-generator': '🌐',
+  'beauty-name-generator': '💄',
 }
 
 export function IndustryBlogLinks({ industry, gradient = 'from-slate-50 to-white' }: IndustryBlogLinksProps) {
